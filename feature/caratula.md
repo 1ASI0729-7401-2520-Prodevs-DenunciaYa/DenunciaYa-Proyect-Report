@@ -53,7 +53,8 @@
 
 | Repositorio del Informe en GitHub |
 |--|
-| https://github.com/1ASI0729-7401-2520-Prodevs-DenunciaYa/DenunciaYa-Proyect-Report### 2. Actividades de elaboracion del informe 
+| https://github.com/1ASI0729-7401-2520-Prodevs-DenunciaYa/DenunciaYa-Proyect-Report
+### 2. Actividades de elaboracion del informe 
 ### 3. Capturas en imagen de los analíticos de colaboración y commits en GitHub
 ### 4. Evidencia de participacion de todos los miembros del equipo |
 
