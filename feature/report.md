@@ -150,6 +150,17 @@
 # Capítulo I: Introducción
 ## 1.1. Startup Profile
 ### 1.1.1. Descripción de la Startup
+
+**Prodevs** es una startup tecnológica orientada a la creación de soluciones digitales que fortalecen la participación ciudadana y promueven la transparencia en la gestión pública. Nuestro objetivo general es cerrar la brecha entre los ciudadanos y las autoridades, utilizando la tecnología como un puente que facilite la comunicación, aumente la confianza y mejore la capacidad de respuesta de los gobiernos locales. Nos dedicamos a diseñar plataformas seguras, intuitivas y escalables que conviertan la voz ciudadana en datos accionables para la toma de decisiones.
+
+Nuestra principal propuesta es **DenunciaYa**, una aplicación que permite a los ciudadanos reportar de manera rápida y segura problemas cotidianos como baches, basura, fugas de agua, corrupción o deficiencias en los servicios públicos. El propósito de la aplicación es simplificar el proceso de denuncia, garantizando anonimato opcional, seguimiento en tiempo real y notificaciones inmediatas sobre el estado de los reportes. Al mismo tiempo, ofrece a las autoridades un sistema integral de gestión con paneles de control, herramientas de análisis y métricas de eficiencia, contribuyendo a mejorar la calidad de los servicios municipales y gubernamentales.
+
+**Misión:** Empoderar a los ciudadanos a través de la tecnología, brindándoles una herramienta confiable y accesible para denunciar problemas que afectan su entorno, mientras ayudamos a las autoridades a gestionar de manera más transparente, eficiente y responsable los recursos y soluciones públicas.
+
+**Visión:** Convertirnos en la plataforma líder en Latinoamérica para denuncias ciudadanas y gestión de problemáticas urbanas, construyendo ciudades más transparentes, seguras y participativas, donde cada reporte ciudadano se traduzca en acción concreta y mejora de la calidad de vida.
+
+**Alcance del proyecto:** Contempla en su fase inicial la implementación de la aplicación en municipios medianos y grandes, ofreciendo planes de suscripción adaptados a las capacidades de cada administración. A corto plazo, se busca consolidar la solución como un estándar en la gestión de denuncias urbanas; a mediano plazo, expandirse hacia distintas ciudades de la región, integrando la plataforma con sistemas existentes y canales de comunicación como WhatsApp; y a largo plazo, posicionarse como un ecosistema integral de gobernanza digital que promueva la participación activa de los ciudadanos y la modernización de los servicios públicos.
+
 ### 1.1.2. Perfiles de integrantes del equipo
 ### 1.2. Solution Profile
 ### 1.2.1 Antecedentes y problemática
