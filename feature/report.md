@@ -162,6 +162,15 @@ Nuestra principal propuesta es **DenunciaYa**, una aplicación que permite a los
 **Alcance del proyecto:** Contempla en su fase inicial la implementación de la aplicación en municipios medianos y grandes, ofreciendo planes de suscripción adaptados a las capacidades de cada administración. A corto plazo, se busca consolidar la solución como un estándar en la gestión de denuncias urbanas; a mediano plazo, expandirse hacia distintas ciudades de la región, integrando la plataforma con sistemas existentes y canales de comunicación como WhatsApp; y a largo plazo, posicionarse como un ecosistema integral de gobernanza digital que promueva la participación activa de los ciudadanos y la modernización de los servicios públicos.
 
 ### 1.1.2. Perfiles de integrantes del equipo
+
+| Foto |        Apellidos y Nombres        | Código de Alumno | Carrera | Habilidades |
+|------|:---------------------------------:|:----------------:|---------|-------------|
+|      |   Mamani Marca, Gabriel Cristian  | u202220659       |         |             |
+|      |   Omar Harold Rivera Ticllacuri   | u202214214       |         |             |
+|      |      Franco Diego Rioja Nuñez     | u202221597       |         |             |
+|      | Gabriel Anthony Brabuaite Toledo  | U20201e889       |         |             |
+|      |   Augusto Sebastian Montes Maza   | u202218645       |         |             |
+
 ### 1.2. Solution Profile
 ### 1.2.1 Antecedentes y problemática
 ### 1.2.2 Lean UX Process.
