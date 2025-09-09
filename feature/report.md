@@ -173,6 +173,77 @@ Nuestra principal propuesta es **DenunciaYa**, una aplicación que permite a los
 
 ### 1.2. Solution Profile
 ### 1.2.1 Antecedentes y problemática
+
+**Técnica de The 5 'W's y 2 'H's**
+
+**What (Qué)?** <br>
+¿Cuál es el problema?
+
+En muchas ciudades de Latinoamérica, los ciudadanos enfrentan problemas cotidianos como baches, acumulación de basura, fugas de agua, fallas en el alumbrado público y actos de corrupción. Sin embargo, la mayoría de estos problemas no se denuncian debido a tres barreras principales:
+- **Desconfianza**: Creen que reportar no servirá de nada.
+- **Miedo**: Temen represalias si revelan su identidad.
+- **Fricción**: Los procesos tradicionales (ir a oficinas, llenar formularios, esperar semanas) son lentos y poco accesibles.
+
+Esto genera impunidad, baja calidad de vida y descontento ciudadano, mientras que las autoridades carecen de datos confiables y en tiempo real para gestionar los problemas urbanos de manera eficiente.
+
+
+**When (Cuándo)?** <br>
+¿Cuándo sucede el problema?
+
+El problema ocurre a diario y de forma constante, ya que los desperfectos en la infraestructura urbana, la corrupción y las fallas en servicios públicos afectan a los ciudadanos en tiempo real. La falta de un canal accesible para reportar y dar seguimiento provoca que estas incidencias se acumulen, incrementando costos para los gobiernos y empeorando la percepción ciudadana de sus autoridades.
+
+
+**Where (Dónde)?** <br>
+¿Dónde surge el problema?
+
+El problema surge principalmente en entornos urbanos de Latinoamérica, donde las ciudades crecen rápidamente pero los gobiernos locales no cuentan con plataformas modernas de gestión ciudadana. También se intensifica en comunidades donde existe desigualdad en el acceso a servicios digitales o falta de transparencia en la administración pública.
+
+
+**Who (Quién)?** <br>
+¿Quiénes son los afectados?
+
+- **Ciudadanos**: Que viven con problemas no resueltos en su entorno inmediato.
+- **Autoridades municipales y gubernamentales**: Que carecen de herramientas de gestión modernas y datos centralizados.
+- **Comunidades enteras**: Que sufren deterioro en la calidad de vida y pérdida de confianza en las instituciones públicas.
+
+
+**Why (Por qué)?** <br>
+¿Cuál es la causa del problema?
+
+- **Procesos de denuncia obsoletos**: Dependientes de oficinas físicas y trámites burocráticos.
+- **Falta de transparencia**: Los ciudadanos rara vez reciben seguimiento sobre sus reportes.
+- **Temor a represalias**: Muchos ciudadanos prefieren callar antes que exponerse.
+- **Ausencia de datos estructurados**: Las autoridades no cuentan con métricas en tiempo real que les permitan priorizar y resolver de manera eficiente.
+- **Escasa digitalización**: Muchos gobiernos locales aún no incorporan tecnologías de participación ciudadana.
+
+
+**How (Cómo)?** <br>
+¿Cómo se utilizará el producto?
+
+DenunciaYa se utilizará como una plataforma integral accesible desde dispositivos móviles y web:
+
+- **Para ciudadanos**:
+    - Suben fotos, videos o audios de los problemas.
+    - Pueden elegir entre anonimato total o parcial.
+    - Obtienen un código de seguimiento y reciben notificaciones en tiempo real sobre el estado de su denuncia.
+
+- **Para autoridades**:
+    - Acceden a un panel de control centralizado para gestionar denuncias según ubicación, categoría, urgencia y estado.
+    - Usan un sistema de ticketing para derivar reportes a las áreas correspondientes.
+    - Visualizan dashboards y reportes automáticos para medir eficiencia y detectar patrones.
+    - Se comunican de manera segura con los denunciantes sin exponer su identidad.
+
+
+**How Much (Cuánto)?** <br>
+¿Cuánto costará implementar la solución?
+
+El modelo de negocio está basado en suscripciones para gobiernos locales y dependencias públicas, adaptadas a distintos niveles de gestión:
+
+- **Plan Básico**: Recepción de denuncias y panel básico de asignación de tickets.
+- **Plan Premium**: Incluye analytics, la API para integrarse con sus sistemas y soporte técnico prioritario.
+
+La app será gratuita para los ciudadanos, con el objetivo de fomentar la participación masiva y la transparencia. La inversión inicial contempla el desarrollo de software, infraestructura en la nube, ciberseguridad y campañas de adopción ciudadana en municipios piloto.
+
 ### 1.2.2 Lean UX Process.
 ### 1.2.2.1. Lean UX Problem Statements.
 ### 1.2.2.2. Lean UX Assumptions.
