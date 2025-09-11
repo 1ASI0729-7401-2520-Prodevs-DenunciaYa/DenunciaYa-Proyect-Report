@@ -421,7 +421,7 @@ La organización de la información en DenunciaYa aplica distintos sistemas (jer
 El sistema de etiquetado prioriza **brevedad, consistencia, accesibilidad y claridad**. Se empleará español neutral (ES), lenguaje en **sentence case** (mayúscula sólo en la primera palabra salvo nombres propios), y un máximo recomendado de **1–2 palabras** en la mayor parte de botones y menús. Se define además una lista completa de etiquetas clave y reglas de microcopy.
 
 #### Reglas generales de etiquetado
-- Idioma: **Español (es-PE)** por defecto.  
+- Idioma: **Ingles (en-US)** por defecto, luego sera cambiado por internacionalizacion.  
 - Longitud: **1–2 palabras** para botones y menús; **hasta 6–8 palabras** para títulos de secciones si es necesario.  
 - Casos: **Sentence case** -> ej. **Denunciar**, **Historial**, **Mi perfil**.  
 - Iconos: usar icono + etiqueta para acciones primarias en móvil; icono sólo para estados secundarios.  
