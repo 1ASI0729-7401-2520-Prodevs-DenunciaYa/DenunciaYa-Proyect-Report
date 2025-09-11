@@ -104,9 +104,12 @@ En esta sección se presentará un análisis de los posibles competidores de Den
 
 
 ### 2.1.2. Estrategias y tácticas frente a competidores.
+
+Elaborar estrategias y tácticas sólidas para competir de manera efectiva exige un enfoque estructurado y bien planificado.A continuación, se detallan algunas posibles estrategias y tácticas diseñadas para fortalecer la posición competitiva frente a alternativas del mercado.
+
+
 ## 2.2. Entrevistas.
 ### 2.2.1. Diseño de entrevistas.
-A con
 #### Preguntas para el segmento objetivo "Ciudadanos"
 - ¿Alguna vez has presenciado problemas en tu zona (como baches, basura, corrupción, accidentes de tránsito, entre otros)? 
 - ¿Encontraste alguna plataforma para presentar una queja o denuncia?a plataforma para presentar una queja o denuncia?
