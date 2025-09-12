@@ -149,6 +149,9 @@
 
 # Capítulo I: Introducción
 ## 1.1. Startup Profile
+
+A continuación, se presenta información sobre a qué se dedica nuestra startup, Prodevs.
+
 ### 1.1.1. Descripción de la Startup
 
 **Prodevs** es una startup tecnológica orientada a la creación de soluciones digitales que fortalecen la participación ciudadana y promueven la transparencia en la gestión pública. Nuestro objetivo general es cerrar la brecha entre los ciudadanos y las autoridades, utilizando la tecnología como un puente que facilite la comunicación, aumente la confianza y mejore la capacidad de respuesta de los gobiernos locales. Nos dedicamos a diseñar plataformas seguras, intuitivas y escalables que conviertan la voz ciudadana en datos accionables para la toma de decisiones.
@@ -165,13 +168,22 @@ Nuestra principal propuesta es **DenunciaYa**, una aplicación que permite a los
 
 | Foto |        Apellidos y Nombres        | Código de Alumno | Carrera | Habilidades |
 |------|:---------------------------------:|:----------------:|---------|-------------|
-|      |   Mamani Marca, Gabriel Cristian  | u202220659       |         |             |
+|  ![GabrielMamani.png](../assets/GabrielMamani.png)    |   Mamani Marca, Gabriel Cristian  | u202220659       |Ingenieria de software         |Soy estudiante de sexto ciclo de la carrera de Ingeniería de Software.Durante el camino aprendi lenguajes como c++,python y java.Tambien,sobre motores de base de datos como MongoDb y MYSQL             |
 |      |   Omar Harold Rivera Ticllacuri   | u202214214       |         |             |
 |      |      Franco Diego Rioja Nuñez     | u202221597       |         |             |
 |      | Gabriel Anthony Brabuaite Toledo  | U20201e889       |         |             |
 |      |   Augusto Sebastian Montes Maza   | u202218645       |         |             |
 
 ### 1.2. Solution Profile
+**Product Name:** DenunciaYa
+
+**Product Description:** DenunciaYa es una plataforma web y móvil que permite a los ciudadanos reportar problemas urbanos y actos de corrupción de forma rápida, segura y anónima. A través de fotos, videos y audios, los usuarios pueden denunciar incidencias como baches, fallas en el alumbrado público, acumulación de basura, fugas de agua y más. La aplicación envía los reportes a un sistema centralizado para que las autoridades municipales gestionen las incidencias en tiempo real. Además, ofrece notificaciones de seguimiento, paneles de control para gobiernos y herramientas de análisis que ayudan a mejorar la eficiencia y la transparencia en la gestión pública.
+
+**Monetización:** El modelo de negocio está basado en suscripciones para gobiernos locales y entidades públicas, con distintos niveles de servicio:
+
+* Plan Básico: recepción de denuncias y panel básico de gestión de tickets.
+* Plan Premium: incluye analítica avanzada, dashboards, API para integraciones y soporte técnico prioritario.
+
 ### 1.2.1 Antecedentes y problemática
 
 **Técnica de The 5 'W's y 2 'H's**
