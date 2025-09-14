@@ -279,10 +279,10 @@ Elaborar estrategias y tácticas sólidas para competir de manera efectiva exige
 ### 2.2.1. Diseño de entrevistas.
 #### Preguntas para el segmento objetivo "Ciudadanos"
 - ¿Alguna vez has presenciado problemas en tu zona (como baches, basura, corrupción, accidentes de tránsito, entre otros)?
-- ¿Encontraste alguna plataforma para presentar una queja o denuncia?a plataforma para presentar una queja o denuncia?
+- ¿Encontraste alguna plataforma para presentar una queja o denuncia?
 - ¿Tuviste alguna dificultad al hacer la denuncia? ¿Cómo lo hiciste?
 - ¿Crees que existen causas que te desmotivan a presentar una denuncia ?
-- ¿Cuanta confianza tienes en nuestras autoridades que atienden y resuelven las denuncias de los ciudadanos?
+- ¿Cuánta confianza tienes en nuestras autoridades que atienden y resuelven las denuncias de los ciudadanos?
 - ¿Qué tipo de anonimato te daría más confianza para denunciar (público, identificado solo para autoridades, completamente anónimo)?
 - ¿Como te gustaría dar seguimiento a tu denuncia?(Aplicación Web,mensaje,correo o mediante llamada)
 - ¿Si te llegaran notificaciones de denuncias hechas por otras personas que viven cerca del lugar donde vives?
@@ -291,7 +291,7 @@ Elaborar estrategias y tácticas sólidas para competir de manera efectiva exige
 - ¿Qué sucesos te harían dejar de usar una aplicación web de denuncias (por ejemplo: procesos lentos, exceso de datos personales, poca respuesta de autoridades)?
 #### Preguntas para el segmento objetivo  "Autoridades Municipales y Gubernamentales"
 
-- ¿Por que medio reciben las denuncias de ciudadanos actualmente?
+- ¿Por qué medio reciben las denuncias de ciudadanos actualmente?
 - ¿Se te hace fácil o difícil dar seguimiento constante a las denuncias?
 - ¿A qué problemas te enfrentas al gestionar las denuncias?
 - ¿Cómo asignan las denuncias a cada departamento o funcionario responsable?
@@ -317,6 +317,35 @@ Elaborar estrategias y tácticas sólidas para competir de manera efectiva exige
 ![Carolina Méndez.png](../assets/Carolina%20M%C3%A9ndez.png)
 
 ### 2.3.2. User Task Matrix.
+
+## Task Matrix - Ciudadano
+
+|                                      **Tarea**                                       | **Frecuencia** | **Importancia** |
+|:------------------------------------------------------------------------------------:|----------------|-----------------|
+| Identificar problemas en su distrito (baches, basura, alumbrado, fugas, corrupción). | Alta           | Alta            |
+|         Intentar reportar problemas en la municipalidad (presencial o web).          | Media          | Alta            |
+| Usar redes sociales (WhatsApp, Facebook) para compartir evidencias (fotos, videos).  | Alta           | Media           |
+|                  Adjuntar fotos, videos o ubicación como evidencia.                  | Media          | Alta            |
+|                     Dar seguimiento al estado de las denuncias.                      | Media          | Alta            |
+|            Escuchar comentarios de vecinos sobre problemas no resueltos.             | Alta           | Media           |
+|       Expresar frustración o desconfianza en la respuesta de las autoridades.        | Media          | Alta            |
+|           Buscar soluciones digitales alternativas (apps, foros, grupos).            | Baja           | Media           |
+|                Desistir de denunciar por percibir que “no pasa nada”.                | Media          | Alta            |
+
+## Task Matrix - Autoridad
+
+|                                  **Tarea**                                  | **Frecuencia** | **Importancia** |
+|:---------------------------------------------------------------------------:|----------------|-----------------|
+|    Recibir denuncias por múltiples canales (teléfono, WhatsApp, correo).    | Alta           | Alta            |
+| Registrar manualmente casos en hojas de cálculo u otros sistemas dispersos. | Alta           | Alta            |
+|  Clasificar y organizar denuncias según tipo, urgencia o área responsable.  | Alta           | Alta            |
+|         Comunicar demoras o falta de información a los ciudadanos.          | Media          | Alta            |
+|          Coordinar con otras áreas municipales para derivar casos.          | Media          | Alta            |
+|        Escuchar quejas ciudadanas por la lentitud en las respuestas.        | Alta           | Alta            |
+|              Buscar maneras de reducir sobrecarga de trabajo.               | Media          | Alta            |
+|      Explicar procesos internos a superiores para justificar retrasos.      | Media          | Media           |
+|   Imaginar o investigar soluciones digitales que automaticen su trabajo.    | Baja           | Alta            |
+
 ### 2.3.3. User Journey Mapping.
 ### 2.3.4. Empathy Mapping.
 
