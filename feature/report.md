@@ -280,26 +280,26 @@ Elaborar estrategias y tácticas sólidas para competir de manera efectiva exige
 #### Preguntas para el segmento objetivo "Ciudadanos"
 - ¿Alguna vez has presenciado problemas en tu zona (como baches, basura, corrupción, accidentes de tránsito, entre otros)?
 - ¿Encontraste alguna plataforma para presentar una queja o denuncia?a plataforma para presentar una queja o denuncia?
-- ¿Tuviste alguna dificultad al hacer la denuncia? ¿Como lo hiciste?
+- ¿Tuviste alguna dificultad al hacer la denuncia? ¿Cómo lo hiciste?
 - ¿Crees que existen causas que te desmotivan a presentar una denuncia ?
 - ¿Cuanta confianza tienes en nuestras autoridades que atienden y resuelven las denuncias de los ciudadanos?
 - ¿Qué tipo de anonimato te daría más confianza para denunciar (público, identificado solo para autoridades, completamente anónimo)?
-- ¿Como te gustaria dar siguimiento a tu denuncia?(Aplicacion Web,mensaje,correo o mediante llamada)
+- ¿Como te gustaría dar seguimiento a tu denuncia?(Aplicación Web,mensaje,correo o mediante llamada)
 - ¿Si te llegaran notificaciones de denuncias hechas por otras personas que viven cerca del lugar donde vives?
 - ¿Tuviste alguna experiencia de hacer una denuncia y nunca recibir la ayuda necesaria?
-- Imagina una aplicacion web que te permita denunciar fácil y dar seguimiento en tiempo real. ¿Qué características te parecerían más útiles?
-- ¿Qué sucesos te harían dejar de usar una aplicacion web de denuncias (por ejemplo: procesos lentos, exceso de datos personales, poca respuesta de autoridades)?
+- Imagina una application web que te permita denunciar fácil y dar seguimiento en tiempo real. ¿Qué características te parecerían más útiles?
+- ¿Qué sucesos te harían dejar de usar una aplicación web de denuncias (por ejemplo: procesos lentos, exceso de datos personales, poca respuesta de autoridades)?
 #### Preguntas para el segmento objetivo  "Autoridades Municipales y Gubernamentales"
 
 - ¿Por que medio reciben las denuncias de ciudadanos actualmente?
-- ¿Se te hace facil o dificil dar seguimiento constante a las denuncias?
-- ¿A que problemas te enfrentas al gestionar las denuncias?
+- ¿Se te hace fácil o difícil dar seguimiento constante a las denuncias?
+- ¿A qué problemas te enfrentas al gestionar las denuncias?
 - ¿Cómo asignan las denuncias a cada departamento o funcionario responsable?
 - ¿Tienen algún sistema o software que utilicen para gestionar denuncias?
 - ¿Qué tan importante es para ustedes poder comunicarse con el denunciante para pedir más información, manteniendo su anonimato si lo solicita?
 - Si tuvieran un dashboard centralizado, ¿qué información debería mostrar para que realmente les ayude en su trabajo diario?
-- ¿Qué riesgos ven en crear una aplicacion web de denuncias ciudadanas?
-- ¿Qué funcionalidades serían más valiosas en una aplicacion web de gestión de denuncias?
+- ¿Qué riesgos ven en crear una aplicación web de denuncias ciudadanas?
+- ¿Qué funcionalidades serían más valiosas en una aplicación web de gestión de denuncias?
 - Si existieran planes de suscripción (básico y premium), ¿qué características diferenciales harían que valga la pena pagar por un plan más avanzado?
 ### 2.2.2. Registro de entrevistas.
 ### 2.2.3. Análisis de entrevistas.
@@ -307,9 +307,27 @@ Elaborar estrategias y tácticas sólidas para competir de manera efectiva exige
 
 ## 2.3. Needfinding.
 ### 2.3.1. User Personas.
+
+## User Persona - Ciudadano
+
+![José Quispe.png](../assets/Jos%C3%A9%20Quispe.png)
+
+## User Persona - Autoridad
+
+![Carolina Méndez.png](../assets/Carolina%20M%C3%A9ndez.png)
+
 ### 2.3.2. User Task Matrix.
 ### 2.3.3. User Journey Mapping.
 ### 2.3.4. Empathy Mapping.
+
+## Empathy map - Ciudadano
+
+![José Quispe Empathy map.png](../assets/Jos%C3%A9%20Quispe%20Empathy%20map.png)
+
+## Empathy map - Autoridad
+
+![Carolina Méndez Empathy map.png](../assets/Carolina%20M%C3%A9ndez%20Empathy%20map.png)
+
 ## 2.4. Big Picture Event Storming.
 ## 2.5. Ubiquitous Language.
 # Capítulo III: Requirements Specification
