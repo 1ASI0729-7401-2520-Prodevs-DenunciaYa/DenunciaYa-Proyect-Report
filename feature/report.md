@@ -352,6 +352,9 @@ Para los ciudadanos, el producto debe verse como una interfaz simple, limpia e i
 - Gestión de suscripciones y planes para gobiernos.
 
 ### 1.2.2.4. Lean UX Canvas.
+
+![leanCanvas.jpeg](../assets/leanCanvas.jpeg)
+
 ## 1.3. Segmentos objetivo.
 # Capítulo II: Requirements Elicitation & Analysis
 ## 2.1. Competidores.
