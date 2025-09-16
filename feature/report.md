@@ -264,11 +264,93 @@ El objetivo es definir claramente el problema que se busca resolver, las suposic
 ### 1.2.2.1. Lean UX Problem Statements.
 
 Actualmente los ciudadanos enfrentan serias dificultades para denunciar problemas en sus comunidades, como baches, fallas en el alumbrado público, acumulación de basura, fugas de agua o incluso actos de corrupción. Los procesos tradicionales para reportar estas incidencias son lentos, burocráticos y poco accesibles, lo que genera desconfianza, miedo a represalias y una gran fricción para el ciudadano común. Como resultado, muchos problemas no se reportan ni se resuelven, lo que deteriora la calidad de vida, aumenta los costos de gestión y reduce la confianza en las instituciones públicas.
+
 El desafío radica en que las soluciones actuales no ofrecen un canal unificado, seguro y accesible que permita a los ciudadanos denunciar de manera anónima, mientras que las autoridades carecen de datos en tiempo real para gestionar y priorizar los problemas urbanos de manera eficiente.
+
 ¿Cómo podemos construir una plataforma digital que permita a los ciudadanos reportar incidencias de forma rápida, anónima y confiable, y al mismo tiempo provea a las autoridades una herramienta moderna de gestión y análisis en tiempo real que aumente la transparencia y mejore la calidad de vida en las comunidades?
 
 ### 1.2.2.2. Lean UX Assumptions.
-### 1.2.2.3. Lean UX Hypothesis Statements.
+
+<ins>**Users Assumptions:**</ins>
+
+1. **Creo que mis clientes necesitan** una herramienta fácil de usar para reportar problemas urbanos y actos de corrupción de forma rápida, segura y anónima, eliminando la fricción y la desconfianza de los procesos tradicionales.
+
+2. **Estas necesidades se pueden resolver con** una aplicación web y móvil como DenunciaYa, que centraliza los reportes ciudadanos, permite el anonimato y brinda seguimiento en tiempo real a través de notificaciones.
+
+3. **Mis clientes iniciales son** ciudadanos urbanos de Latinoamérica, especialmente jóvenes y adultos con acceso a smartphones, que enfrentan problemas en su entorno inmediato y desean denunciarlos de manera sencilla.
+
+4. **El valor #1 que un cliente quiere de mi servicio es** la posibilidad de denunciar sin miedo ni burocracia, con la seguridad de que su reporte llegará a las autoridades y tendrá seguimiento.
+
+5. **El cliente también puede obtener estos beneficios adicionales,** como recibir un código de seguimiento único, acceder a un historial de sus denuncias, contribuir a la transparencia en la gestión pública y mejorar la calidad de vida de su comunidad.
+
+6. **Voy a adquirir la mayoría de mis clientes a través de estrategias de** campañas digitales en redes sociales, programas de concientización ciudadana y convenios con gobiernos locales como municipios piloto.
+
+7. **Haré dinero a través de** un modelo de suscripción mensual o anual para gobiernos locales y entidades públicas, con diferentes niveles de servicio (básico y premium), mientras que la aplicación será gratuita para los ciudadanos.
+
+8. **Mi competencia principal en el mercado serán** las plataformas municipales propias y otras aplicaciones de gestión ciudadana que suelen ser poco intuitivas, limitadas o con baja adopción.
+
+9. **Los venceremos debido a** que ofrecemos una plataforma accesible, moderna y confiable, con énfasis en la facilidad de uso, la seguridad de datos y el anonimato del denunciante, lo que genera mayor confianza ciudadana.
+
+10. **Mi mayor riesgo de producto es** que los ciudadanos no confíen en la plataforma, ya sea porque temen represalias, creen que su denuncia no será atendida o dudan de la transparencia de la gestión.
+
+11. **Resolveremos esto a través de** un sistema de anonimato garantizado, un canal de seguimiento transparente con notificaciones en tiempo real, campañas educativas sobre la seguridad de la plataforma y convenios con autoridades que validen su uso.
+
+12. **¿Qué otras suposiciones tenemos? ¿Eso, si se prueba que es falso, causará que nuestro negocio/proyecto no funcione?**
+
+- Los ciudadanos están dispuestos a usar la aplicacion web para denunciar en lugar de métodos tradicionales.
+- Las autoridades asignarán presupuesto y recursos para gestionar las denuncias en tiempo real.
+- Los usuarios confiarán en que el anonimato está protegido y que no habrá represalias.
+- Si alguna de estas suposiciones resulta falsa, el proyecto puede no generar adopción ni sostenibilidad.
+
+**¿Quién es el usuario?**<br>
+
+Vendrian a ser los ciudadanos urbanos que enfrentan problemas cotidianos en infraestructura y servicios públicos, así como los funcionarios municipales encargados de recibir, clasificar y atender las denuncias.
+
+**¿Dónde encaja nuestro producto en su vida/trabajo?**<br>
+
+Para los ciudadanos, el producto encaja en su vida diaria cuando necesitan reportar incidencias en tiempo real de forma sencilla. Para las autoridades, encaja en su trabajo cotidiano al centralizar reportes y permitir una gestión más ágil y transparente.
+
+**¿Qué problemas tiene nuestro producto y cómo se pueden resolver?**<br>
+
+El producto enfrenta problemas como la desconfianza en la gestión de denuncias, lo cual se puede resolver garantizando transparencia y brindando feedback en tiempo real. También sufre de baja adopción ciudadana, que puede superarse mediante un proceso de onboarding simple y campañas educativas. Además, existe resistencia institucional, que puede resolverse incentivando con dashboards de eficiencia y métricas claras de impacto social.
+
+**¿¿Cuándo y cómo se usa el producto?**<br>
+
+El ciudadano utiliza el producto en el momento en que observa un problema en la vía pública o un acto de corrupción, subiendo evidencia en forma de fotos, videos o audios desde su celular. El funcionario municipal lo utiliza de manera diaria para gestionar incidencias en un panel centralizado, asignarlas a las áreas responsables y darles seguimiento.
+
+**¿Qué características son importantes?**<br>
+
+Las características más importantes del producto son la posibilidad de realizar reportes rápidos con fotos, videos y audios, la opción de denuncia anónima o con identidad parcial, el uso de un código único con seguimiento en tiempo real, la existencia de un panel de control para autoridades con dashboards y analítica, la incorporación de un sistema de ticketing para priorizar incidencias y la seguridad y privacidad de los datos.
+
+**¿Cómo debe verse nuestro producto y cómo debe comportarse?**<br>
+
+Para los ciudadanos, el producto debe verse como una interfaz simple, limpia e intuitiva, con pasos mínimos para enviar una denuncia. Para las autoridades, debe presentarse como un panel profesional y moderno con visualizaciones claras de incidencias y métricas. El producto debe comportarse de manera estable, responsiva y rápida, ofreciendo notificaciones en tiempo real y un acceso fluido desde dispositivos móviles y web.
+
+<ins>**Business Outcomes:**</ins>
+
+1. Al desarrollar DenunciaYa, creemos que se generará una mayor confianza ciudadana en las autoridades gracias a un canal moderno, seguro y transparente.### 1.2.2.3. Lean UX Hypothesis Statements.
+2. Generación de ingresos recurrentes mediante el modelo de suscripción a gobiernos locales.
+3. Incremento de la eficiencia en la gestión municipal al centralizar reportes en tiempo real.
+4. Posicionamiento como una plataforma líder en participación ciudadana y gobierno digital en Latinoamérica.
+
+<ins>**User Outcomes:**</ins>
+
+1. Los ciudadanos podrán denunciar sin miedo, de forma rápida y anónima.
+2. Obtendrán visibilidad y seguimiento en tiempo real de sus reportes.
+3. Las autoridades mejorarán su capacidad de respuesta y priorización de problemas urbanos.
+4. La comunidad en general se beneficia de una mejor calidad de vida gracias a la resolución más rápida de incidencias.
+
+<ins>**Features:**</ins>
+
+- Envío de denuncias con foto, video y audio.
+- Opción de denuncia anónima.
+- Código de seguimiento y notificaciones en tiempo real.
+- Panel de gestión centralizado para autoridades.
+- Dashboards con métricas e indicadores de eficiencia.
+- Historial de denuncias y estados.
+- Sistema de ticketing para derivar incidencias.
+- Gestión de suscripciones y planes para gobiernos.
+
 ### 1.2.2.4. Lean UX Canvas.
 ## 1.3. Segmentos objetivo.
 # Capítulo II: Requirements Elicitation & Analysis
