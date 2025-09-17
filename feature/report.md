@@ -570,7 +570,60 @@ La navegación está pensada para que el usuario cumpla su objetivo en el menor 
 ### 4.6.3. Software Architecture Container Diagrams.
 ### 4.6.4. Software Architecture Components Diagrams.
 ## 4.7. Software Object-Oriented Design.
+En esta sección, se detallan los aspectos clave del diseño orientado a objetos de la solución, incluyendo diagramas de clases y una descripción las entidades principales, sus atributos y métodos. Este enfoque asegura que el sistema sea modular, escalable y fácil de mantener.
 ### 4.7.1. Class Diagrams.
+En esta sección, se presentan los diagramas de clases que ilustran las principales entidades del sistema, sus atributos y las relaciones entre ellas. Estos diagramas son fundamentales para entender la estructura del software y cómo interactúan los diferentes componentes.
+
+Se considera lo siguiente:
+- Atributos en private (-) 
+- Métodos en public (+) 
+
+**COMPLAINT CREATION BOUNDED CONTEXT UML**
+![Complaint Creation Bounded Context UML](../assets/complaintCreationBoundedContextUml.png)
+
+- **Citizen** como actor principal que crea/gestiona denuncias.
+- **Complaint** como entidad central con relación a Category, Location y Evidence.
+- **Controller**, **Service**, **Repository** con interfaz `IComplaintRepository`.
+- **Enums** para `ComplaintStatus` y `EvidenceType`.
+
+**DIRECTORY OF RESOURCES & CONTACTS BOUNDED CONTEXT UML**
+![Directory of Resources & Contacts Bounded Context UML](../assets/directoryOfResourcesAndContactsBoundedContextUml.png)
+
+- **Roles principales (Citizen y Authority)** como consumidores.
+- **ContactDirectory** para información general.
+- **ExtendedDirectoryEntry** para autoridades con datos internos (jerarquías/responsables).
+- **Technical layer**: Controller, Service y Repository.
+- **Enum ContactType** para clasificar contactos.
+- **interfaz** IDirectoryRepository.
+- `DirectoryService` no depende directamente de la clase concreta `DirectoryRepository`, sino de la **interfaz**, siguiendo el principio de inversión de dependencias.
+
+**HISTORY AND FOLLOW-UP OF COMPLAINTS BOUNDED CONTEXT UML**
+![History and Follow-up of Complaints Bounded Context UML](../assets/historyAndFollowUpOfComplaintsBoundedContextUml.png)
+- El **ciudadano** puede ver el historial de denuncias y consultar su estado.
+- Cada **denuncia (Complaint)** tiene un estado (`ComplaintStatus`) y múltiples registros de seguimiento (`ComplaintTracking`).
+- La **autoridad** actualiza estados y registra acciones.
+- La capa de aplicación está organizada con **Controller → Service → Repository (interface + implementación).**
+
+**AUTHORITIES DASHBOARD BOUNDED CONTEXT UML**
+![Authorities Dashboard Bounded Context UML](../assets/authoritiesDashboardBoundedContextUml.png)
+
+- **Authority** accede a un **Dashboard** personalizado.
+- El **Dashboard** muestra estadísticas, alertas y un resumen de denuncias.
+- Incluye **ComplaintSummary** (versión ligera de las denuncias para listado rápido).
+- Manejo de **notificaciones** asociadas a las denuncias.
+- Arquitectura organizada con **Controller → Service → Repository (interface + implementación)**.
+
+**AUTHENTICATION & ACCOUNT MANAGEMENT BOUNDED CONTEXT UML**
+![Authentication & Account Management Bounded Context UML](../assets/authenticationAndAccountManagementBoundedContextUml.png)
+
+- `User` es la clase base con credenciales y rol.
+- `Citizen` y `Authority` heredan de User.
+- `UserProfile` maneja la info editable del usuario.
+- Se agregan servicios (`AuthService`, `UserService`) y el controlador (`AuthController`).
+- El repositorio sigue el patrón `IUserRepository` con su implementación concreta.
+- El enum `UserRole` asegura control de permisos.
+
+
 ## 4.8. Database Design.
 ### 4.8.1. Database Diagrams.
 # Capítulo V: Product Implementation, Validation & Deployment.
