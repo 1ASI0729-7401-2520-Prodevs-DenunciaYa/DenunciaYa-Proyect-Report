@@ -423,7 +423,7 @@ El sistema de etiquetado prioriza **brevedad, consistencia, accesibilidad y clar
 #### Reglas generales de etiquetado
 - Idioma: **Ingles (en-US)** por defecto, luego sera cambiado por internacionalizacion.  
 - Longitud: **1–2 palabras** para botones y menús; **hasta 6–8 palabras** para títulos de secciones si es necesario.  
-- Casos: **Sentence case** -> ej. **Denunciar**, **Historial**, **Mi perfil**.  
+- Casos: **Sentence case** -> ej. **Denunciar**, **Mis Denuncias(historial)**, **Mi perfil**.  
 - Iconos: usar icono + etiqueta para acciones primarias en móvil; icono sólo para estados secundarios.  
 - Abreviación: evitar abreviaciones; si son necesarias, mostrar tooltip con la forma completa.  
 - Plurales: usar forma singular en botones de acción, plural en listados.  
@@ -438,8 +438,8 @@ El sistema de etiquetado prioriza **brevedad, consistencia, accesibilidad y clar
 - **Formulario (pasos):** Categoría, Ubicación, Fecha, Descripción, Evidencia, Revisar y enviar  
 - **Botones:** Siguiente, Anterior, Enviar, Guardar borrador  
 - **Estados de denuncia:** Pendiente, En proceso, Resuelto, Rechazado  
-- **Acciones en listado:** Ver, Editar, Compartir, Reportar error  
-- **Campos frecuentes:** Número de denuncia, Nombre (opcional), Teléfono (opcional), Correo (opcional), Adjuntar foto  
+- **Acciones en listado:** Ver, Editar, 
+- **Campos frecuentes:** Número de denuncia, Nombre (opcional), Teléfono (opcional), Correo (opcional), Adjuntar foto, anonimato total  
 
 
 
@@ -492,7 +492,6 @@ Se definen tags base para cada tipo de página.
 <meta name="description" content="DenunciaYa permite reportar incidencias de manera rápida, segura y en tiempo real. Únete y haz que tu voz sea escuchada.">
 <meta name="keywords" content="denuncias, reportes ciudadanos, incidencias, participación ciudadana">
 <meta name="author" content="Equipo DenunciaYa">
-<link rel="canonical" href="https://www.denunciaya.org/">
 <meta name="robots" content="index, follow">
 ```
 
@@ -500,7 +499,6 @@ Se definen tags base para cada tipo de página.
 ```html
 <title>Mi Panel – DenunciaYa</title>
 <meta name="description" content="Gestiona tus denuncias, sigue su estado y accede a soporte desde tu panel en DenunciaYa.">
-<link rel="canonical" href="https://www.denunciaya.org/panel">
 ```
 
 **Página de detalle de denuncia (dinámico)**
@@ -521,14 +519,22 @@ El sistema de búsqueda está diseñado para ser **rápido, tolerante a errores 
 #### Capacidades de búsqueda
 - **Autocompletado y sugerencias** en tiempo real.  
 - **Búsqueda por campos:** N.º de denuncia, texto libre, etiquetas, ubicación.  
-- **Filtros (facetas):** Categoría, Estado, Fechas, Ubicación, Evidencia, Responsable.  
+- **Filtros (facetas):** Categoría, Estado, Fechas, Prioridad, Ubicación, Evidencia, Responsable.  
 - **Ordenamiento:** Más reciente, Más antiguo, Estado, Relevanci`.  
 - **Resultados:** tarjetas con Nº de denuncia, categoría, estado, fecha, resumen y Ver.  
-- **Highlighting:** términos buscados resaltados.  
 - **Paginación:** tradicional o Cargar más.  
-- **Búsqueda avanzada:** panel opcional para booleanas.  
-- **Guardar búsquedas:** opción de favoritos.  
 - **Empty state:** No se encontraron resultados. Revisa la ortografía o cambia los filtros.
+
+
+**Para Ciudadanos:**
+- **Reporte Guiado por Categorías:** Menú con las 7 categorías principales (Infraestructura, Servicios Públicos, etc.) y sus subcategorías.
+- **Búsqueda por Palabras Clave:** Menu de categorias mas frecuentes.
+
+**Para Autoridades:**
+- **Dashboard de Gestión:** Vista principal con panel de filtros avanzados.
+- **Búsqueda por ID:** Acceso directo a un reporte específico.
+- **Mapa Interactivo:** Para visualizar incidencias por ubicación.
+
 
 ---
 
