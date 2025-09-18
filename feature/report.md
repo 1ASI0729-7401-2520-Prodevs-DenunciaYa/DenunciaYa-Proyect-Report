@@ -623,7 +623,7 @@ Se considera lo siguiente:
 - El repositorio sigue el patrón `IUserRepository` con su implementación concreta.
 - El enum `UserRole` asegura control de permisos.
 
-**COMUNNITY BOUNDED CONTEXT UML**
+**COMMUNITY BOUNDED CONTEXT UML**
 ![Community Bounded Context UML](../assets/communityBoundedContextUml.png)
 
 ## 4.8. Database Design.
