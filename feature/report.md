@@ -593,10 +593,292 @@ Presentamos los primeros diseños de la Landing Page en UI.
 ## 4.4. Web Applications UX/UI Design.
 Presentamos los primeros diseños de la Web Aplication en UI.
 ### 4.4.1. Web Applications Wireframes.
-![MockupLanding-Movilv2](/assets/Landinpage-movilv2.jpg)
+## 1. Pantalla de Login  
+**Wireframe**  
+![Login](/assets/WireframeLogin.jpg)  
+
+**Explicación**  
+- **Principios de diseño:** Jerarquía visual clara con logo en la parte superior, formulario centrado y botón principal destacado.  
+- **Elementos de diseño:** Colores claros y precisos, tipografía consistente y botones con esquinas redondeadas para mayor accesibilidad.  
+- **Diseño inclusivo:** Contraste suficiente entre texto y fondo, etiquetas visibles en los campos, soporte para teclado.  
+- **Arquitectura de información:** Flujo simple: logo → email/contraseña → entra al dashboard principal de ciudadano y autoridad.  
+- **Design System:** Botón primario con color principal del sistema, tipografía uniforme y campos reutilizables.  
+
+---
+
+## 2. Pantalla de Register  
+**Wireframe**  
+![Register](/assets/WireframeRegister.jpg)  
+
+**Explicación**  
+- **Principios de diseño:** Uso de agrupación por proximidad para los campos.  
+- **Elementos de diseño:** Campos con iconos de apoyo, botón destacado al final del formulario.  
+- **Diseño inclusivo:** Labels claros, mensajes de error accesibles y compatibilidad con lector de pantalla.  
+- **Arquitectura de información:** Orden lógico de los datos solicitados (nombre, apellido, correo, contraseña, teléfono opcional y confirmación).  
+- **Design System:** Botón secundario para volver al login (return), estilos de formulario consistentes.  
+
+---
+
+## 3. Pantalla de Payment Card  
+**Wireframe**  
+![Payment](/assets/WireframePayment.jpg)  
+
+**Explicación**  
+- **Principios de diseño:** Contraste entre datos de la tarjeta y el fondo, buena alineación.  
+- **Diseño inclusivo:** Tamaño de campos adecuado, validación visual clara de errores.  
+- **Arquitectura de información:** Flujo secuencial: datos de tarjeta → confirmación → confirmar el pago.  
+- **Design System:** Colores corporativos en botones, tarjetas con bordes redondeados, consistencia visual.  
+
+---
+
+## 4. Pantalla de Mis Denuncias  
+**Wireframe**  
+![MisDenuncias](/assets/WireframeMisDenuncias.jpg)  
+
+**Explicación**  
+- **Principios de diseño:** Listado organizado en filas con jerarquía clara entre N° denuncia, categoría, estado y fecha.  
+- **Elementos de diseño:** Colores para estados (verde: resuelto, azul: en proceso, amarillo: pendiente, rojo: rechazado, gris: guardado).  
+- **Diseño inclusivo:** Iconografía + texto para estado, buena separación visual.  
+- **Arquitectura de información:** Ordenado cronológicamente con filtros por estado/categoría.  
+- **Design System:** Reutilización de componentes de listado.  
+
+---
+
+## 5. Pantalla de Denunciar Ahora  
+**Wireframe**  
+![DenunciarAhora](/assets/WireframeDenunciarAhora.jpg)  
+
+**Explicación**  
+- **Principios de diseño:** Agrupación por secciones: datos básicos, descripción, adjuntos.  
+- **Elementos de diseño:** Botón de adjuntar archivos, área de texto amplia.  
+- **Diseño inclusivo:** Instrucciones claras, ayudas contextuales, validación accesible.  
+- **Arquitectura de información:** Flujo guiado paso a paso.  
+- **Design System:** Campos y botones reutilizados de otros formularios.  
+
+---
+
+## 6. Pantalla de Detalles de la Denuncia  
+**Wireframe**  
+![DetallesDenuncia](/assets/WireframeDetalleDenuncia.jpg)  
+
+**Explicación**  
+- **Principios de diseño:** Línea de tiempo vertical con estados en orden cronológico.  
+- **Elementos de diseño:** Íconos de estado, colores diferenciados.  
+- **Diseño inclusivo:** Texto acompañando a cada ícono para claridad.  
+- **Arquitectura de información:** Organización secuencial que refleja el progreso.  
+- **Design System:** Timeline consistente con estilo de tarjetas y colores institucionales.  
+
+---
+
+## 7. Pantalla de Community  
+**Wireframe**  
+![Comunity](/assets/WireframeComunity.png)  
+
+**Explicación**  
+- **Principios de diseño:** Uso de tarjetas para cada post, jerarquía clara entre usuario, texto e interacciones.  
+- **Elementos de diseño:** Íconos reconocibles (me gusta, comentar, compartir).  
+- **Diseño inclusivo:** Texto alternativo para imágenes, interacciones accesibles vía teclado.  
+- **Arquitectura de información:** Feed con scroll vertical y orden cronológico.  
+- **Design System:** Botones e íconos consistentes con los demás módulos.  
+
+---
+
+## 8. Pantalla de Editar Denuncia  
+**Wireframe**  
+![EditarDenuncia](/assets/WireframeEditarD.jpg)  
+
+**Explicación**  
+- **Principios de diseño:** Campos editables resaltados, botones de acción claramente visibles.  
+- **Elementos de diseño:** Ícono de lápiz para edición, botones guardar/cancelar.  
+- **Diseño inclusivo:** Mensajes de confirmación accesibles.  
+- **Arquitectura de información:** Mantiene el mismo orden de campos que la denuncia original.  
+- **Design System:** Reutilización de formularios ya definidos.  
+
+---
+
+## 9. Pantalla de Agregar Responsable  
+**Wireframe**  
+![NuevoResponsable](/assets/WireframeNuevoResponsable.jpg)  
+
+**Explicación**  
+- **Principios de diseño:** Flujo lógico de datos personales → cargo → contacto.  
+- **Elementos de diseño:** Campos con iconos de apoyo (celular, correo).  
+- **Diseño inclusivo:** Etiquetas claras y soporte para autocompletar.  
+- **Arquitectura de información:** Orden de captura de datos optimizado para usuario.  
+- **Design System:** Campos de formulario y botones consistentes con otros módulos.  
+
+---
+
+## 10. Pantalla de Inicio  
+**Wireframe**  
+![PantallaGraficos](/assets/WireframePantallaGraficos.jpg)  
+
+**Explicación**  
+- **Principios de diseño:** Uso de visualizaciones claras (barras, pastel) con contraste de colores.  
+- **Elementos de diseño:** Gráficas, tarjetas de resumen con métricas clave.  
+- **Diseño inclusivo:** Texto acompañando a gráficas, colores accesibles.  
+- **Arquitectura de información:** Métricas arriba, gráficas abajo, navegación lateral fija.  
+- **Design System:** Gráficas integradas con tipografía y colores de la marca.  
+
+---
+
+## 11. Pantalla de Detalles de Equipo  
+**Wireframe**  
+![GestionDeEquipos](/assets/WireframeGestionEquipo.jpg)  
+
+**Explicación**  
+- **Principios de diseño:** Información agrupada en tarjetas (nombre, estado, responsables).  
+- **Elementos de diseño:** Íconos de estado, botones de acción.  
+- **Diseño inclusivo:** Texto alternativo en imágenes y colores con suficiente contraste.  
+- **Arquitectura de información:** Detalle individual en la parte superior, información complementaria en secciones inferiores.  
+- **Design System:** Reutilización de componentes de formularios.  
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
 ### 4.4.2. Web Applications Mock-ups.
+---
+
+##  Pantalla de Login  
+**Mock-up**  
+![Login](/assets/Login.jpg)
+
+**Explicación**  
+- **Principios de diseño:** Jerarquía visual clara con logo en la parte superior, formulario centrado y botón principal destacado.  
+- **Elementos de diseño:** Colores claros y precisos, tipografía consistente y botones con esquinas redondeadas para mayor accesibilidad.  
+- **Diseño inclusivo:** Contraste suficiente entre texto y fondo, etiquetas visibles en los campos, soporte para teclado.  
+- **Arquitectura de información:** Flujo simple: logo → email/contraseña → entra al dashboard principal de ciudadano y autoridad.  
+- **Design System:** Botón primario con color principal del sistema, tipografía uniforme y campos reutilizables.  
+
+---
+
+## Pantalla de Register  
+**Mock-up**  
+![Register](/assets/Register.jpg)
+
+**Explicación**  
+- **Principios de diseño:** Uso de agrupación por proximidad para los campos.  
+- **Elementos de diseño:** Campos con iconos de apoyo, botón destacado al final del formulario.  
+- **Diseño inclusivo:** Labels claros, mensajes de error accesibles y compatibilidad con lector de pantalla.  
+- **Arquitectura de información:** Orden lógico de los datos solicitados (nombre, apellido, correo, contraseña,telefono(opcional) y confirmación).  
+- **Design System:** Botón secundario para volver al login(return), estilos de formulario consistentes.  
+
+---
+
+## 3. Pantalla de Payment Card  
+**Mock-up**  
+![Payment](/assets/Payment.jpg)
+
+**Explicación**  
+- **Principios de diseño:** Contraste entre datos de la tarjeta y el fondo, buena alineación.  
+- **Diseño inclusivo:** Tamaño de campos adecuado, validación visual clara de errores.  
+- **Arquitectura de información:** Flujo secuencial: datos de tarjeta → confirmación → confirmar el pago.  
+- **Design System:** Colores corporativos en botones, tarjetas con bordes redondeados, consistencia visual.  
+
+---
+
+## 4. Pantalla de Mis Denuncias 
+**Mock-up**  
+![MisDenuncias](/assets/MisDenuncias.jpg)
+
+**Explicación**  
+- **Principios de diseño:** Listado organizado en filas con jerarquía clara entre N° denuncia,categoria, estado y fecha.  
+- **Elementos de diseño:** Colores para estados (verde: resuelto, azul: en proceso, amarillo: pendiente,rojo rechazado, gris en guardado).  
+- **Diseño inclusivo:** Iconografía + texto para estado, buena separación visual.  
+- **Arquitectura de información:** Ordenado cronológicamente con filtros por estado/categoría.  
+- **Design System:** Reutilización de componentes de listado.  
+
+---
+
+## 5. Pantalla de Denunciar Ahora   
+**Mock-up**  
+![DenunciarAhora](/assets/DenunciarAhora.jpg)
+
+**Explicación**  
+- **Principios de diseño:** Agrupación por secciones: datos básicos, descripción, adjuntos.  
+- **Elementos de diseño:** Botón de adjuntar archivos, área de texto amplia.  
+- **Diseño inclusivo:** Instrucciones claras, ayudas contextuales, validación accesible.  
+- **Arquitectura de información:** Flujo guiado paso a paso.  
+- **Design System:** Campos y botones reutilizados de otros formularios.  
+
+---
+
+## 6. Pantalla de Detalles de la Denuncia
+**Mock-up**  
+![DenunciarAhora](/assets/DetallesDenunciaAutoridad.jpg)
+
+**Explicación**  
+- **Principios de diseño:** Línea de tiempo vertical con estados en orden cronológico.  
+- **Elementos de diseño:** Íconos de estado, colores diferenciados.  
+- **Diseño inclusivo:** Texto acompañando a cada ícono para claridad.  
+- **Arquitectura de información:** Organización secuencial que refleja el progreso.  
+- **Design System:** Timeline consistente con estilo de tarjetas y colores institucionales.  
+
+---
+
+## 7. Pantalla de Community   
+**Mock-up**  
+![DenunciarAhora](/assets/Comunity.jpg)
+
+**Explicación**  
+- **Principios de diseño:** Uso de tarjetas para cada post, jerarquía clara entre usuario, texto e interacciones.  
+- **Elementos de diseño:** Íconos reconocibles (me gusta, comentar, compartir).  
+- **Diseño inclusivo:** Texto alternativo para imágenes, interacciones accesibles vía teclado.  
+- **Arquitectura de información:** Feed con scroll vertical y orden cronológico.  
+- **Design System:** Botones e íconos consistentes con los demás módulos.  
+
+---
+
+## 8. Pantalla de Editar Denuncia  
+**Mock-up**  
+![DenunciarAhora](/assets/EditarDenuncia.jpg)
+
+
+**Explicación**  
+- **Principios de diseño:** Campos editables resaltados, botones de acción claramente visibles.  
+- **Elementos de diseño:** Ícono de lápiz para edición, botones guardar/cancelar.  
+- **Diseño inclusivo:** Mensajes de confirmación accesibles.  
+- **Arquitectura de información:** Mantiene el mismo orden de campos que la denuncia original.  
+- **Design System:** Reutilización de formularios ya definidos.  
+
+---
+
+## 9. Pantalla de Agregar Responsable 
+**Mock-up**  
+![DenunciarAhora](/assets/NuevoResponsable.jpg)
+  
+
+**Explicación**  
+- **Principios de diseño:** Flujo lógico de datos personales → cargo → contacto.  
+- **Elementos de diseño:** Campos iocnos de apoyo (celular, correo).  
+- **Diseño inclusivo:** Etiquetas claras y soporte para autocompletar.  
+- **Arquitectura de información:** Orden de captura de datos optimizado para usuario.  
+- **Design System:** Campos de formulario y botones consistentes con otros módulos.  
+
+---
+
+## 10. Pantalla de Inicio  
+**Mock-up**  
+![DenunciarAhora](/assets/PantallaGraficos.jpg)
+
+
+**Explicación**  
+- **Principios de diseño:** Uso de visualizaciones claras (barras, pastel) con contraste de colores.  
+- **Elementos de diseño:** Gráficas, tarjetas de resumen con métricas clave.  
+- **Diseño inclusivo:** Texto acompañando a gráficas, colores accesibles.  
+- **Arquitectura de información:** Métricas arriba, gráficas abajo, navegación lateral fija.  
+- **Design System:** Gráficas integradas con tipografía y colores de la marca.  
+
+---
+
+## 11. Pantalla de Detalles de Equipo  
+**Mock-up**  
+![DenunciarAhora](/assets/GestionDeEquipos.jpg)
+
+**Explicación**  
+- **Principios de diseño:** Información agrupada en tarjetas (nombre, estado, responsables).  
+- **Elementos de diseño:** Íconos de estado, botones de acción.  
+- **Diseño inclusivo:** Texto alternativo en imágenes y colores con suficiente contraste.  
+- **Arquitectura de información:** Detalle individual en la parte superior, información complementaria en secciones inferiores.  
+- **Design System:** Reutilización de componentes de  formularios.  
 
 ### 4.4.3. Web Applications User Flow Diagrams.
 ## 4.5. Web Applications Prototyping.
