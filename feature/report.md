@@ -169,7 +169,7 @@ Nuestra principal propuesta es **DenunciaYa**, una aplicación que permite a los
 | Foto |        Apellidos y Nombres        | Código de Alumno | Carrera | Habilidades |
 |------|:---------------------------------:|:----------------:|---------|-------------|
 |  ![GabrielMamani.png](../assets/GabrielMamani.png)    |   Mamani Marca, Gabriel Cristian  | u202220659       |Ingenieria de software         |Soy estudiante de sexto ciclo de la carrera de Ingeniería de Software.Durante el camino aprendi lenguajes como c++,python y java.Tambien,sobre motores de base de datos como MongoDb y MYSQL             |
-|      |   Omar Harold Rivera Ticllacuri   | u202214214       |         |             |
+|  ![GabrielMamani.png](../assets/Omar.jpeg)     |   Omar Harold Rivera Ticllacuri   | u202214214       |   Ingenieria de software      |    Soy estudiante de Ingeniería de Software, tengo 20 años y actualmente me encuentro en el sexto ciclo de mi carrera. Soy una persona con la cual tengo la disciplina y responsable para desarrollar proyectos de software y software de entretenimiento. Cuento con experiencia sobre el desarrollo de software de entretenimiento. Por ende, apoyaré al grupo en todo lo posible para poder desarrollar adecuadamente el trabajo y la propuesta que se nos asignó.	         |
 |      |      Franco Diego Rioja Nuñez     | u202221597       |         |             |
 |      | Gabriel Anthony Brabuaite Toledo  | U20201e889       |         |             |
 |      |   Augusto Sebastian Montes Maza   | u202218645       |         |             |
