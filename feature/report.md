@@ -311,7 +311,19 @@ Hemos definido **breakpoints principales** para garantizar que la interfaz se ad
   - Menú principal desplegado en la parte superior.  
   - Mayor aprovechamiento del espacio para paneles de control, métricas y gráficos.  
 
+![Landing-Deskopt](/assets/Landinpage-Deskop.jpg)
+![Landing-Laptop](/assets/Landinpage-Laptop.jpg)
+![Landing-Tablet](/assets/Landinpage-Laptop-tablet.jpg)
+![Landing-Movilv1](/assets/Landinpage-mobilv1.jpg)
+![Landing-Movilv2](/assets/Landinpage-movilv2.jpg)
+
+
+
+
 ---
+
+
+
 
 #### Componentes UI  
 
@@ -336,6 +348,9 @@ Los **componentes de interfaz** siguen los principios de consistencia, simplicid
 - Sombra ligera para dar profundidad.  
 - Imagen o ícono en la parte superior, texto y acción en la parte inferior.  
 
+
+![ComponentesUI](/assets/Componentes.jpg)
+![Cards](/assets/Cards.png)
 ---
 
 #### Interacciones y Estados  
@@ -363,7 +378,7 @@ La navegación se ha diseñado bajo los principios de **claridad y accesibilidad
 
 **DenunciaYa** se ha construido con un compromiso hacia la accesibilidad. 
 
-- **Tipografía legible**, con tamaños mínimos de 14px en dispositivos móviles.  
+- **Tipografía legible**, con tamaños mínimos de entre 10px a 14px en dispositivos móviles.  
 - Uso de **atributos ARIA** en formularios y menús para apoyar la navegación con lectores de pantalla.  
 - Todo el contenido puede ser navegado únicamente con teclado, garantizando inclusión.  
 
@@ -381,12 +396,12 @@ La organización de la información en DenunciaYa aplica distintos sistemas (jer
 #### Aplicación por grupos de información
 
 - **Landing Page (Información pública, acceso y conversión)**  
-  - **Sistema:** **Jerárquico (visual hierarchy)** — la home prioriza mensajes clave (propuesta de valor, CTA "Denunciar", beneficios, cómo funciona).  
-  - **Categorización:** por **tópicos** (Qué es, Cómo funciona, Beneficios, Preguntas frecuentes).  
+  - **Sistema:** **Jerárquico (visual hierarchy)** — la home prioriza mensajes clave (propuesta de valor, CTA "Denunciar" o "Denunciar Ahora", cómo funciona).  
+  - **Categorización:** por **tópicos** (Qué es, Cómo funciona,Sobre Nosotros, Testimonios, Blog, Soporte y Contactos).  
   - **Justificación:** orientada a conversión y comprensión rápida.
 
 - **Flujo de creación de denuncia (forms / wizard)**  
-  - **Sistema:** **Secuencial (step-by-step)** — proceso guiado por pasos: 1) Seleccionar categoría -> 2) Ubicación y fecha -> 3) Descripción y evidencias -> 4) Revisión y envío.  
+  - **Sistema:** **Secuencial (step-by-step)** — proceso guiado por pasos: 1) Seleccionar categoría -> 2) Ubicación-> 3) Descripción y evidencias -> 4) Revisión y envío.  
   - **Categorización:** por **audiencia** (ciudadano que reporta, anónimo vs identificado) y por **tópico** (tipo de incidencia).  
   - **Justificación:** evita errores y asegura captura completa de datos.
 
@@ -411,7 +426,7 @@ La organización de la información en DenunciaYa aplica distintos sistemas (jer
 #### Esquemas de categorización aplicados (resumen)
 - **Alfabético:** directorios, listas de autoridades, glosarios.  
 - **Cronológico:** historial de denuncias, timelines de caso, logs de actividad.  
-- **Por tópicos:** categorías de denuncia (robo, baches, corrupción, salud pública).  
+- **Por tópicos:** categorías de denuncia (Infraestructura y Espacios Públicos, Servicios Públicos, Medio Ambiente, Seguridad Ciudadana, Transporte y Movilidad, Salud Pública, Comercio Informal, entre otros).  
 - **Por audiencia:** vistas y accesos adaptados (ciudadano, gestor municipal, agente de campo, soporte).
 
 ---
@@ -430,16 +445,16 @@ El sistema de etiquetado prioriza **brevedad, consistencia, accesibilidad y clar
 - Accesibilidad: todas las etiquetas deben tener atributos `aria-label` y textos alternativos en imágenes.
 
 #### Etiquetas primarias (menú y CTAs)
-- Menú superior / global: **Inicio**, **Servicios**, **Denunciar**, **Soporte**, **Contacto**.  
+- Menú superior / global: **Inicio**, **Notificaciones**, **Informacion de la cuneta**.  
 - CTA primario: **Denunciar** o **Denunciar ahora**.  
 - Footer: **Ayuda**, **Términos**, **Política de privacidad**, **Contacto**.  
 
 ### Etiquetas internas y de formularios
 - **Formulario (pasos):** Categoría, Ubicación, Fecha, Descripción, Evidencia, Revisar y enviar  
-- **Botones:** Siguiente, Anterior, Enviar, Guardar borrador  
+- **Botones:**Continuar, Siguiente, Anterior, Enviar, Guardar borrador  
 - **Estados de denuncia:** Pendiente, En proceso, Resuelto, Rechazado  
 - **Acciones en listado:** Ver, Editar, 
-- **Campos frecuentes:** Número de denuncia, Nombre (opcional), Teléfono (opcional), Correo (opcional), Adjuntar foto, anonimato total  
+- **Campos frecuentes:** Número de denuncia, Nombre (opcional si se activa el anonimato total), Teléfono (opcional), Correo , Adjuntar foto, anonimato total(checkbox).
 
 
 
@@ -513,7 +528,7 @@ El sistema de búsqueda está diseñado para ser **rápido, tolerante a errores 
 
 #### Ubicación e interacción principal
 - Barra de búsqueda principal en la parte superior del panel de denuncias con placeholder:  
-  `Buscar por N.º de denuncia, categoría o palabra clave`  
+`Buscar por N.° de denuncia, categoría o palabra clave`  
 - Atributos ARIA: `aria-label="Buscar denuncias"` y `role="search"`.
 
 #### Capacidades de búsqueda
@@ -522,7 +537,7 @@ El sistema de búsqueda está diseñado para ser **rápido, tolerante a errores 
 - **Filtros (facetas):** Categoría, Estado, Fechas, Prioridad, Ubicación, Evidencia, Responsable.  
 - **Ordenamiento:** Más reciente, Más antiguo, Estado, Relevanci`.  
 - **Resultados:** tarjetas con Nº de denuncia, categoría, estado, fecha, resumen y Ver.  
-- **Paginación:** tradicional o Cargar más.  
+- **Paginación:** Paginacion Numerica.  
 - **Empty state:** No se encontraron resultados. Revisa la ortografía o cambia los filtros.
 
 
@@ -562,12 +577,27 @@ La navegación está pensada para que el usuario cumpla su objetivo en el menor 
 - **Accesibilidad:** navegación completa por teclado con foco visible.
 
 ## 4.3. Landing Page UI Design.
+Presentamos los primeros diseños de la Landing Page en UI.
 ### 4.3.1. Landing Page Wireframe.
+![WireframeLanding-Deskopt](/assets/WLandinpage-Deskop.jpg)
+![WireframeLanding-Laptop](/assets/WLandinpage-Laptop.jpg)
+![WireframeLanding-Tablet](/assets/WLandinpage-Tablet.jpg)
+![WireframeLanding-Movilv1](/assets/WLandinpage-mobilv1.jpg)
+![WireframeLanding-Movilv2](/assets/WLandinpage-mobilv2.jpg)
 ### 4.3.2. Landing Page Mock-up.
+![MockupLanding-Deskopt](/assets/Landinpage-Deskop.jpg)
+![MockupLanding-Laptop](/assets/Landinpage-Laptop.jpg)
+![MockupLanding-Tablet](/assets/Landinpage-Laptop-tablet.jpg)
+![MockupLanding-Movilv1](/assets/Landinpage-mobilv1.jpg)
+![MockupLanding-Movilv2](/assets/Landinpage-movilv2.jpg)
 ## 4.4. Web Applications UX/UI Design.
+Presentamos los primeros diseños de la Web Aplication en UI.
 ### 4.4.1. Web Applications Wireframes.
+![MockupLanding-Movilv2](/assets/Landinpage-movilv2.jpg)
+
 ### 4.4.2. Web Applications Wireflow Diagrams.
 ### 4.4.2. Web Applications Mock-ups.
+
 ### 4.4.3. Web Applications User Flow Diagrams.
 ## 4.5. Web Applications Prototyping.
 ## 4.6. Domain-Driven Software Architecture.
