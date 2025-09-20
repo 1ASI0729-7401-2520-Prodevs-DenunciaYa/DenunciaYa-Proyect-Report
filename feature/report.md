@@ -1034,6 +1034,10 @@ A continuación, se presenta el diagrama de contenedores para el sistema Denunci
 
 ### 4.6.4. Software Architecture Components Diagrams.
 
+A continuación, se presenta el diagrama de componentes para el sistema DenunciaYa. Este nivel muestra los Bounded Contexts definidos dentro de la API Application, cada uno con responsabilidades específicas orientadas a los segmentos objetivos. Se incluyen la gestión de autenticación y cuentas, la creación y el seguimiento de denuncias, los paneles de análisis para autoridades, la interacción social en la comunidad y el directorio de recursos y contactos. Este diagrama refleja cómo los componentes se integran con la base de datos y con la SPA para dar soporte a los principales flujos del sistema.
+
+![components.png](../assets/components.png)
+
 ## 4.7. Software Object-Oriented Design.
 ### 4.7.1. Class Diagrams.
 ## 4.8. Database Design.
