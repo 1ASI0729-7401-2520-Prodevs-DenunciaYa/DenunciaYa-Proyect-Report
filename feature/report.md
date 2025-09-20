@@ -734,7 +734,33 @@ Presentamos los primeros diseños de la Web Aplication en UI.
 - **Design System:** Reutilización de componentes de formularios.  
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
-### 4.4.2. Web Applications Mock-ups.
+
+User goal: Creación de quejas
+
+![Creación de quejas.PNG](../assets/Creaci%C3%B3n%20de%20quejas.PNG)
+
+User goal: Directorio de recursos y contactos
+
+![Directorio de recursos y contactos.PNG](../assets/Directorio%20de%20recursos%20y%20contactos.PNG)
+
+User goal: Historial de seguimiento de quejas
+
+![Historial de seguimiento de quejas.PNG](../assets/Historial%20de%20seguimiento%20de%20quejas.PNG)
+
+User goal: Panel de autoridades
+
+![Panel de autoridades.PNG](../assets/Panel%20de%20autoridades.PNG)
+
+User goal: Authentication y gestión de cuentas
+
+![Authentication y gestión de cuentas.PNG](../assets/Authentication%20y%20gesti%C3%B3n%20de%20cuentas.PNG)
+
+User goal: Comunidad
+
+![Comunidad.PNG](../assets/Comunidad.PNG)
+
+### 4.4.3. Web Applications Mock-ups.
+
 ---
 
 ##  Pantalla de Login  
