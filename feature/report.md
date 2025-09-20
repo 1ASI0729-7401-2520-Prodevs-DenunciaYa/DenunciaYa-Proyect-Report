@@ -882,6 +882,36 @@ Presentamos los primeros diseños de la Web Aplication en UI.
 
 ### 4.4.3. Web Applications User Flow Diagrams.
 ## 4.5. Web Applications Prototyping.
+
+En esta sección se muestran los prototipos de la aplicación web DenunciaYa. Estos prototipos funcionan como representaciones interactivas que permiten a los usuarios visualizar y probar la interfaz antes de su implementación definitiva. Ofrecen una comprensión clara sobre la navegación, la organización de los elementos y las principales funcionalidades de la aplicación.
+
+Módulos principales:
+
+- Mis Denuncias – Sección destinada a la visualización y gestión de las denuncias registradas.
+
+- Denunciar Ahora – Funcionalidad para la creación y envío de nuevas denuncias.
+
+- Notificaciones – Módulo encargado de la gestión de alertas y actualizaciones de la aplicación.
+
+- Ayuda y Soporte – Apartado con preguntas frecuentes y canales de contacto con el equipo de soporte.
+
+- Directorio – Espacio que centraliza información y recursos relacionados con las denuncias.
+
+- Comunidad – Sección orientada a la interacción entre usuarios mediante publicaciones y comunicación constante.
+
+![proto1.jpeg](../assets/proto1.jpeg)
+![proto2.jpeg](../assets/proto2.jpeg)
+
+
+**Link del prototipo:** https://acortar.link/sb0GMy
+
+#### Exposicion del prototipo 
+
+A continuación, se presentará un video que expone el prototipo de DenunciaYa. En él se explicará en detalle cada una de las opciones del prototipo y cómo estas se implementarán en la aplicación frontend.
+
+![miniaturaProto.png](../assets/miniaturaProto.png)
+
+**Link del video:** https://acortar.link/IFlkZq
 ## 4.6. Domain-Driven Software Architecture.
 ### 4.6.1. Design-Level Event Storming.
 ### 4.6.2. Software Architecture Context Diagram.
