@@ -1013,6 +1013,13 @@ link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202214214_upc
 
 ## 4.6. Domain-Driven Software Architecture.
 ### 4.6.1. Design-Level Event Storming.
+
+En esta sección se presenta el Design-Level EventStorming realizado para DenunciaYa. A través de esta actividad se identificaron con mayor detalle los eventos de dominio, comandos, actores, agregados, vistas y procesos de negocio que conforman cada Bounded Context. El resultado permite visualizar de forma clara la dinámica interna de cada contexto y cómo se relacionan entre sí, facilitando un entendimiento más profundo del dominio.
+
+![DesignEventStorming.jpeg](../assets/DesignEventStorming.jpeg)
+
+**Link del miro: https://acortar.link/eh5Gx6**
+
 ### 4.6.2. Software Architecture Context Diagram.
 
 A continuación, se presenta el diagrama de contexto para el sistema DenunciaYa. Este nivel muestra cómo la plataforma se relaciona con los segmentos objetivos principales: los ciudadanos, que reportan incidencias urbanas y actos de corrupción, y las autoridades municipales, que gestionan dichos reportes. También se ilustra la interacción entre los usuarios y el sistema a través de la aplicación web
