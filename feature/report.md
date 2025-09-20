@@ -735,27 +735,45 @@ Presentamos los primeros diseños de la Web Aplication en UI.
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
 
-User goal: Creación de quejas
+### User goal: Creación de quejas
+
+#### Happy path:
 
 ![Creación de quejas.PNG](../assets/Creaci%C3%B3n%20de%20quejas.PNG)
 
-User goal: Directorio de recursos y contactos
+#### Unhappy path:
+
+![unhappy Creación de quejas.PNG](../assets/unhappy%20Creaci%C3%B3n%20de%20quejas.PNG)
+
+### User goal: Directorio de recursos y contactos
 
 ![Directorio de recursos y contactos.PNG](../assets/Directorio%20de%20recursos%20y%20contactos.PNG)
 
-User goal: Historial de seguimiento de quejas
+### User goal: Historial de seguimiento de quejas
 
 ![Historial de seguimiento de quejas.PNG](../assets/Historial%20de%20seguimiento%20de%20quejas.PNG)
 
-User goal: Panel de autoridades
+### User goal: Panel de autoridades
+
+#### Happy path:
 
 ![Panel de autoridades.PNG](../assets/Panel%20de%20autoridades.PNG)
 
-User goal: Authentication y gestión de cuentas
+#### Unhappy path:
+
+![unhappy Panel de autoridades.PNG](../assets/unhappy%20Panel%20de%20autoridades.PNG)
+
+### User goal: Authentication y gestión de cuentas
+
+#### Happy path:
 
 ![Authentication y gestión de cuentas.PNG](../assets/Authentication%20y%20gesti%C3%B3n%20de%20cuentas.PNG)
 
-User goal: Comunidad
+#### Unhappy path:
+
+![unhappy Authentication y gestión de cuentas.PNG](../assets/unhappy%20Authentication%20y%20gesti%C3%B3n%20de%20cuentas.PNG)
+
+### User goal: Comunidad
 
 ![Comunidad.PNG](../assets/Comunidad.PNG)
 
@@ -904,9 +922,52 @@ User goal: Comunidad
 - **Elementos de diseño:** Íconos de estado, botones de acción.  
 - **Diseño inclusivo:** Texto alternativo en imágenes y colores con suficiente contraste.  
 - **Arquitectura de información:** Detalle individual en la parte superior, información complementaria en secciones inferiores.  
-- **Design System:** Reutilización de componentes de  formularios.  
+- **Design System:** Reutilización de componentes de formularios.
 
-### 4.4.3. Web Applications User Flow Diagrams.
+### 4.4.4. Web Applications User Flow Diagrams
+
+### User goal: Creación de quejas
+
+#### Happy path:
+
+![m_Creación de quejas.PNG](../assets/m_Creaci%C3%B3n%20de%20quejas.PNG)
+
+#### Unhappy path:
+
+![m_Creación de quejas_un.PNG](../assets/m_Creaci%C3%B3n%20de%20quejas_un.PNG)
+
+### User goal: Directorio de recursos y contactos
+
+![m_Directorio de recursos y contactos.PNG](../assets/m_Directorio%20de%20recursos%20y%20contactos.PNG)
+
+### User goal: Historial de seguimiento de quejas
+
+![m_Historial de seguimiento de quejas.PNG](../assets/m_Historial%20de%20seguimiento%20de%20quejas.PNG)
+
+### User goal: Panel de autoridades
+
+#### Happy path:
+
+![m_Panel de autoridades.PNG](../assets/m_Panel%20de%20autoridades.PNG)
+
+#### Unhappy path:
+
+![m_Panel de autoridades_un.PNG](../assets/m_Panel%20de%20autoridades_un.PNG)
+
+### User goal: Authentication y gestión de cuentas
+
+#### Happy path:
+
+![m_Authentication y gestión de cuentas.PNG](../assets/m_Authentication%20y%20gesti%C3%B3n%20de%20cuentas.PNG)
+
+#### Unhappy path:
+
+![m_Authentication y gestión de cuentas_un.PNG](../assets/m_Authentication%20y%20gesti%C3%B3n%20de%20cuentas_un.PNG)
+
+### User goal: Comunidad
+
+![m_Comunidad.PNG](../assets/m_Comunidad.PNG)
+
 ## 4.5. Web Applications Prototyping.
 
 En esta sección se muestran los prototipos de la aplicación web DenunciaYa. Estos prototipos funcionan como representaciones interactivas que permiten a los usuarios visualizar y probar la interfaz antes de su implementación definitiva. Ofrecen una comprensión clara sobre la navegación, la organización de los elementos y las principales funcionalidades de la aplicación.
