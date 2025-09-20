@@ -433,7 +433,7 @@ La organización de la información en DenunciaYa aplica distintos sistemas (jer
 
 ### 4.2.2. Labeling Systems
 
-El sistema de etiquetado prioriza **brevedad, consistencia, accesibilidad y claridad**. Se empleará español neutral (ES), lenguaje en **sentence case** (mayúscula sólo en la primera palabra salvo nombres propios), y un máximo recomendado de **1–2 palabras** en la mayor parte de botones y menús. Se define además una lista completa de etiquetas clave y reglas de microcopy.
+El sistema de etiquetado prioriza **brevedad, consistencia, accesibilidad y claridad**. Se empleará ingles neutral (EN), lenguaje en **sentence case** (mayúscula sólo en la primera palabra salvo nombres propios), y un máximo recomendado de **1–2 palabras** en la mayor parte de botones y menús. Se define además una lista completa de etiquetas clave y reglas de microcopy.
 
 #### Reglas generales de etiquetado
 - Idioma: **Ingles (en-US)** por defecto, luego sera cambiado por internacionalizacion.  
@@ -662,7 +662,7 @@ Presentamos los primeros diseños de la Web Aplication en UI.
 ![DetallesDenuncia](/assets/WireframeDetalleDenuncia.jpg)  
 
 **Explicación**  
-- **Principios de diseño:** Línea de tiempo vertical con estados en orden cronológico.  
+- **Principios de diseño:** Línea de tiempo horizontal con estados en orden cronológico.  
 - **Elementos de diseño:** Íconos de estado, colores diferenciados.  
 - **Diseño inclusivo:** Texto acompañando a cada ícono para claridad.  
 - **Arquitectura de información:** Organización secuencial que refleja el progreso.  
@@ -734,7 +734,51 @@ Presentamos los primeros diseños de la Web Aplication en UI.
 - **Design System:** Reutilización de componentes de formularios.  
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
-### 4.4.2. Web Applications Mock-ups.
+
+### User goal: Creación de quejas
+
+#### Happy path:
+
+![Creación de quejas.PNG](../assets/Creaci%C3%B3n%20de%20quejas.PNG)
+
+#### Unhappy path:
+
+![unhappy Creación de quejas.PNG](../assets/unhappy%20Creaci%C3%B3n%20de%20quejas.PNG)
+
+### User goal: Directorio de recursos y contactos
+
+![Directorio de recursos y contactos.PNG](../assets/Directorio%20de%20recursos%20y%20contactos.PNG)
+
+### User goal: Historial de seguimiento de quejas
+
+![Historial de seguimiento de quejas.PNG](../assets/Historial%20de%20seguimiento%20de%20quejas.PNG)
+
+### User goal: Panel de autoridades
+
+#### Happy path:
+
+![Panel de autoridades.PNG](../assets/Panel%20de%20autoridades.PNG)
+
+#### Unhappy path:
+
+![unhappy Panel de autoridades.PNG](../assets/unhappy%20Panel%20de%20autoridades.PNG)
+
+### User goal: Authentication y gestión de cuentas
+
+#### Happy path:
+
+![Authentication y gestión de cuentas.PNG](../assets/Authentication%20y%20gesti%C3%B3n%20de%20cuentas.PNG)
+
+#### Unhappy path:
+
+![unhappy Authentication y gestión de cuentas.PNG](../assets/unhappy%20Authentication%20y%20gesti%C3%B3n%20de%20cuentas.PNG)
+
+### User goal: Comunidad
+
+![Comunidad.PNG](../assets/Comunidad.PNG)
+
+### 4.4.3. Web Applications Mock-ups.
+
 ---
 
 ##  Pantalla de Login  
@@ -806,7 +850,7 @@ Presentamos los primeros diseños de la Web Aplication en UI.
 ![DenunciarAhora](/assets/DetallesDenunciaAutoridad.jpg)
 
 **Explicación**  
-- **Principios de diseño:** Línea de tiempo vertical con estados en orden cronológico.  
+- **Principios de diseño:** Línea de tiempo horizontal con estados en orden cronológico.  
 - **Elementos de diseño:** Íconos de estado, colores diferenciados.  
 - **Diseño inclusivo:** Texto acompañando a cada ícono para claridad.  
 - **Arquitectura de información:** Organización secuencial que refleja el progreso.  
@@ -878,9 +922,52 @@ Presentamos los primeros diseños de la Web Aplication en UI.
 - **Elementos de diseño:** Íconos de estado, botones de acción.  
 - **Diseño inclusivo:** Texto alternativo en imágenes y colores con suficiente contraste.  
 - **Arquitectura de información:** Detalle individual en la parte superior, información complementaria en secciones inferiores.  
-- **Design System:** Reutilización de componentes de  formularios.  
+- **Design System:** Reutilización de componentes de formularios.
 
-### 4.4.3. Web Applications User Flow Diagrams.
+### 4.4.4. Web Applications User Flow Diagrams
+
+### User goal: Creación de quejas
+
+#### Happy path:
+
+![m_Creación de quejas.PNG](../assets/m_Creaci%C3%B3n%20de%20quejas.PNG)
+
+#### Unhappy path:
+
+![m_Creación de quejas_un.PNG](../assets/m_Creaci%C3%B3n%20de%20quejas_un.PNG)
+
+### User goal: Directorio de recursos y contactos
+
+![m_Directorio de recursos y contactos.PNG](../assets/m_Directorio%20de%20recursos%20y%20contactos.PNG)
+
+### User goal: Historial de seguimiento de quejas
+
+![m_Historial de seguimiento de quejas.PNG](../assets/m_Historial%20de%20seguimiento%20de%20quejas.PNG)
+
+### User goal: Panel de autoridades
+
+#### Happy path:
+
+![m_Panel de autoridades.PNG](../assets/m_Panel%20de%20autoridades.PNG)
+
+#### Unhappy path:
+
+![m_Panel de autoridades_un.PNG](../assets/m_Panel%20de%20autoridades_un.PNG)
+
+### User goal: Authentication y gestión de cuentas
+
+#### Happy path:
+
+![m_Authentication y gestión de cuentas.PNG](../assets/m_Authentication%20y%20gesti%C3%B3n%20de%20cuentas.PNG)
+
+#### Unhappy path:
+
+![m_Authentication y gestión de cuentas_un.PNG](../assets/m_Authentication%20y%20gesti%C3%B3n%20de%20cuentas_un.PNG)
+
+### User goal: Comunidad
+
+![m_Comunidad.PNG](../assets/m_Comunidad.PNG)
+
 ## 4.5. Web Applications Prototyping.
 
 En esta sección se muestran los prototipos de la aplicación web DenunciaYa. Estos prototipos funcionan como representaciones interactivas que permiten a los usuarios visualizar y probar la interfaz antes de su implementación definitiva. Ofrecen una comprensión clara sobre la navegación, la organización de los elementos y las principales funcionalidades de la aplicación.
@@ -912,6 +999,18 @@ A continuación, se presentará un video que expone el prototipo de DenunciaYa. 
 ![miniaturaProto.png](../assets/miniaturaProto.png)
 
 **Link del video:** https://acortar.link/IFlkZq
+
+
+
+Web Aplication Prototyping Web Broswer Mobile 
+
+![Web Aplication Prototyping Web Broswer Mobile ](/assets/PrototypingMobileBrowser.png)
+
+link del Web Broswer Mobile en figma: https://www.figma.com/proto/ZoYnEmqqHBoCxPxLuVJJsg/DenunciaYa--Figma?node-id=187-13524&p=f&t=OaYMeQfkVqIwWOwI-0&scaling=scale-down&content-scaling=fixed&page-id=4%3A2390&starting-point-node-id=187%3A13524&show-proto-sidebar=1
+
+
+link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202214214_upc_edu_pe/EcOYs3tWsYlAn8AZg2On-S4BEbvQwjJU5MeJHtJeR29Umg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=MYOiXr
+
 ## 4.6. Domain-Driven Software Architecture.
 ### 4.6.1. Design-Level Event Storming.
 ### 4.6.2. Software Architecture Context Diagram.
