@@ -358,6 +358,10 @@ Elaborar estrategias y tácticas sólidas para competir de manera efectiva exige
 ![Carolina Méndez Empathy map.png](../assets/Carolina%20M%C3%A9ndez%20Empathy%20map.png)
 
 ## 2.4. Big Picture Event Storming.
+
+A continuación, se presenta el Big Picture Event Storming realizado para el sistema DenunciaYa. Esta representación visual permite identificar los eventos más relevantes del dominio, mostrando de manera colaborativa cómo los segmentos objetivos interactúan con la plataforma en distintos procesos, como la creación de denuncias, gestión de cuentas, publicación de contenido, recepción de notificaciones y personalización de la experiencia. Este primer nivel de exploración brinda una visión general del negocio, resaltando los procesos clave y posibles áreas de mejora u oportunidad.
+
+![BigPictureEventStorming.jpg](../assets/BigPictureEventStorming.jpg)
 ## 2.5. Ubiquitous Language.
 # Capítulo III: Requirements Specification
 ## 3.1. User Stories.
