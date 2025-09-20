@@ -356,6 +356,20 @@ Para los ciudadanos, el producto debe verse como una interfaz simple, limpia e i
 ![leanCanvas.jpeg](../assets/leanCanvas.jpeg)
 
 ## 1.3. Segmentos objetivo.
+
+1. Ciudadanos Urbanos Digitalmente Activos:
+- Descripción: Este segmento incluye a personas cívicamente conscientes que residen en zonas urbanas, usan smartphones de forma habitual y desean un canal efectivo para reportar problemas que afectan a su comunidad.
+Sexo: Masculino y femenino
+- Edades: Adultos jóvenes (18-34 años), adultos de mediana edad (35-54 años) y adultos mayores (55+)
+- Nivel socioeconómico: Clases B y C (Media-alta y media)
+- Necesidades por satisfacer: La plataforma permite a estos usuarios superar la frustración y la desconfianza hacia las instituciones, ofreciendo un canal directo, rápido y seguro para ser escuchados. Satisface la necesidad de anonimato para evitar represalias, ahorra tiempo al eliminar procesos burocráticos y brinda certeza mediante notificaciones de seguimiento, empoderando al ciudadano para que participe activamente en la mejora de su entorno.
+2. Entidades Gubernamentales y Autoridades Municipales:
+- Descripción: El siguiente segmento incluye a las administraciones públicas y los funcionarios responsables de la gestión de servicios urbanos, obras públicas y participación ciudadana que buscan modernizar sus procesos y mejorar su capacidad de respuesta.
+- Sexo: Masculino y Femenino
+- Edades: Adultos jóvenes (18-34 años), Adultos de mediana edad (35 - 54) y adultos mayores (55+)
+- Nivel socioeconómico: Clases B y C (Media-alta y media)
+- Necesidades por satisfacer: Apoyar con el manejo de datos centralizados que se generan al momento en que los ciudadanos reportan incidencias. La plataforma ordena y prioriza los problemas, permitiendo tomar decisiones basadas en evidencia y optimizar el uso de recursos limitados. Además, promueve la transparencia y acelera los procesos de gestión, mejorando la percepción pública y la eficiencia interna de la administración.
+
 # Capítulo II: Requirements Elicitation & Analysis
 ## 2.1. Competidores.
 ### 2.1.1. Análisis competitivo.
