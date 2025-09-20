@@ -1018,7 +1018,12 @@ link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202214214_upc
 A continuación, se presenta el diagrama de contexto para el sistema DenunciaYa. Este nivel muestra cómo la plataforma se relaciona con los segmentos objetivos principales: los ciudadanos, que reportan incidencias urbanas y actos de corrupción, y las autoridades municipales, que gestionan dichos reportes. También se ilustra la interacción entre los usuarios y el sistema a través de la aplicación web
 
 ![context.png](../assets/context.png)
+
 ### 4.6.3. Software Architecture Container Diagrams.
+
+A continuación, se presenta el diagrama de contenedores para el sistema DenunciaYa. Este nivel muestra los principales elementos de software que conforman la solución y cómo se relacionan entre sí para ofrecer la experiencia completa a los segmentos objetivos. La aplicación web entrega la interfaz y los recursos estáticos, mientras que la Single Page Application, desarrollada con Angular, proporciona la funcionalidad para ciudadanos y municipios directamente en el navegador. La API Application, implementada con Spring Boot, concentra la lógica de negocio y expone servicios REST para la gestión de denuncias, usuarios, comunidad y paneles de control. Finalmente, la base de datos, implementada en MySQL, almacena la información esencial como denuncias, perfiles, evidencias y datos de gestión municipal.
+
+![container.png](../assets/container.png)
 
 ### 4.6.4. Software Architecture Components Diagrams.
 
