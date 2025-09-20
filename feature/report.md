@@ -662,7 +662,7 @@ Presentamos los primeros diseños de la Web Aplication en UI.
 ![DetallesDenuncia](/assets/WireframeDetalleDenuncia.jpg)  
 
 **Explicación**  
-- **Principios de diseño:** Línea de tiempo vertical con estados en orden cronológico.  
+- **Principios de diseño:** Línea de tiempo horizontal con estados en orden cronológico.  
 - **Elementos de diseño:** Íconos de estado, colores diferenciados.  
 - **Diseño inclusivo:** Texto acompañando a cada ícono para claridad.  
 - **Arquitectura de información:** Organización secuencial que refleja el progreso.  
@@ -806,7 +806,7 @@ Presentamos los primeros diseños de la Web Aplication en UI.
 ![DenunciarAhora](/assets/DetallesDenunciaAutoridad.jpg)
 
 **Explicación**  
-- **Principios de diseño:** Línea de tiempo vertical con estados en orden cronológico.  
+- **Principios de diseño:** Línea de tiempo horizontal con estados en orden cronológico.  
 - **Elementos de diseño:** Íconos de estado, colores diferenciados.  
 - **Diseño inclusivo:** Texto acompañando a cada ícono para claridad.  
 - **Arquitectura de información:** Organización secuencial que refleja el progreso.  
