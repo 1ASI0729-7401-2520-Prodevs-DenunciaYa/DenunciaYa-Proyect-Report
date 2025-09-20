@@ -433,7 +433,7 @@ La organización de la información en DenunciaYa aplica distintos sistemas (jer
 
 ### 4.2.2. Labeling Systems
 
-El sistema de etiquetado prioriza **brevedad, consistencia, accesibilidad y claridad**. Se empleará español neutral (ES), lenguaje en **sentence case** (mayúscula sólo en la primera palabra salvo nombres propios), y un máximo recomendado de **1–2 palabras** en la mayor parte de botones y menús. Se define además una lista completa de etiquetas clave y reglas de microcopy.
+El sistema de etiquetado prioriza **brevedad, consistencia, accesibilidad y claridad**. Se empleará ingles neutral (EN), lenguaje en **sentence case** (mayúscula sólo en la primera palabra salvo nombres propios), y un máximo recomendado de **1–2 palabras** en la mayor parte de botones y menús. Se define además una lista completa de etiquetas clave y reglas de microcopy.
 
 #### Reglas generales de etiquetado
 - Idioma: **Ingles (en-US)** por defecto, luego sera cambiado por internacionalizacion.  
