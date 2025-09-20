@@ -206,15 +206,166 @@
 ### 4.7.1. Class Diagrams.
 ## 4.8. Database Design.
 ### 4.8.1. Database Diagrams.
+
 # Capítulo V: Product Implementation, Validation & Deployment.
+
+En este capítulo se detallará la implementación del producto, la validación y la configuración de despliegue del
+software.
+
 ## 5.1. Software Configuration Management.
+
+En este apartado, se detallan las herramientas y configuraciones empleadas para mantener la consistencia y organización
+del entorno de desarrollo durante el ciclo de vida del proyecto. La gestión de la configuración del software es crucial
+para asegurar que todos los miembros del equipo trabajan de manera coordinada, utilizando las mismas versiones de
+herramientas y respetando las convenciones establecidas. Esta sección abarca desde la configuración del entorno de
+desarrollo hasta la gestión del código fuente y el despliegue de la solución.
+
 ### 5.1.1. Software Development Environment Configuration.
+#### Project Management
+**Discord:**<br>
+Discord ha sido la herramienta principal de comunicación y coordinación del equipo. Se ha utilizado para realizar reuniones virtuales, mantener discusiones continuas sobre el progreso del proyecto, y para compartir recursos y actualizaciones de forma eficiente.<br>
+**Ruta de referencia:** www.discord.com/
+
+**Trello:**<br>
+Trello se ha para la gestión del proyecto, permitiendo la visualización y actualización del estado de tareas y sprints en los que trabaja el equipo. Aunque su uso ha sido ocasional, ha proporcionado una estructura básica para el seguimiento de actividades.
+<br> **Ruta de referencia:** https://trello.com/invite/b/68c01f0af7dc026747b717e0/ATTId2a59168991076607501cc44ce36c36889169CFD/prodevs
+
+**Product UX/UI Design**<br>
+Para la elaboración de la interfaz de usuario y la experiencia de usuario, se emplearán las siguientes herramientas:
+
+- **Figma:**<br> Una plataforma colaborativa de diseño que permite la creación de wireframes, mock-ups y prototipos interactivos. Será utilizada para diseñar tanto las interfaces de usuario como los flujos de interacción de la aplicación.
+- LucidChart: Herramienta de diagramación en línea que será utilizada para la elaboración de wireflows y user flows, facilitando la visualización y planificación de las interacciones y navegaciones dentro de la aplicación.
+
+**Rutas de referencia:**<br>
+- https://www.figma.com/design/ZoYnEmqqHBoCxPxLuVJJsg/DenunciaYa--Figma?node-id=0-1&t=Y8rN524Bxh5u0uG8-1
+- www.lucidchart.com/
+
+**Software Development**<br>
+Para el desarrollo del software, se han seleccionado las siguientes herramientas y tecnologías, con el fin de proporcionar un entorno robusto y eficiente para el desarrollo del proyecto:
+
+- **WebStorm:**<br> Un entorno de desarrollo integrado (IDE) potente y completo, que ofrece herramientas avanzadas para el desarrollo de aplicaciones. Será utilizado para escribir, depurar y gestionar el código del proyecto, aprovechando sus características de soporte para múltiples lenguajes y sistemas de control de versiones.
+- **HTML5:**<br> El lenguaje estándar de marcado para la creación de páginas web. Será empleado en el desarrollo del frontend de la aplicación, estructurando el contenido de manera semántica y accesible.
+- **CSS:**<br> Hojas de estilo en cascada utilizadas para diseñar y estilizar la presentación visual de la aplicación web. Permitirá definir el diseño responsivo y adaptativo del frontend.
+- **TypeScript:**<br> Un superconjunto tipado de JavaScript que proporciona una mayor seguridad y productividad en el desarrollo de aplicaciones web. Será utilizado en el frontend para mejorar la calidad y mantenibilidad del código.
+- **Angular:**<br> Un framework de desarrollo de aplicaciones web de código abierto, mantenido por Google. Será utilizado para la creación del frontend de la aplicación, aprovechando su estructura modular y su capacidad de creación de componentes reutilizables.
+- **Java:** <br> Un lenguaje de programación orientado a objetos, ampliamente utilizado para el desarrollo de aplicaciones backend. Será empleado para la lógica del servidor y la gestión de datos.
+- **Spring Boot:**<br> Un framework basado en Java que facilita la creación de aplicaciones independientes y de producción. Será utilizado para desarrollar el backend de la aplicación, proporcionando una configuración simplificada y una integración fluida con bases de datos y servicios web.
+
+**Rutas de referencia:**<br>
+
+- www.jetbrains.com/webstorm/
+- https://www.w3schools.com/html/html5_syntax.asp
+- https://google.github.io/styleguide/htmlcssguide.html
+- www.typescriptlang.org/
+- https://angular.dev/style-guide
+- https://google.github.io/styleguide/javaguide.html
+
+**Software Deployment**
+
+En esta sección, se detallan las herramientas y plataformas utilizadas para el despliegue de las aplicaciones desarrolladas, garantizando que estén accesibles y operativas en el entorno de producción.
+
+- **GitHub Pages:**<br>Un servicio de alojamiento web estático que se integra con los repositorios de GitHub. Será utilizado para desplegar la landing page del proyecto, proporcionando un enlace accesible para los usuarios finales. 
+<br>**Rutas de referencia:**
+  https://docs.github.com/es/pages
+
+**Software Documentation**
+
+En esta sección, se especifican las herramientas utilizadas para la documentación del software, proporcionando un registro detallado de los aspectos técnicos y funcionales del proyecto.
+
+- **GitHub:** Además de servir como plataforma para el control de versiones y la colaboración en el código, GitHub también se utiliza para alojar la documentación del proyecto. Los miembros del equipo pueden acceder y actualizar la documentación a través de los repositorios del proyecto.
+<br>**Ruta de referencia:**
+  https://github.com/orgs/1ASI0729-7401-2520-Prodevs-DenunciaYa/repositories
+
 ### 5.1.2. Source Code Management.
+El equipo utilizará GitHub como plataforma principal para el control de versiones, implementando el modelo GitFlow. A continuación, se describen los medios y el esquema de organización que se aplicarán para el seguimiento de modificaciones:
+
+**Repositorios de GitHub**
+- Landing Page: https://github.com/1ASI0729-7401-2520-Prodevs-DenunciaYa/DenunciaYa-Landing-Page
+- Project Report: https://github.com/1ASI0729-7401-2520-Prodevs-DenunciaYa/DenunciaYa-Proyect-Report
+- Front-end:
+- Back-end:
+
+Cada repositorio alojará el código fuente correspondiente a su respectivo producto.
+
+**Implementación de GitFlow**
+
+Se implementará el modelo GitFlow para el control de versiones, siguiendo las convenciones establecidas por Vincent Driessen en su artículo "A successful Git branching model". El esquema de ramas incluirá:
+
+- **Main branch:** La rama principal donde se alojarán las versiones estables del proyecto.
+- **Develop branch:** Rama de desarrollo donde se integran las nuevas funcionalidades antes de pasar a la rama principal.
+- **Feature branches:** Cada nueva característica o capítulo desarrollado por el equipo se trabajará en una rama específica. Las convenciones para nombrar estas ramas seguirán un patrón descriptivo, por ejemplo, feat/chapter-5.
+- **Release branches:** Ramas destinadas a preparar una nueva versión para el lanzamiento, siguiendo el esquema de versionado semántico.
+- **Hotfix branches:** Ramas para corregir errores críticos en versiones ya lanzadas, aplicando convenciones similares a las usadas en las Release branches.
+
+**Conventional Commits**
+
+El equipo aplicará las convenciones de Conventional Commits para los mensajes de commit, asegurando que cada cambio en el código sea fácilmente comprensible y rastreable. Los mensajes seguirán la estructura:
+
+- **tipo(scope):** mensaje
+- **Tipo:** indica la naturaleza del cambio (e.g., feat, fix, chore).
+- **Scope:** define la sección del código afectada (e.g., ui, backend).
+- **Mensaje:** descripción concisa del cambio realizado.
 ### 5.1.3. Source Code Style Guide & Conventions.
+**HTML**
+- **Estructura del Documento:** Declara el tipo de documento en la primera línea: `<!DOCTYPE html>`. Usa una estructura de etiqueta HTML válida: `<html>`, `<head>`, `<body>`. Cierra todos los elementos HTML: `<p>Texto</p>.`
+- **Comentarios:** Escribe comentarios en una sola línea cuando sean cortos. Usa comentarios para secciones importantes: `<!-- Inicio de la sección de navegación -->`.
+- **Atributos:** Usa comillas dobles para los valores de los atributos: `<img src="imagen.jpg" alt="Descripción">`. Especifica siempre los atributos alt y las dimensiones width y height en las imágenes.
+- **Indentación y Espaciado:** Usa dos espacios para la indentación. No uses espacios alrededor de los signos de igual en los atributos.
+
+**CSS**
+- **Indentación y Espaciado:** Usa dos espacios para la indentación; no uses tabulaciones. El código CSS debe estar en minúsculas.
+- **Comentarios:** Usa comentarios para explicar secciones complejas del código.
+- **Nombres de Clases:** Utiliza nombres de clase significativos que reflejen el propósito del elemento. Evita los nombres de clases genéricos como .box o .container.
+- **Organización:** Agrupa las reglas CSS relacionadas en un solo bloque.
+
+**JavaScript**
+- **Indentación y Espaciado:** Usa dos espacios para la indentación. Mantén un espacio después de las comas y antes de los corchetes de apertura.
+- **Comentarios:** Usa comentarios para explicar la lógica del código, especialmente en bloques complejos.
+- **Nombres de Variables y Funciones:** Usa nombres descriptivos y en camelCase para variables y funciones. Por ejemplo, getUserInfo en lugar de getuserinfo.
+- **Estructura del Código:** Usa funciones y módulos para mantener el código organizado y reutilizable. Evita el uso de código no utilizado y realiza limpieza regularmente.
+
+**TypeScript**
+- **Indentación y Espaciado:** Usa dos espacios para la indentación. Sigue el formato recomendado por el estándar TypeScript.
+- **Comentarios:** Usa comentarios para describir el propósito de las funciones y las interfaces.
+- **Nombres de Variables y Funciones:** Usa camelCase para variables y funciones. Usa PascalCase para nombres de clases e interfaces.
+- **Tipos:** Especifica tipos explícitos en las variables y las funciones para mayor claridad y seguridad de tipo.
+
+**Java**
+- **Indentación y Espaciado:** Usa cuatro espacios para la indentación. Sigue las convenciones de espaciado estándar en el código Java.
+- **Comentarios:** Usa comentarios Javadoc para documentar clases y métodos.
+- **Nombres de Variables y Funciones:** Usa camelCase para nombres de variables y métodos. Usa PascalCase para nombres de clases.
+- **Organización del Código:** Sigue la estructura de paquetes recomendada y organiza el código en clases y métodos claros.
+
+**Gherkin (para archivos .feature)**
+- **Estructura de las Características:** Usa Feature, Scenario, Given, When, Then para estructurar los archivos .feature.
+- **Nombres y Descripciones:** Usa descripciones claras y concisas en inglés. Usa un formato de verbo en presente para los pasos del escenario.
 ### 5.1.4. Software Deployment Configuration.
+Para desplegar la landing page del proyecto, se utilizará GitHub Pages. A continuación se detallan los pasos necesarios para configurar y realizar el despliegue:
+1. Crear un repositorio en GitHub: Dentro de la organización "1ASI0729-7401-2520-Prodevs-DenunciaYa", se creará un nuevo repositorio llamado "DenunciaYa-Landing-Page".
+2. Subir el código fuente: El código fuente de la landing page se subirá al repositorio utilizando Git, siguiendo las convenciones de commits establecidas. La organización de los archivos tiene la carpeta docs que contiene las carpetas css, js e images, fuera de esta carpeta se encuentra el archivo index.html.
+3. Configurar GitHub Pages: En la configuración del repositorio, se habilitará GitHub Pages seleccionando la rama principal (main) y la carpeta raíz (root) como fuente de publicación.
+4. Acceder a la landing page: Una vez configurado, la landing page estará disponible en la URL proporcionada por GitHub Pages, que generalmente sigue el formato: `https://<username>.github.io/<repository-name>/`.
+5. Actualizaciones y mantenimiento: Cualquier cambio en el código fuente deberá ser subido al repositorio, y GitHub Pages actualizará automáticamente la landing page con la última versión del código.
 ## 5.2. Landing Page, Services & Applications Implementation.
+En esta sección, explicamos y documentamos el proceso de implementación, pruebas, documentación y despliegue de la Landing Page, Web Services y Frontend Web Applications. A medida que avanzamos en el desarrollo, desglosamos el trabajo en secciones específicas para cada Sprint, comenzando con el Sprint 1.
 ### 5.2.1. Sprint 1
+Es fundamental que el equipo dedique especial atención a la identificación del Sprint Goal, siguiendo las guías establecidas por el Scrum Guide. El Sprint Goal debe enfocarse en el negocio o en la perspectiva de los usuarios, buscando la entrega de un nuevo feature o un set de features.
+Para nuestro Sprint, utilizamos la estructura sugerida por Scrum.org para redactar el Sprint Goal.
 ### 5.2.1.1. Sprint Planning 1.
+En el Sprint #1, que comienza el 13/09/2025, nos enfocaremos en desarrollar una landing page para Denuncia-Ya. El objetivo es crear una página que no solo capte la atención de los visitantes, sino que también transmita claramente los beneficios de nuestro producto. Este sprint estará dedicado al diseño y desarrollo de la landing page para cumplir con nuestros objetivos estratégicos.
+
+| **Sprint #**                    | Sprint 1                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+|---------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Sprint Planning Background      |                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Date                            | 13/09/2025                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Time                            | 10:00-12:00                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Location                        | Virtual via discord                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Prepared By                     | Gabriel Anthony Braithuaite Toledo                                                                                                                                                                                                                                                                                                                                                                                                          |
+| Attendees (to planning meeting) | Gabriel Anthony Braithuaite Toledo, Omar Harold Rivera Ticllacuri, Gabriel Cristian Mamani Marca, Franco Diego Rioja Nuñez, Augusto Sebastian Montes Maza                                                                                                                                                                                                                                                                                   |
+| Sprint Goal & User Stories      |                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Sprint 1 Goal                   | **Our focus is on** delivering the first version of the Denuncia-Ya landing page to present the platform’s purpose and main functionalities.<br> **We believe it delivers** initial visibility and credibility to potential citizens and authorities interested in the platform. <br>**This will be confirmed when** visitors can access the landing page, understand the service offering, and navigate the basic sections without errors. |
+| Sprint 1 Velocity               | El equipo ha establecido una capacidad de 20 story points para este sprint, basándose en la experiencia previa y la complejidad de las tareas planificadas.                                                                                                                                                                                                                                                                                 |
+| Sum of Story Points             | 19                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 ### 5.2.1.2. Aspect Leaders and Collaborators.
 ### 5.2.1.3. Sprint Backlog 1.
 ### 5.2.1.4. Development Evidence for Sprint Review.
