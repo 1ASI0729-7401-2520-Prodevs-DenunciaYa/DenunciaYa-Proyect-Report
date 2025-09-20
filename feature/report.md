@@ -912,6 +912,18 @@ A continuación, se presentará un video que expone el prototipo de DenunciaYa. 
 ![miniaturaProto.png](../assets/miniaturaProto.png)
 
 **Link del video:** https://acortar.link/IFlkZq
+
+
+
+Web Aplication Prototyping Web Broswer Mobile 
+
+![Web Aplication Prototyping Web Broswer Mobile ](/assets/PrototypingMobileBrowser.png)
+
+link del Web Broswer Mobile en figma: https://www.figma.com/proto/ZoYnEmqqHBoCxPxLuVJJsg/DenunciaYa--Figma?node-id=187-13524&p=f&t=OaYMeQfkVqIwWOwI-0&scaling=scale-down&content-scaling=fixed&page-id=4%3A2390&starting-point-node-id=187%3A13524&show-proto-sidebar=1
+
+
+link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202214214_upc_edu_pe/EcOYs3tWsYlAn8AZg2On-S4BEbvQwjJU5MeJHtJeR29Umg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=MYOiXr
+
 ## 4.6. Domain-Driven Software Architecture.
 ### 4.6.1. Design-Level Event Storming.
 ### 4.6.2. Software Architecture Context Diagram.
