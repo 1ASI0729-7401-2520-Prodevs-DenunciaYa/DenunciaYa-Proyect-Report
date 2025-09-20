@@ -363,7 +363,7 @@ A continuación, se presenta el Big Picture Event Storming realizado para el sis
 
 ![BigPictureEventStorming.jpg](../assets/BigPictureEventStorming.jpg)
 
-**Link del figma:** https://acortar.link/eh5Gx6
+**Link del miro:** https://acortar.link/eh5Gx6
 ## 2.5. Ubiquitous Language.
 # Capítulo III: Requirements Specification
 ## 3.1. User Stories.
