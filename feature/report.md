@@ -347,6 +347,15 @@ Elaborar estrategias y tácticas sólidas para competir de manera efectiva exige
 |   Imaginar o investigar soluciones digitales que automaticen su trabajo.    | Baja           | Alta            |
 
 ### 2.3.3. User Journey Mapping.
+
+## Journey Map - Ciudadano
+
+![José Quispe journey map.png](../assets/Jos%C3%A9%20Quispe%20journey%20map.png)
+
+## Journey Map - Autoridad
+
+![Carolina Méndez journey map.png](../assets/Carolina%20M%C3%A9ndez%20journey%20map.png)
+
 ### 2.3.4. Empathy Mapping.
 
 ## Empathy map - Ciudadano
