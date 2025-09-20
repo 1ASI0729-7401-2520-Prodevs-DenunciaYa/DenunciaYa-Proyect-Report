@@ -172,7 +172,7 @@ Nuestra principal propuesta es **DenunciaYa**, una aplicación que permite a los
 |  ![GabrielMamani.png](../assets/Omar.jpeg)     |   Omar Harold Rivera Ticllacuri   | u202214214       |   Ingenieria de software      |    Soy estudiante de Ingeniería de Software, tengo 20 años y actualmente me encuentro en el sexto ciclo de mi carrera. Soy una persona con la cual tengo la disciplina y responsable para desarrollar proyectos de software y software de entretenimiento. Cuento con experiencia sobre el desarrollo de software de entretenimiento. Por ende, apoyaré al grupo en todo lo posible para poder desarrollar adecuadamente el trabajo y la propuesta que se nos asignó.	         |
 |      |      Franco Diego Rioja Nuñez     | u202221597       |         |             |
 |      | Gabriel Anthony Brabuaite Toledo  | U20201e889       |         |             |
-|      |   Augusto Sebastian Montes Maza   | u202218645       |         |             |
+|      |   Augusto Sebastian Montes Maza   | u202218645       |   Ingenieria de software      | Soy estudiante de Ingeniería de Software en sexto ciclo. Tengo una sólida formación en programación, análisis y diseño de sistemas, así como experiencia académica en el desarrollo de aplicaciones web y móviles, bases de datos y metodologías ágiles. Me destaco por mi capacidad de trabajo en equipo, pensamiento crítico y compromiso con la calidad del software, y busco aplicar mis habilidades para aportar soluciones innovadoras en proyectos tecnológicos.             |
 
 ### 1.2. Solution Profile
 **Product Name:** DenunciaYa
