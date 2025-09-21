@@ -599,15 +599,11 @@ A continuación, se presentan las evidencias de desarrollo que respaldan los log
 
 ### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 
-En este Sprint, el enfoque principal fue el desarrollo y despliegue de la landing page de Denuncia-Ya. No se
-implementaron Web Services en esta etapa, por lo que no se incluye documentación relacionada con endpoints o servicios
-web. La implementación y documentación de Web Services será abordada en Sprints futuros, conforme se expanda la
-funcionalidad del producto.
+En este Sprint, el enfoque principal del equipo se centró en el desarrollo y despliegue de la página de aterrizaje (landing page) de Denuncia-Ya. Este objetivo, cuidadosamente definido en la planificación, no incluyó la implementación de ningún servicio web ni de una API. Por lo tanto, no se generó ninguna documentación relacionada con la definición de endpoints, esquemas de datos o protocolos de comunicación. La arquitectura del proyecto en esta fase inicial se mantiene en una capa de presentación simple y estática. La implementación de la lógica de negocio y los servicios de backend se abordarán en Sprints futuros, una vez que se establezca una base sólida para el frontend. Esto asegura que el equipo se mantenga enfocado en los objetivos del sprint actual, evitando la dispersión de esfuerzos y optimizando la entrega de valor incremental.
 
 ### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 
-En este Sprint se llevó a cabo el despliegue de la primera versión de la Landing Page de DenunciaYa utilizando GitHub
-Pages. A continuación, se describen las actividades realizadas, así como la evidencia de cada paso:
+El despliegue exitoso de la primera versión de la Landing Page de Denuncia-Ya fue un hito crucial en este Sprint. Se utilizó GitHub Pages como la plataforma de alojamiento estático, una elección estratégica que capitalizó la integración nativa con nuestro sistema de control de versiones y simplificó el proceso de publicación. A continuación, se detalla el proceso paso a paso y la evidencia de su finalización.
 
 1. **Creación del repositorio**
     - Se creó el repositorio "DenunciaYa-Landing-Page" dentro de la organización 1ASI0729-7401-2520-Prodevs-DenunciaYa
@@ -638,10 +634,26 @@ Pages. A continuación, se describen las actividades realizadas, así como la ev
 
 ### 5.2.1.8. Team Collaboration Insights during Sprint.
 
-En este Sprint, el equipo trabajó colaborativamente en la implementación del Landing Page de DenunciaYa, siguiendo los
-roles definidos en el Leadership-and-Collaboration Matrix (LACX). El objetivo de esta sección es mostrar cómo se
-desarrollaron las actividades de implementación y evidenciar la colaboración a través de métricas de commits, pull
-requests y analíticas de GitHub.
+En este Sprint, el equipo demostró una colaboración efectiva y estructurada, adhiriéndose a los roles definidos en la Matriz de Liderazgo y Colaboración (LACX). El objetivo principal de esta sección es mostrar la evidencia de dicha colaboración, reflejada en la ejecución de las actividades de implementación y en las métricas de GitHub.
+
+Evidencia de la Colaboración en GitHub
+El repositorio de GitHub sirvió como el centro de nuestra actividad, proporcionando datos concretos sobre la interacción y las contribuciones de cada miembro.
+
+Analíticas del Repositorio
+La sección Pulse de GitHub ofreció una visión clara de la dinámica del equipo. Las siguientes métricas demuestran la alta participación y el flujo de trabajo coordinado:
+
+Commits por Autor: Se observó un número considerable de commits, distribuidos equitativamente entre los miembros del equipo. Esto no solo confirmó que cada desarrollador contribuyó activamente, sino que también aseguró que la carga de trabajo se compartiera de manera justa, evitando cuellos de botella y maximizando la productividad.
+
+Pull Requests: La creación constante de Pull Requests fue una práctica estándar. Cada PR fue sometida a revisión por otro miembro del equipo, asegurando la calidad del código, la conformidad con los estándares de estilo y la detección temprana de posibles errores. El proceso de revisión y fusión demostró la confianza y la responsabilidad compartida dentro del equipo.
+
+Issues Abiertos y Cerrados: El seguimiento de las historias de usuario y las tareas a través de issues en GitHub permitió una gestión de tareas transparente y eficiente. El alto número de issues cerrados al final del sprint evidencia que el equipo logró los objetivos establecidos de manera oportuna.
+
+Metodologías de Desarrollo y Convenciones
+El éxito del Sprint 1 no fue solo un resultado de la actividad, sino de cómo se organizó esa actividad. La adopción de metodologías como GitFlow y Conventional Commits fue crucial:
+
+GitFlow: El uso de ramas de feature para cada nueva tarea permitió a los desarrolladores trabajar en paralelo sin conflictos de código. Esto facilitó un desarrollo fluido y una integración continua del trabajo de cada colaborador.
+
+Conventional Commits: La estandarización de los mensajes de commit (ej., feat:, fix:) proporcionó un historial de cambios legible y significativo, lo que ayudó a la revisión del código y a la comprensión del progreso general del proyecto por parte de todos los miembros.
 
 **Pulse Analytics**
 
