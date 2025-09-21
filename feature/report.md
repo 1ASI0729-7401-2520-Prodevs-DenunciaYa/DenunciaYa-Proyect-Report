@@ -21,13 +21,13 @@
 
 <div style="text-align: center;">
 
-|        Apellidos y Nombres        | Código de Alumno |
-|:---------------------------------:|:----------------:|
-|   Mamani Marca, Gabriel Cristian  | u202220659       |
-|   Omar Harold Rivera Ticllacuri   | u202214214       |
-|      Franco Diego Rioja Nuñez     | u202221597       |
-| Gabriel Anthony Brabuaite Toledo  | U20201e889       |
-|   Augusto Sebastian Montes Maza   | u202218645       |
+|       Apellidos y Nombres        | Código de Alumno |
+|:--------------------------------:|:----------------:|
+|  Mamani Marca, Gabriel Cristian  |    u202220659    |
+|  Omar Harold Rivera Ticllacuri   |    u202214214    |
+|     Franco Diego Rioja Nuñez     |    u202221597    |
+| Gabriel Anthony Brabuaite Toledo |    U20201e889    |
+|  Augusto Sebastian Montes Maza   |    u202218645    |
 
 </div>
 
@@ -61,14 +61,21 @@ Durante la elaboración del informe se realizaron diversas actividades. Cada int
 ### 4. Evidencia de participacion de todos los miembros del equipo 
 ![Evidencia Participacion](../assets/Evidencia.png)
 
+
 # Contenido
 
 ## Tabla de Contenidos
+
 ### [Registro de versiones del informe](#registro-de-versiones-del-informe)
+
 ### [Project Report Collaboration Insights](#project-report-collaboration-insights)
+
 ### [Contenido](#contenido)
+
 ### [Student Outcome](#student-outcome-1)
+
 ### [Capítulo I: Introducción](#capc3adtulo-i-introduccic3b3n-1)
+
 - [1.1. Startup Profile](#11-startup-profile)
     - [1.1.1. Descripción de la Startup](#111-description-de-la-startup)
     - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
@@ -82,6 +89,7 @@ Durante la elaboración del informe se realizaron diversas actividades. Cada int
 - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
 
 ### [Capítulo II: Requirements Elicitation & Analysis](#capc3adtulo-ii-requirements-elicitation--analysis-1)
+
 - [2.1. Competidores](#21-competidores)
     - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
     - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
@@ -96,13 +104,16 @@ Durante la elaboración del informe se realizaron diversas actividades. Cada int
     - [2.3.4. Empathy Mapping](#234-empathy-mapping)
     - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
     - [2.4. Ubiquitous Language](#24-Ubiquitous-language)
+
 ### [Capítulo III: Requirements Specification](#capc3adtulo-iii-requirements-specification-1)
+
 - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
 - [3.2. User Stories](#32-user-stories)
 - [3.3. Impact Mapping](#33-impact-mapping)
 - [3.4. Product Backlog](#34-product-backlog)
 
 ### [Capítulo IV: Product Design](#capc3adtulo-iv-product-design-1)
+
 - [4.1. Style Guidelines](#41-style-guidelines)
     - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
     - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
@@ -132,12 +143,13 @@ Durante la elaboración del informe se realizaron diversas actividades. Cada int
     - [4.8.1. Database Diagram](#481-database-diagram)
 
 ### [Capítulo V: Product Implementation, Validation & Deployment](#capc3adtulo-v-product-implementation-validation--deployment-1)
-  - [5.1. Software Configuration Management.](#51-software-configuration-management)
+
+- [5.1. Software Configuration Management.](#51-software-configuration-management)
     - [5.1.1. Software Development Environment Configuration.](#511-software-development-environment-configuration)
     - [5.1.2. Source Code Management.](#512-source-code-management)
     - [5.1.3. Source Code Style Guide \& Conventions.](#513-source-code-style-guide--conventions)
     - [5.1.4. Software Deployment Configuration.](#514-software-deployment-configuration)
-  - [5.2. Landing Page, Services \& Applications Implementation.](#52-landing-page-services--applications-implementation)
+- [5.2. Landing Page, Services \& Applications Implementation.](#52-landing-page-services--applications-implementation)
     - [5.2.1. Sprint 1](#521-sprint-1)
     - [5.2.1.1. Sprint Planning 1.](#5211-sprint-planning-1)
     - [5.2.1.2. Aspect Leaders and Collaborators.](#5212-aspect-leaders-and-collaborators)
@@ -149,8 +161,10 @@ Durante la elaboración del informe se realizaron diversas actividades. Cada int
     - [5.2.1.8. Team Collaboration Insights during Sprint.](#5218-team-collaboration-insights-during-sprint)
 
 # Student Outcome
+
 **ABET – EAC - Student Outcome 5**  
-*Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.*
+*Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un
+entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.*
 
 | Criterio específico                                                   | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | Conclusiones |
 |-----------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|
@@ -158,6 +172,7 @@ Durante la elaboración del informe se realizaron diversas actividades. Cada int
 | Comunica por escrito con efectividad a diferentes rangos de audiencia | **TB1 - Gabriel Braithwaite:** Comunicó las propuestas para diferentes puntos del proyecto de manera escrita para los miembros del equipo.<br>Los puntos realizados para el proyecto fueron documentados de manera escrita en el repositorio del reporte.<br>Gabriel Mamani: Durante el desarrollo del proyecto, desempeñé un rol integral al liderar la creación de los event storming, un proceso fundamental para establecer los requisitos y funcionalidades clave de nuestra aplicación.<br>**TB1 <br> Omar Rivera:** Documenté las guías generales de estilo y la propuesta de diseño en el repositorio del proyecto para facilitar su aplicación por el equipo.<br>Desarrollé y dejé registrados los mockups y wireframes tanto de la landing page como de las web applications, asegurando consistencia visual y comunicando de manera escrita las decisiones clave de diseño. **TB1 <br> Franco Rioja:**: Mi labro fue la realización de los user persona a partir de las entrevistas, a partir de eso completé la mayoría de apartados del needfiding, además hice una pequeña parte importante del capítulo 4 como por ejemplo el diagrama de clases <br> **TB1 <br> Augusto Montes:** Determinación de los segmentos objetivos finales del proyecto. Redacción de resumen claro y conciso de los logros y el progreso del equipo durante el sprint. | TB1:   En esta etapa del proyecto, el equipo se enfocó en la documentación y definición de requisitos, dejando un registro claro y organizado de los avances; Gabriel Braithwaite plasmó las propuestas y puntos desarrollados en el repositorio del reporte, mientras que Gabriel Mamani lideró la construcción del event storming para definir funcionalidades clave; Omar Rivera consolidó las guías de estilo, mockups y wireframes con documentación detallada que garantizó consistencia visual, y Franco Rioja aportó con la creación de user persona, el needfinding y diagramas de clases, fortaleciendo el entendimiento del usuario y la estructura técnica del sistema.     |
 
 # Capítulo I: Introducción
+
 ## 1.1. Startup Profile
 
 A continuación, se presenta información sobre a qué se dedica nuestra startup, Prodevs.
@@ -381,6 +396,7 @@ Sexo: Masculino y femenino
 - Necesidades por satisfacer: Apoyar con el manejo de datos centralizados que se generan al momento en que los ciudadanos reportan incidencias. La plataforma ordena y prioriza los problemas, permitiendo tomar decisiones basadas en evidencia y optimizar el uso de recursos limitados. Además, promueve la transparencia y acelera los procesos de gestión, mejorando la percepción pública y la eficiencia interna de la administración.
 
 # Capítulo II: Requirements Elicitation & Analysis
+
 ## 2.1. Competidores.
 
 En esta sección se presentará un análisis de los posibles competidores de DenunciaYa y de sus respectivas tácticas. Asimismo, se incluirá un análisis competitivo con una comparación de fortalezas y debilidades entre cada competidor
@@ -496,7 +512,9 @@ Elaborar estrategias y tácticas sólidas para competir de manera efectiva exige
 * Cobertura integral y seguimiento en tiempo real: Cobertura integral y seguimiento en tiempo real: A diferencia de plataformas que solo se enfocan en delitos graves o corrupción, DenunciaYa permitirá reportar también problemas urbanos cotidianos. Esto aprovechará la oportunidad de vincularse con gobiernos locales
 
 ## 2.2. Entrevistas.
+
 ### 2.2.1. Diseño de entrevistas.
+
 #### Preguntas para el segmento objetivo "Ciudadanos"
 - ¿Alguna vez has presenciado problemas en tu zona (como baches, basura, corrupción, accidentes de tránsito, entre otros)?
 - ¿Encontraste alguna plataforma para presentar una queja o denuncia?
@@ -521,6 +539,7 @@ Elaborar estrategias y tácticas sólidas para competir de manera efectiva exige
 - ¿Qué riesgos ven en crear una aplicación web de denuncias ciudadanas?
 - ¿Qué funcionalidades serían más valiosas en una aplicación web de gestión de denuncias?
 - Si existieran planes de suscripción (básico y premium), ¿qué características diferenciales harían que valga la pena pagar por un plan más avanzado?
+
 ### 2.2.2. Registro de entrevistas.
 
 ## Segmento: Ciudadanos
@@ -693,8 +712,10 @@ El ciudadano entrevistado es un joven adulto (20–30 años), urbano, con alta d
 La autoridad entrevistada es un joven profesional (24–27 años), con un perfil operativo y administrativo, dependiente del uso de PC y smartphone, y con WhatsApp como herramienta principal de coordinación. Reconoce las limitaciones de los métodos manuales y demanda una plataforma centralizada que permita trazabilidad, asignación clara de responsables, geolocalización y adjuntos. Desconfía de la sobrecarga de denuncias falsas y la vulnerabilidad de los datos, pero ve valor en notificaciones, reportes y funciones que optimicen la gestión. Un plan premium sería atractivo si integra sistemas municipales, brinda reportes estadísticos avanzados y facilita la coordinación en tiempo real.
 
 
+### 2.2.3. Análisis de entrevistas.
 
 ## 2.3. Needfinding.
+
 ### 2.3.1. User Personas.
 
 ## User Persona - Ciudadano
@@ -874,53 +895,1656 @@ A continuación, se presenta el Ubiquitous Language desarrollado para el sistema
 | Feed comunitario    | Línea de tiempo de publicaciones de la comunidad.                         |
 
 # Capítulo III: Requirements Specification
+
 ## 3.1. User Stories.
+
+En esta sección se describen las historias de usuario que representan las funcionalidades y características del producto
+desde la perspectiva del usuario final. Cada historia de usuario incluye una descripción clara y concisa de la necesidad
+del usuario, el valor que aporta y los criterios de aceptación para su implementación.
+
+| Epic / Story ID | Título                                           | Descripción                                                                                                                                                                                                                              | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | Relacionado con (Epic ID) |
+|-----------------|--------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|
+| EP1             | Landing Page de DenunciaYa                       | Como visitante quiero visualizar una descripción clara de la plataforma para comprender su propósito y beneficios.                                                                                                                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | -                         |
+| US1             | Sección “How it works”                           | Como visitante quiero ver un resumen de cómo funciona la plataforma para entender fácilmente el proceso de denuncia.                                                                                                                     | Scenario: Visualización del proceso<br>Given que el visitante accede a la Landing Page<br>When la sección “¿Cómo funciona?” está disponible<br>Then el visitante observa los pasos del flujo de denuncia descritos de manera resumida.                                                                                                                                                                                                                                                                                                                                                                                                                        | EP1                       |
+| US2             | Sección “Home”                                   | Como visitante quiero ver una explicación clara sobre qué es DenunciaYa para comprender su propósito principal.                                                                                                                          | Scenario: Visualización de sección “Qué es”<br>Given que el visitante accede a la Landing Page<br>When la página carga<br>Then el visitante observa un bloque con la explicación de qué es la plataforma.                                                                                                                                                                                                                                                                                                                                                                                                                                                     | EP1                       |
+| US3             | Llamado a la acción (CTA)                        | Como visitante quiero encontrar un botón de acceso a la aplicación para comenzar a utilizar la plataforma de manera inmediata.                                                                                                           | Scenario: Acceso a la app<br>Given que el visitante accede a la Landing Page<br>When el visitante visualiza el CTA<br>Then el visitante identifica un botón que le permite ingresar a la aplicación web.                                                                                                                                                                                                                                                                                                                                                                                                                                                      | EP1                       |
+| US4             | Seccion About us                                 | Como visitante quiero conocer el objetivo principal de la plataforma y el equipo detrás de ella para generar confianza y credibilidad.                                                                                                   | Scenario: Visualización de sección “About us”<br>Given que el visitante accede a la Landing Page<br>When la sección “About us” está disponible<br>Then el visitante observa información sobre el objetivo de la plataforma y detalles del equipo desarrollador.                                                                                                                                                                                                                                                                                                                                                                                               | EP1                       |
+| US5             | Sección Testimonials                             | Como visitante quiero leer testimonios de usuarios satisfechos para aumentar mi confianza en la plataforma.                                                                                                                              | Scenario: Visualización de testimonios<br>Given que el visitante accede a la Landing Page<br>When la sección “Testimonials” está disponible<br>Then el visitante puede leer opiniones positivas de usuarios que han utilizado la plataforma.                                                                                                                                                                                                                                                                                                                                                                                                                  | EP1                       |
+| US6             | Sección News & Blog                              | Como visitante quiero mantenerme informado sobre cambios que haya en la plataforma y leer artículos relacionados para estar al día con las novedades.                                                                                    | Scenario: Visualización de sección “News & Blog”<br>Given que el visitante accede a la Landing Page<br>When la sección “News & Blog” está disponible<br>Then el visitante puede leer artículos y noticias relevantes sobre la plataforma y temas relacionados.                                                                                                                                                                                                                                                                                                                                                                                                | EP1                       |
+| US7             | Sección de Soporte                               | Como visitante quiero encontrar una sección de soporte o ayuda para resolver dudas comunes o problemas que tenga utilizando la plataforma.                                                                                               | Scenario: Visualización de sección de soporte<br>Given que el visitante accede a la Landing Page<br>When la sección de soporte está disponible<br>Then el visitante puede acceder a FAQs, guías o contacto para asistencia.                                                                                                                                                                                                                                                                                                                                                                                                                                   | EP1                       |
+| US8             | Sección de Contacto                              | Como visitante quiero encontrar una sección de contacto para comunicarme con el equipo de DenunciaYa en caso de necesitar asistencia personalizada.                                                                                      | Scenario: Visualización de sección de contacto<br>Given que el visitante accede a la Landing Page<br>When la sección de contacto está disponible<br>Then el visitante puede ver información para comunicarse con el equipo (correo).                                                                                                                                                                                                                                                                                                                                                                                                                          | EP1                       |
+| TS1             | Responsive Design                                | Como developer quiero implementar un diseño adaptable para que la landing page se visualice correctamente en dispositivos móviles, tablets y desktops.                                                                                   | Scenario: Visualización en distintos dispositivos<br>Given que un visitante accede a la Landing Page desde un dispositivo móvil<br>When la página carga<br>Then el contenido se adapta al tamaño de la pantalla sin perder legibilidad ni funcionalidad.<br><br>Scenario: Visualización en desktop<br>Given que un visitante accede desde un computador<br>When la página carga<br>Then los elementos se ajustan al ancho de pantalla manteniendo coherencia visual.<br><br>Scenario: Visualización en tablet<br>Given que un visitante accede desde una tablet<br>When la página carga<br>Then los elementos se muestran de manera proporcional y navegable. | EP1                       |
+| EP2             | Creación de denuncias                            | Como ciudadano quiero realizar una denuncia siguiendo un proceso guiado para asegurar la captura completa de datos.                                                                                                                      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | -                         |
+| US9             | Selección de categoría                           | Como ciudadano quiero seleccionar la categoría de la denuncia para clasificar mi reporte correctamente.                                                                                                                                  | Scenario: Selección de categoría<br>Given que el ciudadano se encuentra en el paso de categoría<br>When elige una opción válida<br>Then la categoría queda registrada para la denuncia. <br><br>Scenario: Validación obligatoria<br>Given que el ciudadano intenta continuar sin seleccionar categoría<br>When presiona “Siguiente”<br>Then el sistema muestra un mensaje de error indicando que el campo es obligatorio.                                                                                                                                                                                                                                     | EP2                       |
+| US10            | Registro de ubicación                            | Como ciudadano quiero ingresar la ubicación exacta del incidente para contextualizar la denuncia.                                                                                                                                        | Scenario: Registro de ubicación<br>Given que el ciudadano se encuentra en el paso de ubicación<br>When ingresa una dirección válida<br>Then el sistema guarda la ubicación en la denuncia. <br><br>Scenario: Validación de obligatoriedad<br>Given que el ciudadano no ingresa ubicación<br>When intenta continuar<br>Then el sistema muestra un mensaje de error indicando que la ubicación es requerida.                                                                                                                                                                                                                                                    | EP2                       |
+| US11            | Registro de la descripción del incidente         | Como ciudadano quiero ingresar la descripción del incidente para aportar datos importantes.                                                                                                                                              | Scenario: Ingreso de descripción <br>Given que el ciudadano se encuentra en el paso descripción<br>When ingresa la información de la denuncia <br>Then el sistema guarda la descripción de la denuncia. <br><br>Scenario: Validación de descripción<br>Given que el ciudadano no ingesa una descripción<br>When intenta continuar<br>Then el sistema muestra un mensaje indicando que la descripción no puede estar vacía.                                                                                                                                                                                                                                    | EP2                       |
+| US12            | Ingreso de descripción                           | Como ciudadano quiero redactar una descripción detallada del problema para explicar el incidente.                                                                                                                                        | Scenario: Ingreso de descripción<br>Given que el ciudadano se encuentra en el paso de descripción<br>When ingresa al menos 20 caracteres<br>Then el sistema guarda la descripción en la denuncia.<br><br>Scenario: Validación de mínimo<br>Given que el ciudadano ingresa menos de 20 caracteres<br>When intenta continuar<br>Then el sistema muestra un mensaje de error indicando que debe completar la descripción.                                                                                                                                                                                                                                        | EP2                       |
+| US13            | Adjuntar evidencias                              | Como ciudadano quiero adjuntar fotos, videos o audios para respaldar la denuncia.                                                                                                                                                        | Scenario: Adjuntar archivo válido<br>Given que el ciudadano adjunta un archivo JPG o PNG menor a 5 MB<br>When confirma la acción<br>Then el archivo queda registrado como evidencia de la denuncia.<br><br>Scenario: Adjuntar archivo inválido<br>Given que el ciudadano adjunta un archivo de formato no permitido<br>When intenta cargarlo<br>Then el sistema muestra un mensaje de error indicando los formatos válidos.                                                                                                                                                                                                                                   | EP2                       |
+| US14            | Guardar denuncia como borrador                   | Como ciudadano quiero guardar mi denuncia en cualquier paso como borrador para completarla más tarde.                                                                                                                                    | Scenario: Guardar borrador<br>Given que el ciudadano se encuentra en cualquier paso del wizard<br>When selecciona “Guardar borrador”<br>Then el sistema almacena los datos ingresados hasta ese momento.<br><br>Scenario: Reanudar borrador<br>Given que el ciudadano tiene denuncias guardadas<br>When selecciona reanudar<br>Then el sistema carga los datos previamente guardados en el wizard.                                                                                                                                                                                                                                                            | EP2                       |
+| US15            | Revisión de datos antes de enviar                | Como ciudadano quiero revisar un resumen de la denuncia antes de enviarla para confirmar su exactitud.                                                                                                                                   | Scenario: Visualización de resumen<br>Given que el ciudadano completa todos los pasos<br>When accede al último paso<br>Then el sistema muestra un resumen con categoría, ubicación, fecha, descripción y evidencias.<br><br>Scenario: Corrección<br>Given que el ciudadano detecta un error en el resumen<br>When selecciona editar<br>Then el sistema lo redirige al paso correspondiente para corregir.                                                                                                                                                                                                                                                     | EP2                       |
+| US16            | Envío de denuncia y código de seguimiento        | Como ciudadano quiero enviar la denuncia y recibir un código de seguimiento único para consultar su estado.                                                                                                                              | Scenario: Envío exitoso<br>Given que el ciudadano completó todos los pasos<br>When selecciona “Enviar”<br>Then el sistema registra la denuncia, genera un código de seguimiento y muestra un mensaje de confirmación.<br><br>Scenario: Error en el envío<br>Given que ocurre un error al registrar la denuncia<br>When el ciudadano intenta enviar<br>Then el sistema muestra un mensaje de error invitando a reintentar más tarde.                                                                                                                                                                                                                           | EP2                       |
+| EP3             | Historial y seguimiento de denuncias             | Como ciudadano quiero consultar, filtrar y dar seguimiento al estado de mis denuncias a través de un historial organizado y accesible.                                                                                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | -                         |
+| US17            | Ver historial básico                             | Como ciudadano autenticado quiero ver una lista de todas mis denuncias registradas para consultar su estado actual y acceder a los detalles.                                                                                             | Scenario: Lista de denuncias visible<br>Given que el usuario tiene denuncias registradas<br>When accede a la sección de Historial<br>Then debe visualizar una lista con Nº de denuncia, categoría, estado y fecha<br>                                                                                                                                                                                                                                                                                                                                                                                                                                         | EP3                       |
+| US18            | Ver detalles de denuncia                         | Como ciudadano quiero acceder al detalle completo de una denuncia seleccionada para revisar su descripción, evidencias y estado de seguimiento.                                                                                          | Scenario: Acceso al detalle de denuncia<br>Given que el usuario abre una denuncia desde el historial<br>When selecciona "Ver"<br>Then el sistema muestra todos los campos capturados y el timeline de cambios<br>                                                                                                                                                                                                                                                                                                                                                                                                                                             | EP3                       |
+| US19            | Filtrar denuncias                                | Como ciudadano o autoridad quiero filtrar mis denuncias por categoría, estado, fecha o ubicación para encontrar rápidamente la denuncia que busco.                                                                                       | Scenario: Aplicar filtros de estado<br>Given que el usuario está en el historial de denuncias<br>When selecciona el filtro "Estado: En proceso"<br>Then el sistema muestra solo las denuncias con dicho estado<br>                                                                                                                                                                                                                                                                                                                                                                                                                                            | EP3                       |
+| US20            | Ordenar denuncias                                | Como usuario quiero ordenar mis denuncias por fecha o estado para visualizar primero las más relevantes para mí.                                                                                                                         | Scenario: Ordenar por fecha más reciente<br>Given que el usuario está en el historial de denuncias<br>When selecciona el orden "Más reciente"<br>Then el sistema muestra primero las denuncias con fecha más cercana<br>                                                                                                                                                                                                                                                                                                                                                                                                                                      | EP3                       |
+| US21            | Búsqueda de denuncias                            | Como usuario quiero buscar una denuncia por número, categoría o palabra clave para ubicar rápidamente un caso específico.                                                                                                                | Scenario: Búsqueda por número de denuncia<br>Given que el usuario introduce un Nº de denuncia válido en la barra de búsqueda<br>When confirma la búsqueda<br>Then el sistema muestra el resultado exacto de la denuncia<br>                                                                                                                                                                                                                                                                                                                                                                                                                                   | EP3                       |
+| US22            | Timeline de seguimiento                          | Como ciudadano quiero visualizar un timeline con los cambios de estado de mi denuncia para entender el progreso y acciones tomadas.                                                                                                      | Scenario: Visualización del timeline<br>Given que el usuario abre el detalle de una denuncia<br>When accede a la sección "Evolución del caso"<br>Then el sistema muestra una línea de tiempo cronológica con cada actualización de estado<br>                                                                                                                                                                                                                                                                                                                                                                                                                 | EP3                       |
+| US23            | Empty states en historial                        | Como usuario nuevo sin denuncias registradas quiero ver un mensaje claro cuando no existan denuncias en mi historial para entender que debo registrar una nueva denuncia.                                                                | Scenario: Historial vacío<br>Given que el usuario no tiene denuncias registradas<br>When accede a la sección Historial<br>Then el sistema muestra el mensaje "Aún no tienes denuncias registradas"<br>                                                                                                                                                                                                                                                                                                                                                                                                                                                        | EP3                       |
+| EP4             | Dashboard de autoridades/admins                  | Como autoridad o administrador quiero un panel de control centralizado que me permita gestionar denuncias, priorizar casos, analizar métricas y derivar reportes a las áreas correspondientes.                                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | -                         |
+| US24            | Visualizar tablero principal                     | Como autoridad quiero acceder a un panel centralizado con resumen de denuncias por estado, categoría y distrito para obtener una visión general de la situación.                                                                         | Scenario: Acceso al tablero principal<br>Given que la autoridad inicia sesión<br>When accede al dashboard<br>Then visualiza métricas generales (denuncias por estado, categoría y ubicación)<br>                                                                                                                                                                                                                                                                                                                                                                                                                                                              | EP4                       |
+| US25            | Filtrar denuncias en el dashboard                | Como autoridad quiero aplicar filtros por categoría, estado, fecha o ubicación para analizar casos específicos y priorizarlos.                                                                                                           | Scenario: Filtro por categoría en el dashboard<br>Given que la autoridad accede al dashboard<br>When aplica el filtro "Categoría: Baches"<br>Then el sistema muestra únicamente las métricas y denuncias relacionadas a baches<br>                                                                                                                                                                                                                                                                                                                                                                                                                            | EP4                       |
+| US26            | Asignar denuncias a áreas responsables           | Como autoridad quiero derivar denuncias a diferentes departamentos municipales para que se atiendan de manera más eficiente.                                                                                                             | Scenario: Asignación de denuncia<br>Given que la autoridad visualiza una denuncia sin asignar<br>When selecciona "Asignar" y elige un área responsable<br>Then la denuncia queda registrada bajo el área seleccionada<br>                                                                                                                                                                                                                                                                                                                                                                                                                                     | EP4                       |
+| US27            | Visualizar métricas de eficiencia                | Como autoridad quiero consultar reportes automáticos sobre tiempos de resolución, volumen de denuncias y desempeño de áreas para evaluar la eficiencia de la gestión.                                                                    | Scenario: Consulta de métricas<br>Given que la autoridad accede al dashboard<br>When abre la sección de métricas<br>Then el sistema muestra reportes con tiempos promedio de resolución y desempeño de áreas<br>                                                                                                                                                                                                                                                                                                                                                                                                                                              | EP4                       |
+| US28            | Detectar patrones de incidencias                 | Como autoridad quiero identificar tendencias o patrones en las denuncias (ej. categorías frecuentes o zonas críticas) para tomar decisiones preventivas.                                                                                 | Scenario: Detección de patrones<br>Given que la autoridad accede al dashboard<br>When abre la vista de "Patrones"<br>Then el sistema muestra gráficas de distribución por categorías y zonas con mayor incidencia<br>                                                                                                                                                                                                                                                                                                                                                                                                                                         | EP4                       |
+| US29            | Comunicación segura con ciudadanos               | Como autoridad quiero enviar mensajes al ciudadano denunciante de manera segura, manteniendo su anonimato si corresponde, para dar seguimiento al caso.                                                                                  | Scenario: Comunicación anónima<br>Given que la denuncia fue registrada como anónima<br>When la autoridad responde al ciudadano<br>Then el sistema entrega el mensaje sin exponer los datos personales del denunciante<br>                                                                                                                                                                                                                                                                                                                                                                                                                                     | EP4                       |
+| US30            | Alertas y notificaciones internas                | Como autoridad quiero recibir alertas sobre denuncias críticas o urgentes para priorizar su atención de inmediato.                                                                                                                       | Scenario: Alerta de denuncia urgente<br>Given que se registra una denuncia marcada como urgente<br>When la autoridad accede al dashboard<br>Then el sistema muestra una notificación prioritaria en la bandeja de alertas<br>                                                                                                                                                                                                                                                                                                                                                                                                                                 | EP4                       |
+| EP5             | Directorio de recursos y contactos               | Proveer un directorio de recursos, oficinas y contactos relevantes para que los ciudadanos y autoridades encuentren rápidamente la información y responsables adecuados para casos de denuncia o soporte.                                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | -                         |
+| US31            | Acceder al directorio                            | Como ciudadano quiero acceder a un directorio de oficinas municipales y recursos disponibles para identificar dónde acudir según mi necesidad.                                                                                           | Scenario: Acceso al directorio<br>Given que el ciudadano accede al menú "Directorio"<br>When selecciona la opción<br>Then visualiza un listado de oficinas y recursos disponibles<br>                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | EP5                       |
+| US32            | Búsqueda por nombre o palabra clave              | Como ciudadano quiero buscar oficinas o contactos específicos por nombre o palabra clave para encontrarlos rápidamente.                                                                                                                  | Scenario: Búsqueda en directorio<br>Given que el ciudadano accede al directorio<br>When ingresa "Oficina de Limpieza Pública" en el buscador<br>Then el sistema muestra coincidencias relacionadas con Limpieza Pública<br>                                                                                                                                                                                                                                                                                                                                                                                                                                   | EP5                       |
+| US33            | Filtrar por región o distrito                    | Como ciudadano quiero filtrar los contactos y oficinas por región o distrito para ver solo las que me corresponden.                                                                                                                      | Scenario: Filtrado por distrito<br>Given que el ciudadano accede al directorio<br>When aplica el filtro "Distrito: San Isidro"<br>Then el sistema muestra únicamente oficinas relacionadas a San Isidro<br>                                                                                                                                                                                                                                                                                                                                                                                                                                                   | EP5                       |
+| US34            | Visualizar información detallada de contacto     | Como ciudadano quiero ver información detallada de una oficina (dirección, teléfono, correo, horario) para contactarme directamente.                                                                                                     | Scenario: Visualización de información<br>Given que el ciudadano selecciona una oficina en el directorio<br>When abre la tarjeta de detalle<br>Then el sistema muestra dirección, teléfono, correo y horario de atención<br>                                                                                                                                                                                                                                                                                                                                                                                                                                  | EP5                       |
+| US35            | Acceso para autoridades                          | Como autoridad quiero acceder al mismo directorio con información extendida (responsables, jerarquía interna) para identificar rápidamente a quién derivar un caso.                                                                      | Scenario: Acceso extendido para autoridades<br>Given que la autoridad inicia sesión en la aplicación<br>When accede al directorio<br>Then visualiza información adicional como responsables y jerarquía<br>                                                                                                                                                                                                                                                                                                                                                                                                                                                   | EP5                       |
+| EP6             | Historial de intervenciones y timeline de casos  | Permitir a ciudadanos y autoridades consultar el historial completo de acciones e intervenciones asociadas a cada denuncia, en formato cronológico, para garantizar transparencia y trazabilidad del proceso.                            |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | -                         |
+| US36            | Visualizar historial de una denuncia             | Como ciudadano quiero ver un historial cronológico de todas las acciones relacionadas con mi denuncia para conocer el progreso.                                                                                                          | Scenario: Visualización del historial<br>Given que el ciudadano accede al detalle de su denuncia<br>When selecciona la pestaña "Historial"<br>Then el sistema muestra en orden cronológico todas las intervenciones registradas<br>                                                                                                                                                                                                                                                                                                                                                                                                                           | EP6                       |
+| US37            | Mostrar fecha y responsable de cada intervención | Como ciudadano quiero que cada acción del historial muestre fecha, hora y responsable para asegurar la transparencia del proceso.                                                                                                        | Scenario: Detalles de intervención<br>Given que el ciudadano visualiza el historial<br>When revisa una intervención<br>Then el sistema muestra fecha, hora y responsable asignado<br>                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | EP6                       |
+| US38            | Actualización automática del timeline            | Como ciudadano quiero que el historial de mi denuncia se actualice automáticamente cuando se registra una nueva acción para mantenerme informado en tiempo real.                                                                         | Scenario: Actualización del historial<br>Given que la autoridad registra una nueva acción en la denuncia<br>When el ciudadano abre el historial<br>Then el sistema refleja inmediatamente la nueva intervención registrada<br>                                                                                                                                                                                                                                                                                                                                                                                                                                | EP6                       |
+| US39            | Acceso extendido para autoridades                | Como autoridad quiero ver un timeline con mayor nivel de detalle (comentarios internos, reasignaciones, adjuntos) para gestionar mejor los casos.                                                                                        | Scenario: Vista extendida para autoridades<br>Given que la autoridad accede al historial de una denuncia<br>When revisa el timeline<br>Then el sistema muestra detalles internos como reasignaciones y adjuntos<br>                                                                                                                                                                                                                                                                                                                                                                                                                                           | EP6                       |
+| US40            | Adjuntar documentos o reportes al timeline       | Como autoridad quiero adjuntar documentos o reportes dentro del historial de una denuncia para mantener toda la información centralizada.                                                                                                | Scenario: Adjuntar documento al timeline<br>Given que la autoridad gestiona una denuncia<br>When sube un reporte en la sección de historial<br>Then el sistema guarda y muestra el documento como parte del timeline<br>                                                                                                                                                                                                                                                                                                                                                                                                                                      | EP6                       |
+| US41            | Notificaciones por actualización de historial    | Como ciudadano quiero recibir notificaciones cada vez que se actualice el historial de mi denuncia para estar informado del avance.                                                                                                      | Scenario: Notificación por actualización<br>Given que la autoridad registra una nueva intervención<br>When el sistema actualiza el historial<br>Then se envía una notificación al ciudadano informando del cambio<br>                                                                                                                                                                                                                                                                                                                                                                                                                                         | EP6                       |
+| EP7             | Autenticación y gestión de cuentas               | Permitir a ciudadanos y autoridades registrarse, iniciar sesión de manera segura, recuperar acceso en caso de olvido de contraseña y gestionar su perfil básico para poder utilizar la aplicación.                                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | -                         |
+| US42            | Registro de ciudadanos                           | Como ciudadano quiero registrarme en la plataforma proporcionando mis datos básicos para acceder a los servicios de denuncias.                                                                                                           | Scenario: Registro de ciudadano exitoso<br>Given que un visitante accede al formulario de registro<br>When completa los campos requeridos y selecciona el rol "Ciudadano"<br>Then el sistema crea su cuenta y confirma el registro<br>                                                                                                                                                                                                                                                                                                                                                                                                                        | EP7                       |
+| US43            | Registro de autoridades                          | Como autoridad quiero registrarme en la plataforma con un rol diferenciado para acceder a las funciones de gestión y dashboard.                                                                                                          | Scenario: Registro de autoridad exitoso<br>Given que un visitante accede al formulario de registro<br>When completa los campos requeridos y selecciona el rol "Autoridad"<br>Then el sistema crea su cuenta con privilegios de autoridad<br>                                                                                                                                                                                                                                                                                                                                                                                                                  | EP7                       |
+| US44            | Inicio de sesión                                 | Como usuario registrado quiero iniciar sesión con mi correo y contraseña para acceder a mis funciones según mi rol.                                                                                                                      | Scenario: Inicio de sesión exitoso<br>Given que el usuario registrado accede al formulario de login<br>When ingresa credenciales válidas<br>Then el sistema lo autentica y lo redirige a su panel correspondiente (ciudadano o autoridad)<br>                                                                                                                                                                                                                                                                                                                                                                                                                 | EP7                       |
+| US45            | Recuperar contraseña olvidada                    | Como usuario quiero recuperar mi acceso en caso de olvidar mi contraseña para no perder mi cuenta.                                                                                                                                       | Scenario: Recuperar contraseña<br>Given que el usuario no recuerda su contraseña<br>When selecciona la opción "¿Olvidaste tu contraseña?" e ingresa un correo válido<br>Then el sistema envía un enlace de restablecimiento<br>                                                                                                                                                                                                                                                                                                                                                                                                                               | EP7                       |
+| US46            | Restablecer contraseña                           | Como usuario quiero establecer una nueva contraseña ingresándola dos veces para confirmar, de modo que pueda recuperar acceso de forma segura.                                                                                           | Scenario: Restablecer contraseña<br>Given que el usuario accede al enlace de restablecimiento válido<br>When ingresa la nueva contraseña dos veces y ambas coinciden<br>Then el sistema guarda la nueva contraseña y permite iniciar sesión con ella<br>                                                                                                                                                                                                                                                                                                                                                                                                      | EP7                       |
+| EP8             | Sección Community                                | Como ciudadano quiero acceder a un espacio comunitario donde pueda publicar mensajes, imágenes, encuestas y noticias, así como interactuar con publicaciones de otros ciudadanos, para mantenerme informado y contribuir a mi comunidad. |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | -                         |
+| US47            | Publicar post de texto                           | Como ciudadano, quiero publicar un post de texto, para compartir información con mi comunidad.                                                                                                                                           | Scenario: Publicar un post de texto  Given que el ciudadano está en la sección "¿Qué está pasando?"  When escribe un texto y presiona "Submit"  Then el sistema publica el post en el feed de la comunidad                                                                                                                                                                                                                                                                                                                                                                                                                                                    | EP8                       |
+| US48            | Publicar imagen o video                          | Como ciudadano, quiero adjuntar imágenes o videos a mi publicación, para ilustrar mejor mi mensaje.                                                                                                                                      | Scenario: Adjuntar imagen a publicación  Given que el ciudadano está en "¿Qué está pasando?"  When selecciona una imagen y presiona "Submit"  Then el sistema publica el post con la imagen adjunta                                                                                                                                                                                                                                                                                                                                                                                                                                                           | EP8                       |
+| US49            | Publicar GIF                                     | Como ciudadano, quiero incluir un GIF en mis publicaciones, para expresarme de manera más dinámica.                                                                                                                                      | Scenario: Adjuntar GIF a publicación  Given que el ciudadano está en "¿Qué está pasando?"  When selecciona un GIF y presiona "Submit"  Then el sistema publica el post con el GIF adjunto                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | EP8                       |
+| US50            | Publicar encuesta                                | Como ciudadano, quiero crear una encuesta en mi publicación, para recoger opiniones de la comunidad.                                                                                                                                     | Scenario: Crear encuesta en publicación  Given que el ciudadano está en "¿Qué está pasando?"  When define una pregunta con opciones de respuesta y presiona "Submit"  Then el sistema publica el post con la encuesta disponible para votar                                                                                                                                                                                                                                                                                                                                                                                                                   | EP8                       |
+| US51            | Publicar con emoji                               | Como ciudadano, quiero añadir emojis en mis publicaciones, para expresar emociones o ideas de forma visual.                                                                                                                              | Scenario: Añadir emoji a publicación  Given que el ciudadano está en "¿Qué está pasando?"  When selecciona un emoji y presiona "Submit"  Then el sistema publica el post con el emoji incluido                                                                                                                                                                                                                                                                                                                                                                                                                                                                | EP8                       |
+| US52            | Publicar recordatorio                            | Como ciudadano, quiero añadir un recordatorio o fecha importante a mi publicación, para informar a otros sobre eventos relevantes.                                                                                                       | Scenario: Añadir recordatorio a publicación  Given que el ciudadano está en "¿Qué está pasando?"  When selecciona una fecha y presiona "Submit"  Then el sistema publica el post con el recordatorio visible                                                                                                                                                                                                                                                                                                                                                                                                                                                  | EP8                       |
+| US53            | Dar me gusta a publicación                       | Como ciudadano, quiero dar "me gusta" a una publicación, para expresar apoyo o interés en el contenido.                                                                                                                                  | Scenario: Dar me gusta a publicación  Given que el ciudadano visualiza un post en el feed  When presiona el botón "Me gusta"  Then el sistema registra el "me gusta" y actualiza el contador                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | EP8                       |
+| US54            | Comentar publicación                             | Como ciudadano, quiero comentar en una publicación, para compartir mi opinión o información adicional.                                                                                                                                   | Scenario: Comentar publicación  Given que el ciudadano visualiza un post en el feed  When escribe un comentario y presiona "Enviar"  Then el sistema muestra el comentario debajo del post                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | EP8                       |
+| US55            | Compartir publicación                            | Como ciudadano, quiero compartir publicaciones de otros, para difundir información relevante en la comunidad.                                                                                                                            | Scenario: Compartir publicación  Given que el ciudadano visualiza un post en el feed  When presiona el botón "Compartir"  Then el sistema publica la publicación compartida en su propio feed                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | EP8                       |
+
 ## 3.2. Impact Mapping.
+
+El Impact Mapping de DenunciaYa busca establecer la relación entre los objetivos estratégicos del proyecto (Business
+Goals), los actores principales (ciudadanos y autoridades municipales), los cambios de comportamiento esperados (
+Impacts), los entregables funcionales de la aplicación (Deliverables) y las User Stories que los habilitan. Esta
+herramienta permite alinear el desarrollo de la plataforma con metas claras y medibles, garantizando trazabilidad entre
+lo que se implementa y el valor generado para los distintos segmentos de usuarios.
+![Impact Mapping](../assets/impactMapDenunciaYa.png)
+
 ## 3.3. Product Backlog
+
+El Product Backlog es una lista de User Stories ordenadas por prioridad, que se utiliza para definir el trabajo
+que se debe realizar en el proyecto.
+
+| # Orden | User Story Id | Título                                           | Descripción                                                                                                                                                               | Story Points (1/2/3/5/8) |
+|---------|---------------|--------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------|
+| 1       | US2           | Sección “Home”                                   | Como visitante quiero ver una explicación clara sobre qué es DenunciaYa para comprender su propósito principal.                                                           | 2                        |
+| 2       | US3           | Llamado a la acción (CTA)                        | Como visitante quiero encontrar un botón de acceso a la aplicación para comenzar a utilizar la plataforma de manera inmediata.                                            | 2                        |
+| 3       | US1           | Sección “How it works”                           | Como visitante quiero ver un resumen de cómo funciona la plataforma para entender fácilmente el proceso de denuncia.                                                      | 2                        |
+| 4       | US4           | Seccion About us                                 | Como visitante quiero conocer el objetivo principal de la plataforma y el equipo detrás de ella para generar confianza y credibilidad.                                    | 2                        |
+| 5       | US5           | Sección Testimonials                             | Como visitante quiero leer testimonios de usuarios satisfechos para aumentar mi confianza en la plataforma.                                                               | 2                        |
+| 6       | US6           | Sección News & Blog                              | Como visitante quiero mantenerme informado sobre cambios que haya en la plataforma y leer artículos relacionados para estar al día con las novedades.                     | 2                        |
+| 7       | US7           | Sección de Soporte                               | Como visitante quiero encontrar una sección de soporte o ayuda para resolver dudas comunes o problemas que tenga utilizando la plataforma.                                | 2                        |
+| 8       | US8           | Sección de Contacto                              | Como visitante quiero encontrar una sección de contacto para comunicarme con el equipo de DenunciaYa en caso de necesitar asistencia personalizada.                       | 2                        |
+| 9       | TS1           | Responsive Design                                | Como developer quiero implementar un diseño adaptable para que la landing page se visualice correctamente en dispositivos móviles, tablets y desktops.                    | 3                        |
+| 10      | US9           | Selección de categoría                           | Como ciudadano quiero seleccionar la categoría de la denuncia para clasificar mi reporte correctamente.                                                                   | 3                        |
+| 11      | US10          | Registro de ubicación                            | Como ciudadano quiero ingresar la ubicación exacta del incidente para contextualizar la denuncia.                                                                         | 3                        |
+| 12      | US11          | Registro de la descripción del incidente         | Como ciudadano quiero ingresar la descripción del incidente para aportar datos importantes.                                                                               | 3                        |
+| 13      | US12          | Ingreso de descripción                           | Como ciudadano quiero redactar una descripción detallada del problema para explicar el incidente.                                                                         | 3                        |
+| 14      | US13          | Adjuntar evidencias                              | Como ciudadano quiero adjuntar fotos, videos o audios para respaldar la denuncia.                                                                                         | 5                        |
+| 15      | US14          | Guardar denuncia como borrador                   | Como ciudadano quiero guardar mi denuncia en cualquier paso como borrador para completarla más tarde.                                                                     | 3                        |
+| 16      | US15          | Revisión de datos antes de enviar                | Como ciudadano quiero revisar un resumen de la denuncia antes de enviarla para confirmar su exactitud.                                                                    | 3                        |
+| 17      | US16          | Envío de denuncia y código de seguimiento        | Como ciudadano quiero enviar la denuncia y recibir un código de seguimiento único para consultar su estado.                                                               | 5                        | 
+| 18      | US17          | Ver historial básico                             | Como ciudadano autenticado quiero ver una lista de todas mis denuncias registradas para consultar su estado actual y acceder a los detalles.                              | 5                        |
+| 19      | US18          | Ver detalles de denuncia                         | Como ciudadano quiero acceder al detalle completo de una denuncia seleccionada para revisar su descripción, evidencias y estado de seguimiento.                           | 3                        |
+| 20      | US19          | Filtrar denuncias                                | Como ciudadano o autoridad quiero filtrar mis denuncias por categoría, estado, fecha o ubicación para encontrar rápidamente la denuncia que busco.                        | 5                        |
+| 21      | US20          | Ordenar denuncias                                | Como usuario quiero ordenar mis denuncias por fecha o estado para visualizar primero las más relevantes para mí.                                                          | 5                        | 
+| 22      | US21          | Búsqueda de denuncias                            | Como usuario quiero buscar una denuncia por número, categoría o palabra clave para ubicar rápidamente un caso específico.                                                 | 5                        |
+| 23      | US22          | Timeline de seguimiento                          | Como ciudadano quiero visualizar un timeline con los cambios de estado de mi denuncia para entender el progreso y acciones tomadas.                                       | 5                        | 
+| 24      | US23          | Empty states en historial                        | Como usuario nuevo sin denuncias registradas quiero ver un mensaje claro cuando no existan denuncias en mi historial para entender que debo registrar una nueva denuncia. | 2                        | 
+| 25      | US24          | Visualizar tablero principal                     | Como autoridad quiero acceder a un panel centralizado con resumen de denuncias por estado, categoría y distrito para obtener una visión general de la situación.          | 8                        | 
+| 26      | US25          | Filtrar denuncias en el dashboard                | Como autoridad quiero aplicar filtros por categoría, estado, fecha o ubicación para analizar casos específicos y priorizarlos.                                            | 3                        |
+| 27      | US26          | Asignar denuncias a áreas responsables           | Como autoridad quiero derivar denuncias a diferentes departamentos municipales para que se atiendan de manera más eficiente.                                              | 3                        |
+| 28      | US27          | Visualizar métricas de eficiencia                | Como autoridad quiero consultar reportes automáticos sobre tiempos de resolución, volumen de denuncias y desempeño de áreas para evaluar la eficiencia de la gestión.     | 8                        |
+| 29      | US28          | Detectar patrones de incidencias                 | Como autoridad quiero identificar tendencias o patrones en las denuncias (ej. categorías frecuentes o zonas críticas) para tomar decisiones preventivas.                  | 5                        |
+| 30      | US29          | Comunicación segura con ciudadanos               | Como autoridad quiero enviar mensajes al ciudadano denunciante de manera segura, manteniendo su anonimato si corresponde, para dar seguimiento al caso.                   | 3                        |
+| 31      | US30          | Alertas y notificaciones internas                | Como autoridad quiero recibir alertas sobre denuncias críticas o urgentes para priorizar su atención de inmediato.                                                        | 3                        | 
+| 32      | US31          | Acceder al directorio                            | Como ciudadano quiero acceder a un directorio de oficinas municipales y recursos disponibles para identificar dónde acudir según mi necesidad.                            | 3                        |
+| 33      | US32          | Búsqueda por nombre o palabra clave              | Como ciudadano quiero buscar oficinas o contactos específicos por nombre o palabra clave para encontrarlos rápidamente.                                                   | 3                        |
+| 34      | US33          | Filtrar por región o distrito                    | Como ciudadano quiero filtrar los contactos y oficinas por región o distrito para ver solo las que me corresponden.                                                       | 3                        |
+| 35      | US34          | Visualizar información detallada de contacto     | Como ciudadano quiero ver información detallada de una oficina (dirección, teléfono, correo, horario) para contactarme directamente.                                      | 3                        |
+| 36      | US35          | Acceso para autoridades                          | Como autoridad quiero acceder al mismo directorio con información extendida (responsables, jerarquía interna) para identificar rápidamente a quién derivar un caso.       | 3                        |
+| 37      | US36          | Visualizar historial de una denuncia             | Como ciudadano quiero ver un historial cronológico de todas las acciones relacionadas con mi denuncia para conocer el progreso.                                           | 5                        |
+| 38      | US37          | Mostrar fecha y responsable de cada intervención | Como ciudadano quiero que cada acción del historial muestre fecha, hora y responsable para asegurar la transparencia del proceso.                                         | 3                        |
+| 39      | US38          | Actualización automática del timeline            | Como ciudadano quiero que el historial de mi denuncia se actualice automáticamente cuando se registra una nueva acción para mantenerme informado en tiempo real.          | 5                        |
+| 40      | US39          | Acceso extendido para autoridades                | Como autoridad quiero ver un timeline con mayor nivel de detalle (comentarios internos, reasignaciones, adjuntos) para gestionar mejor los casos.                         | 5                        |
+| 41      | US40          | Adjuntar documentos o reportes al timeline       | Como autoridad quiero adjuntar documentos o reportes dentro del historial de una denuncia para mantener toda la información centralizada.                                 | 3                        |
+| 42      | US41          | Notificaciones por actualización de historial    | Como ciudadano quiero recibir notificaciones cada vez que se actualice el historial de mi denuncia para estar informado del avance.                                       | 3                        |
+| 43      | US47          | Publicar post de texto                           | Como ciudadano, quiero publicar un post de texto, para compartir información con mi comunidad.                                                                            | 3                        |
+| 44      | US48          | Publicar imagen o video                          | Como ciudadano, quiero adjuntar imágenes o videos a mi publicación, para ilustrar mejor mi mensaje.                                                                       | 3                        |
+| 45      | US49          | Publicar GIF                                     | Como ciudadano, quiero incluir un GIF en mis publicaciones, para expresarme de manera más dinámica.                                                                       | 3                        |
+| 46      | US50          | Publicar encuesta                                | Como ciudadano, quiero crear una encuesta en mi publicación, para recoger opiniones de la comunidad.                                                                      | 3                        |
+| 47      | US51          | Publicar con emoji                               | Como ciudadano, quiero añadir emojis en mis publicaciones, para expresar emociones o ideas de forma visual.                                                               | 3                        |
+| 48      | US52          | Publicar recordatorio                            | Como ciudadano, quiero añadir un recordatorio o fecha importante a mi publicación, para informar a otros sobre eventos relevantes.                                        | 3                        |
+| 49      | US53          | Dar me gusta a publicación                       | Como ciudadano, quiero dar "me gusta" a una publicación, para expresar apoyo o interés en el contenido.                                                                   | 3                        |
+| 50      | US54          | Comentar publicación                             | Como ciudadano, quiero comentar en una publicación, para compartir mi opinión o información adicional.                                                                    | 3                        |
+| 51      | US55          | Compartir publicación                            | Como ciudadano, quiero compartir publicaciones de otros, para difundir información relevante en la comunidad.                                                             | 3                        |
+| 52      | US42          | Registro de ciudadanos                           | Como ciudadano quiero registrarme en la plataforma proporcionando mis datos básicos para acceder a los servicios de denuncias.                                            | 3                        |
+| 53      | US43          | Registro de autoridades                          | Como autoridad quiero registrarme en la plataforma con un rol diferenciado para acceder a las funciones de gestión y dashboard.                                           | 3                        |
+| 54      | US44          | Inicio de sesión                                 | Como usuario registrado quiero iniciar sesión con mi correo y contraseña para acceder a mis funciones según mi rol.                                                       | 3                        |
+| 55      | US45          | Recuperar contraseña olvidada                    | Como usuario quiero recuperar mi acceso en caso de olvidar mi contraseña para no perder mi cuenta.                                                                        | 3                        |
+| 56      | US46          | Restablecer contraseña                           | Como usuario quiero establecer una nueva contraseña ingresándola dos veces para confirmar, de modo que pueda recuperar acceso de forma segura.                            | 3                        |
+
 # Capítulo IV: Product Design
+
 ## 4.1. Style Guidelines.
+
+En este apartado, se mostrará de manera organizada los estilos y herramientas que se usarán para diseñar nuestra solución.
+
 ### 4.1.1. General Style Guidelines.
+#### Brand Overview  
+
+En muchas ciudades de Latinoamérica, los ciudadanos enfrentan barreras para reportar problemas que afectan su entorno, desde baches y basura acumulada hasta casos de corrupción o deficiencias en los servicios públicos. La mayoría de los procesos actuales son engorrosos, poco transparentes y generan desconfianza hacia las autoridades. Esto provoca que muchos reportes nunca lleguen a resolverse y que los ciudadanos sientan que su voz no es escuchada.  
+
+**DenunciaYa** nace como una solución tecnológica que conecta directamente a los ciudadanos con las autoridades locales a través de un sistema simple, seguro y confiable. Nuestra plataforma permite realizar denuncias de manera rápida y opcionalmente anónima, con seguimiento en tiempo real y notificaciones inmediatas del estado de cada reporte. Al mismo tiempo, brinda a las autoridades paneles de control, métricas de eficiencia y herramientas de análisis que les ayudan a gestionar los problemas de forma más transparente y efectiva.  
+
+De esta manera, **DenunciaYa no solo fortalece la participación ciudadana**, sino que también promueve gobiernos más abiertos, responsables y orientados a resultados.  
+
+---
+
+#### Brand name  
+
+El nombre de nuestra solución, **DenunciaYa**, refleja su esencia: un llamado directo y urgente a la acción. La palabra **“Denuncia”** conecta inmediatamente con la función principal de la aplicación, mientras que **“Ya”** transmite inmediatez y simplicidad, invitando a los ciudadanos a reportar sin obstáculos ni demoras.  
+
+Hemos elegido un nombre en español para que sea fácilmente identificable y comprensible en toda Latinoamérica, generando cercanía y confianza con los usuarios.  
+
+**Logo:**  
+![Logo V1](/assets/Logo_1.jpg)
+![Logo V2](/assets/Logo.jpg)
+
+---
+
+#### Typography  
+
+En **DenunciaYa**, la tipografía es un elemento esencial para comunicar confianza, cercanía y profesionalismo. Hemos seleccionado dos tipografías complementarias de Google Fonts que reflejan la identidad de la plataforma:  
+
+- **Akshar**: utilizada en los *headings* y títulos principales. Su estilo moderno, limpio y geométrico transmite innovación y solidez, aportando jerarquía visual a la interfaz.  
+- **Alegreya Sans**: aplicada en el *body text* y contenido general. Su diseño humanista y altamente legible brinda calidez y accesibilidad, asegurando que la experiencia de lectura sea cómoda y clara en cualquier dispositivo.  
+
+Esta combinación logra un balance elegante entre **modernidad tecnológica** y **cercanía ciudadana**, asegurando que la aplicación sea visualmente atractiva, funcional y coherente en todos sus niveles de comunicación.  
+
+**Typography Example:**  
+
+![Typography](/assets/Typography.jpg)
+
+---
+
+#### Colors  
+
+La paleta de colores de **DenunciaYa** está diseñada para transmitir solidez, confianza y cercanía, garantizando una experiencia visual clara y consistente. Los colores principales y secundarios definen la identidad de la marca, mientras que la gama de apoyo aporta flexibilidad para diferentes contextos de la interfaz.  
+
+- **Color Primario (Azul Cívico – #3897F5):** Color principal de la marca, utilizado en elementos destacados como botones de acción y componentes clave de la interfaz. 
+
+- **Color Secundario (Azul Profundo – #112433):** Aporta contraste y solidez. Ideal para fondos, encabezados o secciones que requieren un tono más institucional.  
+ 
+
+- **Color Secundario (Blanco – #FFFFFF):** Mantiene la claridad y la legibilidad en toda la aplicación. Usado como fondo principal y para generar equilibrio visual.  
+ 
+
+- **Color Terciario (Amarillo – #FFCB2E):** Complementa la identidad cromática y resalta elementos puntuales de la interfaz con energía y visibilidad.  
+ 
+
+La identidad de **DenunciaYa** se completa con una gama de apoyo que permite jerarquizar la información, mantener consistencia y cubrir diferentes estados visuales:  
+
+![Colores](/assets/Color.png)
+
+#### Spacing  
+
+El **espaciado** en **DenunciaYa** cumple un rol fundamental para garantizar orden, legibilidad y claridad en la experiencia del usuario. Una estructura bien definida de márgenes, paddings y separaciones permite que cada elemento tenga el aire suficiente para destacar sin sobrecargar la interfaz.  
+
+Hemos adoptado un **sistema de 8px** como unidad base, por ser un estándar ampliamente utilizado en diseño digital. Esto asegura consistencia en todos los niveles de la aplicación, facilita la escalabilidad y mantiene armonía visual en cualquier dispositivo.  
+
+- **Micro-spacing (4px):** usado para separaciones muy pequeñas, como íconos dentro de botones o elementos estrechamente relacionados.  
+- **Base-spacing (8px):** unidad principal para definir márgenes, paddings y distancias regulares entre componentes.  
+- **Medium-spacing (16px):** recomendado para separar bloques de contenido, tarjetas o secciones dentro de la interfaz.  
+- **Large-spacing (24px – 32px):** aplicado en márgenes exteriores, secciones principales o espacios que requieren mayor aire visual.  
+
+Este sistema modular no solo aporta **consistencia visual**, sino que también mejora la **jerarquía de la información**, logrando que los reportes, formularios y paneles de control sean fáciles de leer, navegar y comprender.  
+
+**Ejemplo visual de spacing:**  
+![Spacing](/assets/Spacing.png)  
+
+
+
+#### Tone of Voice and Communication  
+
+El tono de comunicación de **DenunciaYa** se alinea con los valores de confianza, cercanía y responsabilidad ciudadana. Hemos adoptado un estilo:  
+
+- **Serio pero accesible**, ya que aborda problemas relevantes que impactan en la comunidad.  
+- **Formal en su estructura**, pero **claro y sencillo en su lenguaje**, para que cualquier ciudadano pueda entenderlo sin dificultad.  
+- **Respetuoso y transparente**, transmitiendo legitimidad y profesionalismo.  
+- **Entusiasta y motivador**, para invitar a la acción inmediata de los usuarios sin caer en la rigidez institucional.  
+
+De esta manera, el lenguaje utilizado refuerza la misión de la aplicación: **hacer que la voz de los ciudadanos sea escuchada y atendida**.
+
+
 ### 4.1.2. Web Style Guidelines.
-## 4.2. Information Architecture.
-### 4.2.1. Organization Systems.
-### 4.2.2. Labeling Systems.
+
+Nuestra plataforma web está diseñada bajo un enfoque **responsive first**, garantizando que la experiencia sea clara, accesible y consistente en cualquier dispositivo. Todas las decisiones visuales se han tomado siguiendo principios de simplicidad, legibilidad y usabilidad, asegurando que los ciudadanos puedan navegar fácilmente y realizar denuncias sin obstáculos.  
+
+---
+
+#### Layout y Grid System  
+
+El diseño de **DenunciaYa** se basa en un **sistema de 12 columnas** que permite una disposición flexible y escalable en todos los tamaños de pantalla. En la página de inicio se emplea un **patrón de lectura en Z**, que guía naturalmente la vista del usuario hacia los elementos más importantes:  
+
+1. **Logo y menú principal** en la parte superior izquierda.  
+2. **Botón de acción principal “Denunciar Ahora”** en la parte superior derecha.  
+3. **Bloques informativos o destacados** en el centro.  
+4. **Llamado a la acción o contacto** en la parte inferior derecha.  
+
+![PatronZ](/assets/PatronZ.jpeg)
+
+
+Este sistema asegura jerarquía visual y mantiene coherencia entre las distintas secciones de la plataforma.  
+
+---
+
+#### Responsive Design  
+
+Hemos definido **breakpoints principales** para garantizar que la interfaz se adapte a diferentes dispositivos sin perder claridad ni funcionalidad:  
+
+- **Mobile (≤480px):**  
+  - Menú en formato hamburguesa.  
+  - Tipografía adaptada a 14–16px para máxima legibilidad.  
+  - Botones ocupan el 100% del ancho para facilitar la interacción táctil.  
+  - Formularios en una sola columna.  
+
+- **Tablet (481–768px):**  
+  - Distribución en dos columnas.  
+  - Íconos más visibles y textos acompañados de descripciones cortas.  
+  - Botones medianos con mayor espaciado.  
+
+- **Desktop (≥1024px):**  
+  - Estructura en 3 o 4 columnas según el contenido.  
+  - Menú principal desplegado en la parte superior.  
+  - Mayor aprovechamiento del espacio para paneles de control, métricas y gráficos.  
+
+![Landing-Deskopt](/assets/Landinpage-Deskop.jpg)
+![Landing-Laptop](/assets/Landinpage-Laptop.jpg)
+![Landing-Tablet](/assets/Landinpage-Laptop-tablet.jpg)
+![Landing-Movilv1](/assets/Landinpage-mobilv1.jpg)
+![Landing-Movilv2](/assets/Landinpage-movilv2.jpg)
+
+
+
+
+---
+
+
+
+
+#### Componentes UI  
+
+Los **componentes de interfaz** siguen los principios de consistencia, simplicidad y accesibilidad.  
+
+**Botones:**  
+- **Primario:** Azul Cívico (#3897F5) con texto blanco. Uso en acciones principales como “Denunciar Ahora”.  
+- **Secundario:** Azul Profundo (#112433) con texto blanco. Uso en acciones de navegación o secundarias.  
+- **Hover:** aumento de sombra sutil y variación ligera de color.  
+- **Disabled:** tono gris (#D3D3D3) con texto atenuado.  
+
+**Inputs y Formularios:**  
+- Bordes redondeados de **8px** para transmitir accesibilidad y modernidad.  
+- Estados claros:  
+  - **Normal:** borde gris claro.  
+  - **Hover:** borde azul (#3897F5).  
+  - **Error:** borde rojo (#FF4C4C) con mensaje explicativo.  
+  - **Success:** borde verde (#4CAF50).  
+
+**Cards y Secciones:**  
+- Esquinas redondeadas de **12px**.  
+- Sombra ligera para dar profundidad.  
+- Imagen o ícono en la parte superior, texto y acción en la parte inferior.  
+
+
+![ComponentesUI](/assets/Componentes.jpg)
+![Cards](/assets/Cards.png)
+---
+
+#### Interacciones y Estados  
+
+La plataforma utiliza microinteracciones para mejorar la experiencia del usuario:  
+
+- Los **botones** muestran una ligera animación de escala al hacer *hover*.  
+- Los **inputs** cambian de color al enfocarse, reforzando el estado activo.  
+- Los **formularios** validan datos en tiempo real, mostrando feedback inmediato.  
+- Los **links** subrayan al pasar el cursor, reforzando su función de navegación.  
+
+---
+
+#### Navegación  
+
+La navegación se ha diseñado bajo los principios de **claridad y accesibilidad**:  
+
+- **Barra superior fija (sticky navbar):** visible en todo momento para facilitar el acceso a “Denunciar Ahora” y al menú principal.  
+- **Menú hamburguesa en mobile:** que despliega las opciones de navegación.  
+- **Footer:** contiene accesos rápidos a ayuda, políticas de privacidad, términos de uso y contacto.  
+
+---
+
+#### Accesibilidad  
+
+**DenunciaYa** se ha construido con un compromiso hacia la accesibilidad. 
+
+- **Tipografía legible**, con tamaños mínimos de entre 10px a 14px en dispositivos móviles.  
+- Uso de **atributos ARIA** en formularios y menús para apoyar la navegación con lectores de pantalla.  
+- Todo el contenido puede ser navegado únicamente con teclado, garantizando inclusión.  
+
+---
+
+
+## 4.2. Information Architecture
+En esta sección, el equipo define la manera en que se organizará el contenido dentro de la plataforma de denuncias, considerando tanto la página principal como la aplicación web. El objetivo es que los usuarios puedan entender y utilizar las funciones sin dificultad, logrando que el proceso de registrar, consultar o dar seguimiento a una denuncia sea lo más claro posible.  
+
+Las decisiones abarcan la forma en que se estructuran las categorías de denuncias, el sistema de etiquetado para clasificar cada caso, la navegación entre secciones y los mecanismos de búsqueda que permitan localizar rápidamente información relevante. De esta forma, se busca garantizar una experiencia accesible y eficiente para todos los usuarios.  
+### 4.2.1. Organization Systems
+
+La organización de la información en DenunciaYa aplica distintos sistemas (jerárquico, secuencial, matricial) según el tipo de contenido y la meta del usuario. A continuación se detalla qué sistema se aplica a cada grupo de información y qué esquema de categorización se usará.
+
+#### Aplicación por grupos de información
+
+- **Landing Page (Información pública, acceso y conversión)**  
+  - **Sistema:** **Jerárquico (visual hierarchy)** — la home prioriza mensajes clave (propuesta de valor, CTA "Denunciar" o "Denunciar Ahora", cómo funciona).  
+  - **Categorización:** por **tópicos** (Qué es, Cómo funciona,Sobre Nosotros, Testimonios, Blog, Soporte y Contactos).  
+  - **Justificación:** orientada a conversión y comprensión rápida.
+
+- **Flujo de creación de denuncia (forms / wizard)**  
+  - **Sistema:** **Secuencial (step-by-step)** — proceso guiado por pasos: 1) Seleccionar categoría -> 2) Ubicación-> 3) Descripción y evidencias -> 4) Revisión y envío.  
+  - **Categorización:** por **audiencia** (ciudadano que reporta, anónimo vs identificado) y por **tópico** (tipo de incidencia).  
+  - **Justificación:** evita errores y asegura captura completa de datos.
+
+- **Historial / Lista de denuncias (usuario)**  
+  - **Sistema:** **Jerárquico + filtrable** — lista con tarjetas ordenadas por prioridad/fecha y filtros laterales.  
+  - **Categorización:** **Cronológica** por defecto (más reciente arriba); opción alternativa por **tópicos** o **estado**.  
+  - **Justificación:** usuarios consultan por fecha y estado.
+
+- **Panel de control / Dashboard (autoridades / admins)**  
+  - **Sistema:** **Matricial** (grid / matrix) — vistas con matrices que cruzan dimensiones (ej. *categoría × distrito*, *estado × prioridad*).  
+  - **Categorización:** **por tópico** y **por audiencia** (departamento responsable).  
+  - **Justificación:** facilita análisis y priorización.
+
+- **Directorio de recursos y contactos**  
+  - **Sistema:** **Alfabético** para listados (oficinas, departamentos), con filtros por región.  
+  - **Categorización:** **Alfabética** y por **audiencia** (ciudadano / empresa / autoridad).
+
+- **Historial de intervenciones y timeline de casos**  
+  - **Sistema:** **Cronológico** (línea de tiempo por caso).  
+  - **Justificación:** rastrear evolución de la denuncia en tiempo.
+
+#### Esquemas de categorización aplicados (resumen)
+- **Alfabético:** directorios, listas de autoridades, glosarios.  
+- **Cronológico:** historial de denuncias, timelines de caso, logs de actividad.  
+- **Por tópicos:** categorías de denuncia (Infraestructura y Espacios Públicos, Servicios Públicos, Medio Ambiente, Seguridad Ciudadana, Transporte y Movilidad, Salud Pública, Comercio Informal, entre otros).  
+- **Por audiencia:** vistas y accesos adaptados (ciudadano, gestor municipal, agente de campo, soporte).
+
+---
+
+### 4.2.2. Labeling Systems
+
+El sistema de etiquetado prioriza **brevedad, consistencia, accesibilidad y claridad**. Se empleará ingles neutral (EN), lenguaje en **sentence case** (mayúscula sólo en la primera palabra salvo nombres propios), y un máximo recomendado de **1–2 palabras** en la mayor parte de botones y menús. Se define además una lista completa de etiquetas clave y reglas de microcopy.
+
+#### Reglas generales de etiquetado
+- Idioma: **Ingles (en-US)** por defecto, luego sera cambiado por internacionalizacion.  
+- Longitud: **1–2 palabras** para botones y menús; **hasta 6–8 palabras** para títulos de secciones si es necesario.  
+- Casos: **Sentence case** -> ej. **Denunciar**, **Mis Denuncias(historial)**, **Mi perfil**.  
+- Iconos: usar icono + etiqueta para acciones primarias en móvil; icono sólo para estados secundarios.  
+- Abreviación: evitar abreviaciones; si son necesarias, mostrar tooltip con la forma completa.  
+- Plurales: usar forma singular en botones de acción, plural en listados.  
+- Accesibilidad: todas las etiquetas deben tener atributos `aria-label` y textos alternativos en imágenes.
+
+#### Etiquetas primarias (menú y CTAs)
+- Menú superior / global: **Inicio**, **Notificaciones**, **Informacion de la cuneta**.  
+- CTA primario: **Denunciar** o **Denunciar ahora**.  
+- Footer: **Ayuda**, **Términos**, **Política de privacidad**, **Contacto**.  
+
+### Etiquetas internas y de formularios
+- **Formulario (pasos):** Categoría, Ubicación, Fecha, Descripción, Evidencia, Revisar y enviar  
+- **Botones:**Continuar, Siguiente, Anterior, Enviar, Guardar borrador  
+- **Estados de denuncia:** Pendiente, En proceso, Resuelto, Rechazado  
+- **Acciones en listado:** Ver, Editar, 
+- **Campos frecuentes:** Número de denuncia, Nombre (opcional si se activa el anonimato total), Teléfono (opcional), Correo , Adjuntar foto, anonimato total(checkbox).
+
+
+
+#### Microcopy / mensajes y estados
+
+**Mensajes de éxito**
+- `Tu denuncia fue enviada correctamente. N.º: 12345.`
+- `Los cambios se guardaron con éxito.`
+
+**Mensajes de error**
+- `Por favor, selecciona una categoría.`
+- `No pudimos enviar tu denuncia. Inténtalo de nuevo más tarde.`
+- `Archivo no válido. Sube una foto en formato JPG o PNG.`
+
+**Mensajes de validación**
+- `El campo correo electrónico no es válido.`
+- `La descripción debe tener al menos 20 caracteres.`
+
+**Mensajes de vacíos (empty states)**
+- `Aún no tienes denuncias registradas.`
+- `No se encontraron resultados para tu búsqueda.`
+
+**Confirmaciones**
+- `¿Estás seguro de que deseas eliminar esta denuncia?`
+- `¿Deseas salir sin guardar los cambios?`
+
+**Tooltips**
+- `Número de denuncia: referencia única para seguimiento.`
+- `Adjuntar foto: máximo 5 MB.`
+
+---
+
 ### 4.2.3. SEO Tags and Meta Tags
-### 4.2.4. Searching Systems.
-### 4.2.5. Navigation Systems.
+
+Se definen tags base para cada tipo de página. 
+
+### Reglas SEO generales
+- **Title:** 50–60 caracteres recomendados.  
+- **Meta description:** 140–160 caracteres.  
+- **Keywords:** uso limitado (no spam).  
+- **Canonical:** en páginas con contenido duplicado.  
+- **Lang & hreflang:** `lang="en-US"` en HTML.  
+
+
+#### Ejemplos de tags 
+
+**Landing Page (index.html)**
+```html
+<title>DenunciaYa – Plataforma para reportar incidencias ciudadanas</title>
+<meta name="description" content="DenunciaYa permite reportar incidencias de manera rápida, segura y en tiempo real. Únete y haz que tu voz sea escuchada.">
+<meta name="keywords" content="denuncias, reportes ciudadanos, incidencias, participación ciudadana">
+<meta name="author" content="Equipo DenunciaYa">
+<meta name="robots" content="index, follow">
+```
+
+**Web Application — Panel**
+```html
+<title>Mi Panel – DenunciaYa</title>
+<meta name="description" content="Gestiona tus denuncias, sigue su estado y accede a soporte desde tu panel en DenunciaYa.">
+```
+
+**Página de detalle de denuncia (dinámico)**
+- **Title dinámico:** `Denuncia #12345 – Pendiente | DenunciaYa`  
+- **Description dinámica:** `Detalle de la denuncia #12345: categoría, fecha, ubicación y estado. Sigue el avance en tiempo real.`
+
+---
+
+### 4.2.4. Searching Systems
+
+El sistema de búsqueda está diseñado para ser **rápido, tolerante a errores y con filtros poderosos**. Se prioriza la usabilidad y la accesibilidad.
+
+#### Ubicación e interacción principal
+- Barra de búsqueda principal en la parte superior del panel de denuncias con placeholder:  
+`Buscar por N.° de denuncia, categoría o palabra clave`  
+- Atributos ARIA: `aria-label="Buscar denuncias"` y `role="search"`.
+
+#### Capacidades de búsqueda
+- **Autocompletado y sugerencias** en tiempo real.  
+- **Búsqueda por campos:** N.º de denuncia, texto libre, etiquetas, ubicación.  
+- **Filtros (facetas):** Categoría, Estado, Fechas, Prioridad, Ubicación, Evidencia, Responsable.  
+- **Ordenamiento:** Más reciente, Más antiguo, Estado, Relevanci`.  
+- **Resultados:** tarjetas con Nº de denuncia, categoría, estado, fecha, resumen y Ver.  
+- **Paginación:** Paginacion Numerica.  
+- **Empty state:** No se encontraron resultados. Revisa la ortografía o cambia los filtros.
+
+
+**Para Ciudadanos:**
+- **Reporte Guiado por Categorías:** Menú con las 7 categorías principales (Infraestructura, Servicios Públicos, etc.) y sus subcategorías.
+- **Búsqueda por Palabras Clave:** Menu de categorias mas frecuentes.
+
+**Para Autoridades:**
+- **Dashboard de Gestión:** Vista principal con panel de filtros avanzados.
+- **Búsqueda por ID:** Acceso directo a un reporte específico.
+- **Mapa Interactivo:** Para visualizar incidencias por ubicación.
+
+
+---
+
+### 4.2.5. Navigation Systems
+
+La navegación está pensada para que el usuario cumpla su objetivo en el menor número de pasos y con la menor fricción posible.
+
+#### Patrón de navegación global
+- **Desktop:** barra superior fija (logo a la izquierda, menú principal a la derecha, CTA Denunciar destacado).  
+- **Mobile:** menú hamburguesa y botón flotante (FAB) Denunciar.  
+- **Aplicación web (panel):** barra lateral colapsable con breadcrumb en el contenido.  
+- **Footer:** accesos secundarios (Ayuda, Términos, Política).
+
+#### Flujos de navegación clave
+- **Crear denuncia (ciudadano):** Inicio -> Denunciar ->Wizard paso a paso -> Confirmación.  
+- **Ver estado de una denuncia:** Panel -> Historial -> Seleccionar denuncia -> Detalle.  
+- **Gestión (autoridad):** Panel -> Filtros/Alertas -> Seleccionar caso → Asignar responsable.
+
+#### Buenas prácticas de navegación
+- **Breadcrumbs** en páginas internas (`Panel > Mis denuncias > Denuncia #12345`).  
+- **Persistencia del CTA `Denunciar`** siempre visible.  
+- **Deep links** en notificaciones (/denuncias/{id}).  
+- **Back button:** confirmar salida si hay datos sin guardar.  
+- **Sitemap y URLs limpias:** `/`, `/denunciar`, `/denuncias`, `/denuncias/{id}`, `/panel`, `/soporte`.  
+- **Accesibilidad:** navegación completa por teclado con foco visible.
+
 ## 4.3. Landing Page UI Design.
+Presentamos los primeros diseños de la Landing Page en UI.
 ### 4.3.1. Landing Page Wireframe.
+![WireframeLanding-Deskopt](/assets/WLandinpage-Deskop.jpg)
+![WireframeLanding-Laptop](/assets/WLandinpage-Laptop.jpg)
+![WireframeLanding-Tablet](/assets/WLandinpage-Tablet.jpg)
+![WireframeLanding-Movilv1](/assets/WLandinpage-mobilv1.jpg)
+![WireframeLanding-Movilv2](/assets/WLandinpage-mobilv2.jpg)
 ### 4.3.2. Landing Page Mock-up.
+![MockupLanding-Deskopt](/assets/Landinpage-Deskop.jpg)
+![MockupLanding-Laptop](/assets/Landinpage-Laptop.jpg)
+![MockupLanding-Tablet](/assets/Landinpage-Laptop-tablet.jpg)
+![MockupLanding-Movilv1](/assets/Landinpage-mobilv1.jpg)
+![MockupLanding-Movilv2](/assets/Landinpage-movilv2.jpg)
 ## 4.4. Web Applications UX/UI Design.
+Presentamos los primeros diseños de la Web Aplication en UI.
 ### 4.4.1. Web Applications Wireframes.
+## 1. Pantalla de Login  
+**Wireframe**  
+![Login](/assets/WireframeLogin.jpg)  
+
+**Explicación**  
+- **Principios de diseño:** Jerarquía visual clara con logo en la parte superior, formulario centrado y botón principal destacado.  
+- **Elementos de diseño:** Colores claros y precisos, tipografía consistente y botones con esquinas redondeadas para mayor accesibilidad.  
+- **Diseño inclusivo:** Contraste suficiente entre texto y fondo, etiquetas visibles en los campos, soporte para teclado.  
+- **Arquitectura de información:** Flujo simple: logo → email/contraseña → entra al dashboard principal de ciudadano y autoridad.  
+- **Design System:** Botón primario con color principal del sistema, tipografía uniforme y campos reutilizables.  
+
+---
+
+## 2. Pantalla de Register  
+**Wireframe**  
+![Register](/assets/WireframeRegister.jpg)  
+
+**Explicación**  
+- **Principios de diseño:** Uso de agrupación por proximidad para los campos.  
+- **Elementos de diseño:** Campos con iconos de apoyo, botón destacado al final del formulario.  
+- **Diseño inclusivo:** Labels claros, mensajes de error accesibles y compatibilidad con lector de pantalla.  
+- **Arquitectura de información:** Orden lógico de los datos solicitados (nombre, apellido, correo, contraseña, teléfono opcional y confirmación).  
+- **Design System:** Botón secundario para volver al login (return), estilos de formulario consistentes.  
+
+---
+
+## 3. Pantalla de Payment Card  
+**Wireframe**  
+![Payment](/assets/WireframePayment.jpg)  
+
+**Explicación**  
+- **Principios de diseño:** Contraste entre datos de la tarjeta y el fondo, buena alineación.  
+- **Diseño inclusivo:** Tamaño de campos adecuado, validación visual clara de errores.  
+- **Arquitectura de información:** Flujo secuencial: datos de tarjeta → confirmación → confirmar el pago.  
+- **Design System:** Colores corporativos en botones, tarjetas con bordes redondeados, consistencia visual.  
+
+---
+
+## 4. Pantalla de Mis Denuncias  
+**Wireframe**  
+![MisDenuncias](/assets/WireframeMisDenuncias.jpg)  
+
+**Explicación**  
+- **Principios de diseño:** Listado organizado en filas con jerarquía clara entre N° denuncia, categoría, estado y fecha.  
+- **Elementos de diseño:** Colores para estados (verde: resuelto, azul: en proceso, amarillo: pendiente, rojo: rechazado, gris: guardado).  
+- **Diseño inclusivo:** Iconografía + texto para estado, buena separación visual.  
+- **Arquitectura de información:** Ordenado cronológicamente con filtros por estado/categoría.  
+- **Design System:** Reutilización de componentes de listado.  
+
+---
+
+## 5. Pantalla de Denunciar Ahora  
+**Wireframe**  
+![DenunciarAhora](/assets/WireframeDenunciarAhora.jpg)  
+
+**Explicación**  
+- **Principios de diseño:** Agrupación por secciones: datos básicos, descripción, adjuntos.  
+- **Elementos de diseño:** Botón de adjuntar archivos, área de texto amplia.  
+- **Diseño inclusivo:** Instrucciones claras, ayudas contextuales, validación accesible.  
+- **Arquitectura de información:** Flujo guiado paso a paso.  
+- **Design System:** Campos y botones reutilizados de otros formularios.  
+
+---
+
+## 6. Pantalla de Detalles de la Denuncia  
+**Wireframe**  
+![DetallesDenuncia](/assets/WireframeDetalleDenuncia.jpg)  
+
+**Explicación**  
+- **Principios de diseño:** Línea de tiempo horizontal con estados en orden cronológico.  
+- **Elementos de diseño:** Íconos de estado, colores diferenciados.  
+- **Diseño inclusivo:** Texto acompañando a cada ícono para claridad.  
+- **Arquitectura de información:** Organización secuencial que refleja el progreso.  
+- **Design System:** Timeline consistente con estilo de tarjetas y colores institucionales.  
+
+---
+
+## 7. Pantalla de Community  
+**Wireframe**  
+![Comunity](/assets/WireframeComunity.png)  
+
+**Explicación**  
+- **Principios de diseño:** Uso de tarjetas para cada post, jerarquía clara entre usuario, texto e interacciones.  
+- **Elementos de diseño:** Íconos reconocibles (me gusta, comentar, compartir).  
+- **Diseño inclusivo:** Texto alternativo para imágenes, interacciones accesibles vía teclado.  
+- **Arquitectura de información:** Feed con scroll vertical y orden cronológico.  
+- **Design System:** Botones e íconos consistentes con los demás módulos.  
+
+---
+
+## 8. Pantalla de Editar Denuncia  
+**Wireframe**  
+![EditarDenuncia](/assets/WireframeEditarD.jpg)  
+
+**Explicación**  
+- **Principios de diseño:** Campos editables resaltados, botones de acción claramente visibles.  
+- **Elementos de diseño:** Ícono de lápiz para edición, botones guardar/cancelar.  
+- **Diseño inclusivo:** Mensajes de confirmación accesibles.  
+- **Arquitectura de información:** Mantiene el mismo orden de campos que la denuncia original.  
+- **Design System:** Reutilización de formularios ya definidos.  
+
+---
+
+## 9. Pantalla de Agregar Responsable  
+**Wireframe**  
+![NuevoResponsable](/assets/WireframeNuevoResponsable.jpg)  
+
+**Explicación**  
+- **Principios de diseño:** Flujo lógico de datos personales → cargo → contacto.  
+- **Elementos de diseño:** Campos con iconos de apoyo (celular, correo).  
+- **Diseño inclusivo:** Etiquetas claras y soporte para autocompletar.  
+- **Arquitectura de información:** Orden de captura de datos optimizado para usuario.  
+- **Design System:** Campos de formulario y botones consistentes con otros módulos.  
+
+---
+
+## 10. Pantalla de Inicio  
+**Wireframe**  
+![PantallaGraficos](/assets/WireframePantallaGraficos.jpg)  
+
+**Explicación**  
+- **Principios de diseño:** Uso de visualizaciones claras (barras, pastel) con contraste de colores.  
+- **Elementos de diseño:** Gráficas, tarjetas de resumen con métricas clave.  
+- **Diseño inclusivo:** Texto acompañando a gráficas, colores accesibles.  
+- **Arquitectura de información:** Métricas arriba, gráficas abajo, navegación lateral fija.  
+- **Design System:** Gráficas integradas con tipografía y colores de la marca.  
+
+---
+
+## 11. Pantalla de Detalles de Equipo  
+**Wireframe**  
+![GestionDeEquipos](/assets/WireframeGestionEquipo.jpg)  
+
+**Explicación**  
+- **Principios de diseño:** Información agrupada en tarjetas (nombre, estado, responsables).  
+- **Elementos de diseño:** Íconos de estado, botones de acción.  
+- **Diseño inclusivo:** Texto alternativo en imágenes y colores con suficiente contraste.  
+- **Arquitectura de información:** Detalle individual en la parte superior, información complementaria en secciones inferiores.  
+- **Design System:** Reutilización de componentes de formularios.  
+
 ### 4.4.2. Web Applications Wireflow Diagrams.
-### 4.4.2. Web Applications Mock-ups.
-### 4.4.3. Web Applications User Flow Diagrams.
+
+### User goal: Creación de quejas
+
+#### Happy path:
+
+![Creación de quejas.PNG](../assets/Creaci%C3%B3n%20de%20quejas.PNG)
+
+#### Unhappy path:
+
+![unhappy Creación de quejas.PNG](../assets/unhappy%20Creaci%C3%B3n%20de%20quejas.PNG)
+
+### User goal: Directorio de recursos y contactos
+
+![Directorio de recursos y contactos.PNG](../assets/Directorio%20de%20recursos%20y%20contactos.PNG)
+
+### User goal: Historial de seguimiento de quejas
+
+![Historial de seguimiento de quejas.PNG](../assets/Historial%20de%20seguimiento%20de%20quejas.PNG)
+
+### User goal: Panel de autoridades
+
+#### Happy path:
+
+![Panel de autoridades.PNG](../assets/Panel%20de%20autoridades.PNG)
+
+#### Unhappy path:
+
+![unhappy Panel de autoridades.PNG](../assets/unhappy%20Panel%20de%20autoridades.PNG)
+
+### User goal: Authentication y gestión de cuentas
+
+#### Happy path:
+
+![Authentication y gestión de cuentas.PNG](../assets/Authentication%20y%20gesti%C3%B3n%20de%20cuentas.PNG)
+
+#### Unhappy path:
+
+![unhappy Authentication y gestión de cuentas.PNG](../assets/unhappy%20Authentication%20y%20gesti%C3%B3n%20de%20cuentas.PNG)
+
+### User goal: Comunidad
+
+![Comunidad.PNG](../assets/Comunidad.PNG)
+
+### 4.4.3. Web Applications Mock-ups.
+
+---
+
+##  Pantalla de Login  
+**Mock-up**  
+![Login](/assets/Login.jpg)
+
+**Explicación**  
+- **Principios de diseño:** Jerarquía visual clara con logo en la parte superior, formulario centrado y botón principal destacado.  
+- **Elementos de diseño:** Colores claros y precisos, tipografía consistente y botones con esquinas redondeadas para mayor accesibilidad.  
+- **Diseño inclusivo:** Contraste suficiente entre texto y fondo, etiquetas visibles en los campos, soporte para teclado.  
+- **Arquitectura de información:** Flujo simple: logo → email/contraseña → entra al dashboard principal de ciudadano y autoridad.  
+- **Design System:** Botón primario con color principal del sistema, tipografía uniforme y campos reutilizables.  
+
+---
+
+## Pantalla de Register  
+**Mock-up**  
+![Register](/assets/Register.jpg)
+
+**Explicación**  
+- **Principios de diseño:** Uso de agrupación por proximidad para los campos.  
+- **Elementos de diseño:** Campos con iconos de apoyo, botón destacado al final del formulario.  
+- **Diseño inclusivo:** Labels claros, mensajes de error accesibles y compatibilidad con lector de pantalla.  
+- **Arquitectura de información:** Orden lógico de los datos solicitados (nombre, apellido, correo, contraseña,telefono(opcional) y confirmación).  
+- **Design System:** Botón secundario para volver al login(return), estilos de formulario consistentes.  
+
+---
+
+## 3. Pantalla de Payment Card  
+**Mock-up**  
+![Payment](/assets/Payment.jpg)
+
+**Explicación**  
+- **Principios de diseño:** Contraste entre datos de la tarjeta y el fondo, buena alineación.  
+- **Diseño inclusivo:** Tamaño de campos adecuado, validación visual clara de errores.  
+- **Arquitectura de información:** Flujo secuencial: datos de tarjeta → confirmación → confirmar el pago.  
+- **Design System:** Colores corporativos en botones, tarjetas con bordes redondeados, consistencia visual.  
+
+---
+
+## 4. Pantalla de Mis Denuncias 
+**Mock-up**  
+![MisDenuncias](/assets/MisDenuncias.jpg)
+
+**Explicación**  
+- **Principios de diseño:** Listado organizado en filas con jerarquía clara entre N° denuncia,categoria, estado y fecha.  
+- **Elementos de diseño:** Colores para estados (verde: resuelto, azul: en proceso, amarillo: pendiente,rojo rechazado, gris en guardado).  
+- **Diseño inclusivo:** Iconografía + texto para estado, buena separación visual.  
+- **Arquitectura de información:** Ordenado cronológicamente con filtros por estado/categoría.  
+- **Design System:** Reutilización de componentes de listado.  
+
+---
+
+## 5. Pantalla de Denunciar Ahora   
+**Mock-up**  
+![DenunciarAhora](/assets/DenunciarAhora.jpg)
+
+**Explicación**  
+- **Principios de diseño:** Agrupación por secciones: datos básicos, descripción, adjuntos.  
+- **Elementos de diseño:** Botón de adjuntar archivos, área de texto amplia.  
+- **Diseño inclusivo:** Instrucciones claras, ayudas contextuales, validación accesible.  
+- **Arquitectura de información:** Flujo guiado paso a paso.  
+- **Design System:** Campos y botones reutilizados de otros formularios.  
+
+---
+
+## 6. Pantalla de Detalles de la Denuncia
+**Mock-up**  
+![DenunciarAhora](/assets/DetallesDenunciaAutoridad.jpg)
+
+**Explicación**  
+- **Principios de diseño:** Línea de tiempo horizontal con estados en orden cronológico.  
+- **Elementos de diseño:** Íconos de estado, colores diferenciados.  
+- **Diseño inclusivo:** Texto acompañando a cada ícono para claridad.  
+- **Arquitectura de información:** Organización secuencial que refleja el progreso.  
+- **Design System:** Timeline consistente con estilo de tarjetas y colores institucionales.  
+
+---
+
+## 7. Pantalla de Community   
+**Mock-up**  
+![DenunciarAhora](/assets/Comunity.jpg)
+
+**Explicación**  
+- **Principios de diseño:** Uso de tarjetas para cada post, jerarquía clara entre usuario, texto e interacciones.  
+- **Elementos de diseño:** Íconos reconocibles (me gusta, comentar, compartir).  
+- **Diseño inclusivo:** Texto alternativo para imágenes, interacciones accesibles vía teclado.  
+- **Arquitectura de información:** Feed con scroll vertical y orden cronológico.  
+- **Design System:** Botones e íconos consistentes con los demás módulos.  
+
+---
+
+## 8. Pantalla de Editar Denuncia  
+**Mock-up**  
+![DenunciarAhora](/assets/EditarDenuncia.jpg)
+
+
+**Explicación**  
+- **Principios de diseño:** Campos editables resaltados, botones de acción claramente visibles.  
+- **Elementos de diseño:** Ícono de lápiz para edición, botones guardar/cancelar.  
+- **Diseño inclusivo:** Mensajes de confirmación accesibles.  
+- **Arquitectura de información:** Mantiene el mismo orden de campos que la denuncia original.  
+- **Design System:** Reutilización de formularios ya definidos.  
+
+---
+
+## 9. Pantalla de Agregar Responsable 
+**Mock-up**  
+![DenunciarAhora](/assets/NuevoResponsable.jpg)
+  
+
+**Explicación**  
+- **Principios de diseño:** Flujo lógico de datos personales → cargo → contacto.  
+- **Elementos de diseño:** Campos iocnos de apoyo (celular, correo).  
+- **Diseño inclusivo:** Etiquetas claras y soporte para autocompletar.  
+- **Arquitectura de información:** Orden de captura de datos optimizado para usuario.  
+- **Design System:** Campos de formulario y botones consistentes con otros módulos.  
+
+---
+
+## 10. Pantalla de Inicio  
+**Mock-up**  
+![DenunciarAhora](/assets/PantallaGraficos.jpg)
+
+
+**Explicación**  
+- **Principios de diseño:** Uso de visualizaciones claras (barras, pastel) con contraste de colores.  
+- **Elementos de diseño:** Gráficas, tarjetas de resumen con métricas clave.  
+- **Diseño inclusivo:** Texto acompañando a gráficas, colores accesibles.  
+- **Arquitectura de información:** Métricas arriba, gráficas abajo, navegación lateral fija.  
+- **Design System:** Gráficas integradas con tipografía y colores de la marca.  
+
+---
+
+## 11. Pantalla de Detalles de Equipo  
+**Mock-up**  
+![DenunciarAhora](/assets/GestionDeEquipos.jpg)
+
+**Explicación**  
+- **Principios de diseño:** Información agrupada en tarjetas (nombre, estado, responsables).  
+- **Elementos de diseño:** Íconos de estado, botones de acción.  
+- **Diseño inclusivo:** Texto alternativo en imágenes y colores con suficiente contraste.  
+- **Arquitectura de información:** Detalle individual en la parte superior, información complementaria en secciones inferiores.  
+- **Design System:** Reutilización de componentes de formularios.
+
+### 4.4.4. Web Applications User Flow Diagrams
+
+### User goal: Creación de quejas
+
+#### Happy path:
+
+![m_Creación de quejas.PNG](../assets/m_Creaci%C3%B3n%20de%20quejas.PNG)
+
+#### Unhappy path:
+
+![m_Creación de quejas_un.PNG](../assets/m_Creaci%C3%B3n%20de%20quejas_un.PNG)
+
+### User goal: Directorio de recursos y contactos
+
+![m_Directorio de recursos y contactos.PNG](../assets/m_Directorio%20de%20recursos%20y%20contactos.PNG)
+
+### User goal: Historial de seguimiento de quejas
+
+![m_Historial de seguimiento de quejas.PNG](../assets/m_Historial%20de%20seguimiento%20de%20quejas.PNG)
+
+### User goal: Panel de autoridades
+
+#### Happy path:
+
+![m_Panel de autoridades.PNG](../assets/m_Panel%20de%20autoridades.PNG)
+
+#### Unhappy path:
+
+![m_Panel de autoridades_un.PNG](../assets/m_Panel%20de%20autoridades_un.PNG)
+
+### User goal: Authentication y gestión de cuentas
+
+#### Happy path:
+
+![m_Authentication y gestión de cuentas.PNG](../assets/m_Authentication%20y%20gesti%C3%B3n%20de%20cuentas.PNG)
+
+#### Unhappy path:
+
+![m_Authentication y gestión de cuentas_un.PNG](../assets/m_Authentication%20y%20gesti%C3%B3n%20de%20cuentas_un.PNG)
+
+### User goal: Comunidad
+
+![m_Comunidad.PNG](../assets/m_Comunidad.PNG)
+
 ## 4.5. Web Applications Prototyping.
+
+En esta sección se muestran los prototipos de la aplicación web DenunciaYa. Estos prototipos funcionan como representaciones interactivas que permiten a los usuarios visualizar y probar la interfaz antes de su implementación definitiva. Ofrecen una comprensión clara sobre la navegación, la organización de los elementos y las principales funcionalidades de la aplicación.
+
+Módulos principales:
+
+- Mis Denuncias – Sección destinada a la visualización y gestión de las denuncias registradas.
+
+- Denunciar Ahora – Funcionalidad para la creación y envío de nuevas denuncias.
+
+- Notificaciones – Módulo encargado de la gestión de alertas y actualizaciones de la aplicación.
+
+- Ayuda y Soporte – Apartado con preguntas frecuentes y canales de contacto con el equipo de soporte.
+
+- Directorio – Espacio que centraliza información y recursos relacionados con las denuncias.
+
+- Comunidad – Sección orientada a la interacción entre usuarios mediante publicaciones y comunicación constante.
+
+![proto1.jpeg](../assets/proto1.jpeg)
+![proto2.jpeg](../assets/proto2.jpeg)
+
+
+**Link del prototipo:** https://acortar.link/sb0GMy
+
+#### Exposicion del prototipo 
+
+A continuación, se presentará un video que expone el prototipo de DenunciaYa. En él se explicará en detalle cada una de las opciones del prototipo y cómo estas se implementarán en la aplicación frontend.
+
+![miniaturaProto.png](../assets/miniaturaProto.png)
+
+**Link del video:** https://acortar.link/IFlkZq
+
+
+
+Web Aplication Prototyping Web Broswer Mobile 
+
+![Web Aplication Prototyping Web Broswer Mobile ](/assets/PrototypingMobileBrowser.png)
+
+link del Web Broswer Mobile en figma: https://www.figma.com/proto/ZoYnEmqqHBoCxPxLuVJJsg/DenunciaYa--Figma?node-id=187-13524&p=f&t=OaYMeQfkVqIwWOwI-0&scaling=scale-down&content-scaling=fixed&page-id=4%3A2390&starting-point-node-id=187%3A13524&show-proto-sidebar=1
+
+
+link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202214214_upc_edu_pe/EcOYs3tWsYlAn8AZg2On-S4BEbvQwjJU5MeJHtJeR29Umg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=MYOiXr
+
 ## 4.6. Domain-Driven Software Architecture.
+
 ### 4.6.1. Design-Level Event Storming.
+
+En esta sección se presenta el Design-Level EventStorming realizado para DenunciaYa. A través de esta actividad se identificaron con mayor detalle los eventos de dominio, comandos, actores, agregados, vistas y procesos de negocio que conforman cada Bounded Context. El resultado permite visualizar de forma clara la dinámica interna de cada contexto y cómo se relacionan entre sí, facilitando un entendimiento más profundo del dominio.
+
+![DesignEventStorming.jpeg](../assets/DesignEventStorming.jpeg)
+
+**Link del miro: https://acortar.link/eh5Gx6**
+
 ### 4.6.2. Software Architecture Context Diagram.
+
+A continuación, se presenta el diagrama de contexto para el sistema DenunciaYa. Este nivel muestra cómo la plataforma se relaciona con los segmentos objetivos principales: los ciudadanos, que reportan incidencias urbanas y actos de corrupción, y las autoridades municipales, que gestionan dichos reportes. También se ilustra la interacción entre los usuarios y el sistema a través de la aplicación web
+
+![context.png](../assets/context.png)
+
 ### 4.6.3. Software Architecture Container Diagrams.
+
+A continuación, se presenta el diagrama de contenedores para el sistema DenunciaYa. Este nivel muestra los principales elementos de software que conforman la solución y cómo se relacionan entre sí para ofrecer la experiencia completa a los segmentos objetivos. La aplicación web entrega la interfaz y los recursos estáticos, mientras que la Single Page Application, desarrollada con Angular, proporciona la funcionalidad para ciudadanos y municipios directamente en el navegador. La API Application, implementada con Spring Boot, concentra la lógica de negocio y expone servicios REST para la gestión de denuncias, usuarios, comunidad y paneles de control. Finalmente, la base de datos, implementada en MySQL, almacena la información esencial como denuncias, perfiles, evidencias y datos de gestión municipal.
+
+![container.png](../assets/container.png)
+
 ### 4.6.4. Software Architecture Components Diagrams.
+
+A continuación, se presenta el diagrama de componentes para el sistema DenunciaYa. Este nivel muestra los Bounded Contexts definidos dentro de la API Application, cada uno con responsabilidades específicas orientadas a los segmentos objetivos. Se incluyen la gestión de autenticación y cuentas, la creación y el seguimiento de denuncias, los paneles de análisis para autoridades, la interacción social en la comunidad y el directorio de recursos y contactos. Este diagrama refleja cómo los componentes se integran con la base de datos y con la SPA para dar soporte a los principales flujos del sistema.
+
+![components.png](../assets/components.png)
+
 ## 4.7. Software Object-Oriented Design.
+En esta sección, se detallan los aspectos clave del diseño orientado a objetos de la solución, incluyendo diagramas de
+clases y una descripción las entidades principales, sus atributos y métodos. Este enfoque asegura que el sistema sea
+modular, escalable y fácil de mantener.
+
 ### 4.7.1. Class Diagrams.
+
+En esta sección, se presentan los diagramas de clases que ilustran las principales entidades del sistema, sus atributos y las relaciones entre ellas. Estos diagramas son fundamentales para entender la estructura del software y cómo interactúan los diferentes componentes.
+
+Se considera lo siguiente:
+- Atributos en private (-)
+- Métodos en public (+)
+
+**COMPLAINT CREATION BOUNDED CONTEXT UML**
+![Complaint Creation Bounded Context UML](../assets/complaintCreationBoundedContextUml.png)
+
+- **Citizen** como actor principal que crea/gestiona denuncias.
+- **Complaint** como entidad central con relación a Category, Location y Evidence.
+- **Controller**, **Service**, **Repository** con interfaz `IComplaintRepository`.
+- **Enums** para `ComplaintStatus` y `EvidenceType`.
+
+**DIRECTORY OF RESOURCES & CONTACTS BOUNDED CONTEXT UML**
+![Directory of Resources & Contacts Bounded Context UML](../assets/directoryOfResourcesAndContactsBoundedContextUml.png)
+
+- **Roles principales (Citizen y Authority)** como consumidores.
+- **ContactDirectory** para información general.
+- **ExtendedDirectoryEntry** para autoridades con datos internos (jerarquías/responsables).
+- **Technical layer**: Controller, Service y Repository.
+- **Enum ContactType** para clasificar contactos.
+- **interfaz** IDirectoryRepository.
+- `DirectoryService` no depende directamente de la clase concreta `DirectoryRepository`, sino de la **interfaz**, siguiendo el principio de inversión de dependencias.
+
+**HISTORY AND FOLLOW-UP OF COMPLAINTS BOUNDED CONTEXT UML**
+![History and Follow-up of Complaints Bounded Context UML](../assets/historyAndFollowUpOfComplaintsBoundedContextUml.png)
+- El **ciudadano** puede ver el historial de denuncias y consultar su estado.
+- Cada **denuncia (Complaint)** tiene un estado (`ComplaintStatus`) y múltiples registros de seguimiento (`ComplaintTracking`).
+- La **autoridad** actualiza estados y registra acciones.
+- La capa de aplicación está organizada con **Controller → Service → Repository (interface + implementación).**
+
+**AUTHORITIES DASHBOARD BOUNDED CONTEXT UML**
+![Authorities Dashboard Bounded Context UML](../assets/authoritiesDashboardBoundedContextUml.png)
+
+- **Authority** accede a un **Dashboard** personalizado.
+- El **Dashboard** muestra estadísticas, alertas y un resumen de denuncias.
+- Incluye **ComplaintSummary** (versión ligera de las denuncias para listado rápido).
+- Manejo de **notificaciones** asociadas a las denuncias.
+- Arquitectura organizada con **Controller → Service → Repository (interface + implementación)**.
+
+**AUTHENTICATION & ACCOUNT MANAGEMENT BOUNDED CONTEXT UML**
+![Authentication & Account Management Bounded Context UML](../assets/authenticationAndAccountManagementBoundedContextUml.png)
+
+- `User` es la clase base con credenciales y rol.
+- `Citizen` y `Authority` heredan de User.
+- `UserProfile` maneja la info editable del usuario.
+- Se agregan servicios (`AuthService`, `UserService`) y el controlador (`AuthController`).
+- El repositorio sigue el patrón `IUserRepository` con su implementación concreta.
+- El enum `UserRole` asegura control de permisos.
+
+**COMMUNITY BOUNDED CONTEXT UML**
+![Community Bounded Context UML](../assets/communityBoundedContextUml.png)
+
+
 ## 4.8. Database Design.
+
+En esta sección, se presenta el diseño de la base de datos para la solución, incluyendo diagramas entidad-relación (ER) y una descripción de las tablas principales, sus atributos y relaciones. Este diseño asegura que los datos se almacenen de manera eficiente y coherente, facilitando el acceso y la gestión de la información.
+
 ### 4.8.1. Database Diagrams.
+
+**COMPLAINT CREATION BOUNDED CONTEXT ERD**
+
+![dcf942f4-d5ba-4355-9812-9c164fe046bb.png](../assets/dcf942f4-d5ba-4355-9812-9c164fe046bb.png)
+
+**Tablas y atributos principales**
+
+- Citizens
+Almacena la información de los ciudadanos que presentan denuncias.<br>
+***Atributos: id, name, email, phone.***
+
+- Complaints
+Es la entidad central que representa cada denuncia registrada en el sistema.<br>
+***Atributos: id, citizen_id, category_id, location_id, description, status, created_at, updated_at.***
+
+- Categories
+Define los tipos de denuncias disponibles (ej: basura, baches, alumbrado).<br>
+***Atributos: id, name, description.***
+
+- Locations
+Registra la ubicación de la denuncia. <br>
+***Atributos: id, address, latitude, longitude.***
+
+- Evidences
+Guarda los archivos o pruebas que sustentan una denuncia. <br>
+***Atributos: id, complaint_id, type, file_path, uploaded_at.***
+
+**DIRECTORY OF RESOURCES & CONTACTS BOUNDED CONTEXT ERD**
+
+![85d53938-c4d1-4fcb-98a5-9815239cbd30.png](../assets/85d53938-c4d1-4fcb-98a5-9815239cbd30.png)
+
+**Tablas y atributos principales**
+
+- Citizens: Registra la información básica de los ciudadanos que consultan o utilizan el directorio de contactos.<br>
+***Atributos: id, name, email, address, phone.***
+
+- Contact_directories: Representa los contactos disponibles en el directorio, con sus datos generales y de referencia.<br><br
+***Atributos: id, contact_type_id, citizen_id, name, region, address, phone, email, office_hours.***
+
+- Authorities: Contiene los datos de las autoridades relacionadas al directorio.<br>
+***Atributos: id, name, position, institution.***
+
+- Extended_directories_entries: Almacena la información extendida de un contacto dentro del directorio, vinculándolo con una autoridad y detallando aspectos internos.<br>
+***Atributos: id, contact_id, authority_id, responsible, hierarchy, institution.***
+
+- Contact_types: Tabla de catálogo para clasificar los contactos según su tipo<br>
+***Atributos: id, name.***
+
+**HISTORY AND FOLLOW-UP OF COMPLAINTS BOUNDED CONTEXT ERD**
+
+![ce14e725-af58-4f4e-8db8-0c315caf5070.png](../assets/ce14e725-af58-4f4e-8db8-0c315caf5070.png)
+
+**Tablas y atributos principales**
+
+- **Citizens:** Almacena la información básica de los ciudadanos que presentan denuncias y pueden consultar su historial.  
+  **Atributos:** `id`, `name`, `email`, `address`, `phone`.
+
+- **Complaints:** Representa cada denuncia registrada en el sistema, incluyendo su título, descripción, fechas y estado actual.  
+  **Atributos:** `id`, `title`, `description`, `created_at`, `status_id`, `last_updated`, `citizen_id`.
+
+- **Complaint_status:** Define los posibles estados de una denuncia dentro de su ciclo de vida (ejemplo: Registered, InReview, InProgress, Resolved, Closed).  
+  **Atributos:** `id`, `name`.
+
+- **Authorities:** Contiene la información de las autoridades responsables de dar seguimiento a las denuncias y registrar acciones.  
+  **Atributos:** `id`, `name`, `institution`.
+
+- **Complaint_trackings:** Registra el historial de seguimiento de cada denuncia, documentando las actualizaciones realizadas por una autoridad, las acciones tomadas y los próximos pasos.  
+  **Atributos:** `tracking_id`, `complaint_id`, `authority_id`, `update_date`, `action_taken`, `next_step`.
+
+**AUTHORITIES DASHBOARD BOUNDED CONTEXT ERD**
+
+![f73c8de0-e7d9-4071-8eb9-5ec504fa5904.png](../assets/f73c8de0-e7d9-4071-8eb9-5ec504fa5904.png)
+
+**Tablas y atributos principales**
+
+
+- **Authorities:** Contiene la información de las autoridades que acceden al dashboard personalizado.  
+  **Atributos:** `id`, `name`, `position`, `institution`.
+
+- **Dashboards:** Representa el panel de control de cada autoridad, mostrando estadísticas de las denuncias asignadas.  
+  **Atributos:** `id`, `authority_id`, `total_complaints`, `resolved_complaints`, `closed_complaints`.
+
+- **Complaint_summaries:** Almacena una versión ligera de las denuncias para listados rápidos en el dashboard, incluyendo datos básicos y el estado actual.  
+  **Atributos:** `id`, `dashboard_id`, `title`, `citizen_name`, `status_id`, `created_at`, `last_updated`.
+
+- **Complaint_status:** Tabla de catálogo que define los posibles estados de una denuncia (ejemplo: *Registered, InReview, InProgress, Resolved, Closed*).  
+  **Atributos:** `id`, `name`.
+
+- **Notifications:** Registra las notificaciones asociadas al dashboard de una autoridad, indicando mensajes y fechas.  
+  **Atributos:** `id`, `dashboard_id`, `type_id`, `message`, `date`.
+
+- **Notifications_types:** Tabla de catálogo que clasifica las notificaciones según su naturaleza (ejemplo: *NewComplaint, Reminder, Escalation, General*).  
+  **Atributos:** `id`, `name`.
+
+**AUTHENTICATION & ACCOUNT MANAGEMENT BOUNDED CONTEXT ERD**
+
+![ec9d82bb-1794-461a-8e22-b9106c1d6095.png](../assets/ec9d82bb-1794-461a-8e22-b9106c1d6095.png)
+
+**Tablas y atributos principales**
+
+- **User_roles:** Tabla de catálogo que define los roles disponibles dentro del sistema (ejemplo: *CITIZEN, AUTHORITY*).  
+  **Atributos:** `id`, `name`.
+
+- **Users:** Tabla base que almacena las credenciales y rol de cada usuario en el sistema.  
+  **Atributos:** `id`, `email`, `password_hash`, `role_id`.
+
+- **User_profiles:** Contiene la información editable y de contacto asociada a cada usuario.  
+  **Atributos:** `id`, `user_id`, `full_name`, `contact_info`.
+
+- **Citizens:** Tabla que hereda de `Users` y almacena información específica de los ciudadanos registrados.  
+  **Atributos:** `id`, `user_id`, `name`, `address`, `phone`.
+
+- **Authorities:** Tabla que hereda de `Users` y almacena información específica de las autoridades.  
+  **Atributos:** `id`, `user_id`, `name`, `institution`, `position`.
+
+**COMMUNITY BOUNDED CONTEXT ERD**
+
+![38f69f0c-cbae-4926-8652-cbd503306ff3.png](../assets/38f69f0c-cbae-4926-8652-cbd503306ff3.png)
+
+**Tablas y atributos principales**
+
+- **Users:** Almacena la información de los usuarios registrados en la comunidad.  
+  **Atributos:** `id`, `name`, `role`.
+
+- **Posts:** Representa las publicaciones creadas por los usuarios dentro de la comunidad.  
+  **Atributos:** `id`, `content`, `created_at`, `author_id`.
+
+- **Comments:** Registra los comentarios hechos por los usuarios en relación a un post.  
+  **Atributos:** `id`, `content`, `created_at`, `author_id`, `post_id`.
+
 # Capítulo V: Product Implementation, Validation & Deployment.
+
+En este capítulo se detallará la implementación del producto, la validación y la configuración de despliegue del
+software.
+
 ## 5.1. Software Configuration Management.
+
+En este apartado, se detallan las herramientas y configuraciones empleadas para mantener la consistencia y organización
+del entorno de desarrollo durante el ciclo de vida del proyecto. La gestión de la configuración del software es crucial
+para asegurar que todos los miembros del equipo trabajan de manera coordinada, utilizando las mismas versiones de
+herramientas y respetando las convenciones establecidas. Esta sección abarca desde la configuración del entorno de
+desarrollo hasta la gestión del código fuente y el despliegue de la solución.
+
 ### 5.1.1. Software Development Environment Configuration.
+
+#### Project Management
+
+**Discord:**<br>
+Discord ha sido la herramienta principal de comunicación y coordinación del equipo. Se ha utilizado para realizar
+reuniones virtuales, mantener discusiones continuas sobre el progreso del proyecto, y para compartir recursos y
+actualizaciones de forma eficiente.<br>
+**Ruta de referencia:** www.discord.com/
+
+**Trello:**<br>
+Trello se ha para la gestión del proyecto, permitiendo la visualización y actualización del estado de tareas y sprints
+en los que trabaja el equipo. Aunque su uso ha sido ocasional, ha proporcionado una estructura básica para el
+seguimiento de actividades.
+<br> **Ruta de referencia:
+** https://trello.com/invite/b/68c01f0af7dc026747b717e0/ATTId2a59168991076607501cc44ce36c36889169CFD/prodevs
+
+**Product UX/UI Design**<br>
+Para la elaboración de la interfaz de usuario y la experiencia de usuario, se emplearán las siguientes herramientas:
+
+- **Figma:**<br> Una plataforma colaborativa de diseño que permite la creación de wireframes, mock-ups y prototipos
+  interactivos. Será utilizada para diseñar tanto las interfaces de usuario como los flujos de interacción de la
+  aplicación.
+- LucidChart: Herramienta de diagramación en línea que será utilizada para la elaboración de wireflows y user flows,
+  facilitando la visualización y planificación de las interacciones y navegaciones dentro de la aplicación.
+
+**Rutas de referencia:**<br>
+
+- https://www.figma.com/design/ZoYnEmqqHBoCxPxLuVJJsg/DenunciaYa--Figma?node-id=0-1&t=Y8rN524Bxh5u0uG8-1
+- www.lucidchart.com/
+
+**Software Development**<br>
+Para el desarrollo del software, se han seleccionado las siguientes herramientas y tecnologías, con el fin de
+proporcionar un entorno robusto y eficiente para el desarrollo del proyecto:
+
+- **WebStorm:**<br> Un entorno de desarrollo integrado (IDE) potente y completo, que ofrece herramientas avanzadas para
+  el desarrollo de aplicaciones. Será utilizado para escribir, depurar y gestionar el código del proyecto, aprovechando
+  sus características de soporte para múltiples lenguajes y sistemas de control de versiones.
+- **HTML5:**<br> El lenguaje estándar de marcado para la creación de páginas web. Será empleado en el desarrollo del
+  frontend de la aplicación, estructurando el contenido de manera semántica y accesible.
+- **CSS:**<br> Hojas de estilo en cascada utilizadas para diseñar y estilizar la presentación visual de la aplicación
+  web. Permitirá definir el diseño responsivo y adaptativo del frontend.
+- **TypeScript:**<br> Un superconjunto tipado de JavaScript que proporciona una mayor seguridad y productividad en el
+  desarrollo de aplicaciones web. Será utilizado en el frontend para mejorar la calidad y mantenibilidad del código.
+- **Angular:**<br> Un framework de desarrollo de aplicaciones web de código abierto, mantenido por Google. Será
+  utilizado para la creación del frontend de la aplicación, aprovechando su estructura modular y su capacidad de
+  creación de componentes reutilizables.
+- **Java:** <br> Un lenguaje de programación orientado a objetos, ampliamente utilizado para el desarrollo de
+  aplicaciones backend. Será empleado para la lógica del servidor y la gestión de datos.
+- **Spring Boot:**<br> Un framework basado en Java que facilita la creación de aplicaciones independientes y de
+  producción. Será utilizado para desarrollar el backend de la aplicación, proporcionando una configuración simplificada
+  y una integración fluida con bases de datos y servicios web.
+
+**Rutas de referencia:**<br>
+
+- www.jetbrains.com/webstorm/
+- https://www.w3schools.com/html/html5_syntax.asp
+- https://google.github.io/styleguide/htmlcssguide.html
+- www.typescriptlang.org/
+- https://angular.dev/style-guide
+- https://google.github.io/styleguide/javaguide.html
+
+**Software Deployment**
+
+En esta sección, se detallan las herramientas y plataformas utilizadas para el despliegue de las aplicaciones
+desarrolladas, garantizando que estén accesibles y operativas en el entorno de producción.
+
+- **GitHub Pages:**<br>Un servicio de alojamiento web estático que se integra con los repositorios de GitHub. Será
+  utilizado para desplegar la landing page del proyecto, proporcionando un enlace accesible para los usuarios finales.
+  <br>**Rutas de referencia:**
+  https://docs.github.com/es/pages
+
+**Software Documentation**
+
+En esta sección, se especifican las herramientas utilizadas para la documentación del software, proporcionando un
+registro detallado de los aspectos técnicos y funcionales del proyecto.
+
+- **GitHub:** Además de servir como plataforma para el control de versiones y la colaboración en el código, GitHub
+  también se utiliza para alojar la documentación del proyecto. Los miembros del equipo pueden acceder y actualizar la
+  documentación a través de los repositorios del proyecto.
+  <br>**Ruta de referencia:**
+  https://github.com/orgs/1ASI0729-7401-2520-Prodevs-DenunciaYa/repositories
+
 ### 5.1.2. Source Code Management.
+
+El equipo utilizará GitHub como plataforma principal para el control de versiones, implementando el modelo GitFlow. A
+continuación, se describen los medios y el esquema de organización que se aplicarán para el seguimiento de
+modificaciones:
+
+**Repositorios de GitHub**
+
+- Landing Page: https://github.com/1ASI0729-7401-2520-Prodevs-DenunciaYa/DenunciaYa-Landing-Page
+- Project Report: https://github.com/1ASI0729-7401-2520-Prodevs-DenunciaYa/DenunciaYa-Proyect-Report
+- Front-end:
+- Back-end:
+
+Cada repositorio alojará el código fuente correspondiente a su respectivo producto.
+
+**Implementación de GitFlow**
+
+Se implementará el modelo GitFlow para el control de versiones, siguiendo las convenciones establecidas por Vincent
+Driessen en su artículo "A successful Git branching model". El esquema de ramas incluirá:
+
+- **Main branch:** La rama principal donde se alojarán las versiones estables del proyecto.
+- **Develop branch:** Rama de desarrollo donde se integran las nuevas funcionalidades antes de pasar a la rama
+  principal.
+- **Feature branches:** Cada nueva característica o capítulo desarrollado por el equipo se trabajará en una rama
+  específica. Las convenciones para nombrar estas ramas seguirán un patrón descriptivo, por ejemplo, feat/chapter-5.
+- **Release branches:** Ramas destinadas a preparar una nueva versión para el lanzamiento, siguiendo el esquema de
+  versionado semántico.
+- **Hotfix branches:** Ramas para corregir errores críticos en versiones ya lanzadas, aplicando convenciones similares a
+  las usadas en las Release branches.
+
+**Conventional Commits**
+
+El equipo aplicará las convenciones de Conventional Commits para los mensajes de commit, asegurando que cada cambio en
+el código sea fácilmente comprensible y rastreable. Los mensajes seguirán la estructura:
+
+- **tipo(scope):** mensaje
+- **Tipo:** indica la naturaleza del cambio (e.g., feat, fix, chore).
+- **Scope:** define la sección del código afectada (e.g., ui, backend).
+- **Mensaje:** descripción concisa del cambio realizado.
+
 ### 5.1.3. Source Code Style Guide & Conventions.
+
+**HTML**
+
+- **Estructura del Documento:** Declara el tipo de documento en la primera línea: `<!DOCTYPE html>`. Usa una estructura
+  de etiqueta HTML válida: `<html>`, `<head>`, `<body>`. Cierra todos los elementos HTML: `<p>Texto</p>.`
+- **Comentarios:** Escribe comentarios en una sola línea cuando sean cortos. Usa comentarios para secciones importantes:
+  `<!-- Inicio de la sección de navegación -->`.
+- **Atributos:** Usa comillas dobles para los valores de los atributos: `<img src="imagen.jpg" alt="Descripción">`.
+  Especifica siempre los atributos alt y las dimensiones width y height en las imágenes.
+- **Indentación y Espaciado:** Usa dos espacios para la indentación. No uses espacios alrededor de los signos de igual
+  en los atributos.
+
+**CSS**
+
+- **Indentación y Espaciado:** Usa dos espacios para la indentación; no uses tabulaciones. El código CSS debe estar en
+  minúsculas.
+- **Comentarios:** Usa comentarios para explicar secciones complejas del código.
+- **Nombres de Clases:** Utiliza nombres de clase significativos que reflejen el propósito del elemento. Evita los
+  nombres de clases genéricos como .box o .container.
+- **Organización:** Agrupa las reglas CSS relacionadas en un solo bloque.
+
+**JavaScript**
+
+- **Indentación y Espaciado:** Usa dos espacios para la indentación. Mantén un espacio después de las comas y antes de
+  los corchetes de apertura.
+- **Comentarios:** Usa comentarios para explicar la lógica del código, especialmente en bloques complejos.
+- **Nombres de Variables y Funciones:** Usa nombres descriptivos y en camelCase para variables y funciones. Por ejemplo,
+  getUserInfo en lugar de getuserinfo.
+- **Estructura del Código:** Usa funciones y módulos para mantener el código organizado y reutilizable. Evita el uso de
+  código no utilizado y realiza limpieza regularmente.
+
+**TypeScript**
+
+- **Indentación y Espaciado:** Usa dos espacios para la indentación. Sigue el formato recomendado por el estándar
+  TypeScript.
+- **Comentarios:** Usa comentarios para describir el propósito de las funciones y las interfaces.
+- **Nombres de Variables y Funciones:** Usa camelCase para variables y funciones. Usa PascalCase para nombres de clases
+  e interfaces.
+- **Tipos:** Especifica tipos explícitos en las variables y las funciones para mayor claridad y seguridad de tipo.
+
+**Java**
+
+- **Indentación y Espaciado:** Usa cuatro espacios para la indentación. Sigue las convenciones de espaciado estándar en
+  el código Java.
+- **Comentarios:** Usa comentarios Javadoc para documentar clases y métodos.
+- **Nombres de Variables y Funciones:** Usa camelCase para nombres de variables y métodos. Usa PascalCase para nombres
+  de clases.
+- **Organización del Código:** Sigue la estructura de paquetes recomendada y organiza el código en clases y métodos
+  claros.
+
+**Gherkin (para archivos .feature)**
+
+- **Estructura de las Características:** Usa Feature, Scenario, Given, When, Then para estructurar los archivos
+  .feature.
+- **Nombres y Descripciones:** Usa descripciones claras y concisas en inglés. Usa un formato de verbo en presente para
+  los pasos del escenario.
+
 ### 5.1.4. Software Deployment Configuration.
+
+**Landing Page**
+
+Para desplegar la Landing Page del proyecto, se utilizará GitHub Pages como servicio de hosting estático. A continuación
+se detallan los pasos de configuración y despliegue:
+
+1. **Creación del repositorio**
+    - Dentro de la organización "1ASI0729-7401-2520-Prodevs-DenunciaYa", se creará un nuevo repositorio llamado "
+      DenunciaYa-Landing-Page".
+2. **Carga del código fuente**
+    - El código de la Landing Page se subirá al repositorio utilizando Git, siguiendo las convenciones de commits
+      establecidas por el equipo.
+    - La estructura de carpetas será la siguiente:
+    ``` 
+    index.html
+    docs/
+       css/
+       js/
+       images/
+   ```
+3. **Configuración de GitHub Pages**
+    - En la configuración del repositorio, se habilitará GitHub Pages
+    - Se seleccionará la rama `main` y la carpeta raíz (`root`) como fuente de publicación.
+
+4. **Acceso a la Landing Page**
+    - Una vez configurado, la página estará disponible en la URL generada automáticamente por GitHub Pages, con el
+      siguiente formato:
+      `https://<username>.github.io/<repository-name>/`
+5. **Actualizaciones y mantenimiento**
+    - Cualquier modificación en el código fuente se subirá a la rama `main`.
+    - GitHub Pages actualizará automáticamente la Landing Page con la última versión del código.
+
 ## 5.2. Landing Page, Services & Applications Implementation.
+
+En esta sección, explicamos y documentamos el proceso de implementación, pruebas, documentación y despliegue de la
+Landing Page, Web Services y Frontend Web Applications. A medida que avanzamos en el desarrollo, desglosamos el trabajo
+en secciones específicas para cada Sprint, comenzando con el Sprint 1.
+
 ### 5.2.1. Sprint 1
+
+Es fundamental que el equipo dedique especial atención a la identificación del Sprint Goal, siguiendo las guías
+establecidas por el Scrum Guide. El Sprint Goal debe enfocarse en el negocio o en la perspectiva de los usuarios,
+buscando la entrega de un nuevo feature o un set de features.
+Para nuestro Sprint, utilizamos la estructura sugerida por Scrum.org para redactar el Sprint Goal.
+
 ### 5.2.1.1. Sprint Planning 1.
+
+En el Sprint #1, que comienza el 13/09/2025, nos enfocaremos en desarrollar una landing page para Denuncia-Ya. El
+objetivo es crear una página que no solo capte la atención de los visitantes, sino que también transmita claramente los
+beneficios de nuestro producto. Este sprint estará dedicado al diseño y desarrollo de la landing page para cumplir con
+nuestros objetivos estratégicos.
+
+| **Sprint #**                    | Sprint 1                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+|---------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Sprint Planning Background      |                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Date                            | 13/09/2025                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Time                            | 10:00-12:00                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Location                        | Virtual via discord                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Prepared By                     | Gabriel Anthony Braithuaite Toledo, Omar Harold Rivera Ticllacuri                                                                                                                                                                                                                                                                                                                                                                           |
+| Attendees (to planning meeting) | Gabriel Anthony Braithuaite Toledo, Omar Harold Rivera Ticllacuri, Gabriel Cristian Mamani Marca, Franco Diego Rioja Nuñez, Augusto Sebastian Montes Maza                                                                                                                                                                                                                                                                                   |
+| Sprint Goal & User Stories      |                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Sprint 1 Goal                   | **Our focus is on** delivering the first version of the Denuncia-Ya landing page to present the platform’s purpose and main functionalities.<br> **We believe it delivers** initial visibility and credibility to potential citizens and authorities interested in the platform. <br>**This will be confirmed when** visitors can access the landing page, understand the service offering, and navigate the basic sections without errors. |
+| Sprint 1 Velocity               | El equipo ha establecido una capacidad de 20 story points para este sprint, basándose en la experiencia previa y la complejidad de las tareas planificadas.                                                                                                                                                                                                                                                                                 |
+| Sum of Story Points             | 19                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+
 ### 5.2.1.2. Aspect Leaders and Collaborators.
+
+En este primer Sprint, los principales aspectos considerados corresponden al desarrollo y despliegue de la primera
+versión del Landing Page de Denuncia-Ya.
+Los aspectos clave incluyen:
+
+- **Diseño de interfaz básica** (estructura de la landing, secciones informativas).
+- **Contenido de la landing** (texto descriptivo, mensajes clave, misión del producto).
+- **Implementación técnica** (configuración de frontend, HTML/CSS/JS).
+- **Pruebas funcionales básicas** (verificar navegación, carga de secciones y responsividad).
+- **Gestión de despliegue** (subida a un entorno accesible para los usuarios).
+
+| Team Member (Last Name, First Name) | GitHub Username | Diseño de Interfaz | Contenido de la Landing | Implementación Técnica | Pruebas Funcionales | Despliegue |
+|-------------------------------------|-----------------|--------------------|-------------------------|------------------------|---------------------|------------|
+| Omar Harold Rivera Ticllacuri       | TicSide         | **L**              | **L**                   | C                      | C                   |            |
+| Gabriel Anthony Braithuaite Toledo  | Gaboo04         | C                  | **L**                   | C                      | C                   | **L**      |
+| Franco Diego Rioja Nuñez            | FrancoDiegoR    | C                  | C                       | **L**                  | C                   |            |
+| Gabriel Cristian Mamani Marca       | Gabrlel0105     | C                  | C                       | C                      | **L**               |            |
+| Augusto Sebastian Montes Maza       | asmmaza         | C                  | C                       | C                      | C                   |            |
+
 ### 5.2.1.3. Sprint Backlog 1.
+
+El Sprint Backlog para el Sprint #1 tiene como objetivo definir las tareas que se deben realizar para cumplir con el
+objetivo principal, el cual es desarrollar y desplegar la primera versión del Landing Page de Denuncia-Ya. A
+continuación, se detallan las historias de usuario seleccionadas para este sprint, junto con sus respectivas
+estimaciones, asignaciones y estados.
+
+| Sprint #   | Sprint n                  |                  |                                     |                                                                                                                             |                    |                               |                                             |
+|------------|---------------------------|------------------|-------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|--------------------|-------------------------------|---------------------------------------------|
+| User Story |                           | Work-Item / Task |                                     |                                                                                                                             |                    |                               |                                             |
+| Id         | Title                     | Id               | Title                               | Description                                                                                                                 | Estimation (Hours) | Assigned To                   | Status (To-do /In-Process /To-Review /Done) |
+| US2        | Sección “Home”            | WI1              | Implementación de la sección Home   | Implementar Una sección en la cual se muestra el contenido principal, un slogan y una breve descripción del producto.       | 2                  | Omar Harold Rivera Ticllacuri | Done                                        |
+| US3        | Llamado a la acción (CTA) | WI2              | Implementación del CTA              | Implementar un botón de llamado a la acción (CTA) que dirija a los usuarios a registrarse o aprender más sobre el producto. | 2                  | Omar Harold Rivera Ticllacuri | Done                                        |
+| US1        | Sección “How it works”    | WI3              | Implementación de How it works      | Implementar una sección que explique cómo funciona el producto, utilizando texto e ilustrando el proceso.                   | 3                  | Franco Diego Rioja Nuñez      | Done                                        |
+| US4        | Seccion About us          | WI4              | Implementación de About us          | Implementar una sección que describa la misión, visión y valores de la empresa.                                             | 3                  | Gabriel Anthony Braithuaite   | Done                                        |
+| US5        | Sección Testimonials      | WI5              | Implementación de Testimonials      | Implementar una sección que muestre testimonios de usuarios o clientes satisfechos con el producto.                         | 3                  | Gabriel Cristian Mamani Marca | Done                                        |
+| US6        | Sección News & Blog       | WI6              | Implementación de News & Blog       | Implementar una sección que presente noticias, artículos o blogs relacionados con el producto o la industria.               | 3                  | Augusto Sebastian Montes Maza | Done                                        |
+| US7        | Sección de Soporte        | WI7              | Implementación de Soporte           | Implementar una sección que ofrezca soporte al usuario, incluyendo preguntas frecuentes y opciones de contacto.             | 3                  | Omar Harold Rivera Ticllacuri | Done                                        |
+| US8        | Sección de Contacto       | WI8              | Implementación de Contacto          | Implementar una sección que permita a los usuarios ponerse en contacto con la empresa a través de un correo.                | 2                  | Omar Harold Rivera Ticllacuri | Done                                        |
+| TS1        | Responsive Design         | WI9              | Implementación de diseño responsivo | Asegurar que la landing page sea completamente responsiva y se vea bien en dispositivos móviles y de escritorio.            | 2                  | Omar Harold Rivera Ticllacuri | Done                                        |
+
 ### 5.2.1.4. Development Evidence for Sprint Review.
+
+Durante el Sprint #1, el equipo se centró en desarrollar y desplegar la primera versión del Landing Page de Denuncia-Ya.
+A continuación, se presentan las evidencias de desarrollo que respaldan los logros alcanzados durante este sprint.
+
+| Repository                           | Branch  | Commit Id | Commit Message                                                    | Commit Message Body                                               | Commited on (Date) |
+|--------------------------------------|---------|-----------|-------------------------------------------------------------------|-------------------------------------------------------------------|--------------------|
+| TicSide/DenunciaYa-Landing-Page      | develop | 77fa8f9   | fix(index): delete errors                                         | fix(index): delete errors                                         | 19/09/2025         |
+| FrancoDiegoR/DenunciaYa-Landing-Page | develop | ab01789   | feat(index): added how it works section                           | feat(index): added how it works section                           | 19/09/2025         |
+| Gaboo04/DenunciaYa-Landing-Page      | develop | ea759db   | fix(index): improve HTML structure and formatting for readability | fix(index): improve HTML structure and formatting for readability | 19/09/2025         |
+| Gabrlel0105/DenunciaYa-Landing-Page  | develop | 69bd440   | feat: add testimonials                                            | feat: add testimonials                                            | 19/09/2025         |
+| asmmaza/DenunciaYa-Landing-Page      | develop | 9a422b1   | index.html                                                        | blog-section                                                      | 20/09/2025         |
+
 ### 5.2.1.5. Execution Evidence for Sprint Review.
+
 ### 5.2.1.6. Services Documentation Evidence for Sprint Review.
+
+En este Sprint, el enfoque principal del equipo se centró en el desarrollo y despliegue de la página de aterrizaje (landing page) de Denuncia-Ya. Este objetivo, cuidadosamente definido en la planificación, no incluyó la implementación de ningún servicio web ni de una API. Por lo tanto, no se generó ninguna documentación relacionada con la definición de endpoints, esquemas de datos o protocolos de comunicación. La arquitectura del proyecto en esta fase inicial se mantiene en una capa de presentación simple y estática. La implementación de la lógica de negocio y los servicios de backend se abordarán en Sprints futuros, una vez que se establezca una base sólida para el frontend. Esto asegura que el equipo se mantenga enfocado en los objetivos del sprint actual, evitando la dispersión de esfuerzos y optimizando la entrega de valor incremental.
+
 ### 5.2.1.7. Software Deployment Evidence for Sprint Review.
+
+El despliegue exitoso de la primera versión de la Landing Page de Denuncia-Ya fue un hito crucial en este Sprint. Se utilizó GitHub Pages como la plataforma de alojamiento estático, una elección estratégica que capitalizó la integración nativa con nuestro sistema de control de versiones y simplificó el proceso de publicación. A continuación, se detalla el proceso paso a paso y la evidencia de su finalización.
+
+1. **Creación del repositorio**
+    - Se creó el repositorio "DenunciaYa-Landing-Page" dentro de la organización 1ASI0729-7401-2520-Prodevs-DenunciaYa
+      en GitHub.
+    - **Evidencia:** ![Repositorio en GitHub](../assets/github-repo.png)
+2. **Carga del código fuente**
+    - Se subió el código fuente al repositorio mediante Git.
+    - La estructura de carpetas utilizada fue:
+    ```
+    index.html
+    docs/
+       css/
+       js/
+       images/
+    ```
+   - **Evidencia:** ![Estructura del repositorio](../assets/repo-structure.png)
+3. **Configuración de GitHub Pages**
+    - En la configuración del repositorio, se habilitó GitHub Pages
+    - Se seleccionó la rama `main` y la carpeta raíz (`root`) como fuente de publicación.
+    - **Evidencia:** ![Configuración de GitHub Pages](../assets/github-pages-setup.png)
+4. **Publicación de la Landing Page**
+    - Tras la configuración, GitHub Pages generó automáticamente la URL pública de acceso.
+    - La página quedó disponible en: https://1asi0729-7401-2520-prodevs-denunciaya.github.io/DenunciaYa-Landing-Page/
+    - **Evidencia:** ![Landing Page en vivo](../assets/landing-page-live.png)
+5. **Actualizaciones y mantenimiento**
+    - Al realizar un cambio en index.html y subirlo al repositorio, la actualización se reflejará automáticamente en la
+      página publicada.
+
 ### 5.2.1.8. Team Collaboration Insights during Sprint.
-Conclusiones
-Bibliografía
-Anexos
+
+En este Sprint, el equipo demostró una colaboración efectiva y estructurada, adhiriéndose a los roles definidos en la Matriz de Liderazgo y Colaboración (LACX). El objetivo principal de esta sección es mostrar la evidencia de dicha colaboración, reflejada en la ejecución de las actividades de implementación y en las métricas de GitHub.
+
+Evidencia de la Colaboración en GitHub
+El repositorio de GitHub sirvió como el centro de nuestra actividad, proporcionando datos concretos sobre la interacción y las contribuciones de cada miembro.
+
+Analíticas del Repositorio
+La sección Pulse de GitHub ofreció una visión clara de la dinámica del equipo. Las siguientes métricas demuestran la alta participación y el flujo de trabajo coordinado:
+
+Commits por Autor: Se observó un número considerable de commits, distribuidos equitativamente entre los miembros del equipo. Esto no solo confirmó que cada desarrollador contribuyó activamente, sino que también aseguró que la carga de trabajo se compartiera de manera justa, evitando cuellos de botella y maximizando la productividad.
+
+Pull Requests: La creación constante de Pull Requests fue una práctica estándar. Cada PR fue sometida a revisión por otro miembro del equipo, asegurando la calidad del código, la conformidad con los estándares de estilo y la detección temprana de posibles errores. El proceso de revisión y fusión demostró la confianza y la responsabilidad compartida dentro del equipo.
+
+Issues Abiertos y Cerrados: El seguimiento de las historias de usuario y las tareas a través de issues en GitHub permitió una gestión de tareas transparente y eficiente. El alto número de issues cerrados al final del sprint evidencia que el equipo logró los objetivos establecidos de manera oportuna.
+
+Metodologías de Desarrollo y Convenciones
+El éxito del Sprint 1 no fue solo un resultado de la actividad, sino de cómo se organizó esa actividad. La adopción de metodologías como GitFlow y Conventional Commits fue crucial:
+
+GitFlow: El uso de ramas de feature para cada nueva tarea permitió a los desarrolladores trabajar en paralelo sin conflictos de código. Esto facilitó un desarrollo fluido y una integración continua del trabajo de cada colaborador.
+
+Conventional Commits: La estandarización de los mensajes de commit (ej., feat:, fix:) proporcionó un historial de cambios legible y significativo, lo que ayudó a la revisión del código y a la comprensión del progreso general del proyecto por parte de todos los miembros.
+
+**Pulse Analytics**
+
+![Pulse Analytics](../assets/pulse-analytics.png)
+**Contributors Analytics**
+
+![Contributors Analytics](../assets/contributors-analytics.png)
+
+# Conclusiones
+Durante el proceso de creación y desarrollo de este trabajo se llegaron a las siguientes conclusiones:
+
+### 1. Trabajo en equipo y colaboración
+El desarrollo de DenunciaYa demostró que la colaboración y la comunicación constante entre los miembros del equipo son esenciales para integrar distintas perspectivas y habilidades. La distribución de roles y la sinergia lograda permitieron construir una solución sólida y alineada con los objetivos planteados.
+
+### 2. Planificación y organización en el desarrollo de software
+La planificación adecuada, junto con la adopción de metodologías ágiles como SCRUM, fueron factores clave para gestionar tareas, priorizar funcionalidades y cumplir con los plazos establecidos. Esto garantizó un proceso ordenado y la entrega de un producto funcional y de calidad.
+
+### 3. Impacto social y transparencia en la gestión pública
+DenunciaYa representa una solución innovadora que contribuye a mejorar la transparencia gubernamental y la confianza ciudadana. Al facilitar la denuncia de problemas urbanos y actos de corrupción de forma rápida, segura y anónima, la plataforma genera un impacto positivo en la calidad de vida de la comunidad.
+
+### 4. TIC como herramienta de participación ciudadana
+El proyecto demuestra que las Tecnologías de la Información y Comunicación (TIC) son un medio estratégico para ampliar el alcance y la participación social. DenunciaYa facilita que más ciudadanos se involucren activamente en la identificación y resolución de problemas locales, fortaleciendo la gobernanza digital.
+
+### 5. Usabilidad y experiencia del usuario
+DenunciaYa ha sido diseñada para que cualquier persona pueda usarla fácilmente desde el primer momento. Su interfaz es intuitiva y accesible, lo que permite reportar problemas en pocos pasos y sin complicaciones. Con un diseño moderno y centrado en el usuario, la plataforma garantiza una experiencia ágil, clara y confiable tanto para ciudadanos como para autoridades.
+
+#  Bibliografía
+
+- Gruber, J. (2004). *Markdown*. Daring Fireball. https://daringfireball.net/projects/markdown/
+
+- Flanagan, D. (2020). *JavaScript: The definitive guide* (7th ed.). O’Reilly Media. https://www.oreilly.com/library/view/javascript-the-definitive/9781491952016/
+
+- W3C. (2017). *HTML5: A vocabulary and associated APIs for HTML and XHTML*. World Wide Web Consortium (W3C). https://www.w3.org/TR/html52/
+
+- Meyer, E. (2017). *CSS: The definitive guide* (4th ed.). O’Reilly Media. https://www.oreilly.com/library/view/css-the-definitive/9781449325053/
+
+- Brown, S. (2018). *The C4 model for visualising software architecture*. Leanpub. https://leanpub.com/visualising-software-architecture
+
+- Brandolini, A. (2018). *Introducing EventStorming: An act of deliberate collective learning*. Leanpub. https://leanpub.com/introducing_eventstorming
+
+- Evans, E. (2003). *Domain-driven design: Tackling complexity in the heart of software*. Addison-Wesley. https://www.domainlanguage.com/ddd/
+
+- Vernon, V. (2013). *Implementing domain-driven design*. Addison-Wesley. https://www.oreilly.com/library/view/implementing-domain-driven-design/9780133039900/
+
+- Gothelf, J., & Seiden, J. (2016). *Lean UX: Designing great products with agile teams* (2nd ed.). O’Reilly Media. https://www.oreilly.com/library/view/lean-ux-2nd/9781491953600/
+
+- Bass, L., Clements, P., & Kazman, R. (2012). *Software architecture in practice* (3rd ed.). Addison-Wesley. https://www.oreilly.com/library/view/software-architecture-in/9780132942782/
+
+- Schwaber, K., & Sutherland, J. (2020). *The Scrum Guide*. Scrum.org. https://scrumguides.org/
+
+# Anexos
+
+### VIDEOS:
+
+| Título                  | Descripción                                        | Enlace                          |
+|-------------------------|----------------------------------------------------|---------------------------------|
+| Video de  TB1 | Video explicativo de los avances de la entrega TB1 | https://acortar.link/gGdqQs    |
+| Video de entrevistas    | Video recopilatorio de todas las entrevistas       | https://acortar.link/Kg2n12    |
+
+
+### UX/UI
+| Título | Descripción                                                                                                           | Enlace                       |
+|--------|-----------------------------------------------------------------------------------------------------------------------|------------------------------|
+| Figma  | Enlace hacia el documento de Figma con todos los diseños planteados para la Aplicacion Web como para el Landing Page. | https://acortar.link/4Ym8OK  | 
+
+### GITHUB
+
+| Título       | Descripción                            | Enlace                                                         |
+|--------------|----------------------------------------|----------------------------------------------------------------|
+| Reporte      | Enlace al repositorio del reporte      | https://github.com/1ASI0729-7401-2520-Prodevs-DenunciaYa/DenunciaYa-Proyect-Report        |
+| Landing Page | Enlace al repositorio del Landing Page | https://github.com/1ASI0729-7401-2520-Prodevs-DenunciaYa/DenunciaYa-Landing-Page       |
+
+
