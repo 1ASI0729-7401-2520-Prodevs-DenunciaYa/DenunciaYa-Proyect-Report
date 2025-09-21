@@ -39,17 +39,27 @@
 
 # Registro de versiones del informe
 
-| Versión | Fecha      | Autor                                 | Descripción de modificación                                                                                                                 |
-|---------|------------|---------------------------------------|--------------------------------------------------------------------------------------------------------------------------
+| Versión | Fecha       | Autor(es)                                                                                           | Descripción de modificación                                                                                                                                                                                                 |
+|---------|-------------|------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| TB1     | 10/09/2024  | Mamani Marca, Gabriel Cristian <br> Omar Harold Rivera Ticllacuri  <br> Franco Diego Rioja Nuñez  <br> Gabriel Anthony Brabuaite Toledo  <br> Augusto Sebastian Montes Maza  | Se agregó el contenido del capítulo 1 (apartados 1.1, 1.2 y 1.3); el contenido del capítulo 2 (apartados 2.1, 2.2, 2.3, 2.4); el contenido del capítulo 3 (apartados 3.1, 3.2, 3.3 y 3.4); el contenido del capítulo 4 (apartados 4.1, 4.2, 4.3, 4.4, 4.5, 4.6, 4.7 y 4.8); y el contenido del capítulo 5 (apartados 5.1 y 5.2). |
 
 # PROJECT REPORT COLLABORATION INSIGHTS
 
 | Repositorio del Informe en GitHub |
 |--|
 | https://github.com/1ASI0729-7401-2520-Prodevs-DenunciaYa/DenunciaYa-Proyect-Report
+
+TB1: Las tareas asignadas para la entrega TB1 se han completado y están documentadas en el siguiente repositorio de GitHub perteneciente a la organización del equipo: 
+[Repositorio GitHUb](https://github.com/1ASI0729-7401-2520-Prodevs-DenunciaYa/DenunciaYa-Proyect-Report), link: | https://github.com/1ASI0729-7401-2520-Prodevs-DenunciaYa/DenunciaYa-Proyect-Report
+
 ### 2. Actividades de elaboracion del informe 
+Durante la elaboración del informe se realizaron diversas actividades. Cada integrante redactó y diagramó sus contenidos asignados en formato Markdown, registrando posteriormente commits que permitieron mantener un control del avance en el repositorio. Asimismo, se generaron los artefactos correspondientes con las herramientas establecidas y se obtuvieron los enlaces de las imágenes desde la carpeta Assets ubicada en la rama develop del repositorio del informe. Finalmente, se llevaron a cabo reuniones de coordinación para supervisar el progreso del trabajo y compartir los avances vinculados al Sprint 1, cuyo objetivo principal fue la Landing Page.
 ### 3. Capturas en imagen de los analíticos de colaboración y commits en GitHub
-### 4. Evidencia de participacion de todos los miembros del equipo |
+![Contributors Analytics](../assets/contributors-analytics-2.png)
+
+
+### 4. Evidencia de participacion de todos los miembros del equipo 
+![Evidencia Participacion](../assets/Evidencia.png)
 
 # Contenido
 
@@ -142,23 +152,234 @@
 **ABET – EAC - Student Outcome 5**  
 *Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.*
 
-| Criterio específico                                                                            | Acciones realizadas | Conclusiones |
-|------------------------------------------------------------------------------------------------|---------------------|--------------|
-| Comunica oralmente con efectividad a diferentes rangos de audiencia.                           | | |
-| Comunica por escrito conefectividad a diferentes rangosde audiencia | | |
+| Criterio específico                                                   | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | Conclusiones |
+|-----------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|
+| Comunica oralmente con efectividad a diferentes rangos de audiencia.  | **TB1 <br> Gabriel Braithwaite:** Se comunicó con el equipo para el planeamiento del proyecto.<br>Comunicó la propuesta del proyecto hacia una persona de uno de los segmentos objetivos definidos mediante una entrevista oral. <br> **Gabriel Mamani**:Me comuniqué eficazmente y organicé mi tiempo para poder cumplir con mis responsabilidades tanto en las historias de usuario como en el capítulo de C4 diagrams.<br> **TB1 <br> Omar Rivera:** Me comuniqué con mi equipo para coordinar y liderar la parte del diseño de la landing page, asegurando que la propuesta reflejara los objetivos del proyecto.<br>Expliqué de forma clara las ideas y lineamientos generales de estilo para que el equipo pudiera aplicarlos en el desarrollo de los mockups y wireframes de las aplicaciones web. <br>  **TB1 <br> Franco Rioja:**: Contacté constantemente con el equipo para ayudar a que estemos en constante avance mutuo para estar todos alineados   <br>  **TB1 <br> Augusto Montes:** Dirección de entrevista con los segmentos objetivos clave para el proyecto. Estableciendo un diálogo claro y conciso para obtener información valiosa sobre las necesidades y expectativas de los usuarios, comunicación fue crucial para la definición de los requisitos del proyecto.                                                                                                                                                                                           | TB1:  El equipo demostró una comunicación efectiva y constante tanto interna como externa, lo que permitió mantener alineación en los objetivos y claridad en la transmisión de ideas; cada integrante organizó adecuadamente su tiempo y responsabilidades, aportando en áreas clave como las historias de usuario, los diagramas C4 y el diseño de la landing page, mientras que la coordinación y colaboración continua favorecieron el avance mutuo y el cumplimiento de los objetivos del proyecto.      |
+| Comunica por escrito con efectividad a diferentes rangos de audiencia | **TB1 - Gabriel Braithwaite:** Comunicó las propuestas para diferentes puntos del proyecto de manera escrita para los miembros del equipo.<br>Los puntos realizados para el proyecto fueron documentados de manera escrita en el repositorio del reporte.<br>Gabriel Mamani: Durante el desarrollo del proyecto, desempeñé un rol integral al liderar la creación de los event storming, un proceso fundamental para establecer los requisitos y funcionalidades clave de nuestra aplicación.<br>**TB1 <br> Omar Rivera:** Documenté las guías generales de estilo y la propuesta de diseño en el repositorio del proyecto para facilitar su aplicación por el equipo.<br>Desarrollé y dejé registrados los mockups y wireframes tanto de la landing page como de las web applications, asegurando consistencia visual y comunicando de manera escrita las decisiones clave de diseño. **TB1 <br> Franco Rioja:**: Mi labro fue la realización de los user persona a partir de las entrevistas, a partir de eso completé la mayoría de apartados del needfiding, además hice una pequeña parte importante del capítulo 4 como por ejemplo el diagrama de clases <br> **TB1 <br> Augusto Montes:** Determinación de los segmentos objetivos finales del proyecto. Redacción de resumen claro y conciso de los logros y el progreso del equipo durante el sprint. | TB1:   En esta etapa del proyecto, el equipo se enfocó en la documentación y definición de requisitos, dejando un registro claro y organizado de los avances; Gabriel Braithwaite plasmó las propuestas y puntos desarrollados en el repositorio del reporte, mientras que Gabriel Mamani lideró la construcción del event storming para definir funcionalidades clave; Omar Rivera consolidó las guías de estilo, mockups y wireframes con documentación detallada que garantizó consistencia visual, y Franco Rioja aportó con la creación de user persona, el needfinding y diagramas de clases, fortaleciendo el entendimiento del usuario y la estructura técnica del sistema.     |
 
 # Capítulo I: Introducción
 ## 1.1. Startup Profile
+
+A continuación, se presenta información sobre a qué se dedica nuestra startup, Prodevs.
+
 ### 1.1.1. Descripción de la Startup
+
+**Prodevs** es una startup tecnológica orientada a la creación de soluciones digitales que fortalecen la participación ciudadana y promueven la transparencia en la gestión pública. Nuestro objetivo general es cerrar la brecha entre los ciudadanos y las autoridades, utilizando la tecnología como un puente que facilite la comunicación, aumente la confianza y mejore la capacidad de respuesta de los gobiernos locales. Nos dedicamos a diseñar plataformas seguras, intuitivas y escalables que conviertan la voz ciudadana en datos accionables para la toma de decisiones.
+
+Nuestra principal propuesta es **DenunciaYa**, una aplicación que permite a los ciudadanos reportar de manera rápida y segura problemas cotidianos como baches, basura, fugas de agua, corrupción o deficiencias en los servicios públicos. El propósito de la aplicación es simplificar el proceso de denuncia, garantizando anonimato opcional, seguimiento en tiempo real y notificaciones inmediatas sobre el estado de los reportes. Al mismo tiempo, ofrece a las autoridades un sistema integral de gestión con paneles de control, herramientas de análisis y métricas de eficiencia, contribuyendo a mejorar la calidad de los servicios municipales y gubernamentales.
+
+**Misión:** Empoderar a los ciudadanos a través de la tecnología, brindándoles una herramienta confiable y accesible para denunciar problemas que afectan su entorno, mientras ayudamos a las autoridades a gestionar de manera más transparente, eficiente y responsable los recursos y soluciones públicas.
+
+**Visión:** Convertirnos en la plataforma líder en Latinoamérica para denuncias ciudadanas y gestión de problemáticas urbanas, construyendo ciudades más transparentes, seguras y participativas, donde cada reporte ciudadano se traduzca en acción concreta y mejora de la calidad de vida.
+
+**Alcance del proyecto:** Contempla en su fase inicial la implementación de la aplicación en municipios medianos y grandes, ofreciendo planes de suscripción adaptados a las capacidades de cada administración. A corto plazo, se busca consolidar la solución como un estándar en la gestión de denuncias urbanas; a mediano plazo, expandirse hacia distintas ciudades de la región, integrando la plataforma con sistemas existentes y canales de comunicación como WhatsApp; y a largo plazo, posicionarse como un ecosistema integral de gobernanza digital que promueva la participación activa de los ciudadanos y la modernización de los servicios públicos.
+
 ### 1.1.2. Perfiles de integrantes del equipo
+
+| Foto                                                     |        Apellidos y Nombres        | Código de Alumno | Carrera                | Habilidades                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+|----------------------------------------------------------|:---------------------------------:|:----------------:|------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ![GabrielMamani.png](../assets/GabrielMamani.png)        |   Mamani Marca, Gabriel Cristian  | u202220659       | Ingenieria de software | Soy estudiante de sexto ciclo de la carrera de Ingeniería de Software.Durante el camino aprendi lenguajes como c++,python y java.Tambien,sobre motores de base de datos como MongoDb y MYSQL                                                                                                                                                                                                                                                                            |
+| ![GabrielMamani.png](../assets/Omar.jpeg)                |   Omar Harold Rivera Ticllacuri   | u202214214       | Ingenieria de software | Soy estudiante de Ingeniería de Software, tengo 20 años y actualmente me encuentro en el sexto ciclo de mi carrera. Soy una persona con la cual tengo la disciplina y responsable para desarrollar proyectos de software y software de entretenimiento. Cuento con experiencia sobre el desarrollo de software de entretenimiento. Por ende, apoyaré al grupo en todo lo posible para poder desarrollar adecuadamente el trabajo y la propuesta que se nos asignó.	     |
+| ![Diego.jpeg](../assets/Diego.jpeg)                                                         |      Franco Diego Rioja Nuñez     | u202221597       |    Ingenieria de software                    | Soy estudiante de Ingeniería de Software, tengo 20 años y actualmente curso el séptimo ciclo de la carrera. Me considero una persona proactiva y comprometida en el desarrollo de proyectos, además de ser colaborativa y atenta a las necesidades y problemas de mis compañeros de equipo. En paralelo, me encuentro llevando cursos de especialización en Análisis de Datos, con el objetivo de ampliar mis conocimientos y fortalecer mis competencias profesionales.                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| ![Gabriel Braithuaite](../assets/GabrielBraithuaite.jpg) | Gabriel Anthony Brabuaite Toledo  | U20201e889       | Ingeniería de software | Soy estudiante de Ingeniería de Software. Tengo conocimientos en desarrollo web y móvil, así como en bases de datos y metodologías ágiles. Me considero una persona proactiva, responsable y con habilidades para trabajar en equipo. Estoy comprometido con la calidad del software y siempre busco aprender y mejorar mis habilidades técnicas y blandas. Estoy emocionado por contribuir al éxito de nuestro proyecto y aportar soluciones innovadoras.              |
+| ![AugustoMontes.png](../assets/AugustoMontes.png)  |   Augusto Sebastian Montes Maza   | u202218645       | Ingenieria de software | Soy estudiante de Ingeniería de Software en sexto ciclo. Tengo una sólida formación en programación, análisis y diseño de sistemas, así como experiencia académica en el desarrollo de aplicaciones web y móviles, bases de datos y metodologías ágiles. Me destaco por mi capacidad de trabajo en equipo, pensamiento crítico y compromiso con la calidad del software, y busco aplicar mis habilidades para aportar soluciones innovadoras en proyectos tecnológicos. |
+
 ### 1.2. Solution Profile
+**Product Name:** DenunciaYa
+
+**Product Description:** DenunciaYa es una plataforma web y móvil que permite a los ciudadanos reportar problemas urbanos y actos de corrupción de forma rápida, segura y anónima. A través de fotos, videos y audios, los usuarios pueden denunciar incidencias como baches, fallas en el alumbrado público, acumulación de basura, fugas de agua y más. La aplicación envía los reportes a un sistema centralizado para que las autoridades municipales gestionen las incidencias en tiempo real. Además, ofrece notificaciones de seguimiento, paneles de control para gobiernos y herramientas de análisis que ayudan a mejorar la eficiencia y la transparencia en la gestión pública.
+
+**Monetización:** El modelo de negocio está basado en suscripciones para gobiernos locales y entidades públicas, con distintos niveles de servicio:
+
+* Plan Básico: recepción de denuncias y panel básico de gestión de tickets.
+* Plan Premium: incluye analítica avanzada, dashboards, API para integraciones y soporte técnico prioritario.
+
 ### 1.2.1 Antecedentes y problemática
+
+**Técnica de The 5 'W's y 2 'H's**
+
+**What (Qué)?** <br>
+¿Cuál es el problema?
+
+En muchas ciudades de Latinoamérica, los ciudadanos enfrentan problemas cotidianos como baches, acumulación de basura, fugas de agua, fallas en el alumbrado público y actos de corrupción. Sin embargo, la mayoría de estos problemas no se denuncian debido a tres barreras principales:
+- **Desconfianza**: Creen que reportar no servirá de nada.
+- **Miedo**: Temen represalias si revelan su identidad.
+- **Fricción**: Los procesos tradicionales (ir a oficinas, llenar formularios, esperar semanas) son lentos y poco accesibles.
+
+Esto genera impunidad, baja calidad de vida y descontento ciudadano, mientras que las autoridades carecen de datos confiables y en tiempo real para gestionar los problemas urbanos de manera eficiente.
+
+
+**When (Cuándo)?** <br>
+¿Cuándo sucede el problema?
+
+El problema ocurre a diario y de forma constante, ya que los desperfectos en la infraestructura urbana, la corrupción y las fallas en servicios públicos afectan a los ciudadanos en tiempo real. La falta de un canal accesible para reportar y dar seguimiento provoca que estas incidencias se acumulen, incrementando costos para los gobiernos y empeorando la percepción ciudadana de sus autoridades.
+
+
+**Where (Dónde)?** <br>
+¿Dónde surge el problema?
+
+El problema surge principalmente en entornos urbanos de Latinoamérica, donde las ciudades crecen rápidamente pero los gobiernos locales no cuentan con plataformas modernas de gestión ciudadana. También se intensifica en comunidades donde existe desigualdad en el acceso a servicios digitales o falta de transparencia en la administración pública.
+
+
+**Who (Quién)?** <br>
+¿Quiénes son los afectados?
+
+- **Ciudadanos**: Que viven con problemas no resueltos en su entorno inmediato.
+- **Autoridades municipales y gubernamentales**: Que carecen de herramientas de gestión modernas y datos centralizados.
+- **Comunidades enteras**: Que sufren deterioro en la calidad de vida y pérdida de confianza en las instituciones públicas.
+
+
+**Why (Por qué)?** <br>
+¿Cuál es la causa del problema?
+
+- **Procesos de denuncia obsoletos**: Dependientes de oficinas físicas y trámites burocráticos.
+- **Falta de transparencia**: Los ciudadanos rara vez reciben seguimiento sobre sus reportes.
+- **Temor a represalias**: Muchos ciudadanos prefieren callar antes que exponerse.
+- **Ausencia de datos estructurados**: Las autoridades no cuentan con métricas en tiempo real que les permitan priorizar y resolver de manera eficiente.
+- **Escasa digitalización**: Muchos gobiernos locales aún no incorporan tecnologías de participación ciudadana.
+
+
+**How (Cómo)?** <br>
+¿Cómo se utilizará el producto?
+
+DenunciaYa se utilizará como una plataforma integral accesible desde dispositivos móviles y web:
+
+- **Para ciudadanos**:
+    - Suben fotos, videos o audios de los problemas.
+    - Pueden elegir entre anonimato total o parcial.
+    - Obtienen un código de seguimiento y reciben notificaciones en tiempo real sobre el estado de su denuncia.
+
+- **Para autoridades**:
+    - Acceden a un panel de control centralizado para gestionar denuncias según ubicación, categoría, urgencia y estado.
+    - Usan un sistema de ticketing para derivar reportes a las áreas correspondientes.
+    - Visualizan dashboards y reportes automáticos para medir eficiencia y detectar patrones.
+    - Se comunican de manera segura con los denunciantes sin exponer su identidad.
+
+
+**How Much (Cuánto)?** <br>
+¿Cuánto costará implementar la solución?
+
+El modelo de negocio está basado en suscripciones para gobiernos locales y dependencias públicas, adaptadas a distintos niveles de gestión:
+
+- **Plan Básico**: Recepción de denuncias y panel básico de asignación de tickets.
+- **Plan Premium**: Incluye analytics, la API para integrarse con sus sistemas y soporte técnico prioritario.
+
+La app será gratuita para los ciudadanos, con el objetivo de fomentar la participación masiva y la transparencia. La inversión inicial contempla el desarrollo de software, infraestructura en la nube, ciberseguridad y campañas de adopción ciudadana en municipios piloto.
+
 ### 1.2.2 Lean UX Process.
+
+En esta sección, se presenta el proceso de Lean UX que se ha seguido para el desarrollo de la plataforma DenunciaYa. Este proceso incluye la creación de un Lean UX Problem Statement, Assumptions, Hypothesis Statements y un Lean UX Canvas.
+El objetivo es definir claramente el problema que se busca resolver, las suposiciones que se tienen sobre los usuarios y el producto, así como las hipótesis que guiarán el desarrollo del mismo.
+
 ### 1.2.2.1. Lean UX Problem Statements.
+
+Actualmente los ciudadanos enfrentan serias dificultades para denunciar problemas en sus comunidades, como baches, fallas en el alumbrado público, acumulación de basura, fugas de agua o incluso actos de corrupción. Los procesos tradicionales para reportar estas incidencias son lentos, burocráticos y poco accesibles, lo que genera desconfianza, miedo a represalias y una gran fricción para el ciudadano común. Como resultado, muchos problemas no se reportan ni se resuelven, lo que deteriora la calidad de vida, aumenta los costos de gestión y reduce la confianza en las instituciones públicas.
+
+El desafío radica en que las soluciones actuales no ofrecen un canal unificado, seguro y accesible que permita a los ciudadanos denunciar de manera anónima, mientras que las autoridades carecen de datos en tiempo real para gestionar y priorizar los problemas urbanos de manera eficiente.
+
+¿Cómo podemos construir una plataforma digital que permita a los ciudadanos reportar incidencias de forma rápida, anónima y confiable, y al mismo tiempo provea a las autoridades una herramienta moderna de gestión y análisis en tiempo real que aumente la transparencia y mejore la calidad de vida en las comunidades?
+
 ### 1.2.2.2. Lean UX Assumptions.
-### 1.2.2.3. Lean UX Hypothesis Statements.
+
+<ins>**Users Assumptions:**</ins>
+
+1. **Creo que mis clientes necesitan** una herramienta fácil de usar para reportar problemas urbanos y actos de corrupción de forma rápida, segura y anónima, eliminando la fricción y la desconfianza de los procesos tradicionales.
+
+2. **Estas necesidades se pueden resolver con** una aplicación web y móvil como DenunciaYa, que centraliza los reportes ciudadanos, permite el anonimato y brinda seguimiento en tiempo real a través de notificaciones.
+
+3. **Mis clientes iniciales son** ciudadanos urbanos de Latinoamérica, especialmente jóvenes y adultos con acceso a smartphones, que enfrentan problemas en su entorno inmediato y desean denunciarlos de manera sencilla.
+
+4. **El valor #1 que un cliente quiere de mi servicio es** la posibilidad de denunciar sin miedo ni burocracia, con la seguridad de que su reporte llegará a las autoridades y tendrá seguimiento.
+
+5. **El cliente también puede obtener estos beneficios adicionales,** como recibir un código de seguimiento único, acceder a un historial de sus denuncias, contribuir a la transparencia en la gestión pública y mejorar la calidad de vida de su comunidad.
+
+6. **Voy a adquirir la mayoría de mis clientes a través de estrategias de** campañas digitales en redes sociales, programas de concientización ciudadana y convenios con gobiernos locales como municipios piloto.
+
+7. **Haré dinero a través de** un modelo de suscripción mensual o anual para gobiernos locales y entidades públicas, con diferentes niveles de servicio (básico y premium), mientras que la aplicación será gratuita para los ciudadanos.
+
+8. **Mi competencia principal en el mercado serán** las plataformas municipales propias y otras aplicaciones de gestión ciudadana que suelen ser poco intuitivas, limitadas o con baja adopción.
+
+9. **Los venceremos debido a** que ofrecemos una plataforma accesible, moderna y confiable, con énfasis en la facilidad de uso, la seguridad de datos y el anonimato del denunciante, lo que genera mayor confianza ciudadana.
+
+10. **Mi mayor riesgo de producto es** que los ciudadanos no confíen en la plataforma, ya sea porque temen represalias, creen que su denuncia no será atendida o dudan de la transparencia de la gestión.
+
+11. **Resolveremos esto a través de** un sistema de anonimato garantizado, un canal de seguimiento transparente con notificaciones en tiempo real, campañas educativas sobre la seguridad de la plataforma y convenios con autoridades que validen su uso.
+
+12. **¿Qué otras suposiciones tenemos? ¿Eso, si se prueba que es falso, causará que nuestro negocio/proyecto no funcione?**
+
+- Los ciudadanos están dispuestos a usar la aplicacion web para denunciar en lugar de métodos tradicionales.
+- Las autoridades asignarán presupuesto y recursos para gestionar las denuncias en tiempo real.
+- Los usuarios confiarán en que el anonimato está protegido y que no habrá represalias.
+- Si alguna de estas suposiciones resulta falsa, el proyecto puede no generar adopción ni sostenibilidad.
+
+**¿Quién es el usuario?**<br>
+
+Vendrian a ser los ciudadanos urbanos que enfrentan problemas cotidianos en infraestructura y servicios públicos, así como los funcionarios municipales encargados de recibir, clasificar y atender las denuncias.
+
+**¿Dónde encaja nuestro producto en su vida/trabajo?**<br>
+
+Para los ciudadanos, el producto encaja en su vida diaria cuando necesitan reportar incidencias en tiempo real de forma sencilla. Para las autoridades, encaja en su trabajo cotidiano al centralizar reportes y permitir una gestión más ágil y transparente.
+
+**¿Qué problemas tiene nuestro producto y cómo se pueden resolver?**<br>
+
+El producto enfrenta problemas como la desconfianza en la gestión de denuncias, lo cual se puede resolver garantizando transparencia y brindando feedback en tiempo real. También sufre de baja adopción ciudadana, que puede superarse mediante un proceso de onboarding simple y campañas educativas. Además, existe resistencia institucional, que puede resolverse incentivando con dashboards de eficiencia y métricas claras de impacto social.
+
+**¿¿Cuándo y cómo se usa el producto?**<br>
+
+El ciudadano utiliza el producto en el momento en que observa un problema en la vía pública o un acto de corrupción, subiendo evidencia en forma de fotos, videos o audios desde su celular. El funcionario municipal lo utiliza de manera diaria para gestionar incidencias en un panel centralizado, asignarlas a las áreas responsables y darles seguimiento.
+
+**¿Qué características son importantes?**<br>
+
+Las características más importantes del producto son la posibilidad de realizar reportes rápidos con fotos, videos y audios, la opción de denuncia anónima o con identidad parcial, el uso de un código único con seguimiento en tiempo real, la existencia de un panel de control para autoridades con dashboards y analítica, la incorporación de un sistema de ticketing para priorizar incidencias y la seguridad y privacidad de los datos.
+
+**¿Cómo debe verse nuestro producto y cómo debe comportarse?**<br>
+
+Para los ciudadanos, el producto debe verse como una interfaz simple, limpia e intuitiva, con pasos mínimos para enviar una denuncia. Para las autoridades, debe presentarse como un panel profesional y moderno con visualizaciones claras de incidencias y métricas. El producto debe comportarse de manera estable, responsiva y rápida, ofreciendo notificaciones en tiempo real y un acceso fluido desde dispositivos móviles y web.
+
+<ins>**Business Outcomes:**</ins>
+
+1. Al desarrollar DenunciaYa, creemos que se generará una mayor confianza ciudadana en las autoridades gracias a un canal moderno, seguro y transparente.### 1.2.2.3. Lean UX Hypothesis Statements.
+2. Generación de ingresos recurrentes mediante el modelo de suscripción a gobiernos locales.
+3. Incremento de la eficiencia en la gestión municipal al centralizar reportes en tiempo real.
+4. Posicionamiento como una plataforma líder en participación ciudadana y gobierno digital en Latinoamérica.
+
+<ins>**User Outcomes:**</ins>
+
+1. Los ciudadanos podrán denunciar sin miedo, de forma rápida y anónima.
+2. Obtendrán visibilidad y seguimiento en tiempo real de sus reportes.
+3. Las autoridades mejorarán su capacidad de respuesta y priorización de problemas urbanos.
+4. La comunidad en general se beneficia de una mejor calidad de vida gracias a la resolución más rápida de incidencias.
+
+<ins>**Features:**</ins>
+
+- Envío de denuncias con foto, video y audio.
+- Opción de denuncia anónima.
+- Código de seguimiento y notificaciones en tiempo real.
+- Panel de gestión centralizado para autoridades.
+- Dashboards con métricas e indicadores de eficiencia.
+- Historial de denuncias y estados.
+- Sistema de ticketing para derivar incidencias.
+- Gestión de suscripciones y planes para gobiernos.
+
 ### 1.2.2.4. Lean UX Canvas.
+
+![leanCanvas.jpeg](../assets/leanCanvas.jpeg)
+
 ## 1.3. Segmentos objetivo.
+
+1. Ciudadanos Urbanos Digitalmente Activos:
+- Descripción: Este segmento incluye a personas cívicamente conscientes que residen en zonas urbanas, usan smartphones de forma habitual y desean un canal efectivo para reportar problemas que afectan a su comunidad.
+Sexo: Masculino y femenino
+- Edades: Adultos jóvenes (18-34 años), adultos de mediana edad (35-54 años) y adultos mayores (55+)
+- Nivel socioeconómico: Clases B y C (Media-alta y media)
+- Necesidades por satisfacer: La plataforma permite a estos usuarios superar la frustración y la desconfianza hacia las instituciones, ofreciendo un canal directo, rápido y seguro para ser escuchados. Satisface la necesidad de anonimato para evitar represalias, ahorra tiempo al eliminar procesos burocráticos y brinda certeza mediante notificaciones de seguimiento, empoderando al ciudadano para que participe activamente en la mejora de su entorno.
+2. Entidades Gubernamentales y Autoridades Municipales:
+- Descripción: El siguiente segmento incluye a las administraciones públicas y los funcionarios responsables de la gestión de servicios urbanos, obras públicas y participación ciudadana que buscan modernizar sus procesos y mejorar su capacidad de respuesta.
+- Sexo: Masculino y Femenino
+- Edades: Adultos jóvenes (18-34 años), Adultos de mediana edad (35 - 54) y adultos mayores (55+)
+- Nivel socioeconómico: Clases B y C (Media-alta y media)
+- Necesidades por satisfacer: Apoyar con el manejo de datos centralizados que se generan al momento en que los ciudadanos reportan incidencias. La plataforma ordena y prioriza los problemas, permitiendo tomar decisiones basadas en evidencia y optimizar el uso de recursos limitados. Además, promueve la transparencia y acelera los procesos de gestión, mejorando la percepción pública y la eficiencia interna de la administración.
+
 # Capítulo II: Requirements Elicitation & Analysis
 ## 2.1. Competidores.
 ### 2.1.1. Análisis competitivo.
