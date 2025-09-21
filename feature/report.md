@@ -59,6 +59,7 @@ Durante la elaboración del informe se realizaron diversas actividades. Cada int
 
 
 ### 4. Evidencia de participacion de todos los miembros del equipo 
+![Evidencia Participacion](../assets/Evidencia.png)
 
 # Contenido
 
