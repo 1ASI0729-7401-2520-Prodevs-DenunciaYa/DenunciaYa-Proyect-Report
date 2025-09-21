@@ -382,19 +382,328 @@ Sexo: Masculino y femenino
 
 # Capítulo II: Requirements Elicitation & Analysis
 ## 2.1. Competidores.
+
+En esta sección se presentará un análisis de los posibles competidores de DenunciaYa y de sus respectivas tácticas. Asimismo, se incluirá un análisis competitivo con una comparación de fortalezas y debilidades entre cada competidor
+
 ### 2.1.1. Análisis competitivo.
+
+<table>
+  <tr>
+    <th colspan="22">Competitive Analysis Landscape</th>
+  </tr>
+  <tr>
+    <td colspan="1">¿Por qué llevar a cabo el análisis?</td>
+    <td colspan="17">Este análisis se lleva a cabo con la finalidad de conocer a los competidores actuales en el ámbito de denuncias ciudadanas en línea, y cómo la propuesta <b>DenunciaYa</b> se diferencia al enfocarse en usabilidad, transparencia y cobertura integral de problemas cotidianos.</td>
+  </tr>
+  <tr>
+    <td colspan="2"></td>
+    <td><img src="https://i.postimg.cc/httqmBWP/Denuncias-Contraloria.jpg" alt="Denuncias Contraloría"><br></td>
+    <td><img src="https://i.postimg.cc/43GNq0jD/denuncias-ministerio-Publico.jpg" alt="Ministerio Público"><br></td>
+    <td><img src="https://i.postimg.cc/5yr2r2Mg/Denuncias-Central.jpg" alt="Central Única 1818"/><br></td>
+    <td><img src="https://i.postimg.cc/Hn1g88Hf/denunciaya-removebg-preview.png" alt="DenunciaYa"/><br></td>
+</tr>
+  <tr>
+    <td rowspan="2">Perfil</td>
+    <td>Overview</td>
+    <td>La plataforma de la Contraloría General de la República ayuda a que los ciudadanos denuncien casos de corrupción en entidades públicas. Se centra exclusivamente en irregularidades administrativas y de gestión pública.</td>
+    <td>El sistema del Ministerio Público ayuda a que los ciudadanos presenten denuncias relacionadas a delitos como robo, estafa, homicidio, violencia, entre otros. El proceso es formal y se conecta directamente con la Fiscalía.</td>
+    <td>La Central Única de Denuncias 1818 recibe, canaliza y deriva denuncias de delitos graves como trata de personas, extorsión, violencia familiar, corrupción y crimen organizado. Disponible en línea y vía llamada gratuita 1818.</td>
+    <td><b>DenunciaYa</b> es una aplicacion web  que permite a los ciudadanos reportar problemas urbanos (baches, basura, agua, alumbrado, inseguridad) y actos de corrupción de manera rápida, anónima y con evidencia multimedia. Incluye un panel de seguimiento en tiempo real y herramientas para gobiernos locales.</td>
+</tr>
+ <tr>
+  <td>Ventaja competitiva ¿Qué valor ofrece a los clientes?</td>
+  <td><b>Contraloría</b> ofrece una plataforma enfocada exclusivamente en la lucha contra la corrupción en el sector público. Brinda a los ciudadanos un canal oficial con respaldo institucional, lo que asegura fiscalización formal y procesos de control directo sobre entidades estatales.</td>
+  <td><b>Ministerio Público</b> proporciona un sistema de denuncias en línea con acceso directo a la Fiscalía. Ofrece a los ciudadanos la formalidad y el peso legal necesarios para iniciar procesos penales, garantizando seriedad y validez jurídica en cada denuncia presentada.</td>
+  <td><b>Central Única de Denuncias 1818</b> ayuda a los ciudadanos a presentar denuncias de delitos graves a través de múltiples canales (web, teléfono y móvil). Su disponibilidad 24/7, junto con la opción de confidencialidad o anonimato, ofrece confianza y accesibilidad a nivel nacional.</td>
+  <td><b>DenunciaYa</b> ofrece una aplicación web innovadora y fácil de usar para reportar problemas urbanos y corrupción. Brinda anonimato configurable, posibilidad de adjuntar evidencias multimedia y seguimiento en tiempo real. Además, proporciona paneles de transparencia y estadísticas para ciudadanos y gobiernos locales, fortaleciendo la participación ciudadana y la confianza pública.</td>
+</tr>
+
+<tr>
+    <td rowspan="2">Perfil de Marketing</td>
+    <td>Mercado Objetivo</td>
+    <td>Ciudadanos que identifican actos de corrupción en entidades del Estado.</td>
+    <td>Víctimas y testigos de delitos comunes y graves que buscan iniciar un proceso legal.</td>
+    <td>Población en riesgo o testigos de delitos graves (corrupción, extorsión, trata de personas, violencia familiar).</td>
+    <td>Ciudadanos en general y municipalidades que necesitan resolver problemas urbanos de forma rápida, transparente y eficiente. Está orientado a problemas cotidianos que impactan en la calidad de vida.</td>
+  </tr>
+  <tr>
+  <td>Estrategias de Marketing</td>
+    <td>Campañas de concientización anticorrupción, presencia institucional en medios y redes sociales.</td>
+    <td>Campañas educativas sobre acceso a la justicia, difusión en medios y redes institucionales.</td>
+    <td>Campañas masivas en radio, TV y redes sociales para fomentar el uso del número 1818 y la web.</td>
+    <td>Campañas digitales en redes sociales, alianzas con municipalidades, gamificación de la denuncia ciudadana, incentivos a la participación y transparencia mediante reportes públicos.</td>
+    </tr>
+<tr>
+    <td rowspan="3">Perfil de Producto</td>
+    <td>Productos y Servicios</td>
+    <td>Plataforma de denuncias en línea para corrupción administrativa. Genera alertas internas de fiscalización.</td>
+    <td>Denuncia formal en línea con constancia digital que inicia el proceso legal ante el Ministerio Público.</td>
+    <td>Plataforma web y línea 1818 para recibir denuncias de delitos graves. Incluye derivación y orientación legal.</td>
+    <td>Plataforma web con registro multimedia (foto, video, audio), seguimiento en tiempo real, panel de gestión para municipios y tablero ciudadano de transparencia.</td>
+  </tr>
+  <tr>
+  <td>Precios y Costos</td>
+    <td>Servicio gratuito financiado por el Estado.</td>
+    <td>Servicio gratuito financiado por el Estado.</td>
+    <td>Servicio gratuito financiado por el Estado.</td>
+    <td>Modelo SaaS dirigido a municipalidades y gratuito para los ciudadanos. También se ofrecen planes premium con análisis de datos avanzados.</td>
+    </tr>
+<td>Canales de distribución (Web y/o Móvil)</td>
+    <td>Plataforma web oficial.</td>
+    <td>Plataforma web oficial.</td>
+    <td>Plataforma web, línea 1818 y aplicación móvil en algunos casos.</td>
+    <td>Plataforma web y aplicación móvil para Android y IOS. Difusión directa en redes sociales y municipalidades.</td>
+<tr>
+    <td rowspan="4">Análisis SWOT</td>
+    <td>Fortalezas</td>
+    <td>Respaldo institucional de la Contraloría y enfoque en corrupción.</td>
+    <td>Poder legal y formalidad en la denuncia, conexión directa con fiscales.</td>
+    <td>Cobertura amplia de delitos, atención continua, múltiples canales.</td>
+    <td>Innovación tecnológica, interfaz amigable, transparencia, alcance a problemas cotidianos, seguimiento en tiempo real.</td>
+  </tr>
+  <tr>
+  <td>Debilidades</td>
+    <td>Limitado solo a corrupción pública.</td>
+    <td>Burocracia en los procesos y tiempos de respuesta largos.</td>
+    <td>Sobrecarga de denuncias y limitaciones en derivación.</td>
+    <td>Requiere adopción municipal, campañas de confianza y posicionamiento en el mercado.</td>
+    </tr>
+  <tr>
+<td>Oportunidades</td>
+    <td>Ampliar alcance a corrupción privada y municipal.</td>
+    <td>Mayor digitalización del sistema judicial y conexión con otras instituciones.</td>
+    <td>Integración con más servicios y uso de inteligencia artificial para clasificar denuncias.</td>
+    <td>Alianzas con gobiernos locales, integración con sistemas de smart cities, analítica avanzada y big data para mejorar gestión pública.</td>
+</tr>
+  <tr>
+<td>Amenazas</td>
+    <td>Desconfianza ciudadana hacia instituciones públicas.</td>
+    <td>Competencia de plataformas privadas de denuncias.</td>
+    <td>Desconfianza por falta de resultados rápidos.</td>
+    <td>Competencia con instituciones ya consolidadas, resistencia de gobiernos locales a utilizar la aplicacion web.</td>
+</tr>
+</table>
+
+
 ### 2.1.2. Estrategias y tácticas frente a competidores.
+
+Elaborar estrategias y tácticas sólidas para competir de manera efectiva exige un enfoque estructurado y bien planificado. A continuación, se detallan algunas posibles estrategias y tácticas diseñadas para fortalecer la posición competitiva de DenunciaYa frente a alternativas del mercado, tomando en cuenta sus fortalezas, debilidades, oportunidades y amenazas:
+
+* Usabilidad y accesibilidad: Frente a la complejidad burocrática de los competidores, DenunciaYa implementará una interfaz simple, intuitiva y disponible en web y móvil, reduciendo barreras técnicas y mejorando la experiencia ciudadana.
+
+* Anonimato y seguridad: Dado que la desconfianza de los ciudadanos hacia las instituciones públicas representa una amenaza, DenunciaYa ofrecerá denuncias anónimas, confidencialidad garantizada y cifrado de evidencias multimedia, fortaleciendo la confianza del usuario.
+
+* Cobertura integral y seguimiento en tiempo real: Cobertura integral y seguimiento en tiempo real: A diferencia de plataformas que solo se enfocan en delitos graves o corrupción, DenunciaYa permitirá reportar también problemas urbanos cotidianos. Esto aprovechará la oportunidad de vincularse con gobiernos locales
+
 ## 2.2. Entrevistas.
 ### 2.2.1. Diseño de entrevistas.
+#### Preguntas para el segmento objetivo "Ciudadanos"
+- ¿Alguna vez has presenciado problemas en tu zona (como baches, basura, corrupción, accidentes de tránsito, entre otros)?
+- ¿Encontraste alguna plataforma para presentar una queja o denuncia?
+- ¿Tuviste alguna dificultad al hacer la denuncia? ¿Cómo lo hiciste?
+- ¿Crees que existen causas que te desmotivan a presentar una denuncia ?
+- ¿Cuánta confianza tienes en nuestras autoridades que atienden y resuelven las denuncias de los ciudadanos?
+- ¿Qué tipo de anonimato te daría más confianza para denunciar (público, identificado solo para autoridades, completamente anónimo)?
+- ¿Como te gustaría dar seguimiento a tu denuncia?(Aplicación Web,mensaje,correo o mediante llamada)
+- ¿Si te llegaran notificaciones de denuncias hechas por otras personas que viven cerca del lugar donde vives?
+- ¿Tuviste alguna experiencia de hacer una denuncia y nunca recibir la ayuda necesaria?
+- Imagina una application web que te permita denunciar fácil y dar seguimiento en tiempo real. ¿Qué características te parecerían más útiles?
+- ¿Qué sucesos te harían dejar de usar una aplicación web de denuncias (por ejemplo: procesos lentos, exceso de datos personales, poca respuesta de autoridades)?
+#### Preguntas para el segmento objetivo  "Autoridades Municipales y Gubernamentales"
+
+- ¿Por qué medio reciben las denuncias de ciudadanos actualmente?
+- ¿Se te hace fácil o difícil dar seguimiento constante a las denuncias?
+- ¿A qué problemas te enfrentas al gestionar las denuncias?
+- ¿Cómo asignan las denuncias a cada departamento o funcionario responsable?
+- ¿Tienen algún sistema o software que utilicen para gestionar denuncias?
+- ¿Qué tan importante es para ustedes poder comunicarse con el denunciante para pedir más información, manteniendo su anonimato si lo solicita?
+- Si tuvieran un dashboard centralizado, ¿qué información debería mostrar para que realmente les ayude en su trabajo diario?
+- ¿Qué riesgos ven en crear una aplicación web de denuncias ciudadanas?
+- ¿Qué funcionalidades serían más valiosas en una aplicación web de gestión de denuncias?
+- Si existieran planes de suscripción (básico y premium), ¿qué características diferenciales harían que valga la pena pagar por un plan más avanzado?
 ### 2.2.2. Registro de entrevistas.
 ### 2.2.3. Análisis de entrevistas.
+
+
 ## 2.3. Needfinding.
 ### 2.3.1. User Personas.
+
+## User Persona - Ciudadano
+
+![José Quispe.png](../assets/Jos%C3%A9%20Quispe.png)
+
+## User Persona - Autoridad
+
+![Carolina Méndez.png](../assets/Carolina%20M%C3%A9ndez.png)
+
 ### 2.3.2. User Task Matrix.
+
+## Task Matrix - Ciudadano
+
+|                                      **Tarea**                                       | **Frecuencia** | **Importancia** |
+|:------------------------------------------------------------------------------------:|----------------|-----------------|
+| Identificar problemas en su distrito (baches, basura, alumbrado, fugas, corrupción). | Alta           | Alta            |
+|         Intentar reportar problemas en la municipalidad (presencial o web).          | Media          | Alta            |
+| Usar redes sociales (WhatsApp, Facebook) para compartir evidencias (fotos, videos).  | Alta           | Media           |
+|                  Adjuntar fotos, videos o ubicación como evidencia.                  | Media          | Alta            |
+|                     Dar seguimiento al estado de las denuncias.                      | Media          | Alta            |
+|            Escuchar comentarios de vecinos sobre problemas no resueltos.             | Alta           | Media           |
+|       Expresar frustración o desconfianza en la respuesta de las autoridades.        | Media          | Alta            |
+|           Buscar soluciones digitales alternativas (apps, foros, grupos).            | Baja           | Media           |
+|                Desistir de denunciar por percibir que “no pasa nada”.                | Media          | Alta            |
+
+## Task Matrix - Autoridad
+
+|                                  **Tarea**                                  | **Frecuencia** | **Importancia** |
+|:---------------------------------------------------------------------------:|----------------|-----------------|
+|    Recibir denuncias por múltiples canales (teléfono, WhatsApp, correo).    | Alta           | Alta            |
+| Registrar manualmente casos en hojas de cálculo u otros sistemas dispersos. | Alta           | Alta            |
+|  Clasificar y organizar denuncias según tipo, urgencia o área responsable.  | Alta           | Alta            |
+|         Comunicar demoras o falta de información a los ciudadanos.          | Media          | Alta            |
+|          Coordinar con otras áreas municipales para derivar casos.          | Media          | Alta            |
+|        Escuchar quejas ciudadanas por la lentitud en las respuestas.        | Alta           | Alta            |
+|              Buscar maneras de reducir sobrecarga de trabajo.               | Media          | Alta            |
+|      Explicar procesos internos a superiores para justificar retrasos.      | Media          | Media           |
+|   Imaginar o investigar soluciones digitales que automaticen su trabajo.    | Baja           | Alta            |
+
 ### 2.3.3. User Journey Mapping.
+
+## Journey Map - Ciudadano
+
+![José Quispe journey map.png](../assets/Jos%C3%A9%20Quispe%20journey%20map.png)
+
+## Journey Map - Autoridad
+
+![Carolina Méndez journey map.png](../assets/Carolina%20M%C3%A9ndez%20journey%20map.png)
+
 ### 2.3.4. Empathy Mapping.
+
+## Empathy map - Ciudadano
+
+![José Quispe Empathy map.png](../assets/Jos%C3%A9%20Quispe%20Empathy%20map.png)
+
+## Empathy map - Autoridad
+
+![Carolina Méndez Empathy map.png](../assets/Carolina%20M%C3%A9ndez%20Empathy%20map.png)
+
 ## 2.4. Big Picture Event Storming.
+
+A continuación, se presenta el Big Picture Event Storming realizado para el sistema DenunciaYa. Esta representación visual permite identificar los eventos más relevantes del dominio, mostrando de manera colaborativa cómo los segmentos objetivos interactúan con la plataforma en distintos procesos, como la creación de denuncias, gestión de cuentas, publicación de contenido, recepción de notificaciones y personalización de la experiencia. Este primer nivel de exploración brinda una visión general del negocio, resaltando los procesos clave y posibles áreas de mejora u oportunidad.
+
+![BigPictureEventStorming.jpg](../assets/BigPictureEventStorming.jpg)
+
+**Link del figma:** https://acortar.link/eh5Gx6
 ## 2.5. Ubiquitous Language.
+
+A continuación, se presenta el Ubiquitous Language desarrollado para el sistema DenunciaYa. Este glosario de términos clave define de manera clara y precisa los conceptos fundamentales del dominio, facilitando la comunicación efectiva entre todos los miembros del equipo y asegurando una comprensión compartida de los elementos esenciales del negocio. Al establecer un lenguaje común, se minimizan las ambigüedades y se promueve la colaboración fluida durante todo el ciclo de vida del proyecto.
+
+
+## Actores / Roles
+| Término       | Definición                                                                 |
+|---------------|----------------------------------------------------------------------------|
+| Visitante     | Usuario no registrado que accede a la landing page.                        |
+| Ciudadano     | Usuario registrado que realiza denuncias, las gestiona y participa en la comunidad. |
+| Autoridad / Administrador | Usuario con privilegios avanzados para gestionar denuncias, ver métricas y dashboards. |
+| Developer     | Miembro del equipo técnico responsable del diseño y funcionamiento.        |
+
+---
+
+## Conceptos Clave (Landing Page)
+| Término            | Definición                                                                 |
+|--------------------|----------------------------------------------------------------------------|
+| Landing Page       | Página principal que presenta la plataforma a los visitantes.              |
+| How it works       | Sección que explica de manera resumida el proceso de denuncia.             |
+| About us           | Información sobre el objetivo y equipo desarrollador.                      |
+| Testimonials       | Opiniones de ciudadanos que generan confianza.                             |
+| News & Blog        | Espacio con novedades y artículos de la plataforma.                        |
+| CTA (Call to Action)| Botón de acceso a la aplicación.                                           |
+| Sección de Soporte | Espacio con FAQs, guías o contacto para resolver dudas.                    |
+| Sección de Contacto| Información para comunicarse con el equipo (correo u otros medios).        |
+
+---
+
+## Denuncias
+| Término             | Definición                                                                 |
+|---------------------|----------------------------------------------------------------------------|
+| Denuncia            | Reporte ciudadano de un problema urbano o de corrupción.                   |
+| Categoría de denuncia | Clasificación del incidente (baches, basura, alumbrado, etc.).            |
+| Ubicación           | Dirección exacta o zona del incidente.                                     |
+| Descripción         | Texto explicativo del problema.                                            |
+| Evidencia           | Archivos adjuntos (fotos, videos, audios).                                 |
+| Borrador de denuncia| Denuncia guardada sin enviar para completarla más tarde.                   |
+| Resumen de denuncia | Vista previa antes de enviar.                                              |
+| Código de seguimiento| Identificador único generado al enviar.                                   |
+
+---
+
+## Gestión de Denuncias
+| Término     | Definición                                                                 |
+|-------------|----------------------------------------------------------------------------|
+| Historial   | Lista de denuncias registradas por un usuario.                             |
+| Detalle de denuncia | Información completa de un caso.                                    |
+| Filtros     | Opciones para reducir los resultados (estado, categoría, fecha, ubicación).|
+| Ordenar     | Reorganizar denuncias por fecha o estado.                                  |
+| Búsqueda    | Localizar denuncias por número o palabra clave.                            |
+| Timeline / Evolución del caso | Línea de tiempo con actualizaciones de estado.            |
+| Empty state | Mensaje mostrado cuando no existen denuncias registradas.                  |
+
+---
+
+## Dashboard de Autoridades
+| Término               | Definición                                                                 |
+|-----------------------|----------------------------------------------------------------------------|
+| Dashboard / Panel de control | Vista centralizada de métricas y denuncias.                          |
+| Asignación de denuncia| Derivación de denuncias a un área responsable.                             |
+| Métricas de eficiencia| Reportes de tiempos de resolución y desempeño de áreas.                    |
+| Patrones de incidencias| Tendencias en categorías o zonas críticas.                                |
+| Alertas internas      | Notificaciones para casos urgentes.                                        |
+| Comunicación segura   | Mensajería entre autoridad y ciudadano manteniendo anonimato si aplica.    |
+
+---
+
+## Directorio
+| Término             | Definición                                                                 |
+|---------------------|----------------------------------------------------------------------------|
+| Directorio de recursos | Listado de oficinas, contactos y recursos relevantes.                     |
+| Filtros de directorio | Filtrar por región o distrito.                                             |
+| Búsqueda de directorio | Localizar oficinas/contactos por nombre o palabra clave.                  |
+| Detalle de contacto | Información detallada (dirección, teléfono, correo, horario).               |
+| Acceso extendido    | Vista adicional para autoridades (responsables, jerarquía interna).         |
+
+---
+
+## Historial de Intervenciones
+| Término                 | Definición                                                                 |
+|-------------------------|----------------------------------------------------------------------------|
+| Historial de intervenciones | Registro cronológico de acciones asociadas a una denuncia.             |
+| Intervención            | Acción específica tomada en el proceso (asignación, comentario, adjunto). |
+| Responsable             | Autoridad o área que ejecutó la acción.                                   |
+| Adjunto                 | Documentos o reportes cargados en el historial.                           |
+| Notificación de actualización | Aviso automático al ciudadano sobre cambios.                         |
+
+---
+
+## Autenticación y Gestión de Cuentas
+| Término          | Definición                                                                 |
+|------------------|----------------------------------------------------------------------------|
+| Registro         | Creación de una cuenta (ciudadano o autoridad).                            |
+| Inicio de sesión | Acceso a la plataforma con credenciales.                                   |
+| Recuperar contraseña | Función para recuperar acceso en caso de olvido.                       |
+| Restablecer contraseña | Definir nueva contraseña para volver a acceder.                       |
+| Perfil básico    | Información básica del usuario.                                            |
+
+---
+
+## Comunidad
+| Término             | Definición                                                                 |
+|---------------------|----------------------------------------------------------------------------|
+| Publicación / Post  | Mensaje creado por un ciudadano (texto, imagen, video, GIF, encuesta, emoji, recordatorio). |
+| Me gusta            | Reacción positiva a una publicación.                                       |
+| Comentario          | Respuesta a una publicación.                                               |
+| Compartir publicación | Difusión de publicaciones de otros en el propio feed.                    |
+| Encuesta            | Publicación interactiva con opciones de voto.                             |
+| Feed comunitario    | Línea de tiempo de publicaciones de la comunidad.                         |
+
 # Capítulo III: Requirements Specification
 ## 3.1. User Stories.
 ## 3.2. Impact Mapping.
