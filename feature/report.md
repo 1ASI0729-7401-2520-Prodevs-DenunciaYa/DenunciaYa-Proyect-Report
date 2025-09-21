@@ -1108,7 +1108,7 @@ En esta sección, se presenta el diseño de la base de datos para la solución, 
 
 **COMPLAINT CREATION BOUNDED CONTEXT ERD**
 
-![COMPLAINT CREATION BOUNDED CONTEXT ER.PNG](../assets/COMPLAINT%20CREATION%20BOUNDED%20CONTEXT%20ER.PNG)
+![dcf942f4-d5ba-4355-9812-9c164fe046bb.png](../assets/dcf942f4-d5ba-4355-9812-9c164fe046bb.png)
 
 **Tablas y atributos principales**
 
@@ -1134,7 +1134,7 @@ Guarda los archivos o pruebas que sustentan una denuncia. <br>
 
 **DIRECTORY OF RESOURCES & CONTACTS BOUNDED CONTEXT ERD**
 
-![DIRECTORY OF RESOURCES & CONTACTS BOUNDED CONTEXT ERD.PNG](../assets/DIRECTORY%20OF%20RESOURCES%20%26%20CONTACTS%20BOUNDED%20CONTEXT%20ERD.PNG)
+![85d53938-c4d1-4fcb-98a5-9815239cbd30.png](../assets/85d53938-c4d1-4fcb-98a5-9815239cbd30.png)
 
 **Tablas y atributos principales**
 
@@ -1155,7 +1155,7 @@ Guarda los archivos o pruebas que sustentan una denuncia. <br>
 
 **HISTORY AND FOLLOW-UP OF COMPLAINTS BOUNDED CONTEXT ERD**
 
-![HISTORY AND FOLLOW-UP OF COMPLAINTS BOUNDED CONTEXT ERD.PNG](../assets/HISTORY%20AND%20FOLLOW-UP%20OF%20COMPLAINTS%20BOUNDED%20CONTEXT%20ERD.PNG)
+![ce14e725-af58-4f4e-8db8-0c315caf5070.png](../assets/ce14e725-af58-4f4e-8db8-0c315caf5070.png)
 
 **Tablas y atributos principales**
 
@@ -1176,7 +1176,7 @@ Guarda los archivos o pruebas que sustentan una denuncia. <br>
 
 **AUTHORITIES DASHBOARD BOUNDED CONTEXT ERD**
 
-![AUTHORITIES DASHBOARD BOUNDED CONTEXT ERD.PNG](../assets/AUTHORITIES%20DASHBOARD%20BOUNDED%20CONTEXT%20ERD.PNG)
+![f73c8de0-e7d9-4071-8eb9-5ec504fa5904.png](../assets/f73c8de0-e7d9-4071-8eb9-5ec504fa5904.png)
 
 **Tablas y atributos principales**
 
@@ -1201,7 +1201,7 @@ Guarda los archivos o pruebas que sustentan una denuncia. <br>
 
 **AUTHENTICATION & ACCOUNT MANAGEMENT BOUNDED CONTEXT ERD**
 
-![AUTHENTICATION & ACCOUNT MANAGEMENT BOUNDED CONTEXT ERD.PNG](../assets/AUTHENTICATION%20%26%20ACCOUNT%20MANAGEMENT%20BOUNDED%20CONTEXT%20ERD.PNG)
+![ec9d82bb-1794-461a-8e22-b9106c1d6095.png](../assets/ec9d82bb-1794-461a-8e22-b9106c1d6095.png)
 
 **Tablas y atributos principales**
 
@@ -1222,7 +1222,7 @@ Guarda los archivos o pruebas que sustentan una denuncia. <br>
 
 **COMMUNITY BOUNDED CONTEXT ERD**
 
-![COMMUNITY BOUNDED CONTEXT ERD.PNG](../assets/COMMUNITY%20BOUNDED%20CONTEXT%20ERD.PNG)
+![38f69f0c-cbae-4926-8652-cbd503306ff3.png](../assets/38f69f0c-cbae-4926-8652-cbd503306ff3.png)
 
 **Tablas y atributos principales**
 
