@@ -39,17 +39,26 @@
 
 # Registro de versiones del informe
 
-| Versión | Fecha      | Autor                                 | Descripción de modificación                                                                                                                 |
-|---------|------------|---------------------------------------|--------------------------------------------------------------------------------------------------------------------------
+| Versión | Fecha       | Autor(es)                                                                                           | Descripción de modificación                                                                                                                                                                                                 |
+|---------|-------------|------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| TB1     | 10/09/2024  | Mamani Marca, Gabriel Cristian <br> Omar Harold Rivera Ticllacuri  <br> Franco Diego Rioja Nuñez  <br> Gabriel Anthony Brabuaite Toledo  <br> Augusto Sebastian Montes Maza  | Se agregó el contenido del capítulo 1 (apartados 1.1, 1.2 y 1.3); el contenido del capítulo 2 (apartados 2.1, 2.2, 2.3, 2.4); el contenido del capítulo 3 (apartados 3.1, 3.2, 3.3 y 3.4); el contenido del capítulo 4 (apartados 4.1, 4.2, 4.3, 4.4, 4.5, 4.6, 4.7 y 4.8); y el contenido del capítulo 5 (apartados 5.1 y 5.2). |
 
 # PROJECT REPORT COLLABORATION INSIGHTS
 
 | Repositorio del Informe en GitHub |
 |--|
 | https://github.com/1ASI0729-7401-2520-Prodevs-DenunciaYa/DenunciaYa-Proyect-Report
+
+TB1: Las tareas asignadas para la entrega TB1 se han completado y están documentadas en el siguiente repositorio de GitHub perteneciente a la organización del equipo: 
+[Repositorio GitHUb](https://github.com/1ASI0729-7401-2520-Prodevs-DenunciaYa/DenunciaYa-Proyect-Report), link: | https://github.com/1ASI0729-7401-2520-Prodevs-DenunciaYa/DenunciaYa-Proyect-Report
+
 ### 2. Actividades de elaboracion del informe 
+Durante la elaboración del informe se realizaron diversas actividades. Cada integrante redactó y diagramó sus contenidos asignados en formato Markdown, registrando posteriormente commits que permitieron mantener un control del avance en el repositorio. Asimismo, se generaron los artefactos correspondientes con las herramientas establecidas y se obtuvieron los enlaces de las imágenes desde la carpeta Assets ubicada en la rama develop del repositorio del informe. Finalmente, se llevaron a cabo reuniones de coordinación para supervisar el progreso del trabajo y compartir los avances vinculados al Sprint 1, cuyo objetivo principal fue la Landing Page.
 ### 3. Capturas en imagen de los analíticos de colaboración y commits en GitHub
-### 4. Evidencia de participacion de todos los miembros del equipo |
+![Contributors Analytics](../assets/contributors-analytics-2.png)
+
+
+### 4. Evidencia de participacion de todos los miembros del equipo 
 
 # Contenido
 
