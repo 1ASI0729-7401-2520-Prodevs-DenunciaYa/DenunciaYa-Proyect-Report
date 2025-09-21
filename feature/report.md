@@ -302,177 +302,8 @@ Elaborar estrategias y tácticas sólidas para competir de manera efectiva exige
 - ¿Qué funcionalidades serían más valiosas en una aplicación web de gestión de denuncias?
 - Si existieran planes de suscripción (básico y premium), ¿qué características diferenciales harían que valga la pena pagar por un plan más avanzado?
 ### 2.2.2. Registro de entrevistas.
-
-## Segmento: Ciudadanos
-
-### Entrevista 1 – Luis Fernández
-
-**Datos del entrevistado**  
-- Nombre y Apellido: Luis Fernández  
-- Edad: 28 años  
-- Ocupación: Analista contable  
-- Distrito: Lima  
-
-**Evidencia en video**  
-- Screenshot del video: 
-- ![Luis Fernandez.png](../assets/Ciudadano.png)
- 
-- [Video de las entrevistas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202214214_upc_edu_pe/EQNiTxyruylChmng1hwYL_YBJDfK927PPDDTKSNgDrmHFg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=7dP7rr)
-- Timing de la entrevista: Inicio [00:05] – Duración [05:54]  
-
-**Resumen descriptivo de la entrevista**  
-Luis Fernández, joven analista contable, mostró una personalidad práctica y crítica frente a los problemas de su entorno. Vive en Lima, donde observa con frecuencia basura acumulada y accidentes de tránsito. Usa principalmente su celular y laptop, con Android y Windows como sistemas operativos, navegando desde Google Chrome. Se comunica mayormente por WhatsApp, herramienta que considera esencial tanto en el trabajo como en la vida cotidiana.  
-
-En cuanto a denuncias, comentó que la web de la municipalidad no funciona correctamente y que por teléfono nunca le respondieron. Expresó frustración porque siente que sus reportes no son atendidos, lo que le genera poca confianza en las autoridades. Aun así, estaría dispuesto a usar una aplicación móvil de denuncias si le permite hacer seguimiento mediante notificaciones. Valoraría especialmente rapidez, facilidad para adjuntar fotos y simplicidad en el proceso. Subjetivamente, se mostró impaciente ante procesos burocráticos y señaló que abandonaría una plataforma si es lenta o pide demasiados datos personales.  
-
----
-
-### Entrevista 2 –  Stephano Moscoso  
-
-**Datos del entrevistado**  
-- Nombre y Apellido: Stephano Moscoso  
-- Edad: 25 años  
-- Ocupación: Profesora  
-- Distrito: Arequipa  
-
-**Evidencia en video**  
-- Screenshot del video: - ![Stephano Moscoso.png](../assets/Ciudadano3.png)
- 
-- [Video de las entrevistas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202214214_upc_edu_pe/EQNiTxyruylChmng1hwYL_YBJDfK927PPDDTKSNgDrmHFg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=7dP7rr) 
-- Timing de la entrevista: Inicio [10:07] – Duración [16:5]7  
-
-**Resumen descriptivo de la entrevista**  
-Stephano Moscoso  , profesora en un colegio público, vive en un barrio céntrico de Arequipa. Tiene una personalidad reflexiva y perseverante, aunque desanimada por la falta de respuesta de las autoridades. Utiliza principalmente su celular y laptop con Android y Windows, y accede a internet desde Chrome. Se comunica casi siempre por WhatsApp, pero también consulta Facebook para enterarse de problemas en su zona.  
-
-Ha presenciado desorden vehicular y acumulación de basura. Intentó denunciar a través del WhatsApp municipal enviando fotos, pero nunca recibió respuesta. Esto ha reducido su motivación para denunciar y le genera muy poca confianza en las autoridades. Indicó que se sentiría más segura con un sistema en el que su identidad esté visible solo para las autoridades. Le interesaría dar seguimiento mediante una aplicación web en tiempo real y recibir notificaciones de denuncias cercanas. Considera útiles funciones como fotos, mapas y plazos visibles. Subjetivamente, enfatizó que dejaría de usar una app si la municipalidad no responde o si el sistema es lento.  
-
----
-
-### Entrevista 3 – George Garcia Durand
-
-**Datos del entrevistado**  
-- Nombre y Apellido: George Garcia Durand  
-- Edad: 24 años  
-- Ocupación: Estudiante universitario y trabajador part-time en call center  
-- Distrito: Trujillo  
-
-**Evidencia en video**  
-- Screenshot del video: 
-- - ![George Garcia Durand.png](../assets/Ciudadano2.png)
-- [Video de las entrevistas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202214214_upc_edu_pe/EQNiTxyruylChmng1hwYL_YBJDfK927PPDDTKSNgDrmHFg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=7dP7rr) 
-- Timing de la entrevista: Inicio [05:55] – Duración [10:06]  
-
-**Resumen descriptivo de la entrevista**  
-George García es un estudiante universitario que también trabaja part-time, con una personalidad práctica y un tanto incrédula respecto a la eficacia de las denuncias ciudadanas. Vive en Trujillo y usa principalmente su celular y laptop con Android y Windows, navegando desde Chrome. WhatsApp es su canal de comunicación central, y en ocasiones utiliza Instagram para enterarse de lo que ocurre en su barrio.  
-
-Comentó que ha visto problemas como baches y basura en su zona, pero que la web de la municipalidad no funcionó al intentar denunciar. La página incluso se cayó durante su intento, lo que le generó frustración y una sensación de inutilidad en el proceso. Tiene muy baja confianza en las autoridades y preferiría mantener completo anonimato. Para dar seguimiento, desea recibir notificaciones únicamente en su celular. Le parecen indispensables las funciones de geolocalización y envío de fotos. Subjetivamente, considera que dejaría de usar una aplicación si pide demasiada información personal o si resulta lenta.  
-
----
-
-## Segmento: Autoridades
-
-### Entrevista 1 – Carolina Méndez
-
-**Datos del entrevistado**  
-- Nombre y Apellido: Carolina Méndez  
-- Edad: 26 años  
-- Ocupación: Asistente de participación ciudadana  
-- Distrito: Lima  
-
-**Evidencia en video**  
-- Screenshot del video: 
-- ![Carolina Méndez.png](../assets/Autoridad.png)
-- URL del video en Microsoft Stream: [URL único del video]
-- [Video de las entrevistas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202214214_upc_edu_pe/EQNiTxyruylChmng1hwYL_YBJDfK927PPDDTKSNgDrmHFg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=7dP7rr)
-- Timing de la entrevista: Inicio [17:04] – Duración [19:48]  
-
-**Resumen descriptivo de la entrevista**  
-Carolina Méndez trabaja como asistente de participación ciudadana en Lima. Se muestra organizada y crítica, consciente de las limitaciones en la gestión de denuncias. Usa PC de oficina y celular con Windows y Android, navegando en Chrome. Se comunica principalmente por correo institucional y WhatsApp para la coordinación diaria.  
-
-Explicó que las denuncias llegan por teléfono y WhatsApp, pero el seguimiento es difícil por la falta de un sistema integrado. Señaló problemas como duplicidad de reportes y carencia de datos claros. Actualmente gestionan denuncias en Excel, de manera manual. Considera muy importante mantener contacto con el denunciante, respetando el anonimato. Sugiere que un dashboard debería mostrar el número de denuncias, estado y responsables. Como riesgos de una app, mencionó las denuncias falsas, aunque valoraría funcionalidades como centralización de información y reportes automáticos. Un plan premium, en su opinión, debería integrar otras plataformas y generar alertas.  
-
----
-
-### Entrevista 2 – Jorge Torres
-
-**Datos del entrevistado**  
-- Nombre y Apellido: Jorge Torres  
-- Edad: 27 años  
-- Ocupación: Inspector municipal  
-- Distrito: Chiclayo  
-
-**Evidencia en video**  
-- ![Jorge Torresz.png](../assets/Autoridad2.png)
-- [Video de las entrevistas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202214214_upc_edu_pe/EQNiTxyruylChmng1hwYL_YBJDfK927PPDDTKSNgDrmHFg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=7dP7rr) 
-- Timing de la entrevista: Inicio [19:49] – Duración [25:28]  
-
-**Resumen descriptivo de la entrevista**  
-Jorge Torres, inspector municipal en Chiclayo, tiene un perfil operativo y resolutivo, acostumbrado a trabajar en campo. Usa celular y PC con Android y Windows, navegando desde Chrome. Se comunica principalmente por WhatsApp y llamadas, ya que su trabajo es dinámico.  
-
-Actualmente reciben denuncias por WhatsApp o llamadas, pero el seguimiento es complicado por la ausencia de un registro centralizado. Mencionó la falta de coordinación y la información incompleta como problemas recurrentes. No usan software especializado, solo papel y Excel. Considera clave comunicarse con el denunciante para obtener datos precisos. Un dashboard, según él, debería mostrar ubicación, fecha y estado de la denuncia. Ve como riesgo las denuncias falsas, pero valoraría funcionalidades como fotos, ubicación y actualización de estado directamente desde el campo. Un plan premium debería ofrecer geolocalización precisa y mejorar la coordinación entre inspector y oficina.  
-
----
-
-### Entrevista 3 – Juan José
-
-**Datos del entrevistado**  
-- Nombre y Apellido: Juan José  
-- Edad: 24 años  
-- Ocupación: Asistente de Participación Ciudadana y Gestión de Denuncias  
-- Distrito: Lima  
-
-**Evidencia en video**  
-- ![JuanJose.png](../assets/JuanJose.png)
-- [Video de las entrevistas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202214214_upc_edu_pe/EQNiTxyruylChmng1hwYL_YBJDfK927PPDDTKSNgDrmHFg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=7dP7rr)
-- Timing de la entrevista: Inicio [25:29] – Duración [28:51]  
-
-**Resumen descriptivo de la entrevista**  
-Juan José, asistente de participación ciudadana y gestión de denuncias en Lima, señaló que actualmente las denuncias se reciben por teléfono, libros de reclamaciones, correo y redes sociales, pero la ausencia de un sistema unificado genera duplicidad y demoras. La asignación se hace de manera manual y algunos departamentos usan herramientas propias sin conexión entre sí.  
-
-Destacó la importancia de la comunicación con los denunciantes y la necesidad de un dashboard que muestre en tiempo real el estado, ubicación y responsable de cada denuncia. Reconoció riesgos como reportes falsos y problemas de seguridad de datos, aunque valoró funciones como notificaciones, geolocalización, categorización y adjuntar evidencias.  
-
-Finalmente, consideró que un plan premium sería útil si incluyera reportes avanzados, integración con otros sistemas municipales y soporte técnico especializado.
-
-
 ### 2.2.3. Análisis de entrevistas.
-#### Segmento: Ciudadanos
 
-**Características objetivas más comunes**  
-- 100% usan **smartphone y laptop** con Android y Windows.  
-- 100% navegan principalmente en **Google Chrome**.  
-- 100% utilizan **WhatsApp** como canal de comunicación central.  
-- 67% también usan **otras redes sociales** (Facebook o Instagram).  
-
-**Características subjetivas más comunes**  
-- 100% expresan **desconfianza hacia las autoridades** por falta de respuesta.  
-- 100% valoran **rapidez, simplicidad y notificaciones en tiempo real**.  
-- 67% prefieren **mantener anonimato** en el proceso de denuncia.  
-- 100% muestran **frustración** cuando el sistema no responde o es lento.  
-
-**Síntesis para arquetipo**  
-El ciudadano entrevistado es un joven adulto (20–30 años), urbano, con alta dependencia del celular y uso cotidiano de WhatsApp. Tiene poca confianza en autoridades, pero estaría dispuesto a denunciar si la aplicación es rápida, sencilla, con seguimiento en tiempo real y con posibilidad de anonimato.  
-
----
-
-#### Segmento: Autoridades  
-
-**Características objetivas más comunes**  
-- 100% usan **PC y smartphone** con Windows y Android.  
-- 100% navegan principalmente en **Google Chrome**.  
-- 100% se comunican por **WhatsApp** y llamadas; algunos también por **correo institucional**.  
-- 100% gestionan denuncias de forma **manual** (Excel, papel o memorandos).  
-
-**Características subjetivas más comunes**  
-- 100% reconocen la **falta de un sistema unificado** para la gestión de denuncias.  
-- 100% resaltan la **importancia de mantener comunicación con el denunciante**, cuidando su anonimato.  
-- 100% consideran riesgos las **denuncias falsas** y la **seguridad de datos**.  
-- 100% valoran la posibilidad de un **dashboard centralizado** con estado, ubicación y responsables.  
-- 67% expresan la necesidad de mejorar la **coordinación interna** entre áreas y con inspectores de campo.  
-
-**Síntesis para arquetipo**  
-La autoridad entrevistada es un joven profesional (24–27 años), con un perfil operativo y administrativo, dependiente del uso de PC y smartphone, y con WhatsApp como herramienta principal de coordinación. Reconoce las limitaciones de los métodos manuales y demanda una plataforma centralizada que permita trazabilidad, asignación clara de responsables, geolocalización y adjuntos. Desconfía de la sobrecarga de denuncias falsas y la vulnerabilidad de los datos, pero ve valor en notificaciones, reportes y funciones que optimicen la gestión. Un plan premium sería atractivo si integra sistemas municipales, brinda reportes estadísticos avanzados y facilita la coordinación en tiempo real.
-
----
 
 ## 2.3. Needfinding.
 ### 2.3.1. User Personas.
@@ -541,8 +372,118 @@ A continuación, se presenta el Big Picture Event Storming realizado para el sis
 
 ![BigPictureEventStorming.jpg](../assets/BigPictureEventStorming.jpg)
 
-**Link del miro:** https://acortar.link/eh5Gx6
+**Link del figma:** https://acortar.link/eh5Gx6
 ## 2.5. Ubiquitous Language.
+
+A continuación, se presenta el Ubiquitous Language desarrollado para el sistema DenunciaYa. Este glosario de términos clave define de manera clara y precisa los conceptos fundamentales del dominio, facilitando la comunicación efectiva entre todos los miembros del equipo y asegurando una comprensión compartida de los elementos esenciales del negocio. Al establecer un lenguaje común, se minimizan las ambigüedades y se promueve la colaboración fluida durante todo el ciclo de vida del proyecto.
+
+
+## Actores / Roles
+| Término       | Definición                                                                 |
+|---------------|----------------------------------------------------------------------------|
+| Visitante     | Usuario no registrado que accede a la landing page.                        |
+| Ciudadano     | Usuario registrado que realiza denuncias, las gestiona y participa en la comunidad. |
+| Autoridad / Administrador | Usuario con privilegios avanzados para gestionar denuncias, ver métricas y dashboards. |
+| Developer     | Miembro del equipo técnico responsable del diseño y funcionamiento.        |
+
+---
+
+## Conceptos Clave (Landing Page)
+| Término            | Definición                                                                 |
+|--------------------|----------------------------------------------------------------------------|
+| Landing Page       | Página principal que presenta la plataforma a los visitantes.              |
+| How it works       | Sección que explica de manera resumida el proceso de denuncia.             |
+| About us           | Información sobre el objetivo y equipo desarrollador.                      |
+| Testimonials       | Opiniones de ciudadanos que generan confianza.                             |
+| News & Blog        | Espacio con novedades y artículos de la plataforma.                        |
+| CTA (Call to Action)| Botón de acceso a la aplicación.                                           |
+| Sección de Soporte | Espacio con FAQs, guías o contacto para resolver dudas.                    |
+| Sección de Contacto| Información para comunicarse con el equipo (correo u otros medios).        |
+
+---
+
+## Denuncias
+| Término             | Definición                                                                 |
+|---------------------|----------------------------------------------------------------------------|
+| Denuncia            | Reporte ciudadano de un problema urbano o de corrupción.                   |
+| Categoría de denuncia | Clasificación del incidente (baches, basura, alumbrado, etc.).            |
+| Ubicación           | Dirección exacta o zona del incidente.                                     |
+| Descripción         | Texto explicativo del problema.                                            |
+| Evidencia           | Archivos adjuntos (fotos, videos, audios).                                 |
+| Borrador de denuncia| Denuncia guardada sin enviar para completarla más tarde.                   |
+| Resumen de denuncia | Vista previa antes de enviar.                                              |
+| Código de seguimiento| Identificador único generado al enviar.                                   |
+
+---
+
+## Gestión de Denuncias
+| Término     | Definición                                                                 |
+|-------------|----------------------------------------------------------------------------|
+| Historial   | Lista de denuncias registradas por un usuario.                             |
+| Detalle de denuncia | Información completa de un caso.                                    |
+| Filtros     | Opciones para reducir los resultados (estado, categoría, fecha, ubicación).|
+| Ordenar     | Reorganizar denuncias por fecha o estado.                                  |
+| Búsqueda    | Localizar denuncias por número o palabra clave.                            |
+| Timeline / Evolución del caso | Línea de tiempo con actualizaciones de estado.            |
+| Empty state | Mensaje mostrado cuando no existen denuncias registradas.                  |
+
+---
+
+## Dashboard de Autoridades
+| Término               | Definición                                                                 |
+|-----------------------|----------------------------------------------------------------------------|
+| Dashboard / Panel de control | Vista centralizada de métricas y denuncias.                          |
+| Asignación de denuncia| Derivación de denuncias a un área responsable.                             |
+| Métricas de eficiencia| Reportes de tiempos de resolución y desempeño de áreas.                    |
+| Patrones de incidencias| Tendencias en categorías o zonas críticas.                                |
+| Alertas internas      | Notificaciones para casos urgentes.                                        |
+| Comunicación segura   | Mensajería entre autoridad y ciudadano manteniendo anonimato si aplica.    |
+
+---
+
+## Directorio
+| Término             | Definición                                                                 |
+|---------------------|----------------------------------------------------------------------------|
+| Directorio de recursos | Listado de oficinas, contactos y recursos relevantes.                     |
+| Filtros de directorio | Filtrar por región o distrito.                                             |
+| Búsqueda de directorio | Localizar oficinas/contactos por nombre o palabra clave.                  |
+| Detalle de contacto | Información detallada (dirección, teléfono, correo, horario).               |
+| Acceso extendido    | Vista adicional para autoridades (responsables, jerarquía interna).         |
+
+---
+
+## Historial de Intervenciones
+| Término                 | Definición                                                                 |
+|-------------------------|----------------------------------------------------------------------------|
+| Historial de intervenciones | Registro cronológico de acciones asociadas a una denuncia.             |
+| Intervención            | Acción específica tomada en el proceso (asignación, comentario, adjunto). |
+| Responsable             | Autoridad o área que ejecutó la acción.                                   |
+| Adjunto                 | Documentos o reportes cargados en el historial.                           |
+| Notificación de actualización | Aviso automático al ciudadano sobre cambios.                         |
+
+---
+
+## Autenticación y Gestión de Cuentas
+| Término          | Definición                                                                 |
+|------------------|----------------------------------------------------------------------------|
+| Registro         | Creación de una cuenta (ciudadano o autoridad).                            |
+| Inicio de sesión | Acceso a la plataforma con credenciales.                                   |
+| Recuperar contraseña | Función para recuperar acceso en caso de olvido.                       |
+| Restablecer contraseña | Definir nueva contraseña para volver a acceder.                       |
+| Perfil básico    | Información básica del usuario.                                            |
+
+---
+
+## Comunidad
+| Término             | Definición                                                                 |
+|---------------------|----------------------------------------------------------------------------|
+| Publicación / Post  | Mensaje creado por un ciudadano (texto, imagen, video, GIF, encuesta, emoji, recordatorio). |
+| Me gusta            | Reacción positiva a una publicación.                                       |
+| Comentario          | Respuesta a una publicación.                                               |
+| Compartir publicación | Difusión de publicaciones de otros en el propio feed.                    |
+| Encuesta            | Publicación interactiva con opciones de voto.                             |
+| Feed comunitario    | Línea de tiempo de publicaciones de la comunidad.                         |
+
 # Capítulo III: Requirements Specification
 ## 3.1. User Stories.
 ## 3.2. Impact Mapping.
