@@ -1101,7 +1101,140 @@ Se considera lo siguiente:
 
 
 ## 4.8. Database Design.
+
+En esta sección, se presenta el diseño de la base de datos para la solución, incluyendo diagramas entidad-relación (ER) y una descripción de las tablas principales, sus atributos y relaciones. Este diseño asegura que los datos se almacenen de manera eficiente y coherente, facilitando el acceso y la gestión de la información.
+
 ### 4.8.1. Database Diagrams.
+
+**COMPLAINT CREATION BOUNDED CONTEXT ERD**
+
+![COMPLAINT CREATION BOUNDED CONTEXT ER.PNG](../assets/COMPLAINT%20CREATION%20BOUNDED%20CONTEXT%20ER.PNG)
+
+**Tablas y atributos principales**
+
+- Citizens
+Almacena la información de los ciudadanos que presentan denuncias.<br>
+***Atributos: id, name, email, phone.***
+
+- Complaints
+Es la entidad central que representa cada denuncia registrada en el sistema.<br>
+***Atributos: id, citizen_id, category_id, location_id, description, status, created_at, updated_at.***
+
+- Categories
+Define los tipos de denuncias disponibles (ej: basura, baches, alumbrado).<br>
+***Atributos: id, name, description.***
+
+- Locations
+Registra la ubicación de la denuncia. <br>
+***Atributos: id, address, latitude, longitude.***
+
+- Evidences
+Guarda los archivos o pruebas que sustentan una denuncia. <br>
+***Atributos: id, complaint_id, type, file_path, uploaded_at.***
+
+**DIRECTORY OF RESOURCES & CONTACTS BOUNDED CONTEXT ERD**
+
+![DIRECTORY OF RESOURCES & CONTACTS BOUNDED CONTEXT ERD.PNG](../assets/DIRECTORY%20OF%20RESOURCES%20%26%20CONTACTS%20BOUNDED%20CONTEXT%20ERD.PNG)
+
+**Tablas y atributos principales**
+
+- Citizens: Registra la información básica de los ciudadanos que consultan o utilizan el directorio de contactos.<br>
+***Atributos: id, name, email, address, phone.***
+
+- Contact_directories: Representa los contactos disponibles en el directorio, con sus datos generales y de referencia.<br><br
+***Atributos: id, contact_type_id, citizen_id, name, region, address, phone, email, office_hours.***
+
+- Authorities: Contiene los datos de las autoridades relacionadas al directorio.<br>
+***Atributos: id, name, position, institution.***
+
+- Extended_directories_entries: Almacena la información extendida de un contacto dentro del directorio, vinculándolo con una autoridad y detallando aspectos internos.<br>
+***Atributos: id, contact_id, authority_id, responsible, hierarchy, institution.***
+
+- Contact_types: Tabla de catálogo para clasificar los contactos según su tipo<br>
+***Atributos: id, name.***
+
+**HISTORY AND FOLLOW-UP OF COMPLAINTS BOUNDED CONTEXT ERD**
+
+![HISTORY AND FOLLOW-UP OF COMPLAINTS BOUNDED CONTEXT ERD.PNG](../assets/HISTORY%20AND%20FOLLOW-UP%20OF%20COMPLAINTS%20BOUNDED%20CONTEXT%20ERD.PNG)
+
+**Tablas y atributos principales**
+
+- **Citizens:** Almacena la información básica de los ciudadanos que presentan denuncias y pueden consultar su historial.  
+  **Atributos:** `id`, `name`, `email`, `address`, `phone`.
+
+- **Complaints:** Representa cada denuncia registrada en el sistema, incluyendo su título, descripción, fechas y estado actual.  
+  **Atributos:** `id`, `title`, `description`, `created_at`, `status_id`, `last_updated`, `citizen_id`.
+
+- **Complaint_status:** Define los posibles estados de una denuncia dentro de su ciclo de vida (ejemplo: Registered, InReview, InProgress, Resolved, Closed).  
+  **Atributos:** `id`, `name`.
+
+- **Authorities:** Contiene la información de las autoridades responsables de dar seguimiento a las denuncias y registrar acciones.  
+  **Atributos:** `id`, `name`, `institution`.
+
+- **Complaint_trackings:** Registra el historial de seguimiento de cada denuncia, documentando las actualizaciones realizadas por una autoridad, las acciones tomadas y los próximos pasos.  
+  **Atributos:** `tracking_id`, `complaint_id`, `authority_id`, `update_date`, `action_taken`, `next_step`.
+
+**AUTHORITIES DASHBOARD BOUNDED CONTEXT ERD**
+
+![AUTHORITIES DASHBOARD BOUNDED CONTEXT ERD.PNG](../assets/AUTHORITIES%20DASHBOARD%20BOUNDED%20CONTEXT%20ERD.PNG)
+
+**Tablas y atributos principales**
+
+
+- **Authorities:** Contiene la información de las autoridades que acceden al dashboard personalizado.  
+  **Atributos:** `id`, `name`, `position`, `institution`.
+
+- **Dashboards:** Representa el panel de control de cada autoridad, mostrando estadísticas de las denuncias asignadas.  
+  **Atributos:** `id`, `authority_id`, `total_complaints`, `resolved_complaints`, `closed_complaints`.
+
+- **Complaint_summaries:** Almacena una versión ligera de las denuncias para listados rápidos en el dashboard, incluyendo datos básicos y el estado actual.  
+  **Atributos:** `id`, `dashboard_id`, `title`, `citizen_name`, `status_id`, `created_at`, `last_updated`.
+
+- **Complaint_status:** Tabla de catálogo que define los posibles estados de una denuncia (ejemplo: *Registered, InReview, InProgress, Resolved, Closed*).  
+  **Atributos:** `id`, `name`.
+
+- **Notifications:** Registra las notificaciones asociadas al dashboard de una autoridad, indicando mensajes y fechas.  
+  **Atributos:** `id`, `dashboard_id`, `type_id`, `message`, `date`.
+
+- **Notifications_types:** Tabla de catálogo que clasifica las notificaciones según su naturaleza (ejemplo: *NewComplaint, Reminder, Escalation, General*).  
+  **Atributos:** `id`, `name`.
+
+**AUTHENTICATION & ACCOUNT MANAGEMENT BOUNDED CONTEXT ERD**
+
+![AUTHENTICATION & ACCOUNT MANAGEMENT BOUNDED CONTEXT ERD.PNG](../assets/AUTHENTICATION%20%26%20ACCOUNT%20MANAGEMENT%20BOUNDED%20CONTEXT%20ERD.PNG)
+
+**Tablas y atributos principales**
+
+- **User_roles:** Tabla de catálogo que define los roles disponibles dentro del sistema (ejemplo: *CITIZEN, AUTHORITY*).  
+  **Atributos:** `id`, `name`.
+
+- **Users:** Tabla base que almacena las credenciales y rol de cada usuario en el sistema.  
+  **Atributos:** `id`, `email`, `password_hash`, `role_id`.
+
+- **User_profiles:** Contiene la información editable y de contacto asociada a cada usuario.  
+  **Atributos:** `id`, `user_id`, `full_name`, `contact_info`.
+
+- **Citizens:** Tabla que hereda de `Users` y almacena información específica de los ciudadanos registrados.  
+  **Atributos:** `id`, `user_id`, `name`, `address`, `phone`.
+
+- **Authorities:** Tabla que hereda de `Users` y almacena información específica de las autoridades.  
+  **Atributos:** `id`, `user_id`, `name`, `institution`, `position`.
+
+**COMMUNITY BOUNDED CONTEXT ERD**
+
+![COMMUNITY BOUNDED CONTEXT ERD.PNG](../assets/COMMUNITY%20BOUNDED%20CONTEXT%20ERD.PNG)
+
+**Tablas y atributos principales**
+
+- **Users:** Almacena la información de los usuarios registrados en la comunidad.  
+  **Atributos:** `id`, `name`, `role`.
+
+- **Posts:** Representa las publicaciones creadas por los usuarios dentro de la comunidad.  
+  **Atributos:** `id`, `content`, `created_at`, `author_id`.
+
+- **Comments:** Registra los comentarios hechos por los usuarios en relación a un post.  
+  **Atributos:** `id`, `content`, `created_at`, `author_id`, `post_id`.
+
 # Capítulo V: Product Implementation, Validation & Deployment.
 ## 5.1. Software Configuration Management.
 ### 5.1.1. Software Development Environment Configuration.
