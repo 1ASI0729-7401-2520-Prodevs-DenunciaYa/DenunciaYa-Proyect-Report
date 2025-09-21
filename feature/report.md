@@ -2313,6 +2313,68 @@ Conventional Commits: La estandarización de los mensajes de commit (ej., feat:,
 
 ![Contributors Analytics](../assets/contributors-analytics.png)
 
-Conclusiones
-Bibliografía
-Anexos
+# Conclusiones
+Durante el proceso de creación y desarrollo de este trabajo se llegaron a las siguientes conclusiones:
+
+### 1. Trabajo en equipo y colaboración
+El desarrollo de DenunciaYa demostró que la colaboración y la comunicación constante entre los miembros del equipo son esenciales para integrar distintas perspectivas y habilidades. La distribución de roles y la sinergia lograda permitieron construir una solución sólida y alineada con los objetivos planteados.
+
+### 2. Planificación y organización en el desarrollo de software
+La planificación adecuada, junto con la adopción de metodologías ágiles como SCRUM, fueron factores clave para gestionar tareas, priorizar funcionalidades y cumplir con los plazos establecidos. Esto garantizó un proceso ordenado y la entrega de un producto funcional y de calidad.
+
+### 3. Impacto social y transparencia en la gestión pública
+DenunciaYa representa una solución innovadora que contribuye a mejorar la transparencia gubernamental y la confianza ciudadana. Al facilitar la denuncia de problemas urbanos y actos de corrupción de forma rápida, segura y anónima, la plataforma genera un impacto positivo en la calidad de vida de la comunidad.
+
+### 4. TIC como herramienta de participación ciudadana
+El proyecto demuestra que las Tecnologías de la Información y Comunicación (TIC) son un medio estratégico para ampliar el alcance y la participación social. DenunciaYa facilita que más ciudadanos se involucren activamente en la identificación y resolución de problemas locales, fortaleciendo la gobernanza digital.
+
+### 5. Usabilidad y experiencia del usuario
+DenunciaYa ha sido diseñada para que cualquier persona pueda usarla fácilmente desde el primer momento. Su interfaz es intuitiva y accesible, lo que permite reportar problemas en pocos pasos y sin complicaciones. Con un diseño moderno y centrado en el usuario, la plataforma garantiza una experiencia ágil, clara y confiable tanto para ciudadanos como para autoridades.
+
+#  Bibliografía
+
+- Gruber, J. (2004). *Markdown*. Daring Fireball. https://daringfireball.net/projects/markdown/
+
+- Flanagan, D. (2020). *JavaScript: The definitive guide* (7th ed.). O’Reilly Media. https://www.oreilly.com/library/view/javascript-the-definitive/9781491952016/
+
+- W3C. (2017). *HTML5: A vocabulary and associated APIs for HTML and XHTML*. World Wide Web Consortium (W3C). https://www.w3.org/TR/html52/
+
+- Meyer, E. (2017). *CSS: The definitive guide* (4th ed.). O’Reilly Media. https://www.oreilly.com/library/view/css-the-definitive/9781449325053/
+
+- Brown, S. (2018). *The C4 model for visualising software architecture*. Leanpub. https://leanpub.com/visualising-software-architecture
+
+- Brandolini, A. (2018). *Introducing EventStorming: An act of deliberate collective learning*. Leanpub. https://leanpub.com/introducing_eventstorming
+
+- Evans, E. (2003). *Domain-driven design: Tackling complexity in the heart of software*. Addison-Wesley. https://www.domainlanguage.com/ddd/
+
+- Vernon, V. (2013). *Implementing domain-driven design*. Addison-Wesley. https://www.oreilly.com/library/view/implementing-domain-driven-design/9780133039900/
+
+- Gothelf, J., & Seiden, J. (2016). *Lean UX: Designing great products with agile teams* (2nd ed.). O’Reilly Media. https://www.oreilly.com/library/view/lean-ux-2nd/9781491953600/
+
+- Bass, L., Clements, P., & Kazman, R. (2012). *Software architecture in practice* (3rd ed.). Addison-Wesley. https://www.oreilly.com/library/view/software-architecture-in/9780132942782/
+
+- Schwaber, K., & Sutherland, J. (2020). *The Scrum Guide*. Scrum.org. https://scrumguides.org/
+
+# Anexos
+
+### VIDEOS:
+
+| Título                  | Descripción                                        | Enlace                          |
+|-------------------------|----------------------------------------------------|---------------------------------|
+| Video de  TB1 | Video explicativo de los avances de la entrega TB1 | https://acortar.link/gGdqQs    |
+| Video de entrevistas    | Video recopilatorio de todas las entrevistas       | https://acortar.link/Kg2n12    |
+
+
+### UX/UI
+| Título | Descripción                                                                                                           | Enlace                       |
+|--------|-----------------------------------------------------------------------------------------------------------------------|------------------------------|
+| Figma  | Enlace hacia el documento de Figma con todos los diseños planteados para la Aplicacion Web como para el Landing Page. | https://acortar.link/4Ym8OK  | 
+
+### GITHUB
+
+| Título       | Descripción                            | Enlace                                                         |
+|--------------|----------------------------------------|----------------------------------------------------------------|
+| Reporte      | Enlace al repositorio del reporte      | https://github.com/1ASI0729-7401-2520-Prodevs-DenunciaYa/DenunciaYa-Proyect-Report        |
+| Landing Page | Enlace al repositorio del Landing Page | https://github.com/1ASI0729-7401-2520-Prodevs-DenunciaYa/DenunciaYa-Landing-Page       |
+
+
