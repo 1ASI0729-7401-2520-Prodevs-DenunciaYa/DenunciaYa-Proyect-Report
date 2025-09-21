@@ -875,57 +875,1061 @@ que se debe realizar en el proyecto.
 
 ## 4.1. Style Guidelines.
 
+En este apartado, se mostrará de manera organizada los estilos y herramientas que se usarán para diseñar nuestra solución.
+
 ### 4.1.1. General Style Guidelines.
+#### Brand Overview  
+
+En muchas ciudades de Latinoamérica, los ciudadanos enfrentan barreras para reportar problemas que afectan su entorno, desde baches y basura acumulada hasta casos de corrupción o deficiencias en los servicios públicos. La mayoría de los procesos actuales son engorrosos, poco transparentes y generan desconfianza hacia las autoridades. Esto provoca que muchos reportes nunca lleguen a resolverse y que los ciudadanos sientan que su voz no es escuchada.  
+
+**DenunciaYa** nace como una solución tecnológica que conecta directamente a los ciudadanos con las autoridades locales a través de un sistema simple, seguro y confiable. Nuestra plataforma permite realizar denuncias de manera rápida y opcionalmente anónima, con seguimiento en tiempo real y notificaciones inmediatas del estado de cada reporte. Al mismo tiempo, brinda a las autoridades paneles de control, métricas de eficiencia y herramientas de análisis que les ayudan a gestionar los problemas de forma más transparente y efectiva.  
+
+De esta manera, **DenunciaYa no solo fortalece la participación ciudadana**, sino que también promueve gobiernos más abiertos, responsables y orientados a resultados.  
+
+---
+
+#### Brand name  
+
+El nombre de nuestra solución, **DenunciaYa**, refleja su esencia: un llamado directo y urgente a la acción. La palabra **“Denuncia”** conecta inmediatamente con la función principal de la aplicación, mientras que **“Ya”** transmite inmediatez y simplicidad, invitando a los ciudadanos a reportar sin obstáculos ni demoras.  
+
+Hemos elegido un nombre en español para que sea fácilmente identificable y comprensible en toda Latinoamérica, generando cercanía y confianza con los usuarios.  
+
+**Logo:**  
+![Logo V1](/assets/Logo_1.jpg)
+![Logo V2](/assets/Logo.jpg)
+
+---
+
+#### Typography  
+
+En **DenunciaYa**, la tipografía es un elemento esencial para comunicar confianza, cercanía y profesionalismo. Hemos seleccionado dos tipografías complementarias de Google Fonts que reflejan la identidad de la plataforma:  
+
+- **Akshar**: utilizada en los *headings* y títulos principales. Su estilo moderno, limpio y geométrico transmite innovación y solidez, aportando jerarquía visual a la interfaz.  
+- **Alegreya Sans**: aplicada en el *body text* y contenido general. Su diseño humanista y altamente legible brinda calidez y accesibilidad, asegurando que la experiencia de lectura sea cómoda y clara en cualquier dispositivo.  
+
+Esta combinación logra un balance elegante entre **modernidad tecnológica** y **cercanía ciudadana**, asegurando que la aplicación sea visualmente atractiva, funcional y coherente en todos sus niveles de comunicación.  
+
+**Typography Example:**  
+
+![Typography](/assets/Typography.jpg)
+
+---
+
+#### Colors  
+
+La paleta de colores de **DenunciaYa** está diseñada para transmitir solidez, confianza y cercanía, garantizando una experiencia visual clara y consistente. Los colores principales y secundarios definen la identidad de la marca, mientras que la gama de apoyo aporta flexibilidad para diferentes contextos de la interfaz.  
+
+- **Color Primario (Azul Cívico – #3897F5):** Color principal de la marca, utilizado en elementos destacados como botones de acción y componentes clave de la interfaz. 
+
+- **Color Secundario (Azul Profundo – #112433):** Aporta contraste y solidez. Ideal para fondos, encabezados o secciones que requieren un tono más institucional.  
+ 
+
+- **Color Secundario (Blanco – #FFFFFF):** Mantiene la claridad y la legibilidad en toda la aplicación. Usado como fondo principal y para generar equilibrio visual.  
+ 
+
+- **Color Terciario (Amarillo – #FFCB2E):** Complementa la identidad cromática y resalta elementos puntuales de la interfaz con energía y visibilidad.  
+ 
+
+La identidad de **DenunciaYa** se completa con una gama de apoyo que permite jerarquizar la información, mantener consistencia y cubrir diferentes estados visuales:  
+
+![Colores](/assets/Color.png)
+
+#### Spacing  
+
+El **espaciado** en **DenunciaYa** cumple un rol fundamental para garantizar orden, legibilidad y claridad en la experiencia del usuario. Una estructura bien definida de márgenes, paddings y separaciones permite que cada elemento tenga el aire suficiente para destacar sin sobrecargar la interfaz.  
+
+Hemos adoptado un **sistema de 8px** como unidad base, por ser un estándar ampliamente utilizado en diseño digital. Esto asegura consistencia en todos los niveles de la aplicación, facilita la escalabilidad y mantiene armonía visual en cualquier dispositivo.  
+
+- **Micro-spacing (4px):** usado para separaciones muy pequeñas, como íconos dentro de botones o elementos estrechamente relacionados.  
+- **Base-spacing (8px):** unidad principal para definir márgenes, paddings y distancias regulares entre componentes.  
+- **Medium-spacing (16px):** recomendado para separar bloques de contenido, tarjetas o secciones dentro de la interfaz.  
+- **Large-spacing (24px – 32px):** aplicado en márgenes exteriores, secciones principales o espacios que requieren mayor aire visual.  
+
+Este sistema modular no solo aporta **consistencia visual**, sino que también mejora la **jerarquía de la información**, logrando que los reportes, formularios y paneles de control sean fáciles de leer, navegar y comprender.  
+
+**Ejemplo visual de spacing:**  
+![Spacing](/assets/Spacing.png)  
+
+
+
+#### Tone of Voice and Communication  
+
+El tono de comunicación de **DenunciaYa** se alinea con los valores de confianza, cercanía y responsabilidad ciudadana. Hemos adoptado un estilo:  
+
+- **Serio pero accesible**, ya que aborda problemas relevantes que impactan en la comunidad.  
+- **Formal en su estructura**, pero **claro y sencillo en su lenguaje**, para que cualquier ciudadano pueda entenderlo sin dificultad.  
+- **Respetuoso y transparente**, transmitiendo legitimidad y profesionalismo.  
+- **Entusiasta y motivador**, para invitar a la acción inmediata de los usuarios sin caer en la rigidez institucional.  
+
+De esta manera, el lenguaje utilizado refuerza la misión de la aplicación: **hacer que la voz de los ciudadanos sea escuchada y atendida**.
+
 
 ### 4.1.2. Web Style Guidelines.
 
-## 4.2. Information Architecture.
+Nuestra plataforma web está diseñada bajo un enfoque **responsive first**, garantizando que la experiencia sea clara, accesible y consistente en cualquier dispositivo. Todas las decisiones visuales se han tomado siguiendo principios de simplicidad, legibilidad y usabilidad, asegurando que los ciudadanos puedan navegar fácilmente y realizar denuncias sin obstáculos.  
 
-### 4.2.1. Organization Systems.
+---
 
-### 4.2.2. Labeling Systems.
+#### Layout y Grid System  
+
+El diseño de **DenunciaYa** se basa en un **sistema de 12 columnas** que permite una disposición flexible y escalable en todos los tamaños de pantalla. En la página de inicio se emplea un **patrón de lectura en Z**, que guía naturalmente la vista del usuario hacia los elementos más importantes:  
+
+1. **Logo y menú principal** en la parte superior izquierda.  
+2. **Botón de acción principal “Denunciar Ahora”** en la parte superior derecha.  
+3. **Bloques informativos o destacados** en el centro.  
+4. **Llamado a la acción o contacto** en la parte inferior derecha.  
+
+![PatronZ](/assets/PatronZ.jpeg)
+
+
+Este sistema asegura jerarquía visual y mantiene coherencia entre las distintas secciones de la plataforma.  
+
+---
+
+#### Responsive Design  
+
+Hemos definido **breakpoints principales** para garantizar que la interfaz se adapte a diferentes dispositivos sin perder claridad ni funcionalidad:  
+
+- **Mobile (≤480px):**  
+  - Menú en formato hamburguesa.  
+  - Tipografía adaptada a 14–16px para máxima legibilidad.  
+  - Botones ocupan el 100% del ancho para facilitar la interacción táctil.  
+  - Formularios en una sola columna.  
+
+- **Tablet (481–768px):**  
+  - Distribución en dos columnas.  
+  - Íconos más visibles y textos acompañados de descripciones cortas.  
+  - Botones medianos con mayor espaciado.  
+
+- **Desktop (≥1024px):**  
+  - Estructura en 3 o 4 columnas según el contenido.  
+  - Menú principal desplegado en la parte superior.  
+  - Mayor aprovechamiento del espacio para paneles de control, métricas y gráficos.  
+
+![Landing-Deskopt](/assets/Landinpage-Deskop.jpg)
+![Landing-Laptop](/assets/Landinpage-Laptop.jpg)
+![Landing-Tablet](/assets/Landinpage-Laptop-tablet.jpg)
+![Landing-Movilv1](/assets/Landinpage-mobilv1.jpg)
+![Landing-Movilv2](/assets/Landinpage-movilv2.jpg)
+
+
+
+
+---
+
+
+
+
+#### Componentes UI  
+
+Los **componentes de interfaz** siguen los principios de consistencia, simplicidad y accesibilidad.  
+
+**Botones:**  
+- **Primario:** Azul Cívico (#3897F5) con texto blanco. Uso en acciones principales como “Denunciar Ahora”.  
+- **Secundario:** Azul Profundo (#112433) con texto blanco. Uso en acciones de navegación o secundarias.  
+- **Hover:** aumento de sombra sutil y variación ligera de color.  
+- **Disabled:** tono gris (#D3D3D3) con texto atenuado.  
+
+**Inputs y Formularios:**  
+- Bordes redondeados de **8px** para transmitir accesibilidad y modernidad.  
+- Estados claros:  
+  - **Normal:** borde gris claro.  
+  - **Hover:** borde azul (#3897F5).  
+  - **Error:** borde rojo (#FF4C4C) con mensaje explicativo.  
+  - **Success:** borde verde (#4CAF50).  
+
+**Cards y Secciones:**  
+- Esquinas redondeadas de **12px**.  
+- Sombra ligera para dar profundidad.  
+- Imagen o ícono en la parte superior, texto y acción en la parte inferior.  
+
+
+![ComponentesUI](/assets/Componentes.jpg)
+![Cards](/assets/Cards.png)
+---
+
+#### Interacciones y Estados  
+
+La plataforma utiliza microinteracciones para mejorar la experiencia del usuario:  
+
+- Los **botones** muestran una ligera animación de escala al hacer *hover*.  
+- Los **inputs** cambian de color al enfocarse, reforzando el estado activo.  
+- Los **formularios** validan datos en tiempo real, mostrando feedback inmediato.  
+- Los **links** subrayan al pasar el cursor, reforzando su función de navegación.  
+
+---
+
+#### Navegación  
+
+La navegación se ha diseñado bajo los principios de **claridad y accesibilidad**:  
+
+- **Barra superior fija (sticky navbar):** visible en todo momento para facilitar el acceso a “Denunciar Ahora” y al menú principal.  
+- **Menú hamburguesa en mobile:** que despliega las opciones de navegación.  
+- **Footer:** contiene accesos rápidos a ayuda, políticas de privacidad, términos de uso y contacto.  
+
+---
+
+#### Accesibilidad  
+
+**DenunciaYa** se ha construido con un compromiso hacia la accesibilidad. 
+
+- **Tipografía legible**, con tamaños mínimos de entre 10px a 14px en dispositivos móviles.  
+- Uso de **atributos ARIA** en formularios y menús para apoyar la navegación con lectores de pantalla.  
+- Todo el contenido puede ser navegado únicamente con teclado, garantizando inclusión.  
+
+---
+
+
+## 4.2. Information Architecture
+En esta sección, el equipo define la manera en que se organizará el contenido dentro de la plataforma de denuncias, considerando tanto la página principal como la aplicación web. El objetivo es que los usuarios puedan entender y utilizar las funciones sin dificultad, logrando que el proceso de registrar, consultar o dar seguimiento a una denuncia sea lo más claro posible.  
+
+Las decisiones abarcan la forma en que se estructuran las categorías de denuncias, el sistema de etiquetado para clasificar cada caso, la navegación entre secciones y los mecanismos de búsqueda que permitan localizar rápidamente información relevante. De esta forma, se busca garantizar una experiencia accesible y eficiente para todos los usuarios.  
+### 4.2.1. Organization Systems
+
+La organización de la información en DenunciaYa aplica distintos sistemas (jerárquico, secuencial, matricial) según el tipo de contenido y la meta del usuario. A continuación se detalla qué sistema se aplica a cada grupo de información y qué esquema de categorización se usará.
+
+#### Aplicación por grupos de información
+
+- **Landing Page (Información pública, acceso y conversión)**  
+  - **Sistema:** **Jerárquico (visual hierarchy)** — la home prioriza mensajes clave (propuesta de valor, CTA "Denunciar" o "Denunciar Ahora", cómo funciona).  
+  - **Categorización:** por **tópicos** (Qué es, Cómo funciona,Sobre Nosotros, Testimonios, Blog, Soporte y Contactos).  
+  - **Justificación:** orientada a conversión y comprensión rápida.
+
+- **Flujo de creación de denuncia (forms / wizard)**  
+  - **Sistema:** **Secuencial (step-by-step)** — proceso guiado por pasos: 1) Seleccionar categoría -> 2) Ubicación-> 3) Descripción y evidencias -> 4) Revisión y envío.  
+  - **Categorización:** por **audiencia** (ciudadano que reporta, anónimo vs identificado) y por **tópico** (tipo de incidencia).  
+  - **Justificación:** evita errores y asegura captura completa de datos.
+
+- **Historial / Lista de denuncias (usuario)**  
+  - **Sistema:** **Jerárquico + filtrable** — lista con tarjetas ordenadas por prioridad/fecha y filtros laterales.  
+  - **Categorización:** **Cronológica** por defecto (más reciente arriba); opción alternativa por **tópicos** o **estado**.  
+  - **Justificación:** usuarios consultan por fecha y estado.
+
+- **Panel de control / Dashboard (autoridades / admins)**  
+  - **Sistema:** **Matricial** (grid / matrix) — vistas con matrices que cruzan dimensiones (ej. *categoría × distrito*, *estado × prioridad*).  
+  - **Categorización:** **por tópico** y **por audiencia** (departamento responsable).  
+  - **Justificación:** facilita análisis y priorización.
+
+- **Directorio de recursos y contactos**  
+  - **Sistema:** **Alfabético** para listados (oficinas, departamentos), con filtros por región.  
+  - **Categorización:** **Alfabética** y por **audiencia** (ciudadano / empresa / autoridad).
+
+- **Historial de intervenciones y timeline de casos**  
+  - **Sistema:** **Cronológico** (línea de tiempo por caso).  
+  - **Justificación:** rastrear evolución de la denuncia en tiempo.
+
+#### Esquemas de categorización aplicados (resumen)
+- **Alfabético:** directorios, listas de autoridades, glosarios.  
+- **Cronológico:** historial de denuncias, timelines de caso, logs de actividad.  
+- **Por tópicos:** categorías de denuncia (Infraestructura y Espacios Públicos, Servicios Públicos, Medio Ambiente, Seguridad Ciudadana, Transporte y Movilidad, Salud Pública, Comercio Informal, entre otros).  
+- **Por audiencia:** vistas y accesos adaptados (ciudadano, gestor municipal, agente de campo, soporte).
+
+---
+
+### 4.2.2. Labeling Systems
+
+El sistema de etiquetado prioriza **brevedad, consistencia, accesibilidad y claridad**. Se empleará ingles neutral (EN), lenguaje en **sentence case** (mayúscula sólo en la primera palabra salvo nombres propios), y un máximo recomendado de **1–2 palabras** en la mayor parte de botones y menús. Se define además una lista completa de etiquetas clave y reglas de microcopy.
+
+#### Reglas generales de etiquetado
+- Idioma: **Ingles (en-US)** por defecto, luego sera cambiado por internacionalizacion.  
+- Longitud: **1–2 palabras** para botones y menús; **hasta 6–8 palabras** para títulos de secciones si es necesario.  
+- Casos: **Sentence case** -> ej. **Denunciar**, **Mis Denuncias(historial)**, **Mi perfil**.  
+- Iconos: usar icono + etiqueta para acciones primarias en móvil; icono sólo para estados secundarios.  
+- Abreviación: evitar abreviaciones; si son necesarias, mostrar tooltip con la forma completa.  
+- Plurales: usar forma singular en botones de acción, plural en listados.  
+- Accesibilidad: todas las etiquetas deben tener atributos `aria-label` y textos alternativos en imágenes.
+
+#### Etiquetas primarias (menú y CTAs)
+- Menú superior / global: **Inicio**, **Notificaciones**, **Informacion de la cuneta**.  
+- CTA primario: **Denunciar** o **Denunciar ahora**.  
+- Footer: **Ayuda**, **Términos**, **Política de privacidad**, **Contacto**.  
+
+### Etiquetas internas y de formularios
+- **Formulario (pasos):** Categoría, Ubicación, Fecha, Descripción, Evidencia, Revisar y enviar  
+- **Botones:**Continuar, Siguiente, Anterior, Enviar, Guardar borrador  
+- **Estados de denuncia:** Pendiente, En proceso, Resuelto, Rechazado  
+- **Acciones en listado:** Ver, Editar, 
+- **Campos frecuentes:** Número de denuncia, Nombre (opcional si se activa el anonimato total), Teléfono (opcional), Correo , Adjuntar foto, anonimato total(checkbox).
+
+
+
+#### Microcopy / mensajes y estados
+
+**Mensajes de éxito**
+- `Tu denuncia fue enviada correctamente. N.º: 12345.`
+- `Los cambios se guardaron con éxito.`
+
+**Mensajes de error**
+- `Por favor, selecciona una categoría.`
+- `No pudimos enviar tu denuncia. Inténtalo de nuevo más tarde.`
+- `Archivo no válido. Sube una foto en formato JPG o PNG.`
+
+**Mensajes de validación**
+- `El campo correo electrónico no es válido.`
+- `La descripción debe tener al menos 20 caracteres.`
+
+**Mensajes de vacíos (empty states)**
+- `Aún no tienes denuncias registradas.`
+- `No se encontraron resultados para tu búsqueda.`
+
+**Confirmaciones**
+- `¿Estás seguro de que deseas eliminar esta denuncia?`
+- `¿Deseas salir sin guardar los cambios?`
+
+**Tooltips**
+- `Número de denuncia: referencia única para seguimiento.`
+- `Adjuntar foto: máximo 5 MB.`
+
+---
 
 ### 4.2.3. SEO Tags and Meta Tags
 
-### 4.2.4. Searching Systems.
+Se definen tags base para cada tipo de página. 
 
-### 4.2.5. Navigation Systems.
+### Reglas SEO generales
+- **Title:** 50–60 caracteres recomendados.  
+- **Meta description:** 140–160 caracteres.  
+- **Keywords:** uso limitado (no spam).  
+- **Canonical:** en páginas con contenido duplicado.  
+- **Lang & hreflang:** `lang="en-US"` en HTML.  
+
+
+#### Ejemplos de tags 
+
+**Landing Page (index.html)**
+```html
+<title>DenunciaYa – Plataforma para reportar incidencias ciudadanas</title>
+<meta name="description" content="DenunciaYa permite reportar incidencias de manera rápida, segura y en tiempo real. Únete y haz que tu voz sea escuchada.">
+<meta name="keywords" content="denuncias, reportes ciudadanos, incidencias, participación ciudadana">
+<meta name="author" content="Equipo DenunciaYa">
+<meta name="robots" content="index, follow">
+```
+
+**Web Application — Panel**
+```html
+<title>Mi Panel – DenunciaYa</title>
+<meta name="description" content="Gestiona tus denuncias, sigue su estado y accede a soporte desde tu panel en DenunciaYa.">
+```
+
+**Página de detalle de denuncia (dinámico)**
+- **Title dinámico:** `Denuncia #12345 – Pendiente | DenunciaYa`  
+- **Description dinámica:** `Detalle de la denuncia #12345: categoría, fecha, ubicación y estado. Sigue el avance en tiempo real.`
+
+---
+
+### 4.2.4. Searching Systems
+
+El sistema de búsqueda está diseñado para ser **rápido, tolerante a errores y con filtros poderosos**. Se prioriza la usabilidad y la accesibilidad.
+
+#### Ubicación e interacción principal
+- Barra de búsqueda principal en la parte superior del panel de denuncias con placeholder:  
+`Buscar por N.° de denuncia, categoría o palabra clave`  
+- Atributos ARIA: `aria-label="Buscar denuncias"` y `role="search"`.
+
+#### Capacidades de búsqueda
+- **Autocompletado y sugerencias** en tiempo real.  
+- **Búsqueda por campos:** N.º de denuncia, texto libre, etiquetas, ubicación.  
+- **Filtros (facetas):** Categoría, Estado, Fechas, Prioridad, Ubicación, Evidencia, Responsable.  
+- **Ordenamiento:** Más reciente, Más antiguo, Estado, Relevanci`.  
+- **Resultados:** tarjetas con Nº de denuncia, categoría, estado, fecha, resumen y Ver.  
+- **Paginación:** Paginacion Numerica.  
+- **Empty state:** No se encontraron resultados. Revisa la ortografía o cambia los filtros.
+
+
+**Para Ciudadanos:**
+- **Reporte Guiado por Categorías:** Menú con las 7 categorías principales (Infraestructura, Servicios Públicos, etc.) y sus subcategorías.
+- **Búsqueda por Palabras Clave:** Menu de categorias mas frecuentes.
+
+**Para Autoridades:**
+- **Dashboard de Gestión:** Vista principal con panel de filtros avanzados.
+- **Búsqueda por ID:** Acceso directo a un reporte específico.
+- **Mapa Interactivo:** Para visualizar incidencias por ubicación.
+
+
+---
+
+### 4.2.5. Navigation Systems
+
+La navegación está pensada para que el usuario cumpla su objetivo en el menor número de pasos y con la menor fricción posible.
+
+#### Patrón de navegación global
+- **Desktop:** barra superior fija (logo a la izquierda, menú principal a la derecha, CTA Denunciar destacado).  
+- **Mobile:** menú hamburguesa y botón flotante (FAB) Denunciar.  
+- **Aplicación web (panel):** barra lateral colapsable con breadcrumb en el contenido.  
+- **Footer:** accesos secundarios (Ayuda, Términos, Política).
+
+#### Flujos de navegación clave
+- **Crear denuncia (ciudadano):** Inicio -> Denunciar ->Wizard paso a paso -> Confirmación.  
+- **Ver estado de una denuncia:** Panel -> Historial -> Seleccionar denuncia -> Detalle.  
+- **Gestión (autoridad):** Panel -> Filtros/Alertas -> Seleccionar caso → Asignar responsable.
+
+#### Buenas prácticas de navegación
+- **Breadcrumbs** en páginas internas (`Panel > Mis denuncias > Denuncia #12345`).  
+- **Persistencia del CTA `Denunciar`** siempre visible.  
+- **Deep links** en notificaciones (/denuncias/{id}).  
+- **Back button:** confirmar salida si hay datos sin guardar.  
+- **Sitemap y URLs limpias:** `/`, `/denunciar`, `/denuncias`, `/denuncias/{id}`, `/panel`, `/soporte`.  
+- **Accesibilidad:** navegación completa por teclado con foco visible.
 
 ## 4.3. Landing Page UI Design.
-
+Presentamos los primeros diseños de la Landing Page en UI.
 ### 4.3.1. Landing Page Wireframe.
-
+![WireframeLanding-Deskopt](/assets/WLandinpage-Deskop.jpg)
+![WireframeLanding-Laptop](/assets/WLandinpage-Laptop.jpg)
+![WireframeLanding-Tablet](/assets/WLandinpage-Tablet.jpg)
+![WireframeLanding-Movilv1](/assets/WLandinpage-mobilv1.jpg)
+![WireframeLanding-Movilv2](/assets/WLandinpage-mobilv2.jpg)
 ### 4.3.2. Landing Page Mock-up.
-
+![MockupLanding-Deskopt](/assets/Landinpage-Deskop.jpg)
+![MockupLanding-Laptop](/assets/Landinpage-Laptop.jpg)
+![MockupLanding-Tablet](/assets/Landinpage-Laptop-tablet.jpg)
+![MockupLanding-Movilv1](/assets/Landinpage-mobilv1.jpg)
+![MockupLanding-Movilv2](/assets/Landinpage-movilv2.jpg)
 ## 4.4. Web Applications UX/UI Design.
-
+Presentamos los primeros diseños de la Web Aplication en UI.
 ### 4.4.1. Web Applications Wireframes.
+## 1. Pantalla de Login  
+**Wireframe**  
+![Login](/assets/WireframeLogin.jpg)  
+
+**Explicación**  
+- **Principios de diseño:** Jerarquía visual clara con logo en la parte superior, formulario centrado y botón principal destacado.  
+- **Elementos de diseño:** Colores claros y precisos, tipografía consistente y botones con esquinas redondeadas para mayor accesibilidad.  
+- **Diseño inclusivo:** Contraste suficiente entre texto y fondo, etiquetas visibles en los campos, soporte para teclado.  
+- **Arquitectura de información:** Flujo simple: logo → email/contraseña → entra al dashboard principal de ciudadano y autoridad.  
+- **Design System:** Botón primario con color principal del sistema, tipografía uniforme y campos reutilizables.  
+
+---
+
+## 2. Pantalla de Register  
+**Wireframe**  
+![Register](/assets/WireframeRegister.jpg)  
+
+**Explicación**  
+- **Principios de diseño:** Uso de agrupación por proximidad para los campos.  
+- **Elementos de diseño:** Campos con iconos de apoyo, botón destacado al final del formulario.  
+- **Diseño inclusivo:** Labels claros, mensajes de error accesibles y compatibilidad con lector de pantalla.  
+- **Arquitectura de información:** Orden lógico de los datos solicitados (nombre, apellido, correo, contraseña, teléfono opcional y confirmación).  
+- **Design System:** Botón secundario para volver al login (return), estilos de formulario consistentes.  
+
+---
+
+## 3. Pantalla de Payment Card  
+**Wireframe**  
+![Payment](/assets/WireframePayment.jpg)  
+
+**Explicación**  
+- **Principios de diseño:** Contraste entre datos de la tarjeta y el fondo, buena alineación.  
+- **Diseño inclusivo:** Tamaño de campos adecuado, validación visual clara de errores.  
+- **Arquitectura de información:** Flujo secuencial: datos de tarjeta → confirmación → confirmar el pago.  
+- **Design System:** Colores corporativos en botones, tarjetas con bordes redondeados, consistencia visual.  
+
+---
+
+## 4. Pantalla de Mis Denuncias  
+**Wireframe**  
+![MisDenuncias](/assets/WireframeMisDenuncias.jpg)  
+
+**Explicación**  
+- **Principios de diseño:** Listado organizado en filas con jerarquía clara entre N° denuncia, categoría, estado y fecha.  
+- **Elementos de diseño:** Colores para estados (verde: resuelto, azul: en proceso, amarillo: pendiente, rojo: rechazado, gris: guardado).  
+- **Diseño inclusivo:** Iconografía + texto para estado, buena separación visual.  
+- **Arquitectura de información:** Ordenado cronológicamente con filtros por estado/categoría.  
+- **Design System:** Reutilización de componentes de listado.  
+
+---
+
+## 5. Pantalla de Denunciar Ahora  
+**Wireframe**  
+![DenunciarAhora](/assets/WireframeDenunciarAhora.jpg)  
+
+**Explicación**  
+- **Principios de diseño:** Agrupación por secciones: datos básicos, descripción, adjuntos.  
+- **Elementos de diseño:** Botón de adjuntar archivos, área de texto amplia.  
+- **Diseño inclusivo:** Instrucciones claras, ayudas contextuales, validación accesible.  
+- **Arquitectura de información:** Flujo guiado paso a paso.  
+- **Design System:** Campos y botones reutilizados de otros formularios.  
+
+---
+
+## 6. Pantalla de Detalles de la Denuncia  
+**Wireframe**  
+![DetallesDenuncia](/assets/WireframeDetalleDenuncia.jpg)  
+
+**Explicación**  
+- **Principios de diseño:** Línea de tiempo horizontal con estados en orden cronológico.  
+- **Elementos de diseño:** Íconos de estado, colores diferenciados.  
+- **Diseño inclusivo:** Texto acompañando a cada ícono para claridad.  
+- **Arquitectura de información:** Organización secuencial que refleja el progreso.  
+- **Design System:** Timeline consistente con estilo de tarjetas y colores institucionales.  
+
+---
+
+## 7. Pantalla de Community  
+**Wireframe**  
+![Comunity](/assets/WireframeComunity.png)  
+
+**Explicación**  
+- **Principios de diseño:** Uso de tarjetas para cada post, jerarquía clara entre usuario, texto e interacciones.  
+- **Elementos de diseño:** Íconos reconocibles (me gusta, comentar, compartir).  
+- **Diseño inclusivo:** Texto alternativo para imágenes, interacciones accesibles vía teclado.  
+- **Arquitectura de información:** Feed con scroll vertical y orden cronológico.  
+- **Design System:** Botones e íconos consistentes con los demás módulos.  
+
+---
+
+## 8. Pantalla de Editar Denuncia  
+**Wireframe**  
+![EditarDenuncia](/assets/WireframeEditarD.jpg)  
+
+**Explicación**  
+- **Principios de diseño:** Campos editables resaltados, botones de acción claramente visibles.  
+- **Elementos de diseño:** Ícono de lápiz para edición, botones guardar/cancelar.  
+- **Diseño inclusivo:** Mensajes de confirmación accesibles.  
+- **Arquitectura de información:** Mantiene el mismo orden de campos que la denuncia original.  
+- **Design System:** Reutilización de formularios ya definidos.  
+
+---
+
+## 9. Pantalla de Agregar Responsable  
+**Wireframe**  
+![NuevoResponsable](/assets/WireframeNuevoResponsable.jpg)  
+
+**Explicación**  
+- **Principios de diseño:** Flujo lógico de datos personales → cargo → contacto.  
+- **Elementos de diseño:** Campos con iconos de apoyo (celular, correo).  
+- **Diseño inclusivo:** Etiquetas claras y soporte para autocompletar.  
+- **Arquitectura de información:** Orden de captura de datos optimizado para usuario.  
+- **Design System:** Campos de formulario y botones consistentes con otros módulos.  
+
+---
+
+## 10. Pantalla de Inicio  
+**Wireframe**  
+![PantallaGraficos](/assets/WireframePantallaGraficos.jpg)  
+
+**Explicación**  
+- **Principios de diseño:** Uso de visualizaciones claras (barras, pastel) con contraste de colores.  
+- **Elementos de diseño:** Gráficas, tarjetas de resumen con métricas clave.  
+- **Diseño inclusivo:** Texto acompañando a gráficas, colores accesibles.  
+- **Arquitectura de información:** Métricas arriba, gráficas abajo, navegación lateral fija.  
+- **Design System:** Gráficas integradas con tipografía y colores de la marca.  
+
+---
+
+## 11. Pantalla de Detalles de Equipo  
+**Wireframe**  
+![GestionDeEquipos](/assets/WireframeGestionEquipo.jpg)  
+
+**Explicación**  
+- **Principios de diseño:** Información agrupada en tarjetas (nombre, estado, responsables).  
+- **Elementos de diseño:** Íconos de estado, botones de acción.  
+- **Diseño inclusivo:** Texto alternativo en imágenes y colores con suficiente contraste.  
+- **Arquitectura de información:** Detalle individual en la parte superior, información complementaria en secciones inferiores.  
+- **Design System:** Reutilización de componentes de formularios.  
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
 
-### 4.4.2. Web Applications Mock-ups.
+### User goal: Creación de quejas
 
-### 4.4.3. Web Applications User Flow Diagrams.
+#### Happy path:
+
+![Creación de quejas.PNG](../assets/Creaci%C3%B3n%20de%20quejas.PNG)
+
+#### Unhappy path:
+
+![unhappy Creación de quejas.PNG](../assets/unhappy%20Creaci%C3%B3n%20de%20quejas.PNG)
+
+### User goal: Directorio de recursos y contactos
+
+![Directorio de recursos y contactos.PNG](../assets/Directorio%20de%20recursos%20y%20contactos.PNG)
+
+### User goal: Historial de seguimiento de quejas
+
+![Historial de seguimiento de quejas.PNG](../assets/Historial%20de%20seguimiento%20de%20quejas.PNG)
+
+### User goal: Panel de autoridades
+
+#### Happy path:
+
+![Panel de autoridades.PNG](../assets/Panel%20de%20autoridades.PNG)
+
+#### Unhappy path:
+
+![unhappy Panel de autoridades.PNG](../assets/unhappy%20Panel%20de%20autoridades.PNG)
+
+### User goal: Authentication y gestión de cuentas
+
+#### Happy path:
+
+![Authentication y gestión de cuentas.PNG](../assets/Authentication%20y%20gesti%C3%B3n%20de%20cuentas.PNG)
+
+#### Unhappy path:
+
+![unhappy Authentication y gestión de cuentas.PNG](../assets/unhappy%20Authentication%20y%20gesti%C3%B3n%20de%20cuentas.PNG)
+
+### User goal: Comunidad
+
+![Comunidad.PNG](../assets/Comunidad.PNG)
+
+### 4.4.3. Web Applications Mock-ups.
+
+---
+
+##  Pantalla de Login  
+**Mock-up**  
+![Login](/assets/Login.jpg)
+
+**Explicación**  
+- **Principios de diseño:** Jerarquía visual clara con logo en la parte superior, formulario centrado y botón principal destacado.  
+- **Elementos de diseño:** Colores claros y precisos, tipografía consistente y botones con esquinas redondeadas para mayor accesibilidad.  
+- **Diseño inclusivo:** Contraste suficiente entre texto y fondo, etiquetas visibles en los campos, soporte para teclado.  
+- **Arquitectura de información:** Flujo simple: logo → email/contraseña → entra al dashboard principal de ciudadano y autoridad.  
+- **Design System:** Botón primario con color principal del sistema, tipografía uniforme y campos reutilizables.  
+
+---
+
+## Pantalla de Register  
+**Mock-up**  
+![Register](/assets/Register.jpg)
+
+**Explicación**  
+- **Principios de diseño:** Uso de agrupación por proximidad para los campos.  
+- **Elementos de diseño:** Campos con iconos de apoyo, botón destacado al final del formulario.  
+- **Diseño inclusivo:** Labels claros, mensajes de error accesibles y compatibilidad con lector de pantalla.  
+- **Arquitectura de información:** Orden lógico de los datos solicitados (nombre, apellido, correo, contraseña,telefono(opcional) y confirmación).  
+- **Design System:** Botón secundario para volver al login(return), estilos de formulario consistentes.  
+
+---
+
+## 3. Pantalla de Payment Card  
+**Mock-up**  
+![Payment](/assets/Payment.jpg)
+
+**Explicación**  
+- **Principios de diseño:** Contraste entre datos de la tarjeta y el fondo, buena alineación.  
+- **Diseño inclusivo:** Tamaño de campos adecuado, validación visual clara de errores.  
+- **Arquitectura de información:** Flujo secuencial: datos de tarjeta → confirmación → confirmar el pago.  
+- **Design System:** Colores corporativos en botones, tarjetas con bordes redondeados, consistencia visual.  
+
+---
+
+## 4. Pantalla de Mis Denuncias 
+**Mock-up**  
+![MisDenuncias](/assets/MisDenuncias.jpg)
+
+**Explicación**  
+- **Principios de diseño:** Listado organizado en filas con jerarquía clara entre N° denuncia,categoria, estado y fecha.  
+- **Elementos de diseño:** Colores para estados (verde: resuelto, azul: en proceso, amarillo: pendiente,rojo rechazado, gris en guardado).  
+- **Diseño inclusivo:** Iconografía + texto para estado, buena separación visual.  
+- **Arquitectura de información:** Ordenado cronológicamente con filtros por estado/categoría.  
+- **Design System:** Reutilización de componentes de listado.  
+
+---
+
+## 5. Pantalla de Denunciar Ahora   
+**Mock-up**  
+![DenunciarAhora](/assets/DenunciarAhora.jpg)
+
+**Explicación**  
+- **Principios de diseño:** Agrupación por secciones: datos básicos, descripción, adjuntos.  
+- **Elementos de diseño:** Botón de adjuntar archivos, área de texto amplia.  
+- **Diseño inclusivo:** Instrucciones claras, ayudas contextuales, validación accesible.  
+- **Arquitectura de información:** Flujo guiado paso a paso.  
+- **Design System:** Campos y botones reutilizados de otros formularios.  
+
+---
+
+## 6. Pantalla de Detalles de la Denuncia
+**Mock-up**  
+![DenunciarAhora](/assets/DetallesDenunciaAutoridad.jpg)
+
+**Explicación**  
+- **Principios de diseño:** Línea de tiempo horizontal con estados en orden cronológico.  
+- **Elementos de diseño:** Íconos de estado, colores diferenciados.  
+- **Diseño inclusivo:** Texto acompañando a cada ícono para claridad.  
+- **Arquitectura de información:** Organización secuencial que refleja el progreso.  
+- **Design System:** Timeline consistente con estilo de tarjetas y colores institucionales.  
+
+---
+
+## 7. Pantalla de Community   
+**Mock-up**  
+![DenunciarAhora](/assets/Comunity.jpg)
+
+**Explicación**  
+- **Principios de diseño:** Uso de tarjetas para cada post, jerarquía clara entre usuario, texto e interacciones.  
+- **Elementos de diseño:** Íconos reconocibles (me gusta, comentar, compartir).  
+- **Diseño inclusivo:** Texto alternativo para imágenes, interacciones accesibles vía teclado.  
+- **Arquitectura de información:** Feed con scroll vertical y orden cronológico.  
+- **Design System:** Botones e íconos consistentes con los demás módulos.  
+
+---
+
+## 8. Pantalla de Editar Denuncia  
+**Mock-up**  
+![DenunciarAhora](/assets/EditarDenuncia.jpg)
+
+
+**Explicación**  
+- **Principios de diseño:** Campos editables resaltados, botones de acción claramente visibles.  
+- **Elementos de diseño:** Ícono de lápiz para edición, botones guardar/cancelar.  
+- **Diseño inclusivo:** Mensajes de confirmación accesibles.  
+- **Arquitectura de información:** Mantiene el mismo orden de campos que la denuncia original.  
+- **Design System:** Reutilización de formularios ya definidos.  
+
+---
+
+## 9. Pantalla de Agregar Responsable 
+**Mock-up**  
+![DenunciarAhora](/assets/NuevoResponsable.jpg)
+  
+
+**Explicación**  
+- **Principios de diseño:** Flujo lógico de datos personales → cargo → contacto.  
+- **Elementos de diseño:** Campos iocnos de apoyo (celular, correo).  
+- **Diseño inclusivo:** Etiquetas claras y soporte para autocompletar.  
+- **Arquitectura de información:** Orden de captura de datos optimizado para usuario.  
+- **Design System:** Campos de formulario y botones consistentes con otros módulos.  
+
+---
+
+## 10. Pantalla de Inicio  
+**Mock-up**  
+![DenunciarAhora](/assets/PantallaGraficos.jpg)
+
+
+**Explicación**  
+- **Principios de diseño:** Uso de visualizaciones claras (barras, pastel) con contraste de colores.  
+- **Elementos de diseño:** Gráficas, tarjetas de resumen con métricas clave.  
+- **Diseño inclusivo:** Texto acompañando a gráficas, colores accesibles.  
+- **Arquitectura de información:** Métricas arriba, gráficas abajo, navegación lateral fija.  
+- **Design System:** Gráficas integradas con tipografía y colores de la marca.  
+
+---
+
+## 11. Pantalla de Detalles de Equipo  
+**Mock-up**  
+![DenunciarAhora](/assets/GestionDeEquipos.jpg)
+
+**Explicación**  
+- **Principios de diseño:** Información agrupada en tarjetas (nombre, estado, responsables).  
+- **Elementos de diseño:** Íconos de estado, botones de acción.  
+- **Diseño inclusivo:** Texto alternativo en imágenes y colores con suficiente contraste.  
+- **Arquitectura de información:** Detalle individual en la parte superior, información complementaria en secciones inferiores.  
+- **Design System:** Reutilización de componentes de formularios.
+
+### 4.4.4. Web Applications User Flow Diagrams
+
+### User goal: Creación de quejas
+
+#### Happy path:
+
+![m_Creación de quejas.PNG](../assets/m_Creaci%C3%B3n%20de%20quejas.PNG)
+
+#### Unhappy path:
+
+![m_Creación de quejas_un.PNG](../assets/m_Creaci%C3%B3n%20de%20quejas_un.PNG)
+
+### User goal: Directorio de recursos y contactos
+
+![m_Directorio de recursos y contactos.PNG](../assets/m_Directorio%20de%20recursos%20y%20contactos.PNG)
+
+### User goal: Historial de seguimiento de quejas
+
+![m_Historial de seguimiento de quejas.PNG](../assets/m_Historial%20de%20seguimiento%20de%20quejas.PNG)
+
+### User goal: Panel de autoridades
+
+#### Happy path:
+
+![m_Panel de autoridades.PNG](../assets/m_Panel%20de%20autoridades.PNG)
+
+#### Unhappy path:
+
+![m_Panel de autoridades_un.PNG](../assets/m_Panel%20de%20autoridades_un.PNG)
+
+### User goal: Authentication y gestión de cuentas
+
+#### Happy path:
+
+![m_Authentication y gestión de cuentas.PNG](../assets/m_Authentication%20y%20gesti%C3%B3n%20de%20cuentas.PNG)
+
+#### Unhappy path:
+
+![m_Authentication y gestión de cuentas_un.PNG](../assets/m_Authentication%20y%20gesti%C3%B3n%20de%20cuentas_un.PNG)
+
+### User goal: Comunidad
+
+![m_Comunidad.PNG](../assets/m_Comunidad.PNG)
 
 ## 4.5. Web Applications Prototyping.
+
+En esta sección se muestran los prototipos de la aplicación web DenunciaYa. Estos prototipos funcionan como representaciones interactivas que permiten a los usuarios visualizar y probar la interfaz antes de su implementación definitiva. Ofrecen una comprensión clara sobre la navegación, la organización de los elementos y las principales funcionalidades de la aplicación.
+
+Módulos principales:
+
+- Mis Denuncias – Sección destinada a la visualización y gestión de las denuncias registradas.
+
+- Denunciar Ahora – Funcionalidad para la creación y envío de nuevas denuncias.
+
+- Notificaciones – Módulo encargado de la gestión de alertas y actualizaciones de la aplicación.
+
+- Ayuda y Soporte – Apartado con preguntas frecuentes y canales de contacto con el equipo de soporte.
+
+- Directorio – Espacio que centraliza información y recursos relacionados con las denuncias.
+
+- Comunidad – Sección orientada a la interacción entre usuarios mediante publicaciones y comunicación constante.
+
+![proto1.jpeg](../assets/proto1.jpeg)
+![proto2.jpeg](../assets/proto2.jpeg)
+
+
+**Link del prototipo:** https://acortar.link/sb0GMy
+
+#### Exposicion del prototipo 
+
+A continuación, se presentará un video que expone el prototipo de DenunciaYa. En él se explicará en detalle cada una de las opciones del prototipo y cómo estas se implementarán en la aplicación frontend.
+
+![miniaturaProto.png](../assets/miniaturaProto.png)
+
+**Link del video:** https://acortar.link/IFlkZq
+
+
+
+Web Aplication Prototyping Web Broswer Mobile 
+
+![Web Aplication Prototyping Web Broswer Mobile ](/assets/PrototypingMobileBrowser.png)
+
+link del Web Broswer Mobile en figma: https://www.figma.com/proto/ZoYnEmqqHBoCxPxLuVJJsg/DenunciaYa--Figma?node-id=187-13524&p=f&t=OaYMeQfkVqIwWOwI-0&scaling=scale-down&content-scaling=fixed&page-id=4%3A2390&starting-point-node-id=187%3A13524&show-proto-sidebar=1
+
+
+link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202214214_upc_edu_pe/EcOYs3tWsYlAn8AZg2On-S4BEbvQwjJU5MeJHtJeR29Umg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=MYOiXr
 
 ## 4.6. Domain-Driven Software Architecture.
 
 ### 4.6.1. Design-Level Event Storming.
 
+En esta sección se presenta el Design-Level EventStorming realizado para DenunciaYa. A través de esta actividad se identificaron con mayor detalle los eventos de dominio, comandos, actores, agregados, vistas y procesos de negocio que conforman cada Bounded Context. El resultado permite visualizar de forma clara la dinámica interna de cada contexto y cómo se relacionan entre sí, facilitando un entendimiento más profundo del dominio.
+
+![DesignEventStorming.jpeg](../assets/DesignEventStorming.jpeg)
+
+**Link del miro: https://acortar.link/eh5Gx6**
+
 ### 4.6.2. Software Architecture Context Diagram.
+
+A continuación, se presenta el diagrama de contexto para el sistema DenunciaYa. Este nivel muestra cómo la plataforma se relaciona con los segmentos objetivos principales: los ciudadanos, que reportan incidencias urbanas y actos de corrupción, y las autoridades municipales, que gestionan dichos reportes. También se ilustra la interacción entre los usuarios y el sistema a través de la aplicación web
+
+![context.png](../assets/context.png)
 
 ### 4.6.3. Software Architecture Container Diagrams.
 
+A continuación, se presenta el diagrama de contenedores para el sistema DenunciaYa. Este nivel muestra los principales elementos de software que conforman la solución y cómo se relacionan entre sí para ofrecer la experiencia completa a los segmentos objetivos. La aplicación web entrega la interfaz y los recursos estáticos, mientras que la Single Page Application, desarrollada con Angular, proporciona la funcionalidad para ciudadanos y municipios directamente en el navegador. La API Application, implementada con Spring Boot, concentra la lógica de negocio y expone servicios REST para la gestión de denuncias, usuarios, comunidad y paneles de control. Finalmente, la base de datos, implementada en MySQL, almacena la información esencial como denuncias, perfiles, evidencias y datos de gestión municipal.
+
+![container.png](../assets/container.png)
+
 ### 4.6.4. Software Architecture Components Diagrams.
 
+A continuación, se presenta el diagrama de componentes para el sistema DenunciaYa. Este nivel muestra los Bounded Contexts definidos dentro de la API Application, cada uno con responsabilidades específicas orientadas a los segmentos objetivos. Se incluyen la gestión de autenticación y cuentas, la creación y el seguimiento de denuncias, los paneles de análisis para autoridades, la interacción social en la comunidad y el directorio de recursos y contactos. Este diagrama refleja cómo los componentes se integran con la base de datos y con la SPA para dar soporte a los principales flujos del sistema.
+
+![components.png](../assets/components.png)
+
 ## 4.7. Software Object-Oriented Design.
+En esta sección, se detallan los aspectos clave del diseño orientado a objetos de la solución, incluyendo diagramas de
+clases y una descripción las entidades principales, sus atributos y métodos. Este enfoque asegura que el sistema sea
+modular, escalable y fácil de mantener.
 
 ### 4.7.1. Class Diagrams.
 
+En esta sección, se presentan los diagramas de clases que ilustran las principales entidades del sistema, sus atributos y las relaciones entre ellas. Estos diagramas son fundamentales para entender la estructura del software y cómo interactúan los diferentes componentes.
+
+Se considera lo siguiente:
+- Atributos en private (-)
+- Métodos en public (+)
+
+**COMPLAINT CREATION BOUNDED CONTEXT UML**
+![Complaint Creation Bounded Context UML](../assets/complaintCreationBoundedContextUml.png)
+
+- **Citizen** como actor principal que crea/gestiona denuncias.
+- **Complaint** como entidad central con relación a Category, Location y Evidence.
+- **Controller**, **Service**, **Repository** con interfaz `IComplaintRepository`.
+- **Enums** para `ComplaintStatus` y `EvidenceType`.
+
+**DIRECTORY OF RESOURCES & CONTACTS BOUNDED CONTEXT UML**
+![Directory of Resources & Contacts Bounded Context UML](../assets/directoryOfResourcesAndContactsBoundedContextUml.png)
+
+- **Roles principales (Citizen y Authority)** como consumidores.
+- **ContactDirectory** para información general.
+- **ExtendedDirectoryEntry** para autoridades con datos internos (jerarquías/responsables).
+- **Technical layer**: Controller, Service y Repository.
+- **Enum ContactType** para clasificar contactos.
+- **interfaz** IDirectoryRepository.
+- `DirectoryService` no depende directamente de la clase concreta `DirectoryRepository`, sino de la **interfaz**, siguiendo el principio de inversión de dependencias.
+
+**HISTORY AND FOLLOW-UP OF COMPLAINTS BOUNDED CONTEXT UML**
+![History and Follow-up of Complaints Bounded Context UML](../assets/historyAndFollowUpOfComplaintsBoundedContextUml.png)
+- El **ciudadano** puede ver el historial de denuncias y consultar su estado.
+- Cada **denuncia (Complaint)** tiene un estado (`ComplaintStatus`) y múltiples registros de seguimiento (`ComplaintTracking`).
+- La **autoridad** actualiza estados y registra acciones.
+- La capa de aplicación está organizada con **Controller → Service → Repository (interface + implementación).**
+
+**AUTHORITIES DASHBOARD BOUNDED CONTEXT UML**
+![Authorities Dashboard Bounded Context UML](../assets/authoritiesDashboardBoundedContextUml.png)
+
+- **Authority** accede a un **Dashboard** personalizado.
+- El **Dashboard** muestra estadísticas, alertas y un resumen de denuncias.
+- Incluye **ComplaintSummary** (versión ligera de las denuncias para listado rápido).
+- Manejo de **notificaciones** asociadas a las denuncias.
+- Arquitectura organizada con **Controller → Service → Repository (interface + implementación)**.
+
+**AUTHENTICATION & ACCOUNT MANAGEMENT BOUNDED CONTEXT UML**
+![Authentication & Account Management Bounded Context UML](../assets/authenticationAndAccountManagementBoundedContextUml.png)
+
+- `User` es la clase base con credenciales y rol.
+- `Citizen` y `Authority` heredan de User.
+- `UserProfile` maneja la info editable del usuario.
+- Se agregan servicios (`AuthService`, `UserService`) y el controlador (`AuthController`).
+- El repositorio sigue el patrón `IUserRepository` con su implementación concreta.
+- El enum `UserRole` asegura control de permisos.
+
+**COMMUNITY BOUNDED CONTEXT UML**
+![Community Bounded Context UML](../assets/communityBoundedContextUml.png)
+
+
 ## 4.8. Database Design.
 
+En esta sección, se presenta el diseño de la base de datos para la solución, incluyendo diagramas entidad-relación (ER) y una descripción de las tablas principales, sus atributos y relaciones. Este diseño asegura que los datos se almacenen de manera eficiente y coherente, facilitando el acceso y la gestión de la información.
+
 ### 4.8.1. Database Diagrams.
+
+**COMPLAINT CREATION BOUNDED CONTEXT ERD**
+
+![dcf942f4-d5ba-4355-9812-9c164fe046bb.png](../assets/dcf942f4-d5ba-4355-9812-9c164fe046bb.png)
+
+**Tablas y atributos principales**
+
+- Citizens
+Almacena la información de los ciudadanos que presentan denuncias.<br>
+***Atributos: id, name, email, phone.***
+
+- Complaints
+Es la entidad central que representa cada denuncia registrada en el sistema.<br>
+***Atributos: id, citizen_id, category_id, location_id, description, status, created_at, updated_at.***
+
+- Categories
+Define los tipos de denuncias disponibles (ej: basura, baches, alumbrado).<br>
+***Atributos: id, name, description.***
+
+- Locations
+Registra la ubicación de la denuncia. <br>
+***Atributos: id, address, latitude, longitude.***
+
+- Evidences
+Guarda los archivos o pruebas que sustentan una denuncia. <br>
+***Atributos: id, complaint_id, type, file_path, uploaded_at.***
+
+**DIRECTORY OF RESOURCES & CONTACTS BOUNDED CONTEXT ERD**
+
+![85d53938-c4d1-4fcb-98a5-9815239cbd30.png](../assets/85d53938-c4d1-4fcb-98a5-9815239cbd30.png)
+
+**Tablas y atributos principales**
+
+- Citizens: Registra la información básica de los ciudadanos que consultan o utilizan el directorio de contactos.<br>
+***Atributos: id, name, email, address, phone.***
+
+- Contact_directories: Representa los contactos disponibles en el directorio, con sus datos generales y de referencia.<br><br
+***Atributos: id, contact_type_id, citizen_id, name, region, address, phone, email, office_hours.***
+
+- Authorities: Contiene los datos de las autoridades relacionadas al directorio.<br>
+***Atributos: id, name, position, institution.***
+
+- Extended_directories_entries: Almacena la información extendida de un contacto dentro del directorio, vinculándolo con una autoridad y detallando aspectos internos.<br>
+***Atributos: id, contact_id, authority_id, responsible, hierarchy, institution.***
+
+- Contact_types: Tabla de catálogo para clasificar los contactos según su tipo<br>
+***Atributos: id, name.***
+
+**HISTORY AND FOLLOW-UP OF COMPLAINTS BOUNDED CONTEXT ERD**
+
+![ce14e725-af58-4f4e-8db8-0c315caf5070.png](../assets/ce14e725-af58-4f4e-8db8-0c315caf5070.png)
+
+**Tablas y atributos principales**
+
+- **Citizens:** Almacena la información básica de los ciudadanos que presentan denuncias y pueden consultar su historial.  
+  **Atributos:** `id`, `name`, `email`, `address`, `phone`.
+
+- **Complaints:** Representa cada denuncia registrada en el sistema, incluyendo su título, descripción, fechas y estado actual.  
+  **Atributos:** `id`, `title`, `description`, `created_at`, `status_id`, `last_updated`, `citizen_id`.
+
+- **Complaint_status:** Define los posibles estados de una denuncia dentro de su ciclo de vida (ejemplo: Registered, InReview, InProgress, Resolved, Closed).  
+  **Atributos:** `id`, `name`.
+
+- **Authorities:** Contiene la información de las autoridades responsables de dar seguimiento a las denuncias y registrar acciones.  
+  **Atributos:** `id`, `name`, `institution`.
+
+- **Complaint_trackings:** Registra el historial de seguimiento de cada denuncia, documentando las actualizaciones realizadas por una autoridad, las acciones tomadas y los próximos pasos.  
+  **Atributos:** `tracking_id`, `complaint_id`, `authority_id`, `update_date`, `action_taken`, `next_step`.
+
+**AUTHORITIES DASHBOARD BOUNDED CONTEXT ERD**
+
+![f73c8de0-e7d9-4071-8eb9-5ec504fa5904.png](../assets/f73c8de0-e7d9-4071-8eb9-5ec504fa5904.png)
+
+**Tablas y atributos principales**
+
+
+- **Authorities:** Contiene la información de las autoridades que acceden al dashboard personalizado.  
+  **Atributos:** `id`, `name`, `position`, `institution`.
+
+- **Dashboards:** Representa el panel de control de cada autoridad, mostrando estadísticas de las denuncias asignadas.  
+  **Atributos:** `id`, `authority_id`, `total_complaints`, `resolved_complaints`, `closed_complaints`.
+
+- **Complaint_summaries:** Almacena una versión ligera de las denuncias para listados rápidos en el dashboard, incluyendo datos básicos y el estado actual.  
+  **Atributos:** `id`, `dashboard_id`, `title`, `citizen_name`, `status_id`, `created_at`, `last_updated`.
+
+- **Complaint_status:** Tabla de catálogo que define los posibles estados de una denuncia (ejemplo: *Registered, InReview, InProgress, Resolved, Closed*).  
+  **Atributos:** `id`, `name`.
+
+- **Notifications:** Registra las notificaciones asociadas al dashboard de una autoridad, indicando mensajes y fechas.  
+  **Atributos:** `id`, `dashboard_id`, `type_id`, `message`, `date`.
+
+- **Notifications_types:** Tabla de catálogo que clasifica las notificaciones según su naturaleza (ejemplo: *NewComplaint, Reminder, Escalation, General*).  
+  **Atributos:** `id`, `name`.
+
+**AUTHENTICATION & ACCOUNT MANAGEMENT BOUNDED CONTEXT ERD**
+
+![ec9d82bb-1794-461a-8e22-b9106c1d6095.png](../assets/ec9d82bb-1794-461a-8e22-b9106c1d6095.png)
+
+**Tablas y atributos principales**
+
+- **User_roles:** Tabla de catálogo que define los roles disponibles dentro del sistema (ejemplo: *CITIZEN, AUTHORITY*).  
+  **Atributos:** `id`, `name`.
+
+- **Users:** Tabla base que almacena las credenciales y rol de cada usuario en el sistema.  
+  **Atributos:** `id`, `email`, `password_hash`, `role_id`.
+
+- **User_profiles:** Contiene la información editable y de contacto asociada a cada usuario.  
+  **Atributos:** `id`, `user_id`, `full_name`, `contact_info`.
+
+- **Citizens:** Tabla que hereda de `Users` y almacena información específica de los ciudadanos registrados.  
+  **Atributos:** `id`, `user_id`, `name`, `address`, `phone`.
+
+- **Authorities:** Tabla que hereda de `Users` y almacena información específica de las autoridades.  
+  **Atributos:** `id`, `user_id`, `name`, `institution`, `position`.
+
+**COMMUNITY BOUNDED CONTEXT ERD**
+
+![38f69f0c-cbae-4926-8652-cbd503306ff3.png](../assets/38f69f0c-cbae-4926-8652-cbd503306ff3.png)
+
+**Tablas y atributos principales**
+
+- **Users:** Almacena la información de los usuarios registrados en la comunidad.  
+  **Atributos:** `id`, `name`, `role`.
+
+- **Posts:** Representa las publicaciones creadas por los usuarios dentro de la comunidad.  
+  **Atributos:** `id`, `content`, `created_at`, `author_id`.
+
+- **Comments:** Registra los comentarios hechos por los usuarios en relación a un post.  
+  **Atributos:** `id`, `content`, `created_at`, `author_id`, `post_id`.
 
 # Capítulo V: Product Implementation, Validation & Deployment.
 
