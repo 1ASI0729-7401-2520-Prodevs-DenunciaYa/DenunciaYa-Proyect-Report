@@ -782,7 +782,7 @@ A continuación, se presenta el Big Picture Event Storming realizado para el sis
 
 ![BigPictureEventStorming.jpg](../assets/BigPictureEventStorming.jpg)
 
-**Link del figma:** https://acortar.link/eh5Gx6
+**Link del figma:** https://miro.com/app/board/uXjVJFFImso=/?share_link_id=413287852981
 ## 2.5. Ubiquitous Language.
 
 A continuación, se presenta el Ubiquitous Language desarrollado para el sistema DenunciaYa. Este glosario de términos clave define de manera clara y precisa los conceptos fundamentales del dominio, facilitando la comunicación efectiva entre todos los miembros del equipo y asegurando una comprensión compartida de los elementos esenciales del negocio. Al establecer un lenguaje común, se minimizan las ambigüedades y se promueve la colaboración fluida durante todo el ciclo de vida del proyecto.
