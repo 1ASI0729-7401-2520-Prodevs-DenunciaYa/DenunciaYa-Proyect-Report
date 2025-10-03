@@ -2531,14 +2531,14 @@ DenunciaYa ha sido diseñada para que cualquier persona pueda usarla fácilmente
 
 | Título                  | Descripción                                        | Enlace                          |
 |-------------------------|----------------------------------------------------|---------------------------------|
-| Video de  TB1 | Video explicativo de los avances de la entrega TB1 | https://acortar.link/gGdqQs    |
-| Video de entrevistas    | Video recopilatorio de todas las entrevistas       | https://acortar.link/Kg2n12    |
+| Video de  TB1 | Video explicativo de los avances de la entrega TB1 | https://upcedupe-my.sharepoint.com/personal/u202214214_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202214214%5Fupc%5Fedu%5Fpe%2FDocuments%2FCapitulo%201%20%281%29%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Eb0ddff37%2D271b%2D4c6d%2D95b7%2D4c12d293ff46   |
+| Video de entrevistas    | Video recopilatorio de todas las entrevistas       | https://upcedupe-my.sharepoint.com/personal/u202214214_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202214214%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202520%2D1asi0729%2D7401%2DDenunciaYa%2D%20needfinding%2Dsprint%2D1%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E52aaaa7a%2D885d%2D47d5%2Db030%2Da3763cd97698    |
 
 
 ### UX/UI
 | Título | Descripción                                                                                                           | Enlace                       |
 |--------|-----------------------------------------------------------------------------------------------------------------------|------------------------------|
-| Figma  | Enlace hacia el documento de Figma con todos los diseños planteados para la Aplicacion Web como para el Landing Page. | https://acortar.link/4Ym8OK  | 
+| Figma  | Enlace hacia el documento de Figma con todos los diseños planteados para la Aplicacion Web como para el Landing Page. | https://www.figma.com/design/ZPqKdgAXbM04JV4jEnc5rw/KeepItFresh?node-id=6649-244&t=B8IuDXKdNYreSg1D-1  | 
 
 ### GITHUB
 
