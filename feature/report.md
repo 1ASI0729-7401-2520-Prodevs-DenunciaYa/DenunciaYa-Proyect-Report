@@ -1685,15 +1685,15 @@ Módulos principales:
 ![proto2.jpeg](../assets/proto2.jpeg)
 
 
-**Link del prototipo:** https://acortar.link/sb0GMy
+**Link del prototipo:** https://www.figma.com/proto/OSRDXwebVTO7alXvVswuVC/Untitled?node-id=1-2&t=ZSbswItIrTFjIDj7-1&starting-point-node-id=1%3A2
 
-#### Exposicion del prototipo 
+#### Exposición del prototipo 
 
 A continuación, se presentará un video que expone el prototipo de DenunciaYa. En él se explicará en detalle cada una de las opciones del prototipo y cómo estas se implementarán en la aplicación frontend.
 
 ![miniaturaProto.png](../assets/miniaturaProto.png)
 
-**Link del video:** https://acortar.link/IFlkZq
+**Link del video:** https://upcedupe-my.sharepoint.com/personal/u202220659_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202220659%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202520%2D1asi0729%2D7401%2DProdevs%2Dprototypeproductnavigation%2Dsprint%2D1%2Emkv&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ed99a5fff%2D8ac9%2D4616%2Db288%2D86d971e6102f
 
 
 
@@ -1714,7 +1714,7 @@ En esta sección se presenta el Design-Level EventStorming realizado para Denunc
 
 ![DesignEventStorming.jpeg](../assets/DesignEventStorming.jpeg)
 
-**Link del miro: https://acortar.link/eh5Gx6**
+**Link del miro: https://miro.com/app/board/uXjVJFFImso=/?share_link_id=911352325**
 
 ### 4.6.2. Software Architecture Context Diagram.
 
