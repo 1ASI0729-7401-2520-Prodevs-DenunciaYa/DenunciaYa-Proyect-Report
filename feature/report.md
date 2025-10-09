@@ -2581,7 +2581,28 @@ En este segundo Sprint, el objetivo principal es implementar las funcionalidades
 | US09 | Visualizar directorio de contactos | W09 | Crear vista de directorio | Desarrollar la vista que muestre las instituciones y contactos relevantes para atención de denuncias. | 2 | Montes Augusto Sebastian | To do |
 | US10 | Búsqueda por institución o tipo | W10 | Implementar función de búsqueda | Añadir campo de búsqueda para filtrar el directorio por nombre de institución o categoría de servicio. | 2 | Montes Augusto Sebastian | To do |
 
-Link del trello 
+Link del trello: https://trello.com/invite/b/68e83aee5365f87fab4f1f3a/ATTI85791f99be177861607df46edb02f27e2701DAE2/tpopen
+
+# 5.2.2.4. Development Evidence for Sprint Review.
+
+En esta sección se demuestran los commits relacionados con los principales avances en la implementación. Estos commits provienen del repositorio del frontend de la organización de GitHub.
+
+Enlace al repositorio del frontend: https://github.com/1ASI0729-7401-2520-Prodevs-DenunciaYa/DenunciaYa.-Frontend.git
+
+| Repository 	| Commit 	| Autor 	|
+|:---:	|:---:	|:---:	|
+| Biblioteca-de-Software/frontend 	| feat: implement complaint creation form with validation and layout 	| Gaboo04 	|
+| Biblioteca-de-Software/frontend 	| feat: add createComplaint method to handle complaint creation via API 	| Gaboo04 	|
+| Biblioteca-de-Software/frontend 	| feat: refactor Complaint class to use private properties and add getters/setters 	| Gaboo04 	|
+| Biblioteca-de-Software/frontend 	| Merge pull request #2 from .../feature/complaint-creation 	| Gaboo04 	|
+| Biblioteca-de-Software/frontend 	| feat(authorities): Add authorities-panel bounded context 	| Gabrlel0105 	|
+| Biblioteca-de-Software/frontend 	| feat(complaints-table): added complaints table in authorities panel 	| Franco Rioja 	|
+| Biblioteca-de-Software/frontend 	| feat(edit-complaint): added edit complaint component in authorities panel 	| Franco Rioja 	|
+| Biblioteca-de-Software/frontend 	| feat(app): Adding I18n For Views 	| TicSide 	|
+| Biblioteca-de-Software/frontend 	| feat(map): Adding View Map Tracking 	| TicSide 	|
+
+# 5.2.2.4. Execution Evidence for Sprint Review.
+Para este sprint se desarrolló la primera versión del frontend.
 
 # Conclusiones
 Durante el proceso de creación y desarrollo de este trabajo se llegaron a las siguientes conclusiones:
