@@ -1549,9 +1549,9 @@ Presentamos los primeros diseños de la Web Aplication en UI.
 
 ## 6. Pantalla de Detalles de la Denuncia
 **Mock-up deskopt**  
-![Detalle Denuncia deskopt](/assets/DetallesDenunciaAutoridad.jpg)
+![Detalle Denuncia deskopt](/assets/DetallesDenunciaAutoridad.png)
 **Mock-up mobil**  
-![Detalle Denuncia mobil](/assets/Detalles%20de%20Denuncia.jpg)
+![Detalle Denuncia mobil](/assets/Detalles%20de%20Denuncia.png)
 **Explicación**  
 - **Principios de diseño:** Línea de tiempo horizontal con estados en orden cronológico.  
 - **Elementos de diseño:** Íconos de estado, colores diferenciados.  
@@ -1593,9 +1593,9 @@ Presentamos los primeros diseños de la Web Aplication en UI.
 
 ## 9. Pantalla de Inicio  
 **Mock-up Deskopt**  
-![Pantalla de Inicio deskopt](/assets/PantallaGraficos.jpg)
+![Pantalla de Inicio deskopt](/assets/PantallaGraficos.png)
   **Mock-up mobil**  
-![Pantalla de Inicio mobil](/assets/mobilbienvenido.jpg)
+![Pantalla de Inicio mobil](/assets/mobilbienvenido.png)
 
 **Explicación**  
 - **Principios de diseño:** Uso de visualizaciones claras (barras, pastel) con contraste de colores.  
