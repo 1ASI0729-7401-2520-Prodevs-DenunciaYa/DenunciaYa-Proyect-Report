@@ -2555,8 +2555,33 @@ En este apartado se presentan los responsables asignados a cada área. Para este
 | Braithuaite Gabriel Anthony        | Gaboo04         | C                          | C                                                | C                                                 | L                                 | C                                                 |
 | Montes Augusto Sebastian           | asmmaza         | C                          | C                                                | C                                                 | C                                 | L                                                 |
 
+# 5.2.2.3. Sprint Backlog 2.
 
+# 5.2.2.3. Sprint Backlog 2.
 
+En este segundo Sprint, el objetivo principal es implementar las funcionalidades esenciales del módulo de Comunidad, Directorio y Autenticación, así como la visualización del historial de denuncias. Además, se busca integrar la creación de denuncias y sus evidencias dentro del flujo del ciudadano.
+
+|  Sprint 2  |               Sprint 2                |     |                                       |                                                                                                                      |                    |             |                                                |
+|:----------:|:-------------------------------------:|:---:|:-------------------------------------:|:--------------------------------------------------------------------------------------------------------------------:|:------------------:|:-----------:|:----------------------------------------------:|
+| User Story |           Work-Item / Task            |     |                                       |                                                                                                                      |                    |             |                                                |
+|     Id     |                 Title                 | Id  |                 Title                 |                                                     Description                                                      | Estimation (Hours) | Assigned To | Status (To do / In process / To review / Done) |
+| **EP1 - Community** ||||||||  
+| US01 | Crear sección de comunidad | W01 | Crear vista “Community” | Diseñar e implementar la interfaz donde los usuarios puedan visualizar publicaciones y comentarios de otros ciudadanos. | 3 | Mamani Gabriel | To do |
+| US02 | Publicar comentarios o experiencias | W02 | Implementar formulario de publicación | Desarrollar el formulario que permita a los usuarios escribir y enviar sus comentarios o experiencias dentro de la comunidad. | 3 | Mamani Gabriel | To do |
+| **EP2 - Authentication & Account Manager** ||||||||  
+| US03 | Iniciar sesión en DenunciaYa | W03 | Crear vista de Login | Implementar la pantalla de inicio de sesión con validación de credenciales y conexión con el backend de autenticación. | 2 | Rivera Omar Harold | To do |
+| US04 | Registro de nuevos usuarios | W04 | Crear vista de Sign Up | Diseñar e implementar el formulario de registro con validaciones básicas y almacenamiento temporal del usuario. | 3 | Rivera Omar Harold | To do |
+| **EP3 - History & Follow-up of Complaints** ||||||||  
+| US05 | Visualizar historial de denuncias | W05 | Crear vista de Historial | Mostrar la lista de denuncias enviadas por el usuario con su respectivo estado y fecha. | 3 | Rioja Franco Diego | To do |
+| US06 | Filtrar denuncias por estado | W06 | Implementar filtros de seguimiento | Agregar funcionalidad de filtrado por estado (pendiente, en proceso, resuelto) en el historial de denuncias. | 2 | Rioja Franco Diego | To do |
+| **EP4 - Complaint Creation** ||||||||  
+| US07 | Crear nueva denuncia | W07 | Implementar formulario de denuncia | Desarrollar el formulario principal para registrar una nueva denuncia, incluyendo campos de texto, ubicación y tipo de incidente. | 4 | Braithuaite Gabriel Anthony | To do |
+| US08 | Subir evidencia multimedia | W08 | Implementar carga de imágenes/videos | Permitir al usuario adjuntar fotos o videos como evidencia al momento de crear una denuncia. | 3 | Braithuaite Gabriel Anthony | To do |
+| **EP5 - Directory of Resources & Contacts** ||||||||  
+| US09 | Visualizar directorio de contactos | W09 | Crear vista de directorio | Desarrollar la vista que muestre las instituciones y contactos relevantes para atención de denuncias. | 2 | Montes Augusto Sebastian | To do |
+| US10 | Búsqueda por institución o tipo | W10 | Implementar función de búsqueda | Añadir campo de búsqueda para filtrar el directorio por nombre de institución o categoría de servicio. | 2 | Montes Augusto Sebastian | To do |
+
+Link del trello 
 
 # Conclusiones
 Durante el proceso de creación y desarrollo de este trabajo se llegaron a las siguientes conclusiones:
