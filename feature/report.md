@@ -1891,13 +1891,13 @@ En esta sección se presenta el Design-Level EventStorming realizado para Denunc
 
 A continuación, se presenta el diagrama de contexto para el sistema DenunciaYa. Este nivel muestra cómo la plataforma se relaciona con los segmentos objetivos principales: los ciudadanos, que reportan incidencias urbanas y actos de corrupción, y las autoridades municipales, que gestionan dichos reportes. También se ilustra la interacción entre los usuarios y el sistema a través de la aplicación web
 
-![context.png](../assets/context.png)
+![ContextFix.png](../assets/ContextFix.png)
 
 ### 4.6.3. Software Architecture Container Diagrams.
 
 A continuación, se presenta el diagrama de contenedores para el sistema DenunciaYa. Este nivel muestra los principales elementos de software que conforman la solución y cómo se relacionan entre sí para ofrecer la experiencia completa a los segmentos objetivos. La aplicación web entrega la interfaz y los recursos estáticos, mientras que la Single Page Application, desarrollada con Angular, proporciona la funcionalidad para ciudadanos y municipios directamente en el navegador. La API Application, implementada con Spring Boot, concentra la lógica de negocio y expone servicios REST para la gestión de denuncias, usuarios, comunidad y paneles de control. Finalmente, la base de datos, implementada en MySQL, almacena la información esencial como denuncias, perfiles, evidencias y datos de gestión municipal.
 
-![container.png](../assets/container.png)
+![ContainerFix.png](../assets/ContainerFix.png)
 
 ### 4.6.4. Software Architecture Components Diagrams.
 
@@ -2482,6 +2482,68 @@ Conventional Commits: La estandarización de los mensajes de commit (ej., feat:,
 **Contributors Analytics**
 
 ![Contributors Analytics](../assets/contributors-analytics.png)
+
+
+# 5.2.2. Sprint 2
+
+# 5.2.2.1. Sprint Planning 2.
+
+<p>En esta sección se especifican los aspectos principales del Sprint Planning Meeting. En el Sprint 2 se planificaron las tareas necesarias para continuar con el desarrollo del Frontend de DenunciaYa, definiendo objetivos claros, asignando historias de usuario y estableciendo métricas de éxito para el sprint.</p>
+
+<table>
+  <tr>
+    <th colspan="5">Sprint 2</th>
+    <th colspan="9">Sprint 2</th>
+  </tr>
+  <tr>
+    <td colspan="13">Sprint Planning Background</td>
+  </tr>
+  <tr>
+    <td colspan="5">Date</td>
+    <td colspan="8">08/10/2025</td>
+  </tr>
+  <tr>
+    <td colspan="5">Time</td>
+    <td colspan="8">6:59 pm</td>
+  </tr>
+  <tr>
+    <td colspan="5">Location</td>
+    <td colspan="8">Via Discord</td>
+  </tr>
+  <tr>
+    <td colspan="5">Prepared By</td>
+    <td colspan="8">Gabriel Mamani Marca</td>
+  </tr>
+  <tr>
+    <td colspan="5">Attendees (to planning meeting)</td>
+    <td colspan="8">Gabriel Mamani Marca, Omar Harold Rivera Ticllacuri, Franco Diego Rioja Nuñez, Gabriel Anthony Braithuaite Toledo, Augusto Sebastian Montes Maza</td>
+  </tr>
+  <tr>
+    <td colspan="5">Sprint 1 Review Summary</td>
+    <td colspan="8">Durante el Sprint 1 se desarrollaron las funcionalidades iniciales del proyecto DenunciaYa, incluyendo el sistema de registro de usuarios, carga de reportes con fotos y geolocalización, y notificaciones básicas. El Product Owner destacó la entrega de un prototipo funcional y el equipo compartió su feedback sobre la planificación y coordinación de tareas.</td>
+  </tr>
+  <tr>
+    <td colspan="5">Sprint 1 Retrospective Summary</td>
+    <td colspan="8">El equipo identificó fortalezas en la colaboración y la comunicación, y oportunidades de mejora en la estimación de tiempos para las tareas y en la priorización de historias de usuario. Se acordó reforzar las reuniones de seguimiento y documentar mejor los criterios de aceptación.</td>
+  </tr>
+  <tr>
+    <td colspan="13">Sprint Goal & User Stories</td>
+  </tr>
+  <tr>
+    <td colspan="5">Sprint 2 Goal</td>
+    <td colspan="8">Implementar el <strong>Frontend de DenunciaYa</strong>, asegurando que los usuarios puedan navegar fácilmente por los principales bounded contexts: Reports, Complaints, Community Dashboard, Notifications y Analytics, incluyendo la opción de cambio de idioma. El éxito se mide cuando los usuarios pueden visualizar toda la información de manera clara y acceder a los reportes sin problemas.</td>
+  </tr>
+  <tr>
+    <td colspan="5">Sprint 2 Velocity</td>
+    <td colspan="8">5 story points</td>
+  </tr>
+  <tr>
+    <td colspan="5">Sum of Story Points</td>
+    <td colspan="8">5 story points</td>
+  </tr>
+</table>
+
+
 
 # Conclusiones
 Durante el proceso de creación y desarrollo de este trabajo se llegaron a las siguientes conclusiones:
