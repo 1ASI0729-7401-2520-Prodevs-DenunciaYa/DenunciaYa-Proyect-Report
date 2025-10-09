@@ -2543,6 +2543,19 @@ Conventional Commits: La estandarización de los mensajes de commit (ej., feat:,
   </tr>
 </table>
 
+# 5.2.2.1. Aspect Leaders and Collaborators.
+
+En este apartado se presentan los responsables asignados a cada área. Para este primer Sprint, los entregables se han estructurado en tres categorías diferenciadas.
+
+| Team member (LastName, First Name) | GitHub UserName | Aspect 1: Community (L/C) | Aspect 2: Authentication & Account Manager (L/C) | Aspect 3: History & Follow-up of Complaints (L/C) | Aspect 4: Complaint Creation (L/C) | Aspect 5: Directory of Resources & Contacts (L/C) |
+|------------------------------------|-----------------|----------------------------|--------------------------------------------------|---------------------------------------------------|-----------------------------------|---------------------------------------------------|
+| Mamani Gabriel                     | Gabriel0105     | L                          | C                                                | C                                                 | C                                 | C                                                 |
+| Rivera Omar Harold                 | TicSide         | C                          | L                                                | C                                                 | C                                 | C                                                 |
+| Rioja Franco Diego                 | FrancoDiegoR    | C                          | C                                                | L                                                 | C                                 | C                                                 |
+| Braithuaite Gabriel Anthony        | Gaboo04         | C                          | C                                                | C                                                 | L                                 | C                                                 |
+| Montes Augusto Sebastian           | asmmaza         | C                          | C                                                | C                                                 | C                                 | L                                                 |
+
+
 
 
 # Conclusiones
