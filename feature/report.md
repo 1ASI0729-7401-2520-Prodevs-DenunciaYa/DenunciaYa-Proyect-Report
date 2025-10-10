@@ -2555,7 +2555,6 @@ En este apartado se presentan los responsables asignados a cada área. Para este
 | Braithuaite Gabriel Anthony        | Gaboo04         | C                          | C                                                | C                                                 | L                                 | C                                                 |
 | Montes Augusto Sebastian           | asmmaza         | C                          | C                                                | C                                                 | C                                 | L                                                 |
 
-# 5.2.2.3. Sprint Backlog 2.
 
 # 5.2.2.3. Sprint Backlog 2.
 
@@ -2601,8 +2600,26 @@ Enlace al repositorio del frontend: https://github.com/1ASI0729-7401-2520-Prodev
 | Biblioteca-de-Software/frontend 	| feat(app): Adding I18n For Views 	| TicSide 	|
 | Biblioteca-de-Software/frontend 	| feat(map): Adding View Map Tracking 	| TicSide 	|
 
-# 5.2.2.4. Execution Evidence for Sprint Review.
+# 5.2.2.5. Execution Evidence for Sprint Review.
 Para este sprint se desarrolló la primera versión del frontend.
+
+![Execution Evidence for Sprint Review](../assets/Execution%20Evidence%20for%20Sprint%20Review.PNG)
+
+# 5.2.2.6. Services Documentation Evidence for Sprint Review.
+Durante la creación del frontend de la aplicación, se optó por utilizar JSON Server como una fake API, con el propósito de emular el comportamiento del backend, ya que este aún no estaba desarrollado. Gracias a JSON Server, fue posible disponer de un entorno de pruebas completamente funcional, capaz de responder a solicitudes HTTP (GET, POST, PUT, DELETE) de la misma forma que lo haría un servidor real, empleando un archivo db.json como base de datos persistente. Esta herramienta permitió avanzar en el desarrollo, validación y prueba de los servicios e interfaces del frontend de manera eficiente, manteniendo al mismo tiempo una arquitectura desacoplada y lista para integrarse con el backend definitivo una vez esté disponible.
+
+# 5.2.2.7. Software Deployment Evidence for Sprint Review.
+
+![Software Deployment Evidence for Sprint Review](../assets/Software%20Deployment%20Evidence%20for%20Sprint%20Review.jpeg)
+
+
+# 5.2.2.8. Team Collaboration Insights during Sprint.
+
+Aquí se evidencia la colaboración del equipo en el sprint 2 
+Frontend: https://github.com/1ASI0729-7401-2520-Prodevs-DenunciaYa/DenunciaYa.-Frontend.git
+
+![Top Commiters](../assets/Top%20Committers.png)
+
 
 # Conclusiones
 Durante el proceso de creación y desarrollo de este trabajo se llegaron a las siguientes conclusiones:
