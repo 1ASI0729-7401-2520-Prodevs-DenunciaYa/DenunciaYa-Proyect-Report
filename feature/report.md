@@ -42,47 +42,53 @@
 
 
 | Versión | Fecha      | Autor                             | Descripción de modificación                                                                                                                                                                                                                 |
-|----------|------------|------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1.0      | 02/09/2025 | Mamani Marca, Gabriel Cristian     | Creación del reporte en formato Markdown.                                                                                                                                                                                                   |
-| 1.1      | 08/09/2025 | Brabuaite Toledo, Gabriel Anthony  | Elaboración de las User Stories del Landing Page.                                                                                                                                                                                           |
-| 1.2      | 11/09/2025 | Mamani Marca, Gabriel Cristian     | Desarrollo del análisis competitivo.                                                                                                                                                                                                       |
-| 1.3      | 14/09/2025 | Brabuaite Toledo, Gabriel Anthony  | Desarrollo de las User Stories para la aplicación web.                                                                                                                                                                                      |
-| 1.4      | 14/09/2025 | Rioja Nuñez, Franco Diego          | Elaboración de la User Task Matrix.                                                                                                                                                                                                         |
-| 1.5      | 15/09/2025 | Mamani Marca, Gabriel Cristian     | Elaboración del Lean UX Canvas, Lean UX Assumption y Lean UX Problem Statements.                                                                                                                                                            |
-| 1.6      | 15/09/2025 | Brabuaite Toledo, Gabriel Anthony  | Elaboración del Product Backlog y actualización de las User Stories.                                                                                                                                                                        |
-| 1.7      | 18/09/2025 | Brabuaite Toledo, Gabriel Anthony  | Corrección de las User Stories de la aplicación web.                                                                                                                                                                                        |
-| 1.8      | 19/09/2025 | Rivera Ticllacuri, Omar Harold     | Elaboración de Web Application Prototyping Mobile, Wireframes y Mockups.                                                                                                                                                                    |
-| 1.9      | 19/09/2025 | Rioja Nuñez, Franco Diego          | Elaboración de los Web Application Wireflow Diagrams.                                                                                                                                                                                       |
-| 2.0      | 19/09/2025 | Rioja Nuñez, Franco Diego          | Elaboración de los Web Application Wireflow Diagrams.                                                                                                                                                                                       |
-| 2.1      | 20/09/2025 | Mamani Marca, Gabriel Cristian     | Elaboración de los diagramas C4 y Big Picture Event Storming.                                                                                                                                                                               |
-| 2.2      | 20/09/2025 | Brabuaite Toledo, Gabriel Anthony  | Elaboración del diagrama de clases.                                                                                                                                                                                                         |
-| 2.3      | 20/09/2025 | Rivera Ticllacuri, Omar Harold     | Elaboración del Needfinding.                                                                                                                                                                                                                |
-| 2.4      | 20/09/2025 | Rioja Nuñez, Franco Diego          | Elaboración del Ubiquitous Language en el capítulo 2.                                                                                                                                                                                       |
-| 2.5      | 20/10/2025 | Mamani Marca, Gabriel Cristian     | Elaboración del Sprint Backlog 2, Aspect Leaders and Collaborators y Sprint Planning 2.                                                                                                                                                     |
-| 2.6      | 20/10/2025 | Mamani Marca, Gabriel Cristian     | Actualización del Sprint Backlog 2, Aspect Leaders and Collaborators y Sprint Planning 2.                                                                                                                                                   |
-| 2.7      | 20/10/2025 | Rioja Nuñez, Franco Diego          | Elaboración del Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review y Team Collaboration Insights during Sprint. |
+|---------|------------|------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1.0     | 02/09/2025 | Mamani Marca, Gabriel Cristian     | Creación del reporte en formato Markdown.                                                                                                                                                                                                   |
+| 1.1     | 08/09/2025 | Brabuaite Toledo, Gabriel Anthony  | Elaboración de las User Stories del Landing Page.                                                                                                                                                                                           |
+| 1.2     | 11/09/2025 | Mamani Marca, Gabriel Cristian     | Desarrollo del análisis competitivo.                                                                                                                                                                                                       |
+| 1.3     | 14/09/2025 | Brabuaite Toledo, Gabriel Anthony  | Desarrollo de las User Stories para la aplicación web.                                                                                                                                                                                      |
+| 1.4     | 14/09/2025 | Rioja Nuñez, Franco Diego          | Elaboración de la User Task Matrix.                                                                                                                                                                                                         |
+| 1.5     | 15/09/2025 | Mamani Marca, Gabriel Cristian     | Elaboración del Lean UX Canvas, Lean UX Assumption y Lean UX Problem Statements.                                                                                                                                                            |
+| 1.6     | 15/09/2025 | Brabuaite Toledo, Gabriel Anthony  | Elaboración del Product Backlog y actualización de las User Stories.                                                                                                                                                                        |
+| 1.7     | 18/09/2025 | Brabuaite Toledo, Gabriel Anthony  | Corrección de las User Stories de la aplicación web.                                                                                                                                                                                        |
+| 1.8     | 19/09/2025 | Rivera Ticllacuri, Omar Harold     | Elaboración de Web Application Prototyping Mobile, Wireframes y Mockups.                                                                                                                                                                    |
+| 1.9     | 19/09/2025 | Rioja Nuñez, Franco Diego          | Elaboración de los Web Application Wireflow Diagrams.                                                                                                                                                                                       |
+| 2.0     | 19/09/2025 | Rioja Nuñez, Franco Diego          | Elaboración de los Web Application Wireflow Diagrams.                                                                                                                                                                                       |
+| 2.1     | 20/09/2025 | Mamani Marca, Gabriel Cristian     | Elaboración de los diagramas C4 y Big Picture Event Storming.                                                                                                                                                                               |
+| 2.2     | 20/09/2025 | Brabuaite Toledo, Gabriel Anthony  | Elaboración del diagrama de clases.                                                                                                                                                                                                         |
+| 2.3     | 20/09/2025 | Rivera Ticllacuri, Omar Harold     | Elaboración del Needfinding.                                                                                                                                                                                                                |
+| 2.4     | 20/09/2025 | Rioja Nuñez, Franco Diego          | Elaboración del Ubiquitous Language en el capítulo 2.                                                                                                                                                                                       |
+| 2.5     | 20/10/2025 | Mamani Marca, Gabriel Cristian     | Elaboración del Sprint Backlog 2, Aspect Leaders and Collaborators y Sprint Planning 2.                                                                                                                                                     |
+| 2.6     | 20/10/2025 | Mamani Marca, Gabriel Cristian     | Actualización del Sprint Backlog 2, Aspect Leaders and Collaborators y Sprint Planning 2.                                                                                                                                                   |
+| 2.7     | 20/10/2025 | Rioja Nuñez, Franco Diego          | Elaboración del Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review y Team Collaboration Insights during Sprint. |
+| 2.8     | 20/10/2025 |Mamani Marca, Gabriel Cristian          | Elaboración del Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review y Team Collaboration Insights during Sprint. |
 
 
 
 
 
 # PROJECT REPORT COLLABORATION INSIGHTS
+#### Repositorio del informe del proyecto 
 
-| Repositorio del Informe en GitHub |
-|--|
-| https://github.com/1ASI0729-7401-2520-Prodevs-DenunciaYa/DenunciaYa-Proyect-Report
+| Enlace del repositorio del informe del proyecto                                    |
+|------------------------------------------------------------------------------------|
+| https://github.com/1ASI0729-7401-2520-Prodevs-DenunciaYa/DenunciaYa-Proyect-Report 
 
-TB1: Las tareas asignadas para la entrega TB1 se han completado y están documentadas en el siguiente repositorio de GitHub perteneciente a la organización del equipo: 
-[Repositorio GitHUb](https://github.com/1ASI0729-7401-2520-Prodevs-DenunciaYa/DenunciaYa-Proyect-Report), link: | https://github.com/1ASI0729-7401-2520-Prodevs-DenunciaYa/DenunciaYa-Proyect-Report
+A continuación, se brindará un mayor detalle sobre las actividades realizadas en cada entrega, la participación de cada miembro de la startup y las evidencias correspondientes.
 
-### 2. Actividades de elaboracion del informe 
-Durante la elaboración del informe se realizaron diversas actividades. Cada integrante redactó y diagramó sus contenidos asignados en formato Markdown, registrando posteriormente commits que permitieron mantener un control del avance en el repositorio. Asimismo, se generaron los artefactos correspondientes con las herramientas establecidas y se obtuvieron los enlaces de las imágenes desde la carpeta Assets ubicada en la rama develop del repositorio del informe. Finalmente, se llevaron a cabo reuniones de coordinación para supervisar el progreso del trabajo y compartir los avances vinculados al Sprint 1, cuyo objetivo principal fue la Landing Page.
-### 3. Capturas en imagen de los analíticos de colaboración y commits en GitHub
+## Desarrollo del reporte
+#### TB1:
+Para la primera entrega (TB1), se trabajó mediante el uso de branches en GitHub para desarrollar los puntos requeridos en el statement del curso
+
+**Evidencia de colaboración**
+
 ![Contributors Analytics](../assets/contributors-analytics-2.png)
 
+#### TP::
+Para la entrega del trabajo parcial, se corrigieron los puntos observados según la retroalimentación recibida. Además, se añadió el Sprint 2.
+![evidencitp.jpeg]![evidenciatp.jpeg](../assets/evidenciatp.jpeg)(../assets/evidencitp.jpeg)
 
-### 4. Evidencia de participacion de todos los miembros del equipo 
-![Evidencia Participacion](../assets/Evidencia.png)
+
 
 
 # Contenido
