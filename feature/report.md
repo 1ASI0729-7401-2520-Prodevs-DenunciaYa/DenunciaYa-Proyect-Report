@@ -2613,22 +2613,23 @@ Link del trello: https://trello.com/invite/b/68e83aee5365f87fab4f1f3a/ATTI85791f
 
 # 5.2.2.4. Development Evidence for Sprint Review.
 
-En esta sección se demuestran los commits relacionados con los principales avances en la implementación. Estos commits provienen del repositorio del frontend de la organización de GitHub.
+En esta sección se presentan las evidencias de desarrollo realizadas durante el Sprint, reflejadas a través de los commits registrados en el repositorio del frontend.
+
+Los avances corresponden a la implementación del formulario de denuncias, panel de autoridades, gestión de denuncias y la integración de vistas con internacionalización y mapas interactivos.
 
 Enlace al repositorio del frontend: https://github.com/1ASI0729-7401-2520-Prodevs-DenunciaYa/DenunciaYa.-Frontend.git
 
-| Repository 	| Commit 	| Autor 	|
-|:---:	|:---:	|:---:	|
-| Biblioteca-de-Software/frontend 	| feat: implement complaint creation form with validation and layout 	| Gaboo04 	|
-| Biblioteca-de-Software/frontend 	| feat: add createComplaint method to handle complaint creation via API 	| Gaboo04 	|
-| Biblioteca-de-Software/frontend 	| feat: refactor Complaint class to use private properties and add getters/setters 	| Gaboo04 	|
-| Biblioteca-de-Software/frontend 	| Merge pull request #2 from .../feature/complaint-creation 	| Gaboo04 	|
-| Biblioteca-de-Software/frontend 	| feat(authorities): Add authorities-panel bounded context 	| Gabrlel0105 	|
-| Biblioteca-de-Software/frontend 	| feat(complaints-table): added complaints table in authorities panel 	| Franco Rioja 	|
-| Biblioteca-de-Software/frontend 	| feat(edit-complaint): added edit complaint component in authorities panel 	| Franco Rioja 	|
-| Biblioteca-de-Software/frontend 	| feat(app): Adding I18n For Views 	| TicSide 	|
-| Biblioteca-de-Software/frontend 	| feat(map): Adding View Map Tracking 	| TicSide 	|
-
+| Repository | Branch                      | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|:------------|:----------------------------|:------------|:----------------|:---------------------|:--------------------|
+| DenunciaYa-Frontend | feature/complaint-creation  | `c09325415c680ab9a6a5cb1018667617ed2d0238` | feat: implement complaint creation form with validation and layout | Added form validation, responsive layout and integrated API call for complaint submission. | 08-10-2025          |
+| DenunciaYa-Frontend | feature/complaint-creation  | `422f14c4346dd7235e192209a374b518fa48b9c6` | feat: add createComplaint method to handle complaint creation via API | Implemented Axios call to POST endpoint, included error handling and success notification. | 08-10-2025          |
+| DenunciaYa-Frontend | feature/complaint-class     | `4fe872edcd1f6cf6020b4bf4bd555bfced0c200a` | feat: refactor Complaint class to use private properties and add getters/setters | Improved encapsulation and data handling for Complaint model. | 08-10-2025          |
+| DenunciaYa-Frontend | feature/complaint-creation  | `850f57cd534abed201583fffae26ce7ee7c3ddd7` | Merge pull request #2 from feature/complaint-creation | Merged complaint creation feature into main branch. | 06-10-2025          |
+| DenunciaYa-Frontend | feature/authorities-panel   | `84802d1b7276d367d2de4a9cb0a6ae98669b5dd7` | feat(authorities): Add authorities-panel bounded context | Added new bounded context for authorities module with routing and components. | 07-10-2025          |
+| DenunciaYa-Frontend | feature/complaints-creation | `c04116d40ea61b67ebd7193a841f92bc65b6b9e1` | feat(complaints-table): added complaints table in authorities panel | Displayed complaint data dynamically using table component with filters. | 07-10-2025          |
+| DenunciaYa-Frontend | feature/complaints-creation | `e92c0d96afbabf1108ba655f43c36f90fc225e38` | feat(edit-complaint): added edit complaint component in authorities panel | Enabled complaint editing with validation and API update. | 08-10-2025         |
+| DenunciaYa-Frontend | feature/develop             | `af6c01c12ff1f3094100acbbbd051c7da877ee27` | feat(app): Adding I18n For Views | Implemented multi-language support for key pages. | 08-10-2025         |
+| DenunciaYa-Frontend | feature/map                 | `fb671430f3e95f3798615834904180b9f8bf78f5` | feat(map): Adding View Map Tracking | Added interactive map view to track complaints geolocation. | 08-10-2025        |
 # 5.2.2.5. Execution Evidence for Sprint Review.
 Para este sprint se desarrolló la primera versión del frontend.
 
