@@ -2631,17 +2631,57 @@ Enlace al repositorio del frontend: https://github.com/1ASI0729-7401-2520-Prodev
 | DenunciaYa-Frontend | feature/develop             | `af6c01c12ff1f3094100acbbbd051c7da877ee27` | feat(app): Adding I18n For Views | Implemented multi-language support for key pages. | 08-10-2025         |
 | DenunciaYa-Frontend | feature/map                 | `fb671430f3e95f3798615834904180b9f8bf78f5` | feat(map): Adding View Map Tracking | Added interactive map view to track complaints geolocation. | 08-10-2025        |
 # 5.2.2.5. Execution Evidence for Sprint Review.
-Para este sprint se desarrolló la primera versión del frontend.
 
-![Execution Evidence for Sprint Review](../assets/Execution%20Evidence%20for%20Sprint%20Review.PNG)
+Durante este sprint se desarrolló la primera versión del frontend de DenunciaYa utilizando Angular. Se configuró la estructura base del proyecto y se implementaron las vistas iniciales correspondientes a los bounded contexts Community y Complaint Creation.
 
+El desarrollo incluyó la creación del layout principal, el enrutamiento entre módulos, y el formulario de registro de denuncias con validaciones y almacenamiento temporal de datos para simular la conexión con el backend. Asimismo, se aplicó un diseño responsivo con Angular Material, garantizando una interfaz moderna y funcional.
+
+A continuación, se presentan las capturas de las principales vistas implementadas y un video demostrativo que muestra la navegación y funcionalidades alcanzadas en esta primera versión.
+
+![sprint2pt1.jpeg](../assets/sprint2pt1.jpeg)
+
+![sprint2pt2.jpeg](../assets/sprint2pt2.jpeg)
+
+![sprint2pt3.jpeg](../assets/sprint2pt3.jpeg)
+
+![sprint2pt3.jpeg](../assets/Comunity.jpg)
+
+Link del video:
 # 5.2.2.6. Services Documentation Evidence for Sprint Review.
-Durante la creación del frontend de la aplicación, se optó por utilizar JSON Server como una fake API, con el propósito de emular el comportamiento del backend, ya que este aún no estaba desarrollado. Gracias a JSON Server, fue posible disponer de un entorno de pruebas completamente funcional, capaz de responder a solicitudes HTTP (GET, POST, PUT, DELETE) de la misma forma que lo haría un servidor real, empleando un archivo db.json como base de datos persistente. Esta herramienta permitió avanzar en el desarrollo, validación y prueba de los servicios e interfaces del frontend de manera eficiente, manteniendo al mismo tiempo una arquitectura desacoplada y lista para integrarse con el backend definitivo una vez esté disponible.
+
+Durante la creación del frontend de la aplicación, se optó por utilizar **JSON Server** como una *fake API*, con el propósito de emular el comportamiento del backend, ya que este aún no estaba desarrollado. Gracias a JSON Server, fue posible disponer de un entorno de pruebas completamente funcional, capaz de responder a solicitudes HTTP (**GET, POST, PUT, DELETE**) de la misma forma que lo haría un servidor real, empleando un archivo `db.json` como base de datos persistente. Esta herramienta permitió avanzar en el desarrollo, validación y prueba de los servicios e interfaces del frontend de manera eficiente, manteniendo al mismo tiempo una arquitectura desacoplada y lista para integrarse con el backend definitivo una vez esté disponible.
+
+Durante este sprint, los siguientes recursos fueron documentados y probados usando JSON Server como fake API. Todos los recursos permiten los métodos HTTP: **GET, POST, PUT, PATCH, DELETE, OPTIONS**.
+
+| Recurso       | Registros existentes en db.json | Métodos HTTP Disponibles          |
+|---------------|--------------------------------|----------------------------------|
+| /communities  | 2                              | GET, POST, PUT, PATCH, DELETE, OPTIONS |
+| /responsibles | 5                              | GET, POST, PUT, PATCH, DELETE, OPTIONS |
+| /citizen      | 5                              | GET, POST, PUT, PATCH, DELETE, OPTIONS |
+| /authority    | 5                              | GET, POST, PUT, PATCH, DELETE, OPTIONS |
+| /complaints   | 34                             | GET, POST, PUT, PATCH, DELETE, OPTIONS |
+
+
+
+
 
 # 5.2.2.7. Software Deployment Evidence for Sprint Review.
 
-![Software Deployment Evidence for Sprint Review](../assets/Software%20Deployment%20Evidence%20for%20Sprint%20Review.jpeg)
+Durante este sprint se realizaron actividades de **deployment** relacionadas con el frontend y el entorno de pruebas de *DenunciaYa*. El proyecto frontend fue desarrollado con **Angular**, configurando rutas, componentes y servicios, e integrando **Angular Material** para el diseño de la interfaz.
 
+Para simular el backend, se desplegó el archivo `db.json` en **Render** como un JSON Server, proporcionando un entorno remoto funcional capaz de responder a solicitudes HTTP (GET, POST, PUT, DELETE). Esto permitió que la aplicación Angular consuma datos desde un endpoint accesible en la nube, asegurando pruebas más realistas y validación del flujo de datos sin necesidad de un backend definitivo.
+
+Se documentaron los pasos para levantar y consumir la aplicación:
+1. **Frontend Angular:** instalado y ejecutado localmente usando Angular CLI.
+2. **JSON Server en Render:** desplegado para simular endpoints de la API, accesible desde la URL remota proporcionada por Render.
+3. **Pruebas de integración:** verificación de consumo de datos desde los endpoints remotos, navegación por la aplicación y creación/visualización de denuncias utilizando los datos del JSON Server.
+
+### Capturas de pantalla
+
+A continuación se presentan capturas que demuestran que la segunda versión del frontend de DenunciaYa fue desplegada correctamente. Estas imágenes evidencian la carga de la aplicación y la visualización de las vistas implementadas, confirmando el funcionamiento del entorno de desarrollo y la integración con los servicios simulados o remotos.
+![sprint2pt3.jpeg](../assets/sprint2pt3.jpeg)
+
+![sprint2pt3.jpeg](../assets/Comunity.jpg)
 
 # 5.2.2.8. Team Collaboration Insights during Sprint.
 
