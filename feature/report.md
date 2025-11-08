@@ -1489,8 +1489,10 @@ Presentamos los primeros diseños de la Landing Page en UI.
 Presentamos los primeros diseños de la Web Aplication en UI.
 ### 4.4.1. Web Applications Wireframes.
 ## 1. Pantalla de Login  
-**Wireframe**  
-![Login](/assets/WireframeLogin.jpg)  
+**Wireframe Deskopt**  
+![Wireframe Login Deskopt](/assets/WireframeLogin.jpg)  
+**Wireframe Mobile**  
+![Wireframe Login Mobile](/assets/wireframemobilelogin.png)  
 
 **Explicación**  
 - **Principios de diseño:** Jerarquía visual clara con logo en la parte superior, formulario centrado y botón principal destacado.  
@@ -1502,9 +1504,10 @@ Presentamos los primeros diseños de la Web Aplication en UI.
 ---
 
 ## 2. Pantalla de Register  
-**Wireframe**  
-![Register](/assets/WireframeRegister.jpg)  
-
+**Wireframe Deskopt**  
+![Wireframe Register Deskopt](/assets/WireframeRegister.jpg)  
+**Wireframe Mobile**  
+![Wireframe Register Mobile](/assets/wireframemobileregister.png)  
 **Explicación**  
 - **Principios de diseño:** Uso de agrupación por proximidad para los campos.  
 - **Elementos de diseño:** Campos con iconos de apoyo, botón destacado al final del formulario.  
@@ -1517,7 +1520,8 @@ Presentamos los primeros diseños de la Web Aplication en UI.
 ## 3. Pantalla de Payment Card  
 **Wireframe**  
 ![Payment](/assets/WireframePayment.jpg)  
-
+**Wireframe Mobile**  
+![Wireframe Payment Mobile](/assets/wireframemobilpayment.png)  
 **Explicación**  
 - **Principios de diseño:** Contraste entre datos de la tarjeta y el fondo, buena alineación.  
 - **Diseño inclusivo:** Tamaño de campos adecuado, validación visual clara de errores.  
@@ -1528,8 +1532,9 @@ Presentamos los primeros diseños de la Web Aplication en UI.
 
 ## 4. Pantalla de Mis Denuncias  
 **Wireframe**  
-![MisDenuncias](/assets/WireframeMisDenuncias.jpg)  
-
+![Wireframe MisDenuncias Deskopt](/assets/WireframeMisDenuncias.jpg)  
+**Wireframe Mobile**  
+![Wireframe Payment Mobile](/assets/wireframemobilmisdenuncias.png)  
 **Explicación**  
 - **Principios de diseño:** Listado organizado en filas con jerarquía clara entre N° denuncia, categoría, estado y fecha.  
 - **Elementos de diseño:** Colores para estados (verde: resuelto, azul: en proceso, amarillo: pendiente, rojo: rechazado, gris: guardado).  
@@ -1541,8 +1546,9 @@ Presentamos los primeros diseños de la Web Aplication en UI.
 
 ## 5. Pantalla de Denunciar Ahora  
 **Wireframe**  
-![DenunciarAhora](/assets/WireframeDenunciarAhora.jpg)  
-
+![Wireframe DenunciarAhora Deskopt](/assets/WireframeDenunciarAhora.jpg)  
+**Wireframe Mobile**  
+![Wireframe DenunciarAhora Mobile](/assets/wireframemobildenunciarahora.png)  
 **Explicación**  
 - **Principios de diseño:** Agrupación por secciones: datos básicos, descripción, adjuntos.  
 - **Elementos de diseño:** Botón de adjuntar archivos, área de texto amplia.  
@@ -1554,8 +1560,9 @@ Presentamos los primeros diseños de la Web Aplication en UI.
 
 ## 6. Pantalla de Detalles de la Denuncia  
 **Wireframe**  
-![DetallesDenuncia](/assets/WireframeDetalleDenuncia.jpg)  
-
+![Wireframe DetallesDenuncia Deskopt](/assets/WireframeDetalleDenuncia.jpg)  
+**Wireframe Mobile**  
+![Wireframe DetalleDenuncias Mobile](/assets/wireframemobildetalledenuncia.png) 
 **Explicación**  
 - **Principios de diseño:** Línea de tiempo horizontal con estados en orden cronológico.  
 - **Elementos de diseño:** Íconos de estado, colores diferenciados.  
@@ -1567,8 +1574,9 @@ Presentamos los primeros diseños de la Web Aplication en UI.
 
 ## 7. Pantalla de Community  
 **Wireframe**  
-![Comunity](/assets/WireframeComunity.png)  
-
+![Wireframe Comunity Deskopt](/assets/WireframeComunity.png)  
+**Wireframe Mobile**  
+![Wireframe Community Mobile](/assets/WireframeMobileCommunity.png) 
 **Explicación**  
 - **Principios de diseño:** Uso de tarjetas para cada post, jerarquía clara entre usuario, texto e interacciones.  
 - **Elementos de diseño:** Íconos reconocibles (me gusta, comentar, compartir).  
@@ -1580,8 +1588,9 @@ Presentamos los primeros diseños de la Web Aplication en UI.
 
 ## 8. Pantalla de Editar Denuncia  
 **Wireframe**  
-![EditarDenuncia](/assets/WireframeEditarD.jpg)  
-
+![Wireframe EditarDenuncia Deskopt](/assets/WireframeEditarD.jpg)  
+**Wireframe Mobile**  
+![Wireframe Editar Denuncia Mobile](/assets/WireframeMobilEditar.png) 
 **Explicación**  
 - **Principios de diseño:** Campos editables resaltados, botones de acción claramente visibles.  
 - **Elementos de diseño:** Ícono de lápiz para edición, botones guardar/cancelar.  
@@ -1593,8 +1602,9 @@ Presentamos los primeros diseños de la Web Aplication en UI.
 
 ## 9. Pantalla de Agregar Responsable  
 **Wireframe**  
-![NuevoResponsable](/assets/WireframeNuevoResponsable.jpg)  
-
+![Wireframe Nuevo Responsable Deskopt](/assets/WireframeNuevoResponsable.jpg)  
+**Wireframe Mobile**  
+![Wireframe Nuevo Responsable Mobile](/assets/wireframemobileresponsable.png) 
 **Explicación**  
 - **Principios de diseño:** Flujo lógico de datos personales → cargo → contacto.  
 - **Elementos de diseño:** Campos con iconos de apoyo (celular, correo).  
@@ -1606,8 +1616,9 @@ Presentamos los primeros diseños de la Web Aplication en UI.
 
 ## 10. Pantalla de Inicio  
 **Wireframe**  
-![PantallaGraficos](/assets/WireframePantallaGraficos.jpg)  
-
+![Wireframe Login Deskopt](/assets/WireframePantallaGraficos.jpg)  
+**Wireframe Mobile**  
+![Wireframe Login Mobile](/assets/wireframemobilbienvenido.png) 
 **Explicación**  
 - **Principios de diseño:** Uso de visualizaciones claras (barras, pastel) con contraste de colores.  
 - **Elementos de diseño:** Gráficas, tarjetas de resumen con métricas clave.  
@@ -1619,8 +1630,9 @@ Presentamos los primeros diseños de la Web Aplication en UI.
 
 ## 11. Pantalla de Detalles de Equipo  
 **Wireframe**  
-![GestionDeEquipos](/assets/WireframeGestionEquipo.jpg)  
-
+![Wireframe GestionDeEquipos Deskopt](/assets/WireframeGestionEquipo.jpg)  
+**Wireframe Mobile**  
+![Wireframe GestionDeEquipos Mobile](/assets/wireframemobilgestion.png) 
 **Explicación**  
 - **Principios de diseño:** Información agrupada en tarjetas (nombre, estado, responsables).  
 - **Elementos de diseño:** Íconos de estado, botones de acción.  
@@ -1678,8 +1690,9 @@ Presentamos los primeros diseños de la Web Aplication en UI.
 
 ##  Pantalla de Login  
 **Mock-up**  
-![Login](/assets/Login.jpg)
-
+![MockUp Login Desktop](/assets/Login.jpg)
+**Mock-up Mobile**  
+![MockUp Login Mobile](/assets/MockUpLogin.png) 
 **Explicación**  
 - **Principios de diseño:** Jerarquía visual clara con logo en la parte superior, formulario centrado y botón principal destacado.  
 - **Elementos de diseño:** Colores claros y precisos, tipografía consistente y botones con esquinas redondeadas para mayor accesibilidad.  
@@ -1691,8 +1704,9 @@ Presentamos los primeros diseños de la Web Aplication en UI.
 
 ## Pantalla de Register  
 **Mock-up**  
-![Register](/assets/Register.jpg)
-
+![MockUp Register Desktop](/assets/Register.jpg)
+**Mock-up Mobile**  
+![MockUp Login Mobile](/assets/MockUpRegister.png) 
 **Explicación**  
 - **Principios de diseño:** Uso de agrupación por proximidad para los campos.  
 - **Elementos de diseño:** Campos con iconos de apoyo, botón destacado al final del formulario.  
@@ -1704,8 +1718,9 @@ Presentamos los primeros diseños de la Web Aplication en UI.
 
 ## 3. Pantalla de Payment Card  
 **Mock-up**  
-![Payment](/assets/Payment.jpg)
-
+![MockUp Payment Desktop](/assets/Payment.jpg)
+**Mock-up Mobile**  
+![MockUp Payment Mobile](/assets/MockUpPayment.png) 
 **Explicación**  
 - **Principios de diseño:** Contraste entre datos de la tarjeta y el fondo, buena alineación.  
 - **Diseño inclusivo:** Tamaño de campos adecuado, validación visual clara de errores.  
@@ -1716,8 +1731,10 @@ Presentamos los primeros diseños de la Web Aplication en UI.
 
 ## 4. Pantalla de Mis Denuncias 
 **Mock-up**  
-![MisDenuncias](/assets/MisDenuncias.jpg)
-
+![MockUp MisDenuncias Desktop](/assets/MisDenuncias.jpg)
+**Mock-up Mobile**  
+![MockUp MisDenuncias Mobile](/assets/MockUpMisDenuncias1.png) 
+![MockUp MisDenuncias Mobile](/assets/MockUpMisDenuncias2.png) 
 **Explicación**  
 - **Principios de diseño:** Listado organizado en filas con jerarquía clara entre N° denuncia,categoria, estado y fecha.  
 - **Elementos de diseño:** Colores para estados (verde: resuelto, azul: en proceso, amarillo: pendiente,rojo rechazado, gris en guardado).  
@@ -1729,8 +1746,9 @@ Presentamos los primeros diseños de la Web Aplication en UI.
 
 ## 5. Pantalla de Denunciar Ahora   
 **Mock-up**  
-![DenunciarAhora](/assets/DenunciarAhora.jpg)
-
+![MockUp DenunciarAhora Desktop](/assets/DenunciarAhora.png)
+**Mock-up Mobile**  
+![MockUp DenunciarAhora Mobile](/assets/DenunciarAhoraMobile.png) 
 **Explicación**  
 - **Principios de diseño:** Agrupación por secciones: datos básicos, descripción, adjuntos.  
 - **Elementos de diseño:** Botón de adjuntar archivos, área de texto amplia.  
@@ -1742,8 +1760,9 @@ Presentamos los primeros diseños de la Web Aplication en UI.
 
 ## 6. Pantalla de Detalles de la Denuncia
 **Mock-up**  
-![DenunciarAhora](/assets/DetallesDenunciaAutoridad.jpg)
-
+![MockUp Detalle Denuncia Desktop](/assets/DetallesDenunciaAutoridad.jpg)
+**Mock-up Mobile**  
+![MockUp Detalle Denuncia Mobile](/assets/Detalles%20de%20Denuncia.png) 
 **Explicación**  
 - **Principios de diseño:** Línea de tiempo horizontal con estados en orden cronológico.  
 - **Elementos de diseño:** Íconos de estado, colores diferenciados.  
@@ -1755,8 +1774,9 @@ Presentamos los primeros diseños de la Web Aplication en UI.
 
 ## 7. Pantalla de Community   
 **Mock-up**  
-![DenunciarAhora](/assets/Comunity.jpg)
-
+![MockUp Community Desktop](/assets/Comunity.jpg)
+**Mock-up Mobile**  
+![MockUp Community Mobile](/assets/WireframeMobileCommunity.png) 
 **Explicación**  
 - **Principios de diseño:** Uso de tarjetas para cada post, jerarquía clara entre usuario, texto e interacciones.  
 - **Elementos de diseño:** Íconos reconocibles (me gusta, comentar, compartir).  
@@ -1768,8 +1788,9 @@ Presentamos los primeros diseños de la Web Aplication en UI.
 
 ## 8. Pantalla de Editar Denuncia  
 **Mock-up**  
-![DenunciarAhora](/assets/EditarDenuncia.jpg)
-
+![MockUp Editar Denuncia Desktop](/assets/EditarDenuncia.jpg)
+**Mock-up Mobile**  
+![MockUp Editar Denuncia Mobile](/assets/MockUpCommunity.png) 
 
 **Explicación**  
 - **Principios de diseño:** Campos editables resaltados, botones de acción claramente visibles.  
@@ -1782,8 +1803,9 @@ Presentamos los primeros diseños de la Web Aplication en UI.
 
 ## 9. Pantalla de Agregar Responsable 
 **Mock-up**  
-![DenunciarAhora](/assets/NuevoResponsable.jpg)
-  
+![MockUp AgregarResponsable Desktop ](/assets/AsignarResponsable.png)
+  **Mock-up Mobile**  
+![MockUp AgregarResponsable Mobile](/assets/MockUpNuevoResponsable.png) 
 
 **Explicación**  
 - **Principios de diseño:** Flujo lógico de datos personales → cargo → contacto.  
@@ -1796,8 +1818,9 @@ Presentamos los primeros diseños de la Web Aplication en UI.
 
 ## 10. Pantalla de Inicio  
 **Mock-up**  
-![DenunciarAhora](/assets/PantallaGraficos.jpg)
-
+![MockUp Pantalla Inicio Desktop](/assets/Inicio.png)
+  **Mock-up Mobile**  
+![MockUp Pantalla Inicio Mobile](/assets/mobilbienvenido.png) 
 
 **Explicación**  
 - **Principios de diseño:** Uso de visualizaciones claras (barras, pastel) con contraste de colores.  
@@ -1810,8 +1833,9 @@ Presentamos los primeros diseños de la Web Aplication en UI.
 
 ## 11. Pantalla de Detalles de Equipo  
 **Mock-up**  
-![DenunciarAhora](/assets/GestionDeEquipos.jpg)
-
+![MockUp Gestion Equipos Desktop](/assets/GestionDeEquipo.png)
+  **Mock-up Mobile**  
+![MockUp Gestion Equipos Mobile](/assets/GestionEquipoMobile.png) 
 **Explicación**  
 - **Principios de diseño:** Información agrupada en tarjetas (nombre, estado, responsables).  
 - **Elementos de diseño:** Íconos de estado, botones de acción.  
