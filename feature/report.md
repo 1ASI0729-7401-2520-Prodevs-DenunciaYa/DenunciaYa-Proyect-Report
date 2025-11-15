@@ -2737,7 +2737,87 @@ Repostorio del Frontend: https://github.com/1ASI0729-7401-2520-Prodevs-DenunciaY
 # 5.2.3. Sprint 3
 # 5.2.3.1.Spring Planning 3
 
+A continuación se presenta el acta correspondiente a la planificación del Sprint 3, en la cual se establecieron los objetivos principales y las actividades que se desarrollarán durante este periodo.
+
+### Sprint 3
+<table>
+<tr>
+    <th colspan="5">Sprint 3</th>
+    <th colspan="9">Sprint 3</th>
+</tr>
+
+<tr>
+    <td colspan="13">Sprint Planning Background</td>
+</tr>
+
+<tr>
+    <td colspan="5">Date</td>
+    <td colspan="8">6/11/2025</td>
+</tr>
+
+<tr>
+    <td colspan="5">Time</td>
+    <td colspan="8">3:00 pm</td>
+</tr>
+
+<tr>
+    <td colspan="5">Location</td>
+    <td colspan="8">Via Discord</td>
+</tr>
+
+<tr>
+    <td colspan="5">Prepared By</td>
+    <td colspan="8">Mamani Marca, Gabriel Cristian</td>
+</tr>
+
+<tr>
+    <td colspan="5">Attendees (to planning meeting)</td>
+    <td colspan="8">Mamani Marca Gabriel Cristian, Rivera Ticllacuri Omar Harold, Rioja Núñez Franco Diego, Brabuaite Toledo Gabriel Anthony, Montes Maza Augusto Sebastián</td>
+</tr>
+
+<tr>
+    <td colspan="5">Sprint 3 Review Summary</td>
+    <td colspan="8">En esta reunión se planificaron las tareas correspondientes al desarrollo del backend de DenunciaYa. Asimismo, se establecieron fechas límite para cada bounded context con el fin de contar con tiempo para realizar el despliegue y la integración con el frontend.</td>
+</tr>
+
+<tr>
+    <td colspan="5">Sprint 3 Retrospective Summary</td>
+    <td colspan="8">Durante la retrospectiva se identificaron aspectos positivos en el trabajo colaborativo y también oportunidades de mejora relacionadas con la organización interna y la distribución de tareas. Se resaltó la importancia de mantener una comunicación clara, asumir responsabilidades y asegurar la continuidad del avance del proyecto.</td>
+</tr>
+
+<tr>
+    <td colspan="13">Sprint Goal & User Stories</td>
+</tr>
+
+<tr>
+    <td colspan="5">Sprint 3 Goal</td>
+    <td colspan="8">Completar la integración y despliegue del backend conectado al frontend, garantizando que los módulos principales (denuncias, mapa, autoridades, comunidad e i18n) operen correctamente en un entorno productivo, y cumplir con los criterios de validación mediante pruebas funcionales y aprobación del Product Owner antes de la fecha de cierre del sprint.</td>
+</tr>
+
+<tr>
+    <td colspan="5">Sprint 3 Velocity</td>
+    <td colspan="8">5 story points</td>
+</tr>
+
+<tr>
+    <td colspan="5">Sum of Story Points</td>
+    <td colspan="8">5 story points</td>
+</tr>
+
+</table>
+
 # 5.2.3.2. Aspect Leaders and Collaborators.
+En esta sección se muestran los encargados designados para cada área de trabajo. Para este primer Sprint, los productos a entregar se han estructurado en tres secciones claramente definidas.
+
+
+| Team member (LastName, First Name)                              | GitHub UserName | Aspect 1: Complaint Creation BC (L/C) | Aspect 2: Community BC (L/C) | Aspect 3: Map BC (L/C) | Aspect 4: Authentication BC (L/C) | Aspect 5: Authorit BC (L/C) |
+|------------------------------------------------------------------|-----------------|---------------------------------------|------------------------------|------------------------|-----------------------------------|-----------------------------|
+| Mamani Marca, Gabriel Cristian                                   | Gabriel0105     | C                                     | L                            | C                      | C                                 | C                           |
+| Rivera Ticllacuri, Omar Harold                                   | TicSide         | L                                     | C                            | C                      | L                                 | C                           |
+| Rioja Núñez, Franco Diego                                        | FrancoDiegoR    | C                                     | C                            | L                      | C                                 | C                           |
+| Brabuaite Toledo, Gabriel Anthony                                | Gaboo04         | C                                     | C                            | C                      | C                                 | L                           |
+| Montes Maza, Augusto Sebastián                                   | Sebastian       | C                                     | C                            | C                      | C                                 | L                           |
+
 # 5.2.3.3.Sprint Backlog 3.
 # 5.2.3.5.Execution Evidence for Sprint Review.
 # 5.2.3.6.Services Documentation Evidence for Sprint Review.
