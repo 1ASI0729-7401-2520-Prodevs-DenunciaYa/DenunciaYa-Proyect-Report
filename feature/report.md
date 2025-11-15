@@ -21,13 +21,13 @@
 
 <div style="text-align: center;">
 
-|       Apellidos y Nombres        | Código de Alumno |
-|:--------------------------------:|:----------------:|
-|  Mamani Marca, Gabriel Cristian  |    u202220659    |
-|  Omar Harold Rivera Ticllacuri   |    u202214214    |
-|     Franco Diego Rioja Nuñez     |    u202221597    |
-| Gabriel Anthony Brabuaite Toledo |    U20201e889    |
-|  Augusto Sebastian Montes Maza   |    u202218645    |
+|        Apellidos y Nombres        | Código de Alumno |
+|:---------------------------------:|:----------------:|
+|  Mamani Marca, Gabriel Cristian   |    u202220659    |
+|  Rivera Ticllacuri, Omar Harold   |    u202214214    |
+|     Rioja Nuñez, Franco Diego     |    u202221597    |
+| Brabuaite Toledo, Gabriel Anthony |    U20201e889    |
+|           Montes Maza, Augusto Sebastian           |    u202218645    |
 
 </div>
 
@@ -2736,6 +2736,7 @@ Repostorio del Frontend: https://github.com/1ASI0729-7401-2520-Prodevs-DenunciaY
 
 # 5.2.3. Sprint 3
 # 5.2.3.1.Spring Planning 3
+
 # 5.2.3.2. Aspect Leaders and Collaborators.
 # 5.2.3.3.Sprint Backlog 3.
 # 5.2.3.5.Execution Evidence for Sprint Review.
