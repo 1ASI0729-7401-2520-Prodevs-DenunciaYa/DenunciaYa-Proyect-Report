@@ -2677,13 +2677,13 @@ Durante la creación del frontend de la aplicación, se optó por utilizar **JSO
 
 Durante este sprint, los siguientes recursos fueron documentados y probados usando JSON Server como fake API. Todos los recursos permiten los métodos HTTP: **GET, POST, PUT, PATCH, DELETE, OPTIONS**.
 
-| Recurso       | Registros existentes en db.json | Métodos HTTP Disponibles          |
-|---------------|--------------------------------|----------------------------------|
-| /communities  | 2                              | GET, POST, PUT, PATCH, DELETE, OPTIONS |
-| /responsibles | 5                              | GET, POST, PUT, PATCH, DELETE, OPTIONS |
-| /citizen      | 5                              | GET, POST, PUT, PATCH, DELETE, OPTIONS |
-| /authority    | 5                              | GET, POST, PUT, PATCH, DELETE, OPTIONS |
-| /complaints   | 34                             | GET, POST, PUT, PATCH, DELETE, OPTIONS |
+| Recurso       | Registros existentes en db.json | Métodos HTTP Disponibles           |
+|---------------|--------------------------------|------------------------------------|
+| /communities  | 2                              | GET, POST, DELETE,                 |
+| /responsibles | 5                              | GET, POST, DELETE                  |
+| /citizen      | 5                              | GET, POST, DELETE                  |
+| /authority    | 5                              | GET, POST, DELETE             |
+| /complaints   | 34                             | GET, POST, DELETE |
 
 
 
@@ -2700,20 +2700,54 @@ Se documentaron los pasos para levantar y consumir la aplicación:
 2. **JSON Server en Render:** desplegado para simular endpoints de la API, accesible desde la URL remota proporcionada por Render.
 3. **Pruebas de integración:** verificación de consumo de datos desde los endpoints remotos, navegación por la aplicación y creación/visualización de denuncias utilizando los datos del JSON Server.
 
+Link del Fake API desplegado: https://denunciaya-fakeapi-xf50.onrender.com
+
 ### Capturas de pantalla
 
 A continuación se presentan capturas que demuestran que la segunda versión del frontend de DenunciaYa fue desplegada correctamente. Estas imágenes evidencian la carga de la aplicación y la visualización de las vistas implementadas, confirmando el funcionamiento del entorno de desarrollo y la integración con los servicios simulados o remotos.
+
 ![sprint2pt3.jpeg](../assets/sprint2pt3.jpeg)
 
 ![sprint2pt3.jpeg](../assets/Comunity.jpg)
 
+
+
 # 5.2.2.8. Team Collaboration Insights during Sprint.
 
-Aquí se evidencia la colaboración del equipo en el sprint 2 
-Frontend: https://github.com/1ASI0729-7401-2520-Prodevs-DenunciaYa/DenunciaYa.-Frontend.git
+Durante el Sprint 2, se trabajó de forma colaborativa utilizando GitHub como herramienta principal para el control de versiones. La aplicación frontend fue organizada mediante *bounded contexts*, los cuales fueron desarrollados de manera independiente por cada miembro del equipo a través de *branches* asignadas. Cada integrante contribuyó con el desarrollo de su *bounded context* correspondiente.
 
-![Top Commiters](../assets/Top%20Committers.png)
+Una vez finalizado el desarrollo de cada funcionalidad, se realizaron los *merge requests* hacia la rama **develop**, con el objetivo de integrar el producto y posteriormente proceder con el despliegue de **“DenunciaYa”**, realizado en Vercel. La coordinación del trabajo se llevó a cabo mediante reuniones diarias, *pull requests* y revisiones cruzadas del código desarrollado en cada *bounded context*.
 
+A continuación, se presentan los analíticos de *commits* y participación, evidenciando la contribución activa de cada integrante del equipo.
+
+* **Gabriel Mamani:** Desarrolló la vista **Community**, donde el usuario podrá publicar noticias y tendrá la opción de realizar comentarios en otras publicaciones.
+* **Franco Rioja:** Desarrolló el historial y seguimiento de denuncias, donde el usuario puede visualizar en qué estado se encuentra su denuncia.
+* **Omar Rivera:** Implementó la autenticación y la vista de gestión de usuario, permitiendo al usuario crear y editar su información dentro de la aplicación web.
+* **Gabriel Brabuaite:** Se encargó de la vista de creación de denuncias, la cual permite al usuario crear y eliminar denuncias.
+* **Augusto Montes:** Desarrolló la vista de directorio de denuncias, donde se muestran instituciones y contactos relevantes para la atención de denuncias.
+
+  ![Contributors](../assets/sprint2/commitsSprint2.jpeg)
+
+  ![Top Committers](../assets/Top%20Committers.png)
+
+
+Repostorio del Frontend: https://github.com/1ASI0729-7401-2520-Prodevs-DenunciaYa/DenunciaYa.-Frontend.git
+
+
+# 5.2.3. Sprint 3
+# 5.2.3.1.Spring Planning 3
+# 5.2.3.2. Aspect Leaders and Collaborators.
+# 5.2.3.3.Sprint Backlog 3.
+# 5.2.3.5.Execution Evidence for Sprint Review.
+# 5.2.3.6.Services Documentation Evidence for Sprint Review.
+## Logros alcanzados
+## Repositorio y commits
+
+# 5.2.3.7.Software Deployment Evidence for Sprint Review.
+# 5.2.3.8.Team Collaboration Insights during Sprint.
+# 5.3. Validation Interviews.
+
+# 5.2.3.4.Development Evidence for Sprint Review.
 
 # Conclusiones
 Durante el proceso de creación y desarrollo de este trabajo se llegaron a las siguientes conclusiones:
