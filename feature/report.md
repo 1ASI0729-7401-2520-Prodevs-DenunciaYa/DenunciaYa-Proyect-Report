@@ -2825,6 +2825,7 @@ Durante el sprint se desarrollaron las API REST, se implementaron validaciones p
 Herramienta utilizada : Trello
 Link trello:
 Screenshot  trello 
+
 | Sprint 3 | Sprint 3 |   |                                     |                                                                                                                               |                    |                 |                                                |
 |----------|-----------|---|-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|--------------------|-----------------|------------------------------------------------|
 | User Story | Work-Item / Task |   |                                 | Description                                                                                                                   | Estimation (Hours) | Assigned To     | Status (To do / In process / To review / Done) |
