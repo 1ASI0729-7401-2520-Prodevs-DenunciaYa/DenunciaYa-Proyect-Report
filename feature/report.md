@@ -2823,8 +2823,9 @@ El objetivo principal del Sprint 3 es implementar funcionalidades esenciales del
 
 Durante el sprint se desarrollaron las API REST, se implementaron validaciones para las peticiones HTTP utilizando Swagger y se verificó la conexión con la base de datos.
 Herramienta utilizada : Trello
-Link trello:
-Screenshot  trello 
+Link trello: https://trello.com/invite/b/691a64125d6f52f38902ddaf/ATTI5675e3380a6defab8d211abac49cf0832652CB92/denunciaya
+
+![trell.jpeg](../assets/sprint2/trell.jpeg)
 
 |  Sprint 3  |                Sprint 3                |     |                                                                       |                                                                                                                                  |                    |             |                                                |
 |:----------:|:--------------------------------------:|:---:|:---------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------:|:------------------:|:-----------:|:----------------------------------------------:|
@@ -2864,36 +2865,155 @@ Repositorio del backend: https://github.com/1ASI0729-7401-2520-Prodevs-DenunciaY
 | DenunciaYa-Backend  | feature/map                | d10f495a97c2a939f33f7daa5bf754cb1db80cfd | feat(map): Implement map query service logic                  | Desarrollo de lógica de consulta de mapas, integración con servicios de ubicación y filtrado georreferenciado para mostrar puntos de denuncia por zona.                           | 16/11/2025         |
 | DenunciaYa-Backend  | feature/authorities-panel  | 0ee2be49563eef5906dd411e925e3a01192fd04d | feat(authorities): Add ResponsibleResourceFromDTOAssembler     | Implementación del assembler para transformar DTOs a recursos de dominio, estandarizando el formato de respuesta y asegurando compatibilidad con el panel de autoridades.        | 15/11/2025         |
 
+# 5.2.3.5. Execution Evidence for Sprint Review
+
+Durante este sprint se implementaron y desplegaron satisfactoriamente las funcionalidades correspondientes al backend del sistema **DenunciaYa**, logrando exponer una API REST completa, estructurada por Bounded Contexts y documentada mediante Swagger. Adicionalmente, se realizó el despliegue en un entorno productivo utilizando Render, validando la correcta integración con una base de datos MySQL remota.
+
+#### Objetivos alcanzados:
+
+- Implementación, validación y documentación de controladores REST para los Bounded Contexts: **Responsibles, Complaints, Map, Posts y Comments**.
+- Configuración del entorno productivo mediante **Environment Variables** siguiendo buenas prácticas de seguridad y despliegue.
+- Deployment exitoso del backend en **Render Cloud**, con persistencia real de datos.
+- Publicación del **Swagger UI** para pruebas, depuración y verificación funcional externa.
+
+#### Evidencia
+A continuación, se presentan capturas de pantalla obtenidas desde el entorno productivo, demostrando el funcionamiento y correcta documentación de los endpoints:
+
+![render](../assets/sprint2/render.jpeg)
+![swagger1](../assets/sprint2/swagger1.jpeg)
+![swagger2](../assets/sprint2/swagger2.jpeg)
+![swagger3](../assets/sprint2/swagger3.jpeg)
+
+#### Enlace del despliegue
+Documentación pública de la API REST (Swagger UI):
+ https://denunciaya-backend.onrender.com/swagger-ui/index.html
 
 
-# 5.2.3.5.Execution Evidence for Sprint Review.
+
 # 5.2.3.6.Services Documentation Evidence for Sprint Review.
-## Logros alcanzados
-## Repositorio y commits
+
+Durante este sprint se desarrolló, documentó y validó el backend del sistema DenunciaYa, asegurando que los endpoints cumplan con los lineamientos REST, estén correctamente documentados mediante OpenAPI/Swagger y puedan ser consumidos por usuarios o desarrolladores a través de herramientas como Postman.
+
+
+##  Tabla de Endpoints Documentados
+
+| Módulo        | Método | Endpoint                                           | Descripción                                        | Parámetros                        |
+|---------------|---------|----------------------------------------------------|----------------------------------------------------|-----------------------------------|
+| Responsibles  | GET     | `/api/v1/responsibles`                             | Retorna la lista de responsables                   | N/A                               |
+| Responsibles  | POST    | `/api/v1/responsibles`                             | Crea un nuevo responsable                          | Body (JSON)                       |
+| Responsibles  | GET     | `/api/v1/responsibles/{id}`                        | Obtiene un responsable por ID                      | `id` (path)                       |
+| Responsibles  | DELETE  | `/api/v1/responsibles/{id}`                        | Elimina un responsable                             | `id` (path)                       |
+| Complaints    | GET     | `/api/v1/complaints`                               | Lista todas las denuncias                          | Query opcionales                  |
+| Complaints    | POST    | `/api/v1/complaints`                               | Crea una nueva denuncia                            | Body (JSON)                       |
+| Complaints    | GET     | `/api/v1/complaints/{complaintId}`                 | Obtiene denuncia por ID                            | `complaintId` (path)              |
+| Complaints    | PUT     | `/api/v1/complaints/{complaintId}`                 | Actualiza una denuncia completa                    | `complaintId` + Body (JSON)       |
+| Complaints    | PATCH   | `/api/v1/complaints/{complaintId}/status`          | Actualiza solo el estado de una denuncia           | `complaintId` + Body (JSON)       |
+| Map           | GET     | `/api/v1/map/complaints`                           | Retorna denuncias geolocalizadas                   | Query opcionales                  |
+| Posts         | GET     | `/api/v1/posts`                                    | Retorna los posts de la comunidad                  | N/A                               |
+| Posts         | POST    | `/api/v1/posts`                                    | Crea un nuevo post                                 | Body (JSON)                       |
+| Posts         | GET     | `/api/v1/posts/{postId}`                           | Recupera un post mediante ID                       | `postId` (path)                   |
+| Posts         | DELETE  | `/api/v1/posts/{postId}`                           | Elimina un post                                    | `postId` (path)                   |
+| Comments      | GET     | `/api/v1/posts/{postId}/comments`                  | Lista comentarios de un post                       | `postId` (path)                   |
+| Comments      | POST    | `/api/v1/posts/{postId}/comments`                  | Crea un comentario en un post                      | `postId` + Body (JSON)            |
+
+
 
 # 5.2.3.7.Software Deployment Evidence for Sprint Review.
-# 5.2.3.8.Team Collaboration Insights during Sprint.
-# 5.3. Validation Interviews.
 
-# 5.2.3.4.Development Evidence for Sprint Review.
+#### El frontend se desplego usando la herramienta de versel
+
+Pasos de despliegue:
+
+1. **Build del proyecto:** Generar los archivos estáticos de producción (`ng build --configuration=production`)
+2. **Realizar el merge:** Unir cada rama correspondiente a su *bounded context* en la rama `develop`
+3. **Configurar entorno:** Copiar la URL del backend desplegado en el archivo `environment.ts`
+4. **Pruebas:** Realizar pruebas de conexión del frontend con el backend
+5. **Vercel:** Creación de una cuenta en Vercel
+6. **Despliegue:** Clic en **"Add new site"** → **"Import an existing project"** y seleccionar el repositorio y la rama (`develop`)
+
+**Repositorio:**  https://github.com/1ASI0729-7401-2520-Prodevs-DenunciaYa/DenunciaYa.-Frontend.git
+
+**URL desplegada:** https://denuncia-ya-frontend-git-develop-gabriels-projects-0a95c3fe.vercel.app?_vercel_share=IxALwofhAq8NHNUQzaMgCYi56z9BH6LS
+
+#### Backend Web Service
+
+Los servicios del backend se desarrollarán en Java con Spring Boot. El backend se desplegó utilizando la plataforma Render y la base de datos se alojó en FreeSQL.
+
+### Pasos para el despligue 
+
+1. **Build del proyecto:** Generar el archivo ejecutable `.jar` usando el comando `./mvnw clean package`.
+2. **Merge:** Unir cada rama de su *bounded context* a la rama `develop` y verificar el funcionamiento.
+3. **Crear el Dockerfile:** Incluir la configuración para construir la imagen de la aplicación, especificando la etapa de compilación con Maven y la etapa de ejecución con Java, junto con el `.jar` generado y el puerto de exposición.
+4. **Configurar `application.properties`:** Ingresar el `name`, `username` y `host` de la base de datos mediante *environments* en Render.
+5. **Render:** Crear una cuenta en Render e iniciar sesión.
+6. **Crear un Web Service.**
+7. **Configurar despliegue:** Ingresar el nombre del despliegue, la ruta del archivo Dockerfile y los *environments* donde se incluye la información de la base de datos.
+8. **Deploy:** Hacer clic en **Deploy Service**.
+9. **Esperar:** Render generará y mostrará la URL del servicio desplegado.
+
+**Repositorio:**  https://github.com/1ASI0729-7401-2520-Prodevs-DenunciaYa/DenunciaYa-Backend
+
+**URL desplegada:** https://denunciaya-backend.onrender.com/swagger-ui/index.html
+
+![evi1.jpeg](../assets/sprint2/evi1.jpeg)
+
+![evi2.jpeg](../assets/sprint2/evi2.jpeg)
+
+![evi3.jpeg](../assets/sprint2/evi3.jpeg)
+
+![evi4.jpeg](../assets/sprint2/evi4.jpeg)
+
+## 5.2.3.8. Team Collaboration Insights during Sprint
+
+A continuación, se presenta la evidencia de la colaboración de cada integrante en los repositorios del frontend y backend.
+
+### Frontend
+
+A continuación, se detalla la colaboración de cada integrante en el repositorio del frontend:
+
+- **Gabriel Mamani:** Implementación del Bc *community* en el frontend.
+- **Franco Rioja:** Implementación de la gestión de denuncias en el frontend.
+- **Gabriel Brabuaite:** Implementación de la funcionalidad para reportar denuncias en el frontend.
+- **Omar Rivera:** Implementación del dashboard en el frontend.
+
+![frontgit1.jpeg](../assets/sprint2/frontgit1.jpeg)
+
+![frontgit2.jpeg](../assets/sprint2/frontgit2.jpeg)
+
+### Backend
+
+A continuación, se presenta la evidencia de la colaboración de cada integrante en el repositorio del backend:
+
+- **Gabriel Mamani:** Implementación del API REST de *community*.
+- **Franco Rioja:** Implementación del API REST de *map*.
+- **Gabriel Brabuaite:** Implementación del API REST de *authorities*.
+- **Omar Rivera:** Implementación del API REST de *complaint creation*.
+
+![backev.jpeg](../assets/sprint2/backev.jpeg)
+
+
+# Video About-the-Team.
+
+# Video About-the-Product.
 
 # Conclusiones
 Durante el proceso de creación y desarrollo de este trabajo se llegaron a las siguientes conclusiones:
 
 ### 1. Trabajo en equipo y colaboración
-El desarrollo de DenunciaYa demostró que la colaboración y la comunicación constante entre los miembros del equipo son esenciales para integrar distintas perspectivas y habilidades. La distribución de roles y la sinergia lograda permitieron construir una solución sólida y alineada con los objetivos planteados.
+La coordinación entre los integrantes permitió avanzar de manera ordenada en cada módulo del backend. La comunicación constante facilitó integrar los servicios y mantener coherencia en la arquitectura.
 
 ### 2. Planificación y organización en el desarrollo de software
-La planificación adecuada, junto con la adopción de metodologías ágiles como SCRUM, fueron factores clave para gestionar tareas, priorizar funcionalidades y cumplir con los plazos establecidos. Esto garantizó un proceso ordenado y la entrega de un producto funcional y de calidad.
+El uso de SCRUM ayudó a organizar las tareas del backend, priorizar los endpoints esenciales y cumplir con los objetivos del sprint. Esto permitió un desarrollo más claro y estructurado.
 
-### 3. Impacto social y transparencia en la gestión pública
-DenunciaYa representa una solución innovadora que contribuye a mejorar la transparencia gubernamental y la confianza ciudadana. Al facilitar la denuncia de problemas urbanos y actos de corrupción de forma rápida, segura y anónima, la plataforma genera un impacto positivo en la calidad de vida de la comunidad.
+### 3. Implementación de servicios y calidad del código
+Durante el sprint se implementaron y documentaron los servicios REST, asegurando buenas prácticas en el diseño de API y manteniendo una estructura limpia y modular en el backend.
 
-### 4. TIC como herramienta de participación ciudadana
-El proyecto demuestra que las Tecnologías de la Información y Comunicación (TIC) son un medio estratégico para ampliar el alcance y la participación social. DenunciaYa facilita que más ciudadanos se involucren activamente en la identificación y resolución de problemas locales, fortaleciendo la gobernanza digital.
+### 4. Uso de tecnologías y despliegue
+El proyecto aprovechó herramientas actuales como Spring Boot, Docker y Render para lograr un backend estable y desplegable. Esto permitió contar con un entorno funcional y accesible para pruebas e integración.
 
-### 5. Usabilidad y experiencia del usuario
-DenunciaYa ha sido diseñada para que cualquier persona pueda usarla fácilmente desde el primer momento. Su interfaz es intuitiva y accesible, lo que permite reportar problemas en pocos pasos y sin complicaciones. Con un diseño moderno y centrado en el usuario, la plataforma garantiza una experiencia ágil, clara y confiable tanto para ciudadanos como para autoridades.
+### 5. Integración con el frontend
+El backend se desarrolló pensando en facilitar su consumo desde el frontend, lo que permitió realizar pruebas exitosas de comunicación entre ambos y asegurar una experiencia fluida para el usuario final.
+lataforma fue diseñada para ser fácil de usar desde el primer momento. Su interfaz clara y directa permite registrar denuncias sin complicaciones, priorizando la comodidad del usuario.
 
 #  Bibliografía
 
