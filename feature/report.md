@@ -2851,18 +2851,18 @@ Screenshot  trello
 | US46     | Restablecimiento de contraseña            | W19 | Reset password       | Validar token, actualizar contraseña hasheada y registrar timestamp                                                           | 3                  | Omar Rivera      | To Do                                          |
 
 
-# 5.2.3.4.Development Evidence for Sprint Review.
+# 5.2.3.4. Development Evidence for Sprint Review
 
-En esta seccion se muestran los commits que reflejan los avances importonantes durante el desarrollo e implementacion del backend para DenunciaYa.Los registros provienen del repositorio backend de nuestra organizacion de github
+En esta sección se presentan las evidencias de los avances de implementación realizados durante el Sprint, enfocados en el desarrollo del backend de la plataforma DenunciaYa, específicamente relacionados con la creación y mejora de los Web Services. La evidencia se respalda mediante commits registrados en el repositorio oficial del backend, los cuales demuestran el progreso técnico y la construcción de la solución.
 
-Enlace al repositorio del backend: https://github.com/1ASI0729-7401-2520-Prodevs-DenunciaYa/DenunciaYa-Backend
+Repositorio del backend: https://github.com/1ASI0729-7401-2520-Prodevs-DenunciaYa/DenunciaYa-Backend
 
-| Repository                                    | Branch                     | Commit Id                                | commit Message                                               | Commit Message Body | Commited on (Date) |
-|-----------------------------------------------|----------------------------|------------------------------------------|--------------------------------------------------------------|---------------------|--------------------|
-| DenunciaYa-Backend  | feature/complaint-creation |3bf4e32d624296391e28ecf224fba17c18a2425d  | feat(complaint-creation): Add Complaint Controller                                   |                     | 15/11/2025         |
-| DenunciaYa-Backend   | feature/community          |245223d449fe7124cc066358b51ef06aa7ee7a31  | feat(community): Add post controller                         |                     | 16/11/2025         |
-| DenunciaYa-Backend   | feature/map                | d10f495a97c2a939f33f7daa5bf754cb1db80cfd | feat(map): Implement map query service logic |                     | 16/06/2025         |
-| DenunciaYa-Backend   | feature/authorities-panel  |  | feat(authorities-panel):                                     |                     | 16/06/2025         |
+| Repository          | Branch                    | Commit Id                                | Commit Message                                                | Commit Message Body                                                                                                                                                                | Commited on (Date) |
+|---------------------|---------------------------|-------------------------------------------|----------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|
+| DenunciaYa-Backend  | feature/complaint-creation | 3bf4e32d624296391e28ecf224fba17c18a2425d | feat(complaint-creation): Add Complaint Controller            | Implementación del controlador principal de denuncias, mapeo de endpoints REST, integración con capa de servicio y definición del modelo inicial de petición y respuesta.          | 15/11/2025         |
+| DenunciaYa-Backend  | feature/community          | 245223d449fe7124cc066358b51ef06aa7ee7a31 | feat(community): Add post controller                           | Se agregó el controlador para publicaciones comunitarias, permitiendo la gestión de posts, estructura CRUD inicial y validaciones básicas de entrada.                              | 16/11/2025         |
+| DenunciaYa-Backend  | feature/map                | d10f495a97c2a939f33f7daa5bf754cb1db80cfd | feat(map): Implement map query service logic                  | Desarrollo de lógica de consulta de mapas, integración con servicios de ubicación y filtrado georreferenciado para mostrar puntos de denuncia por zona.                           | 16/11/2025         |
+| DenunciaYa-Backend  | feature/authorities-panel  | 0ee2be49563eef5906dd411e925e3a01192fd04d | feat(authorities): Add ResponsibleResourceFromDTOAssembler     | Implementación del assembler para transformar DTOs a recursos de dominio, estandarizando el formato de respuesta y asegurando compatibilidad con el panel de autoridades.        | 15/11/2025         |
 
 
 
