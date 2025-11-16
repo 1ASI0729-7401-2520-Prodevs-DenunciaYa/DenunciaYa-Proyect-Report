@@ -2826,11 +2826,10 @@ Herramienta utilizada : Trello
 Link trello:
 Screenshot  trello 
 
-| Sprint 3 | Sprint 3 |   |                                     |                                                                                                                               |                    |                 |                                                |
-|----------|-----------|---|-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|--------------------|-----------------|------------------------------------------------|
-| User Story | Work-Item / Task |   |                                 | Description                                                                                                                   | Estimation (Hours) | Assigned To     | Status (To do / In process / To review / Done) |
-| ID       | Title     | ID| Title                               |                                                                                                                               |                    |                 |                                                |
-|----------|-----------|----|-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|--------------------|-----------------|------------------------------------------------|
+|  Sprint 3  |                Sprint 3                |     |                                                                       |                                                                                                                                  |                    |             |                                                |
+|:----------:|:--------------------------------------:|:---:|:---------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------:|:------------------:|:-----------:|:----------------------------------------------:|
+| User Story |            Work-Item / Task            |     |                                                                       |                                                                                                                                  |                    |             |                                                |
+|     Id     |                 Title                  | Id  |                                 Title                                 |                                                           Description                                                            | Estimation (Hours) | Assigned To | Status (To do / In process / To review / Done) |
 | US09     | Selección de categoría                   | W01 | Crear módulo Category | Crear entidad, migración, repositorio y carga inicial de categorías                                                          | 3                  | Omar Rivera        | To Do                                          |
 | US10     | Registro de ubicación                     | W02 | Endpoint Ubicación   | Implementar endpoint para guardar coordenadas y dirección, asociado a denuncia                                               | 4                  | Franco Rioja     | To Do                                          |
 | US11     | Registro descripción de incidente         | W03 | Endpoint Descripción | Crear endpoint para guardar descripción básica y relacionarla con usuario y denuncia                                         | 3                  | Omar Rivera        | To Do                                          |
@@ -2850,6 +2849,22 @@ Screenshot  trello
 | US44     | Inicio de sesión                          | W17 | Login + JWT          | Endpoint login, verificación hash, generación de token JWT                                                                   | 4                  | Omar Rivera      | To Do                                          |
 | US45     | Recuperación de contraseña                | W18 | Token recovery       | Generar token temporal y enviarlo (método definido posteriormente)                                                           | 3                  | Omar Rivera      | To Do                                          |
 | US46     | Restablecimiento de contraseña            | W19 | Reset password       | Validar token, actualizar contraseña hasheada y registrar timestamp                                                           | 3                  | Omar Rivera      | To Do                                          |
+
+
+# 5.2.3.4.Development Evidence for Sprint Review.
+
+En esta seccion se muestran los commits que reflejan los avances importonantes durante el desarrollo e implementacion del backend para DenunciaYa.Los registros provienen del repositorio backend de nuestra organizacion de github
+
+Enlace al repositorio del backend: https://github.com/1ASI0729-7401-2520-Prodevs-DenunciaYa/DenunciaYa-Backend
+
+| Repository                                    | Branch                     | Commit Id                                | commit Message                                               | Commit Message Body | Commited on (Date) |
+|-----------------------------------------------|----------------------------|------------------------------------------|--------------------------------------------------------------|---------------------|--------------------|
+| DenunciaYa-Backend  | feature/complaint-creation |3bf4e32d624296391e28ecf224fba17c18a2425d  | feat(complaint-creation): Add Complaint Controller                                   |                     | 15/11/2025         |
+| DenunciaYa-Backend   | feature/community          |245223d449fe7124cc066358b51ef06aa7ee7a31  | feat(community): Add post controller                         |                     | 16/11/2025         |
+| DenunciaYa-Backend   | feature/map                | d10f495a97c2a939f33f7daa5bf754cb1db80cfd | feat(map): Implement map query service logic |                     | 16/06/2025         |
+| DenunciaYa-Backend   | feature/authorities-panel  |  | feat(authorities-panel):                                     |                     | 16/06/2025         |
+
+
 
 # 5.2.3.5.Execution Evidence for Sprint Review.
 # 5.2.3.6.Services Documentation Evidence for Sprint Review.
