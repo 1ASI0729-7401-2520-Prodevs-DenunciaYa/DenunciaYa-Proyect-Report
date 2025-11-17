@@ -3109,6 +3109,25 @@ La usuaria indicó que la interfaz administrativa le pareció ordenada y funcion
 
 ---
 
+
+### **ENTREVISTA 5**
+
+**Inicia:** 2:11
+**Duración:** 6:02
+**Nombre:** **Rodrigo Méndez Salazar**
+**Edad:** 46
+**Distrito:** Miraflores
+**Cargo:** Jefe de Gestión Pública y Servicios Municipales
+
+**Resumen:**
+Rodrigo Méndez, funcionario encargado de supervisar la atención de incidencias vecinales, probó la aplicación con el objetivo de evaluar su utilidad para autoridades municipales. Señaló que la navegación es clara y que la estructura de la landing page permite identificar rápidamente la propuesta de valor del sistema. Durante la prueba, pudo visualizar y gestionar reportes ciudadanos sin dificultades, confirmando que los filtros y el panel de seguimiento se comportan adecuadamente.
+
+Destacó que la aplicación facilita el acceso inmediato al detalle de cada denuncia, lo que considera esencial para priorizar y coordinar intervenciones. Mencionó que la generación de informes y métricas le resultó sencilla y que los gráficos son útiles para presentar avances en reuniones de gestión interna. También resaltó que la sección de comunicación con ciudadanos es intuitiva y permite mantener un registro ordenado de cada caso.
+
+A nivel de recomendaciones, sugirió incorporar indicadores comparativos por zonas del distrito y un sistema de alertas para incidencias recurrentes. Indicó que sí usaría el sistema de manera diaria dentro de su área, considerando que mejoraría la eficiencia de la respuesta municipal. Finalmente, afirmó que la aplicación tiene un alto potencial para mejorar la transparencia y la confianza ciudadana, al ofrecer un flujo claro de seguimiento y cierre de reportes.
+
+---
+
 ## 5.3.3. Evaluaciones según heurísticas
 
 Se aplicó el formato de evaluación heurística establecido para el proyecto. A continuación se presentan los resultados basados en la interacción de los usuarios con los prototipos.
