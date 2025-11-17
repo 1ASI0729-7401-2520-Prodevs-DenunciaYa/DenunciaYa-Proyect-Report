@@ -2998,8 +2998,18 @@ A continuación, se presenta la evidencia de la colaboración de cada integrante
 
 
 # Video About-the-Team.
+El equipo preparó un video recopilatorio que presenta sus principales resultados (outcomes) y los logros obtenidos en esta entrega.
 
+![abouttim.jpeg](../assets/sprint2/abouttim.jpeg)
+
+Link: https://www.youtube.com/watch?v=fP2gXCDxE2s
 # Video About-the-Product.
+
+El equipo elaboró un video recopilatorio que muestra los avances del proyecto y los resultados obtenidos en esta entrega. En él se evidencia el trabajo colaborativo del grupo y se presenta el funcionamiento del producto, con el propósito de transmitir confianza a los visitantes de la Landing Page y motivar su interacción e interés en la solución.
+
+![produc.jpeg](../assets/sprint2/produc.jpeg)
+
+Link: https://www.youtube.com/watch?v=-h8-yU7stLA
 
 # Conclusiones
 Durante el proceso de creación y desarrollo de este trabajo se llegaron a las siguientes conclusiones:
