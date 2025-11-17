@@ -3080,5 +3080,10 @@ lataforma fue diseñada para ser fácil de usar desde el primer momento. Su inte
 | Frontend     | Enlace al repositorio del frontend     | https://github.com/1ASI0729-7401-2520-Prodevs-DenunciaYa/DenunciaYa.-Frontend       |
 | Backend      | Enlace al repositorio del backend       | https://github.com/1ASI0729-7401-2520-Prodevs-DenunciaYa/DenunciaYa-Backend      |
 
+### Deployment
 
-
+| Título       | Enlace                                                                 |
+|--------------|-------------------------------------------------------------------------|
+| Landing Page | https://1asi0729-7401-2520-prodevs-denunciaya.github.io/DenunciaYa-Landing-Page/  |
+| Frontend     |https://denuncia-ya-frontend-git-develop-gabriels-projects-0a95c3fe.vercel.app?_vercel_share=IxALwofhAq8NHNUQzaMgCYi56z9BH6LS      |
+| Backend      |  https://denunciaya-backend.onrender.com/swagger-ui/index.html       |
