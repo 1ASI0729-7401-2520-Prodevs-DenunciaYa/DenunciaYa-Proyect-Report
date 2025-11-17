@@ -2998,6 +2998,150 @@ A continuación, se presenta la evidencia de la colaboración de cada integrante
 
 
 
+## 5.3. Validation Interviews
+
+En esta sección se registran y explican las actividades de entrevistas de validación realizadas durante el proyecto. Se llevaron a cabo entrevistas donde usuarios de los segmentos objetivo interactuaron tanto con la landing page como con la aplicación web de DenunciaYa, con el fin de validar la usabilidad, funcionalidad y experiencia de usuario de ambos productos digitales.
+
+---
+
+## 5.3.1. Diseño de Entrevistas
+
+En esta sección se establecen los elementos a incluir en las sesiones de validación para cada segmento objetivo.
+![Diseño de Entrevistas.jpeg](../assets/Validation.png)
+### Segmento #1: Ciudadanos
+
+**Objetivo de la validación:**  
+Evaluar la usabilidad y funcionalidad de la landing page y la aplicación web desde la perspectiva de los ciudadanos, validando que les permita reportar incidencias de manera eficiente, visualizar el estado de sus denuncias y acceder fácilmente a información relevante de su distrito.
+
+**Preguntas específicas para ciudadanos:**
+
+**Usabilidad y Navegación:**
+- ¿Qué características de la aplicación web usaría en su día a día?
+- ¿Qué tan fácil le resultó navegar entre las diferentes secciones de la landing page?
+- ¿Considera que la plataforma es intuitiva en el proceso de registro y envío de denuncias?
+
+**Funcionalidad específica:**
+- ¿Qué características le parecen más relevantes o útiles dentro del sistema?
+- ¿El proceso de envío de una denuncia le resultó claro y sencillo?
+- ¿La sección de gráficos sobre incidencias le permitió entender mejor la situación de su distrito?
+- ¿Recibió correctamente las notificaciones y actualizaciones del estado de la denuncia?
+
+**Experiencia personal:**
+- ¿Usaría este sistema en su día a día?
+- ¿Recomendaría esta aplicación a otros ciudadanos?
+- ¿Qué mejoraría para que la plataforma se adapte mejor a sus necesidades?
+
+**Percepción del análisis de datos:**
+- ¿Considera que es importante la pantalla de gráficos?
+- ¿Los gráficos presentados le ayudaron a comprender mejor la frecuencia y el tipo de denuncias en su zona?
+
+---
+
+### Segmento #2: Autoridades Municipales
+
+**Objetivo de la validación:**  
+Evaluar la aplicación web desde la perspectiva de autoridades responsables de la gestión de denuncias ciudadanas, validando la utilidad del sistema para el seguimiento, clasificación y resolución de incidencias en tiempo real.
+
+**Preguntas específicas para autoridades:**
+
+**Usabilidad y Navegación:**
+- ¿Qué tan intuitivo le resultó acceder a las denuncias registradas por los ciudadanos?
+- ¿Pudo filtrar, categorizar o asignar denuncias sin dificultad?
+
+**Funcionalidad específica:**
+- ¿Qué características considera más útiles para la gestión municipal?
+- ¿La sección de métricas y gráficos le brindó información relevante para la toma de decisiones?
+- ¿El sistema permite realizar un seguimiento adecuado de cada denuncia?
+
+**Experiencia profesional:**
+- ¿Implementaría este sistema en su municipalidad?
+- ¿Qué funcionalidades considera necesarias para mejorar la gestión de denuncias públicas?
+
+---
+
+## 5.3.2. Registro de Entrevistas
+
+A continuación se presenta el registro de entrevistas realizadas a los segmentos definidos.
+
+### Segmento: Ciudadanos
+
+**Entrevista 1**  
+**Nombre:** George García  
+**Edad:** 28  
+**Distrito:** Jesús María  
+
+**Resumen:**  
+El usuario indicó que la plataforma le resultó fácil de usar desde el primer momento. Mencionó que utilizaría con mayor frecuencia la función de envío de denuncias y la visualización del historial de sus reportes. Consideró como características más relevantes la claridad del formulario de denuncias, el estado detallado de cada caso y la opción de recibir notificaciones. Señaló que usaría el sistema de manera frecuente debido a los problemas recurrentes en su zona. También afirmó que la pantalla de gráficos es importante, ya que le permite conocer cuáles son los problemas más comunes en su distrito, lo que le ayuda a entender mejor la situación general.
+
+---
+
+**Entrevista 2**  
+**Nombre:** Marllely Cid  
+**Edad:** 23  
+**Distrito:** Independencia  
+
+**Resumen:**  
+La usuaria destacó que la aplicación es intuitiva y que las secciones están bien distribuidas. Indicó que usaría diariamente el módulo de comunidad y el sistema de denuncias rápidas. Consideró más relevantes las funciones de anonimato, la carga de evidencia en tiempo real y el seguimiento del progreso de la denuncia. Mencionó que sí usaría este sistema en su día a día, especialmente cuando observe incidentes en su ruta diaria. Respecto a la pantalla de gráficos, comentó que es fundamental para mantenerse informada sobre los índices de seguridad y limpieza en su distrito, considerándola una herramienta útil para tomar decisiones personales.
+
+---
+
+### Segmento: Autoridades Municipales
+
+**Entrevista 3**  
+**Nombre:** Alejandro Torres  
+**Cargo:** Analista de Gestión Municipal  
+**Edad:** 34  
+**Distrito:** Cercado de Lima  
+
+**Resumen:**  
+El usuario reportó que la navegación en el panel administrativo fue clara y que pudo gestionar denuncias sin dificultad. Resaltó como características más útiles la clasificación automática por categorías, el estado de avance y los reportes descargables. Mencionó que los gráficos ayudan a detectar patrones y zonas críticas del distrito y que la plataforma podría mejorar la rapidez del proceso de atención. Consideró viable implementar el sistema en su municipalidad debido a su simplicidad y eficiencia.
+
+---
+
+**Entrevista 4**  
+**Nombre:** Carolina Méndez  
+**Cargo:** Coordinadora de Servicios Públicos  
+**Edad:** 31  
+**Distrito:** San Luis  
+
+**Resumen:**  
+La usuaria indicó que la interfaz administrativa le pareció ordenada y funcional. Destacó la utilidad del filtro avanzado de denuncias y la asignación directa al personal operativo. Consideró que la sección de métricas es especialmente importante para justificar recursos y priorizar intervenciones. Señaló que la plataforma facilita la comunicación entre ciudadanos y autoridades, y que sería beneficiosa si se integra con canales externos como WhatsApp municipal. Afirmó que el sistema tiene alto potencial para mejorar la gestión pública.
+
+---
+
+## 5.3.3. Evaluaciones según heurísticas
+
+Se aplicó el formato de evaluación heurística establecido para el proyecto. A continuación se presentan los resultados basados en la interacción de los usuarios con los prototipos.
+
+### 1. Visibilidad del estado del sistema  
+Los usuarios pudieron identificar con claridad el estado de cada denuncia, los cambios en tiempo real y las notificaciones generadas por el sistema.
+
+### 2. Relación entre el sistema y el mundo real  
+El uso de categorías comunes, etiquetas simples y lenguaje cotidiano facilitó la comprensión tanto para ciudadanos como para autoridades.
+
+### 3. Control y libertad del usuario  
+Los usuarios pudieron editar, cancelar o reenviar denuncias sin complicaciones, manteniendo el control sobre sus acciones dentro de la plataforma.
+
+### 4. Consistencia y estandarización  
+La estructura del diseño, los colores del estado de denuncias y la ubicación de elementos fueron reconocidos fácilmente por todos los entrevistados.
+
+### 5. Prevención de errores  
+El sistema presenta validaciones adecuadas al registrar evidencias o completar formularios, reduciendo posibles errores del usuario.
+
+### 6. Reconocer antes que recordar  
+Las funciones principales están visibles desde la navegación principal, evitando la necesidad de memorizar rutas específicas.
+
+### 7. Flexibilidad y eficiencia de uso  
+Tanto ciudadanos como autoridades pudieron completar tareas sin necesidad de instrucciones adicionales, demostrando eficiencia en el flujo.
+
+### 8. Diseño estético y minimalista  
+La interfaz está libre de elementos innecesarios y mantiene un diseño limpio, lo que facilita la lectura y la interacción.
+
+### 9. Ayuda y documentación  
+La sección de soporte y preguntas frecuentes fue suficiente para aclarar dudas comunes durante las pruebas.
+
+
+
 
 # Video About-the-Team.
 El equipo preparó un video recopilatorio que presenta sus principales resultados (outcomes) y los logros obtenidos en esta entrega.
