@@ -2997,6 +2997,8 @@ A continuación, se presenta la evidencia de la colaboración de cada integrante
 ![backev.jpeg](../assets/sprint2/backev.jpeg)
 
 
+
+
 # Video About-the-Team.
 El equipo preparó un video recopilatorio que presenta sus principales resultados (outcomes) y los logros obtenidos en esta entrega.
 
