@@ -3001,7 +3001,7 @@ A continuación, se presenta la evidencia de la colaboración de cada integrante
 ## 5.3. Validation Interviews
 
 En esta sección se registran y explican las actividades de entrevistas de validación realizadas durante el proyecto. Se llevaron a cabo entrevistas donde usuarios de los segmentos objetivo interactuaron tanto con la landing page como con la aplicación web de DenunciaYa, con el fin de validar la usabilidad, funcionalidad y experiencia de usuario de ambos productos digitales.
-
+url: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202214214_upc_edu_pe/IQClHrr67fHITLTc-p4XVZKMARGYdlQJOfl7Wc7Hsc-yAhU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=NkhpO9
 ---
 
 ## 5.3.1. Diseño de Entrevistas
