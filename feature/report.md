@@ -88,7 +88,7 @@ Para la primera entrega (TB1), se trabajó mediante el uso de branches en GitHub
 Para la entrega del trabajo parcial, se corrigieron los puntos observados según la retroalimentación recibida. Además, se añadió el Sprint 2.
 **Evidencia de colaboración**
 
-![evidencitp.jpeg]![evidenciatp.jpeg](../assets/evidenciatp.jpeg)(../assets/evidencitp.jpeg)
+![evidencitp.jpeg]![evidenciatp.jpeg](../assets/evidenciatp.jpeg)
 
 #### TB2::
 **Evidencia de colaboración**
