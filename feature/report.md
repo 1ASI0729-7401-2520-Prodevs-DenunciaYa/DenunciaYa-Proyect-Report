@@ -3058,10 +3058,12 @@ lataforma fue diseñada para ser fácil de usar desde el primer momento. Su inte
 
 ### VIDEOS:
 
-| Título                  | Descripción                                        | Enlace                          |
-|-------------------------|----------------------------------------------------|---------------------------------|
-| Video de  TB1 | Video explicativo de los avances de la entrega TB1 | https://upcedupe-my.sharepoint.com/personal/u202214214_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202214214%5Fupc%5Fedu%5Fpe%2FDocuments%2FCapitulo%201%20%281%29%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Eb0ddff37%2D271b%2D4c6d%2D95b7%2D4c12d293ff46   |
-| Video de entrevistas    | Video recopilatorio de todas las entrevistas       | https://upcedupe-my.sharepoint.com/personal/u202214214_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202214214%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202520%2D1asi0729%2D7401%2DDenunciaYa%2D%20needfinding%2Dsprint%2D1%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E52aaaa7a%2D885d%2D47d5%2Db030%2Da3763cd97698    |
+| Título                     | Descripción                                            | Enlace                          |
+|----------------------------|--------------------------------------------------------|---------------------------------|
+| Video de  TB1              | Video explicativo de los avances de la entrega TB1     | https://upcedupe-my.sharepoint.com/personal/u202214214_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202214214%5Fupc%5Fedu%5Fpe%2FDocuments%2FCapitulo%201%20%281%29%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Eb0ddff37%2D271b%2D4c6d%2D95b7%2D4c12d293ff46   |
+| Video de entrevistas       | Video recopilatorio de todas las entrevistas           | https://upcedupe-my.sharepoint.com/personal/u202214214_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202214214%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202520%2D1asi0729%2D7401%2DDenunciaYa%2D%20needfinding%2Dsprint%2D1%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E52aaaa7a%2D885d%2D47d5%2Db030%2Da3763cd97698    |
+| Video de  about the team   | Video explicativo de cada integrante sobre el proyecto | https://youtu.be/fP2gXCDxE2s  |
+| Video de about the product | Video explicativo sobre el producto                    |https://youtu.be/-h8-yU7stLA   |
 
 
 ### UX/UI
@@ -3075,5 +3077,8 @@ lataforma fue diseñada para ser fácil de usar desde el primer momento. Su inte
 |--------------|----------------------------------------|----------------------------------------------------------------|
 | Reporte      | Enlace al repositorio del reporte      | https://github.com/1ASI0729-7401-2520-Prodevs-DenunciaYa/DenunciaYa-Proyect-Report        |
 | Landing Page | Enlace al repositorio del Landing Page | https://github.com/1ASI0729-7401-2520-Prodevs-DenunciaYa/DenunciaYa-Landing-Page       |
+| Frontend     | Enlace al repositorio del frontend     | https://github.com/1ASI0729-7401-2520-Prodevs-DenunciaYa/DenunciaYa.-Frontend       |
+| Backend      | Enlace al repositorio del backend       | https://github.com/1ASI0729-7401-2520-Prodevs-DenunciaYa/DenunciaYa-Backend      |
+
 
 
