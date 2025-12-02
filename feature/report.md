@@ -885,17 +885,6 @@ A continuación, se presenta el Ubiquitous Language desarrollado para el sistema
 
 ---
 
-## Directorio
-| Término             | Definición                                                                 |
-|---------------------|----------------------------------------------------------------------------|
-| Directorio de recursos | Listado de oficinas, contactos y recursos relevantes.                     |
-| Filtros de directorio | Filtrar por región o distrito.                                             |
-| Búsqueda de directorio | Localizar oficinas/contactos por nombre o palabra clave.                  |
-| Detalle de contacto | Información detallada (dirección, teléfono, correo, horario).               |
-| Acceso extendido    | Vista adicional para autoridades (responsables, jerarquía interna).         |
-
----
-
 ## Historial de Intervenciones
 | Término                 | Definición                                                                 |
 |-------------------------|----------------------------------------------------------------------------|
