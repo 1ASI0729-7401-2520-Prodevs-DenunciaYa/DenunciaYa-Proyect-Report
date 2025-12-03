@@ -3058,7 +3058,7 @@ Durante este sprint se implementaron y desplegaron satisfactoriamente las funcio
 
 #### Objetivos alcanzados:
 
-- Implementación, validación y documentación de controladores REST para los Bounded Contexts: **Responsibles, Complaints, Map, Posts y Comments**.
+- Implementación, validación y documentación de controladores REST para los Bounded Contexts: **Authentication, Profile, Users, Complaint Assigments, Responsibles, Complaints, Map, Posts y Comments**.
 - Configuración del entorno productivo mediante **Environment Variables** siguiendo buenas prácticas de seguridad y despliegue.
 - Deployment exitoso del backend en **Render Cloud**, con persistencia real de datos.
 - Publicación del **Swagger UI** para pruebas, depuración y verificación funcional externa.
@@ -3067,9 +3067,10 @@ Durante este sprint se implementaron y desplegaron satisfactoriamente las funcio
 A continuación, se presentan capturas de pantalla obtenidas desde el entorno productivo, demostrando el funcionamiento y correcta documentación de los endpoints:
 
 ![render](../assets/sprint2/render.jpeg)
-![swagger1](../assets/sprint2/swagger1.jpeg)
-![swagger2](../assets/sprint2/swagger2.jpeg)
-![swagger3](../assets/sprint2/swagger3.jpeg)
+![swagger1](../assets/sprint4/swaggerBack.png)
+![swagger2](../assets/sprint4/swaggerBack1.png)
+![swagger3](../assets/sprint4/swaggerBack2.png)
+![swagger3](../assets/sprint4/swaggerBack3.png)
 
 #### Enlace del despliegue
 Documentación pública de la API REST (Swagger UI):
@@ -3079,30 +3080,28 @@ Documentación pública de la API REST (Swagger UI):
 
 # 5.2.4.6.Services Documentation Evidence for Sprint Review.
 
-Durante este sprint se desarrolló, documentó y validó el backend del sistema DenunciaYa, asegurando que los endpoints cumplan con los lineamientos REST, estén correctamente documentados mediante OpenAPI/Swagger y puedan ser consumidos por usuarios o desarrolladores a través de herramientas como Postman.
+Durante este sprint se desarrolló, documentó y validó el backend del sistema DenunciaYa, agregando y asegurando que los endpoints cumplan con los lineamientos REST, estén correctamente documentados mediante OpenAPI/Swagger y puedan ser consumidos por usuarios o desarrolladores a través de herramientas como Postman.
 
 
 ##  Tabla de Endpoints Documentados
 
-| Módulo        | Método | Endpoint                                           | Descripción                                        | Parámetros                        |
-|---------------|---------|----------------------------------------------------|----------------------------------------------------|-----------------------------------|
-| Responsibles  | GET     | `/api/v1/responsibles`                             | Retorna la lista de responsables                   | N/A                               |
-| Responsibles  | POST    | `/api/v1/responsibles`                             | Crea un nuevo responsable                          | Body (JSON)                       |
-| Responsibles  | GET     | `/api/v1/responsibles/{id}`                        | Obtiene un responsable por ID                      | `id` (path)                       |
-| Responsibles  | DELETE  | `/api/v1/responsibles/{id}`                        | Elimina un responsable                             | `id` (path)                       |
-| Complaints    | GET     | `/api/v1/complaints`                               | Lista todas las denuncias                          | Query opcionales                  |
-| Complaints    | POST    | `/api/v1/complaints`                               | Crea una nueva denuncia                            | Body (JSON)                       |
-| Complaints    | GET     | `/api/v1/complaints/{complaintId}`                 | Obtiene denuncia por ID                            | `complaintId` (path)              |
-| Complaints    | PUT     | `/api/v1/complaints/{complaintId}`                 | Actualiza una denuncia completa                    | `complaintId` + Body (JSON)       |
-| Complaints    | PATCH   | `/api/v1/complaints/{complaintId}/status`          | Actualiza solo el estado de una denuncia           | `complaintId` + Body (JSON)       |
-| Map           | GET     | `/api/v1/map/complaints`                           | Retorna denuncias geolocalizadas                   | Query opcionales                  |
-| Posts         | GET     | `/api/v1/posts`                                    | Retorna los posts de la comunidad                  | N/A                               |
-| Posts         | POST    | `/api/v1/posts`                                    | Crea un nuevo post                                 | Body (JSON)                       |
-| Posts         | GET     | `/api/v1/posts/{postId}`                           | Recupera un post mediante ID                       | `postId` (path)                   |
-| Posts         | DELETE  | `/api/v1/posts/{postId}`                           | Elimina un post                                    | `postId` (path)                   |
-| Comments      | GET     | `/api/v1/posts/{postId}/comments`                  | Lista comentarios de un post                       | `postId` (path)                   |
-| Comments      | POST    | `/api/v1/posts/{postId}/comments`                  | Crea un comentario en un post                      | `postId` + Body (JSON)            |
-
+| Módulo                | Método | Endpoint                                                           | Descripción                                            | Parámetros                   |
+| --------------------- | ------ | ------------------------------------------------------------------ | ------------------------------------------------------ | ---------------------------- |
+| Roles                 | GET    | `/api/v1/roles`                                                    | Obtiene todos los roles disponibles                    | N/A                          |
+| Profiles              | GET    | `/api/v1/profiles`                                                 | Lista todos los perfiles                               | N/A                          |
+| Profiles              | POST   | `/api/v1/profiles`                                                 | Crea un nuevo perfil                                   | Body (JSON)                  |
+| Profiles              | GET    | `/api/v1/profiles/{profileId}`                                     | Obtiene un perfil por ID                               | `profileId` (path)           |
+| Authentication        | POST   | `/api/v1/authentication/sign-up`                                   | Registra un nuevo usuario                              | Body (JSON)                  |
+| Authentication        | POST   | `/api/v1/authentication/sign-in`                                   | Inicia sesión y genera JWT                             | Body (JSON)                  |
+| Complaint Assignments | POST   | `/api/v1/complaint-assignments`                                    | Asigna una denuncia a un responsable                   | Body (JSON)                  |
+| Complaint Assignments | GET    | `/api/v1/complaint-assignments/{assignmentId}`                     | Obtiene una asignación por ID                          | `assignmentId` (path)        |
+| Complaint Assignments | PUT    | `/api/v1/complaint-assignments/{assignmentId}/status`              | Actualiza el estado de una asignación                  | `assignmentId` + Body (JSON) |
+| Complaint Assignments | PUT    | `/api/v1/complaint-assignments/{assignmentId}/reassign`            | Reasigna una denuncia a otro responsable               | `assignmentId` + Body (JSON) |
+| Complaint Assignments | GET    | `/api/v1/complaint-assignments/responsible/{responsibleId}/count`  | Obtiene el conteo de denuncias activas por responsable | `responsibleId` (path)       |
+| Complaint Assignments | GET    | `/api/v1/complaint-assignments/responsible/{responsibleId}/active` | Lista asignaciones activas por responsable             | `responsibleId` (path)       |
+| Complaint Assignments | GET    | `/api/v1/complaint-assignments/complaint/{complaintId}/history`    | Historial de asignaciones de una denuncia              | `complaintId` (path)         |
+| Users                 | GET    | `/api/v1/users`                                                    | Obtiene todos los usuarios                             | N/A                          |
+| Users                 | GET    | `/api/v1/users/{userId}`                                           | Obtiene un usuario por ID                              | `userId` (path)              |
 
 
 # 5.2.4.7.Software Deployment Evidence for Sprint Review.
