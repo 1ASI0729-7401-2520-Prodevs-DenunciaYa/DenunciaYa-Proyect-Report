@@ -2985,18 +2985,20 @@ A continuación se presenta el acta correspondiente a la planificación del Spri
 | **Sum of Story Points** | 5 story points|
 
 # 5.2.4.2. Aspect Leaders and Collaborators.
-En esta sección se muestran los encargados designados para cada área de trabajo. Para este primer Sprint, los productos a entregar se han estructurado en tres secciones claramente definidas.
+En esta sección se muestran los encargados designados para cada área de trabajo. Para este cuarto Sprint, los productos a entregar se han estructurado en tres secciones claramente definidas.
 
 
-| Team member (LastName, First Name)                              | GitHub UserName | Aspect 1: Complaint Creation BC (L/C) | Aspect 2: Community BC (L/C) | Aspect 3: Map BC (L/C) | Aspect 4: Authentication BC (L/C) | Aspect 5: Authorit BC (L/C) |
-|------------------------------------------------------------------|-----------------|---------------------------------------|------------------------------|------------------------|-----------------------------------|-----------------------------|
-| Mamani Marca, Gabriel Cristian                                   | Gabriel0105     | C                                     | L                            | C                      | C                                 | C                           |
-| Rivera Ticllacuri, Omar Harold                                   | TicSide         | L                                     | C                            | C                      | L                                 | C                           |
-| Rioja Núñez, Franco Diego                                        | FrancoDiegoR    | C                                     | C                            | L                      | C                                 | C                           |
-| Brabuaite Toledo, Gabriel Anthony                                | Gaboo04         | C                                     | C                            | C                      | C                                 | L                           |
-| Montes Maza, Augusto Sebastián                                   | Sebastian       | C                                     | C                            | C                      | C                                 | L                           |
+| Team member (LastName, First Name)                              | GitHub UserName | Aspect 1: Authority Panel BC (L/C) | Aspect 2: Profile BC (L/C) | Aspect 3: Map BC (L/C) | Aspect 4: Authentication IAM BC (L/C) |
+|------------------------------------------------------------------|-----------------|---------------------------------------|------------------------------|------------------------|-----------------------------------|
+| Mamani Marca, Gabriel Cristian                                   | Gabriel0105     | C                                     | L                            | C                      | L                                 |
+| Rivera Ticllacuri, Omar Harold                                   | TicSide         | L                                     | C                            | C                      | L                                 | 
+| Rioja Núñez, Franco Diego                                        | FrancoDiegoR    | L                                     | C                            | L                      | C                                 | 
+| Brabuaite Toledo, Gabriel Anthony                                | Gaboo04         | L                                     | C                            | C                      | C                                 | 
+| Montes Maza, Augusto Sebastián                                   | Sebastian       | C                                     | L                            | C                      | C                                 | 
+| Montes Maza, Luis |                    Luiso-AM       | C                                     | L                            | C                      | C                                 | 
 
 
+# FALTA
 # 5.2.4.3.Sprint Backlog 4.
 El Sprint 4 tuvo como objetivo implementar el sistema de autenticación en el backend y agregar funcionalidades esenciales para mejorar el flujo de la plataforma DenunciaYa. Durante este sprint se desarrolló el módulo de autenticación con JWT, se añadieron nuevas funciones relacionadas con la gestión de denuncias y usuarios, y se realizaron las correcciones necesarias en los endpoints existentes. Además, se verificó nuevamente la conexión con la base de datos y se optimizaron algunos procesos internos.
 
@@ -3075,7 +3077,7 @@ Documentación pública de la API REST (Swagger UI):
 
 
 
-# 5.2.3.6.Services Documentation Evidence for Sprint Review.
+# 5.2.4.6.Services Documentation Evidence for Sprint Review.
 
 Durante este sprint se desarrolló, documentó y validó el backend del sistema DenunciaYa, asegurando que los endpoints cumplan con los lineamientos REST, estén correctamente documentados mediante OpenAPI/Swagger y puedan ser consumidos por usuarios o desarrolladores a través de herramientas como Postman.
 
@@ -3103,7 +3105,7 @@ Durante este sprint se desarrolló, documentó y validó el backend del sistema 
 
 
 
-# 5.2.3.7.Software Deployment Evidence for Sprint Review.
+# 5.2.4.7.Software Deployment Evidence for Sprint Review.
 
 #### El frontend se desplego usando la herramienta de versel
 
@@ -3148,7 +3150,7 @@ Los servicios del backend se desarrollarán en Java con Spring Boot. El backend 
 
 ![evi4.jpeg](../assets/sprint2/evi4.jpeg)
 
-## 5.2.3.8. Team Collaboration Insights during Sprint
+## 5.2.4.8. Team Collaboration Insights during Sprint
 
 A continuación, se presenta la evidencia de la colaboración de cada integrante en los repositorios del frontend y backend.
 
