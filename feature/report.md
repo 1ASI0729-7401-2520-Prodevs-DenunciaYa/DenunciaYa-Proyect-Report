@@ -5,19 +5,28 @@
 
 ### Carrera: Ingeniería de Software
 
-### Desarrollo de Aplicaciones Open Source - Presencial (1ASI0729)
+### Periodo: 202520
 
-### Profesor: Hugo Allan Mori Paiva
+### Nombre del curso: Desarrollo de Aplicaciones Open Source - Presencial 
 
 ### NRC: 7401
 
-## Informe - TB2
+### Nombre del profesor: Hugo Allan Mori Paiva
 
-## Startup: Prodevs
+## Informe de Trabajo Final
 
-## Producto: DenunciaYa
+## Nombre del startup: Prodevs
 
-### INTEGRANTES
+## Nombre del producto: DenunciaYa
+
+(1ASI0729)
+
+
+
+
+
+### Relación de integrantes:
+
 
 <div style="text-align: center;">
 
@@ -31,7 +40,7 @@
 
 </div>
 
-### Ciclo 2025-20
+### Diciembre,2025
 
 ---
 
