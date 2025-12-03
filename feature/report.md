@@ -2806,7 +2806,7 @@ Repositorio del backend: https://github.com/1ASI0729-7401-2520-Prodevs-DenunciaY
 | DenunciaYa-Backend  | feature/complaint-creation | 3bf4e32d624296391e28ecf224fba17c18a2425d | feat(complaint-creation): Add Complaint Controller            | Implementación del controlador principal de denuncias, mapeo de endpoints REST, integración con capa de servicio y definición del modelo inicial de petición y respuesta.          | 15/11/2025         |
 | DenunciaYa-Backend  | feature/community          | 245223d449fe7124cc066358b51ef06aa7ee7a31 | feat(community): Add post controller                           | Se agregó el controlador para publicaciones comunitarias, permitiendo la gestión de posts, estructura CRUD inicial y validaciones básicas de entrada.                              | 16/11/2025         |
 | DenunciaYa-Backend  | feature/map                | d10f495a97c2a939f33f7daa5bf754cb1db80cfd | feat(map): Implement map query service logic                  | Desarrollo de lógica de consulta de mapas, integración con servicios de ubicación y filtrado georreferenciado para mostrar puntos de denuncia por zona.                           | 16/11/2025         |
-| DenunciaYa-Backend  | feature/authorities-panel  | 0ee2be49563eef5906dd411e925e3a01192fd04d | feat(authorities): Add ResponsibleResourceFromDTOAssembler     | Implementación del assembler para transformar DTOs a recursos de dominio, estandarizando el formato de respuesta y asegurando compatibilidad con el panel de autoridades.        | 15/11/2025         |
+| DenunciaYa-Backend  | feature/authorities-panel  | 0ee2be49563eef5906dd411e925e3a01192fd04d | feat(authorities): Add ResponsibleResourceFromResourceAssembler     | Implementación del assembler para transformar recursos de dominio, estandarizando el formato de respuesta y asegurando compatibilidad con el panel de autoridades.        | 15/11/2025         |
 
 # 5.2.3.5. Execution Evidence for Sprint Review
 
@@ -2936,19 +2936,268 @@ A continuación, se presenta la evidencia de la colaboración de cada integrante
 
 
 
-## 5.3. Validation Interviews
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 5.2.4. Sprint 4
+# 5.2.4.1.Spring Planning 4
+
+A continuación se presenta el acta correspondiente a la planificación del Sprint 4, en la cual se establecieron los objetivos principales y las actividades que se desarrollarán durante este periodo.
+
+### Sprint 4
+
+
+
+| **Campo** | **Detalle**|
+| ---------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint Planning Background**     | En esta reunión se definió el enfoque del Sprint 4, orientado a finalizar las funcionalidades esenciales del backend, implementar el sistema de autenticación, realizar correcciones pendientes y asegurar la versión final conectada con el frontend.|
+| **Date**|02/12/2025|
+| **Time**| 9:00 pm|
+| **Location**| Vía Discord|
+| **Prepared By** | Rivera Ticllacuri, Omar Harold|
+| **Attendees** | Rivera Ticllacuri Omar Harold, Mamani Marca Gabriel Cristian, Rioja Núñez Franco Diego, Brabuaite Toledo Gabriel Anthony, Montes Maza Augusto Sebastián, Luis|
+| **Sprint 4 Review Summary** | Se revisaron los avances del backend, incluyendo la implementación de la autenticación con JWT, la integración de funcionalidades esenciales y las correcciones aplicadas a los Web Services. Asimismo, se verificó la conexión final con el frontend y se validó el comportamiento esperado de los módulos principales antes del despliegue. |
+| **Sprint 4 Retrospective Summary** | Se identificó una mejora notable en la coordinación del equipo y la gestión de tareas. También se discutió la necesidad de seguir optimizando la planificación interna, mantener una comunicación clara y reforzar el seguimiento de los objetivos de cada sprint para asegurar entregas más eficientes.                                      |
+| **Sprint 4 Goal**                  | Entregar la versión final del backend completamente funcional, con autenticación implementada, correcciones aplicadas y servicios listos para su integración y despliegue junto al frontend. Garantizar el funcionamiento correcto de los módulos principales (denuncias, mapa, comunidad, autoridades e i18n) en un entorno estable.         |
+| **Sprint 4 Velocity** | 5 story points    |
+| **Sum of Story Points** | 5 story points|
+
+# 5.2.4.2. Aspect Leaders and Collaborators.
+En esta sección se muestran los encargados designados para cada área de trabajo. Para este primer Sprint, los productos a entregar se han estructurado en tres secciones claramente definidas.
+
+
+| Team member (LastName, First Name)                              | GitHub UserName | Aspect 1: Complaint Creation BC (L/C) | Aspect 2: Community BC (L/C) | Aspect 3: Map BC (L/C) | Aspect 4: Authentication BC (L/C) | Aspect 5: Authorit BC (L/C) |
+|------------------------------------------------------------------|-----------------|---------------------------------------|------------------------------|------------------------|-----------------------------------|-----------------------------|
+| Mamani Marca, Gabriel Cristian                                   | Gabriel0105     | C                                     | L                            | C                      | C                                 | C                           |
+| Rivera Ticllacuri, Omar Harold                                   | TicSide         | L                                     | C                            | C                      | L                                 | C                           |
+| Rioja Núñez, Franco Diego                                        | FrancoDiegoR    | C                                     | C                            | L                      | C                                 | C                           |
+| Brabuaite Toledo, Gabriel Anthony                                | Gaboo04         | C                                     | C                            | C                      | C                                 | L                           |
+| Montes Maza, Augusto Sebastián                                   | Sebastian       | C                                     | C                            | C                      | C                                 | L                           |
+
+
+# 5.2.4.3.Sprint Backlog 4.
+El Sprint 4 tuvo como objetivo implementar el sistema de autenticación en el backend y agregar funcionalidades esenciales para mejorar el flujo de la plataforma DenunciaYa. Durante este sprint se desarrolló el módulo de autenticación con JWT, se añadieron nuevas funciones relacionadas con la gestión de denuncias y usuarios, y se realizaron las correcciones necesarias en los endpoints existentes. Además, se verificó nuevamente la conexión con la base de datos y se optimizaron algunos procesos internos.
+
+Herramienta utilizada : Trello
+Link trello: https://trello.com/invite/b/691a64125d6f52f38902ddaf/ATTI5675e3380a6defab8d211abac49cf0832652CB92/denunciaya
+
+![trell.jpeg](../assets/sprint2/trell.jpeg)
+
+|  Sprint 4  |                Sprint 4                |     |                                                                       |                                                                                                                                  |                    |             |                                                |
+|:----------:|:--------------------------------------:|:---:|:---------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------:|:------------------:|:-----------:|:----------------------------------------------:|
+| User Story |            Work-Item / Task            |     |                                                                       |                                                                                                                                  |                    |             |                                                |
+|     Id     |                 Title                  | Id  |                                 Title                                 |                                                           Description                                                            | Estimation (Hours) | Assigned To | Status (To do / In process / To review / Done) |
+| US09     | Selección de categoría                   | W01 | Crear módulo Category | Crear entidad, migración, repositorio y carga inicial de categorías                                                          | 3                  | Omar Rivera        | To Do                                          |
+| US10     | Registro de ubicación                     | W02 | Endpoint Ubicación   | Implementar endpoint para guardar coordenadas y dirección, asociado a denuncia                                               | 4                  | Franco Rioja     | To Do                                          |
+| US11     | Registro descripción de incidente         | W03 | Endpoint Descripción | Crear endpoint para guardar descripción básica y relacionarla con usuario y denuncia                                         | 3                  | Omar Rivera        | To Do                                          |
+| US12     | Descripción detallada del incidente       | W04 | Validación avanzada  | Sanitizar descripción, aplicar reglas de contenido y máximo de caracteres                                                     | 2                  | Omar Rivera        | To Do                                          |
+| US13     | Adjuntar evidencias                       | W05 | Servicio archivos     | Implementar lógica para guardar imágenes/videos en FileSystem o Cloud (pendiente decisión)                                    | 5                  | Omar Rivera        | To Do                                          |
+| US14     | Guardar denuncia como borrador            | W06 | Estado Draft         | Incorporar flag "draft" y permitir update parcial                                                                            | 3                  | Omar Rivera        | To Do                                          |
+| US15     | Revisión de datos antes de enviar         | W07 | Endpoint Preview     | Retornar datos ingresados antes del envío final                                                                              | 3                  | Omar Rivera        | To Do                                          |
+| US16     | Envío y código de seguimiento             | W08 | Generar tracking ID  | Asignar UUID único, actualizar estado y registrar fecha/hora                                                                 | 3                  | Omar Rivera        | To Do                                          |
+| US17     | Ver historial básico                      | W09 | Listado denuncias    | Obtener denuncias por usuario autenticado, orden básico                                                                      | 4                  | Gabriel Mamani   | To Do                                          |
+| US18     | Ver detalles de denuncia                  | W10 | Endpoint detalle     | Mostrar detalle completo con evidencias y metadatos                                                                          | 4                  | Gabriel Mamani   | To Do                                          |
+| US19     | Filtrar denuncias                         | W11 | Filtro avanzado      | Implementar filtros por categoría, estado, fecha, ubicación                                                                  | 5                  | Gabriel Mamani   | To Do                                          |
+| US20     | Ordenar denuncias                         | W12 | Orden dinámico       | Implementar orden ASC/DESC según fecha o estado                                                                              | 3                  | Gabriel Mamani   | To Do                                          |
+| US21     | Buscar denuncias                          | W13 | Buscador global      | Agregar búsqueda por palabra clave, número o categoría                                                                       | 4                  | Gabriel Mamani   | To Do                                          |
+| US22     | Timeline de seguimiento                   | W14 | Módulo Timeline      | Crear tabla de eventos, relación con denuncia y endpoint para retornar histórico                                             | 6                  | Gabriel Mamani   | To Do                                          |
+| US42     | Registro de ciudadanos                    | W15 | Endpoint registro    | POST /users – validaciones, roles, encriptación y persistencia                                                               | 4                  | Omar Rivera      | To Do                                          |
+| US43     | Registro de autoridades                   | W16 | Registro autoridades | POST /authorities – validación de rol Authority y persistencia                                                               | 4                  | Gabriel Brabuaite/Sebastián Montes | To Do                                       |
+| US44     | Inicio de sesión                          | W17 | Login + JWT          | Endpoint login, verificación hash, generación de token JWT                                                                   | 4                  | Omar Rivera      | To Do                                          |
+| US45     | Recuperación de contraseña                | W18 | Token recovery       | Generar token temporal y enviarlo (método definido posteriormente)                                                           | 3                  | Omar Rivera      | To Do                                          |
+| US46     | Restablecimiento de contraseña            | W19 | Reset password       | Validar token, actualizar contraseña hasheada y registrar timestamp                                                           | 3                  | Omar Rivera      | To Do                                          |
+
+
+# 5.2.4.4. Development Evidence for Sprint Review
+
+En esta sección se presentan las evidencias finales del desarrollo realizado durante el Sprint, correspondientes a la versión final del backend y del landing page del frontend de la plataforma DenunciaYa. Las evidencias muestran la culminación de las funcionalidades implementadas, incluyendo la autenticación, gestión de denuncias, manejo de responsables y comunidades, así como las mejoras aplicadas al landing para garantizar una presentación clara sobre el producto y del equipo de desarrolladores en question.
+
+La validación del avance se respalda mediante los commits registrados en el repositorio oficial, los cuales documentan el progreso técnico, las correcciones aplicadas y la finalización de los Web Services y componentes principales del frontend.
+
+Repositorio del landing: https://github.com/1ASI0729-7401-2520-Prodevs-DenunciaYa/DenunciaYa-Landing-Page
+Repositorio del frontend: https://github.com/1ASI0729-7401-2520-Prodevs-DenunciaYa/DenunciaYa.-Frontend
+Repositorio del backend: https://github.com/1ASI0729-7401-2520-Prodevs-DenunciaYa/DenunciaYa-Backend
+
+| Repository          | Branch                    | Commit Id                                | Commit Message                                                | Commit Message Body                                                                                                                                                                | Commited on (Date) |
+|---------------------|---------------------------|-------------------------------------------|----------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|
+| DenunciaYa-Backend  | feature/complaint-creation | 3bf4e32d624296391e28ecf224fba17c18a2425d | feat(complaint-creation): Add Complaint Controller            | Implementación del controlador principal de denuncias, mapeo de endpoints REST, integración con capa de servicio y definición del modelo inicial de petición y respuesta.          | 15/11/2025         |
+| DenunciaYa-Backend  | feature/community          | 245223d449fe7124cc066358b51ef06aa7ee7a31 | feat(community): Add post controller                           | Se agregó el controlador para publicaciones comunitarias, permitiendo la gestión de posts, estructura CRUD inicial y validaciones básicas de entrada.                              | 16/11/2025         |
+| DenunciaYa-Backend  | feature/map                | d10f495a97c2a939f33f7daa5bf754cb1db80cfd | feat(map): Implement map query service logic                  | Desarrollo de lógica de consulta de mapas, integración con servicios de ubicación y filtrado georreferenciado para mostrar puntos de denuncia por zona.                           | 16/11/2025         |
+| DenunciaYa-Backend  | feature/authorities-panel  | 0ee2be49563eef5906dd411e925e3a01192fd04d | feat(authorities): Add ResponsibleResourceFromAssembler     | Implementación del assembler para transformar  recursos de dominio, estandarizando el formato de respuesta y asegurando compatibilidad con el panel de autoridades.        | 15/11/2025         |
+
+
+------
+
+# 5.2.4.5. Execution Evidence for Sprint Review
+
+Durante este sprint se implementaron y desplegaron satisfactoriamente las funcionalidades correspondientes al backend del sistema **DenunciaYa**, logrando exponer una API REST completa, estructurada por Bounded Contexts y documentada mediante Swagger. Adicionalmente, se realizó el despliegue en un entorno productivo utilizando Render, validando la correcta integración con una base de datos MySQL remota.
+
+#### Objetivos alcanzados:
+
+- Implementación, validación y documentación de controladores REST para los Bounded Contexts: **Responsibles, Complaints, Map, Posts y Comments**.
+- Configuración del entorno productivo mediante **Environment Variables** siguiendo buenas prácticas de seguridad y despliegue.
+- Deployment exitoso del backend en **Render Cloud**, con persistencia real de datos.
+- Publicación del **Swagger UI** para pruebas, depuración y verificación funcional externa.
+
+#### Evidencia
+A continuación, se presentan capturas de pantalla obtenidas desde el entorno productivo, demostrando el funcionamiento y correcta documentación de los endpoints:
+
+![render](../assets/sprint2/render.jpeg)
+![swagger1](../assets/sprint2/swagger1.jpeg)
+![swagger2](../assets/sprint2/swagger2.jpeg)
+![swagger3](../assets/sprint2/swagger3.jpeg)
+
+#### Enlace del despliegue
+Documentación pública de la API REST (Swagger UI):
+ https://denunciaya-backend.onrender.com/swagger-ui/index.html
+
+
+
+# 5.2.3.6.Services Documentation Evidence for Sprint Review.
+
+Durante este sprint se desarrolló, documentó y validó el backend del sistema DenunciaYa, asegurando que los endpoints cumplan con los lineamientos REST, estén correctamente documentados mediante OpenAPI/Swagger y puedan ser consumidos por usuarios o desarrolladores a través de herramientas como Postman.
+
+
+##  Tabla de Endpoints Documentados
+
+| Módulo        | Método | Endpoint                                           | Descripción                                        | Parámetros                        |
+|---------------|---------|----------------------------------------------------|----------------------------------------------------|-----------------------------------|
+| Responsibles  | GET     | `/api/v1/responsibles`                             | Retorna la lista de responsables                   | N/A                               |
+| Responsibles  | POST    | `/api/v1/responsibles`                             | Crea un nuevo responsable                          | Body (JSON)                       |
+| Responsibles  | GET     | `/api/v1/responsibles/{id}`                        | Obtiene un responsable por ID                      | `id` (path)                       |
+| Responsibles  | DELETE  | `/api/v1/responsibles/{id}`                        | Elimina un responsable                             | `id` (path)                       |
+| Complaints    | GET     | `/api/v1/complaints`                               | Lista todas las denuncias                          | Query opcionales                  |
+| Complaints    | POST    | `/api/v1/complaints`                               | Crea una nueva denuncia                            | Body (JSON)                       |
+| Complaints    | GET     | `/api/v1/complaints/{complaintId}`                 | Obtiene denuncia por ID                            | `complaintId` (path)              |
+| Complaints    | PUT     | `/api/v1/complaints/{complaintId}`                 | Actualiza una denuncia completa                    | `complaintId` + Body (JSON)       |
+| Complaints    | PATCH   | `/api/v1/complaints/{complaintId}/status`          | Actualiza solo el estado de una denuncia           | `complaintId` + Body (JSON)       |
+| Map           | GET     | `/api/v1/map/complaints`                           | Retorna denuncias geolocalizadas                   | Query opcionales                  |
+| Posts         | GET     | `/api/v1/posts`                                    | Retorna los posts de la comunidad                  | N/A                               |
+| Posts         | POST    | `/api/v1/posts`                                    | Crea un nuevo post                                 | Body (JSON)                       |
+| Posts         | GET     | `/api/v1/posts/{postId}`                           | Recupera un post mediante ID                       | `postId` (path)                   |
+| Posts         | DELETE  | `/api/v1/posts/{postId}`                           | Elimina un post                                    | `postId` (path)                   |
+| Comments      | GET     | `/api/v1/posts/{postId}/comments`                  | Lista comentarios de un post                       | `postId` (path)                   |
+| Comments      | POST    | `/api/v1/posts/{postId}/comments`                  | Crea un comentario en un post                      | `postId` + Body (JSON)            |
+
+
+
+# 5.2.3.7.Software Deployment Evidence for Sprint Review.
+
+#### El frontend se desplego usando la herramienta de versel
+
+Pasos de despliegue:
+
+1. **Build del proyecto:** Generar los archivos estáticos de producción (`ng build --configuration=production`)
+2. **Realizar el merge:** Unir cada rama correspondiente a su *bounded context* en la rama `develop`
+3. **Configurar entorno:** Copiar la URL del backend desplegado en el archivo `environment.ts`
+4. **Pruebas:** Realizar pruebas de conexión del frontend con el backend
+5. **Vercel:** Creación de una cuenta en Vercel
+6. **Despliegue:** Clic en **"Add new site"** → **"Import an existing project"** y seleccionar el repositorio y la rama (`develop`)
+
+**Repositorio:**  https://github.com/1ASI0729-7401-2520-Prodevs-DenunciaYa/DenunciaYa.-Frontend.git
+
+**URL desplegada:** https://denuncia-ya-frontend-git-develop-gabriels-projects-0a95c3fe.vercel.app?_vercel_share=IxALwofhAq8NHNUQzaMgCYi56z9BH6LS
+
+#### Backend Web Service
+
+Los servicios del backend se desarrollarán en Java con Spring Boot. El backend se desplegó utilizando la plataforma Render y la base de datos se alojó en FreeSQL.
+
+### Pasos para el despligue 
+
+1. **Build del proyecto:** Generar el archivo ejecutable `.jar` usando el comando `./mvnw clean package`.
+2. **Merge:** Unir cada rama de su *bounded context* a la rama `develop` y verificar el funcionamiento.
+3. **Crear el Dockerfile:** Incluir la configuración para construir la imagen de la aplicación, especificando la etapa de compilación con Maven y la etapa de ejecución con Java, junto con el `.jar` generado y el puerto de exposición.
+4. **Configurar `application.properties`:** Ingresar el `name`, `username` y `host` de la base de datos mediante *environments* en Render.
+5. **Render:** Crear una cuenta en Render e iniciar sesión.
+6. **Crear un Web Service.**
+7. **Configurar despliegue:** Ingresar el nombre del despliegue, la ruta del archivo Dockerfile y los *environments* donde se incluye la información de la base de datos.
+8. **Deploy:** Hacer clic en **Deploy Service**.
+9. **Esperar:** Render generará y mostrará la URL del servicio desplegado.
+
+**Repositorio:**  https://github.com/1ASI0729-7401-2520-Prodevs-DenunciaYa/DenunciaYa-Backend
+
+**URL desplegada:** https://denunciaya-backend.onrender.com/swagger-ui/index.html
+
+![evi1.jpeg](../assets/sprint2/evi1.jpeg)
+
+![evi2.jpeg](../assets/sprint2/evi2.jpeg)
+
+![evi3.jpeg](../assets/sprint2/evi3.jpeg)
+
+![evi4.jpeg](../assets/sprint2/evi4.jpeg)
+
+## 5.2.3.8. Team Collaboration Insights during Sprint
+
+A continuación, se presenta la evidencia de la colaboración de cada integrante en los repositorios del frontend y backend.
+
+### Frontend
+
+A continuación, se detalla la colaboración de cada integrante en el repositorio del frontend:
+
+- **Gabriel Mamani:** Implementación del Bc *community* en el frontend.
+- **Franco Rioja:** Implementación de la gestión de denuncias en el frontend.
+- **Gabriel Brabuaite:** Implementación de la funcionalidad para reportar denuncias en el frontend.
+- **Omar Rivera:** Implementación del dashboard en el frontend.
+
+![frontgit1.jpeg](../assets/sprint2/frontgit1.jpeg)
+
+![frontgit2.jpeg](../assets/sprint2/frontgit2.jpeg)
+
+### Backend
+
+A continuación, se presenta la evidencia de la colaboración de cada integrante en el repositorio del backend:
+
+- **Gabriel Mamani:** Implementación del API REST de *community*.
+- **Franco Rioja:** Implementación del API REST de *map*.
+- **Gabriel Brabuaite:** Implementación del API REST de *authorities*.
+- **Omar Rivera:** Implementación del API REST de *complaint creation*.
+
+![backev.jpeg](../assets/sprint2/backev.jpeg)
+
+
+
+
+
+
+
+
+### 5.3.Validation Interviews
+
 
 En esta sección se registran y explican las actividades de entrevistas de validación realizadas durante el proyecto. Se llevaron a cabo entrevistas donde usuarios de los segmentos objetivo interactuaron tanto con la landing page como con la aplicación web de DenunciaYa, con el fin de validar la usabilidad, funcionalidad y experiencia de usuario de ambos productos digitales.
 url: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202214214_upc_edu_pe/IQClHrr67fHITLTc-p4XVZKMARGYdlQJOfl7Wc7Hsc-yAhU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=NkhpO9
----
 
-## 5.3.1. Diseño de Entrevistas
+###  5.3.1. Diseño de Entrevistas
 
 En esta sección se establecen los elementos a incluir en las sesiones de validación para cada segmento objetivo.
+
 ![Diseño de Entrevistas.jpeg](../assets/Validation.png)
 ### Segmento #1: Ciudadanos
 
-**Objetivo de la validación:**  
+**Objetivo de la validación:**
+
 Evaluar la usabilidad y funcionalidad de la landing page y la aplicación web desde la perspectiva de los ciudadanos, validando que les permita reportar incidencias de manera eficiente, visualizar el estado de sus denuncias y acceder fácilmente a información relevante de su distrito.
 
 **Preguntas específicas para ciudadanos:**
