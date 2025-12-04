@@ -72,6 +72,15 @@
 | 2.6     | 20/10/2025 | Mamani Marca, Gabriel Cristian     | Actualización del Sprint Backlog 2, Aspect Leaders and Collaborators y Sprint Planning 2.                                                                                                                                                   |
 | 2.7     | 20/10/2025 | Rioja Nuñez, Franco Diego          | Elaboración del Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review y Team Collaboration Insights during Sprint. |
 | 2.8     | 20/10/2025 |Mamani Marca, Gabriel Cristian          | Elaboración del Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review y Team Collaboration Insights during Sprint. |
+| 2.9     | 29/10/2025 | Mamani Marca, Gabriel Cristian          | Actualización y mejora del Sprint 2 development evidence |
+| 3.1     | 16/11/2025 | Mamani Marca, Gabriel Cristian          | Agregar aspect leaders and collaborators de Sprint 3 |
+| 3.2     | 16/11/2025 | Mamani Marca, Gabriel Cristian          | Elaboración de Development Evidence for Sprint Review 3 y Execution Evidence for Sprint Review 3 |
+| 3.3     | 16/11/2025 | Mamani Marca, Gabriel Cristian          | Elaboración de Services Documentation Evidence for Sprint Review 3, Software Deployment Evidence y Team Collaboration Insights during Sprint. |
+| 3.4     | 17/11/2025 | Mamani Marca, Gabriel Cristian          | Elaboración de Student outcomes, video about the team and product y anexos. |
+| 3.5     | 17/11/2025 | Rivera Ticllacuri, Omar Harold          | Elaboración de Interviews Validation, diseño y registro de entrevistas. |
+| 4.1     | 03/12/2025 | Rivera Ticllacuri, Omar Harold          | Elaboración de Sprint planning 4 y sprint backlog 4. |
+| 4.2     | 03/12/2025 | Rivera Ticllacuri, Omar Harold          | Elaboración de Services Documentation Evidence for Sprint Review 4. |
+| 4.3     | 03/12/2025 | Montañez Moreno, Luis Angel          | Elaboración de Ux heuristics evaluation. |
 
 
 
