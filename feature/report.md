@@ -2987,7 +2987,7 @@ A continuación se presenta el acta correspondiente a la planificación del Spri
 | **Time**| 9:00 pm|
 | **Location**| Vía Discord|
 | **Prepared By** | Rivera Ticllacuri, Omar Harold|
-| **Attendees** | Rivera Ticllacuri Omar Harold, Mamani Marca Gabriel Cristian, Rioja Núñez Franco Diego, Brabuaite Toledo Gabriel Anthony, Montes Maza Augusto Sebastián, Luis|
+| **Attendees** | Rivera Ticllacuri Omar Harold, Mamani Marca Gabriel Cristian, Rioja Núñez Franco Diego, Brabuaite Toledo Gabriel Anthony, Montes Maza Augusto Sebastián, Montañez Moreno Luis Angel|
 | **Sprint 4 Review Summary** | Se revisaron los avances del backend, incluyendo la implementación de la autenticación con JWT, la integración de funcionalidades esenciales y las correcciones aplicadas a los Web Services. Asimismo, se verificó la conexión final con el frontend y se validó el comportamiento esperado de los módulos principales antes del despliegue. |
 | **Sprint 4 Retrospective Summary** | Se identificó una mejora notable en la coordinación del equipo y la gestión de tareas. También se discutió la necesidad de seguir optimizando la planificación interna, mantener una comunicación clara y reforzar el seguimiento de los objetivos de cada sprint para asegurar entregas más eficientes.                                      |
 | **Sprint 4 Goal**                  | Entregar la versión final del backend completamente funcional, con autenticación implementada, correcciones aplicadas y servicios listos para su integración y despliegue junto al frontend. Garantizar el funcionamiento correcto de los módulos principales (denuncias, mapa, comunidad, autoridades e i18n) en un entorno estable.         |
@@ -3005,7 +3005,7 @@ En esta sección se muestran los encargados designados para cada área de trabaj
 | Rioja Núñez, Franco Diego                                        | FrancoDiegoR    | L                                     | C                            | L                      | C                                 | 
 | Brabuaite Toledo, Gabriel Anthony                                | Gaboo04         | L                                     | C                            | C                      | C                                 | 
 | Montes Maza, Augusto Sebastián                                   | Sebastian       | C                                     | L                            | C                      | C                                 | 
-| Montes Maza, Luis |                    Luiso-AM       | C                                     | L                            | C                      | C                                 | 
+| Montañez Moreno, Luis Angel |                    Luiso-AM       | C                                     | L                            | C                      | C                                 | 
 
 
 # FALTA
@@ -3330,32 +3330,124 @@ A nivel de recomendaciones, sugirió incorporar indicadores comparativos por zon
 
 Se aplicó el formato de evaluación heurística establecido para el proyecto. A continuación se presentan los resultados basados en la interacción de los usuarios con los prototipos.
 
-### 1. Visibilidad del estado del sistema  
-Los usuarios pudieron identificar con claridad el estado de cada denuncia, los cambios en tiempo real y las notificaciones generadas por el sistema.
+**UX Heuristics & Principles Evaluation**  
+**Usability – Inclusive Design – Information Architecture**
 
-### 2. Relación entre el sistema y el mundo real  
-El uso de categorías comunes, etiquetas simples y lenguaje cotidiano facilitó la comprensión tanto para ciudadanos como para autoridades.
+**Información del Proyecto**
+- **Carrera:** Ingeniería de Software
+- **Curso:** Desarrollo de aplicaciones open source
+- **Auditor:** Prodevs
+- **Cliente:** Prodevs
+- **Site o App a Evaluar:** DenunciaYa
 
-### 3. Control y libertad del usuario  
-Los usuarios pudieron editar, cancelar o reenviar denuncias sin complicaciones, manteniendo el control sobre sus acciones dentro de la plataforma.
+---
 
-### 4. Consistencia y estandarización  
-La estructura del diseño, los colores del estado de denuncias y la ubicación de elementos fueron reconocidos fácilmente por todos los entrevistados.
+### Tareas a Evaluar
 
-### 5. Prevención de errores  
-El sistema presenta validaciones adecuadas al registrar evidencias o completar formularios, reduciendo posibles errores del usuario.
+**Para el Segmento de Ciudadanos:**
+1. Registro y creación de denuncias
+2. Ver el detalle e información de una denuncia
+3. Ver el mapa de denuncias
+4. Visualización de reportes
+5. Inicio y cierre de sesión
+6. Escribir comentarios en la comunidad
+7. Ver perfil de usuario
 
-### 6. Reconocer antes que recordar  
-Las funciones principales están visibles desde la navegación principal, evitando la necesidad de memorizar rutas específicas.
+**Para el Segmento Autoridades Municipales y Gubernamentales:**
+1. Ver el detalle e información de una denuncia
+2. Ver el mapa de denuncias
+3. Asignar responsable a una denuncia
+4. Gestionar equipo de responsables a denuncias
+5. Inicio y cierre de sesión
 
-### 7. Flexibilidad y eficiencia de uso  
-Tanto ciudadanos como autoridades pudieron completar tareas sin necesidad de instrucciones adicionales, demostrando eficiencia en el flujo.
+---
 
-### 8. Diseño estético y minimalista  
-La interfaz está libre de elementos innecesarios y mantiene un diseño limpio, lo que facilita la lectura y la interacción.
+### Escala de Severidad
 
-### 9. Ayuda y documentación  
-La sección de soporte y preguntas frecuentes fue suficiente para aclarar dudas comunes durante las pruebas.
+| Nivel | Descripción |
+|------:|-------------|
+| 1 | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| 2 | Problema menor: puede ocurrir con más frecuencia o es más difícil de superar para el usuario. Debería tener una prioridad baja para resolverse en la próxima versión. |
+| 3 | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlo. Debería tener alta prioridad para corregirse. |
+| 4 | Problema muy grave: error que impide al usuario continuar utilizando la herramienta. Debe corregirse antes del lanzamiento. |
+
+---
+
+### Tabla Resumen
+
+| # | Problema                                                                                          | Escala de severidad | Heurística/Principio violado                           | Tarea evaluada                                  |
+|---|---------------------------------------------------------------------------------------------------|:-------------------:|--------------------------------------------------------|-------------------------------------------------|
+| 1 | Botón de Cerrar cuenta no pide validación para salir | 3 | Prevención de errores / Ayuda y documentación          | Inicio y cierre de sesión             |
+| 2 | No se puede modificar un comentario publicado                                                        | 2 | Control del usuario / Libertad                     | Escribir comentarios en la comunidad                  |
+| 3 | En la vista de bienvenida el texto se ve muy apilado                          | 2 | Flexibilidad y eficiencia de uso                       | Inicio y cierre de sesión                             |
+| 4 | Falta **gráficos comparativos** de cantidad de denuncias por ciudad                                     | 2 | Visibilidad del estado del sistema                     | Visualización de reportes                             |
+| 5 | Botón de borrar denuncia no pide validación                                      | 2 | Prevención de errores / Ayuda y documentación | Visualización de reportes                    |
+| 6 | No se puede borrar un miembro del equipo                            | 2 | Control y libertad del usuario                      | Gestionar equipo de responsables a denuncias                            |
+
+
+---
+
+### Descripción de Problemas
+
+*PROBLEMA #1*: Botón de Cerrar cuenta no pide validación para salir 
+Severidad: 3 
+Heurística violada: Prevención de errores / Ayuda y documentación 
+
+Problema: 
+Al momento de estar dar clic en la barra lateral, la opción de "Cerrar sesión" se encuentra debajo de las demás opciones y el usuario puede presionarlo por casualidad y cerrar su sesión.
+
+Recomendación:
+Incluir una validación al presionar "Cerrar sesión" de si está seguro de la decisión.
+
+*PROBLEMA #2*: No se puede modificar un comentario 
+Severidad: 2 
+Heurística violada: Control del usuario / Libertad  
+
+Problema: 
+Al momento de publicar un comentario en la sección de Comunidad, el usuario no puede modificar el comentario en caso se haya equivocado o desee hacer una modificación a este.
+
+Recomendación:
+Incluir un botón de editar un comentario creado por el usuario y luego de guardarlo.
+
+*PROBLEMA #3*: En la vista de bienvenida el texto se ve muy apilado 
+Severidad: 2 
+Heurística violada: Flexibilidad y eficiencia de uso 
+
+Problema: 
+En la vista de bienvenida, debajo del título de BIENVENIDO, el mensaje de Bienvenido @usuario se ve muy junto al título. Esto dificulta la visibilidad de la pantalla
+
+Recomendación:
+Distribuir mejor los espacios y añadir una separación más grande entre el título y la información de bienvenida.
+
+*PROBLEMA #4*: Faltan gráficos comparativos de cantidad de denuncias por ciudad 
+Severidad: 2 
+Heurística violada:  Visibilidad del estado del sistema 
+
+Problema: 
+En la vista de bienvenida, se incluyen gráficos de denuncia de categoría y de estado, pero no se incluyen gráficos relacionados a la ubicación de estas denuncias.
+
+Recomendación:
+Incluir unos gráficos de barra para determinar cuáles son las zonas con más denuncias para hacer una comparación adecuada.
+
+*PROBLEMA #5*: Botón de borrar denuncia no pide validación
+Severidad: 2 
+Heurística violada:  Prevención de errores / Ayuda y documentación 
+
+Problema: 
+En la vista de la lista de denuncias creadas, el usuario al hacer clic en borrar, puede eliminar una denuncia sin previa validación.
+
+Recomendación:
+Incluir una validación de borrar denuncia para que el usuario esté seguro de su decisión.
+
+*PROBLEMA #6*: No se puede borrar un miembro del equipo
+Severidad: 2 
+Heurística violada:  Control y libertad del usuario 
+
+Problema: 
+En la sección de Gestión de equipo, se puede ver la lista de los responsables asignados o no a las denuncias existentes. Sin embargo, solo se puede ver el estado de activo o inactivo de un responsable. En caso se decida que un trabajador ya no forme parte del equipo, este no se puede eliminar.
+
+Recomendación:
+Incluir un botón de eliminar miembro de trabajo y también que haya una validación para confirmar su separación del equipo de trabajo.
 
 
 
