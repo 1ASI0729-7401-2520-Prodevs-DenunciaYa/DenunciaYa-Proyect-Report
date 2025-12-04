@@ -117,10 +117,11 @@ Para la entrega del TB2, se corrigió el Sprint 2 y se desarrolló el Sprint 3, 
 ![tb2evide.jpeg](../assets/sprint2/tb2evide.jpeg)
 
 #### TF::
+**Evidencia de colaboración**
 Para la entrega del trabajo final, se corrigieron los puntos observados según la retroalimentación recibida. Además, se añadió el Sprint 4.
 
 ![tf_contributors.jpg](../assets/tf_contributors.jpg)
-**Evidencia de colaboración**
+
 
 
 # Contenido
