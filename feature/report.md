@@ -2999,29 +2999,17 @@ Link trello: https://trello.com/invite/b/691a64125d6f52f38902ddaf/ATTI5675e3380a
 
 ![trell.jpeg](../assets/sprint4/trello.png)
 
-|  Sprint 4  |                Sprint 4                |     |                                                                       |                                                                                                                                  |                    |             |                                                |
-|:----------:|:--------------------------------------:|:---:|:---------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------:|:------------------:|:-----------:|:----------------------------------------------:|
-| User Story |            Work-Item / Task            |     |                                                                       |                                                                                                                                  |                    |             |                                                |
-|     Id     |                 Title                  | Id  |                                 Title                                 |                                                           Description                                                            | Estimation (Hours) | Assigned To | Status (To do / In process / To review / Done) |
-| US09     | Selección de categoría                   | W01 | Crear módulo Category | Crear entidad, migración, repositorio y carga inicial de categorías                                                          | 3                  | Omar Rivera        | To Do                                          |
-| US10     | Registro de ubicación                     | W02 | Endpoint Ubicación   | Implementar endpoint para guardar coordenadas y dirección, asociado a denuncia                                               | 4                  | Franco Rioja     | To Do                                          |
-| US11     | Registro descripción de incidente         | W03 | Endpoint Descripción | Crear endpoint para guardar descripción básica y relacionarla con usuario y denuncia                                         | 3                  | Omar Rivera        | To Do                                          |
-| US12     | Descripción detallada del incidente       | W04 | Validación avanzada  | Sanitizar descripción, aplicar reglas de contenido y máximo de caracteres                                                     | 2                  | Omar Rivera        | To Do                                          |
-| US13     | Adjuntar evidencias                       | W05 | Servicio archivos     | Implementar lógica para guardar imágenes/videos en FileSystem o Cloud (pendiente decisión)                                    | 5                  | Omar Rivera        | To Do                                          |
-| US14     | Guardar denuncia como borrador            | W06 | Estado Draft         | Incorporar flag "draft" y permitir update parcial                                                                            | 3                  | Omar Rivera        | To Do                                          |
-| US15     | Revisión de datos antes de enviar         | W07 | Endpoint Preview     | Retornar datos ingresados antes del envío final                                                                              | 3                  | Omar Rivera        | To Do                                          |
-| US16     | Envío y código de seguimiento             | W08 | Generar tracking ID  | Asignar UUID único, actualizar estado y registrar fecha/hora                                                                 | 3                  | Omar Rivera        | To Do                                          |
-| US17     | Ver historial básico                      | W09 | Listado denuncias    | Obtener denuncias por usuario autenticado, orden básico                                                                      | 4                  | Gabriel Mamani   | To Do                                          |
-| US18     | Ver detalles de denuncia                  | W10 | Endpoint detalle     | Mostrar detalle completo con evidencias y metadatos                                                                          | 4                  | Gabriel Mamani   | To Do                                          |
-| US19     | Filtrar denuncias                         | W11 | Filtro avanzado      | Implementar filtros por categoría, estado, fecha, ubicación                                                                  | 5                  | Gabriel Mamani   | To Do                                          |
-| US20     | Ordenar denuncias                         | W12 | Orden dinámico       | Implementar orden ASC/DESC según fecha o estado                                                                              | 3                  | Gabriel Mamani   | To Do                                          |
-| US21     | Buscar denuncias                          | W13 | Buscador global      | Agregar búsqueda por palabra clave, número o categoría                                                                       | 4                  | Gabriel Mamani   | To Do                                          |
-| US22     | Timeline de seguimiento                   | W14 | Módulo Timeline      | Crear tabla de eventos, relación con denuncia y endpoint para retornar histórico                                             | 6                  | Gabriel Mamani   | To Do                                          |
-| US42     | Registro de ciudadanos                    | W15 | Endpoint registro    | POST /users – validaciones, roles, encriptación y persistencia                                                               | 4                  | Omar Rivera      | To Do                                          |
-| US43     | Registro de autoridades                   | W16 | Registro autoridades | POST /authorities – validación de rol Authority y persistencia                                                               | 4                  | Gabriel Braithuaite/Sebastián Montes | To Do                                       |
-| US44     | Inicio de sesión                          | W17 | Login + JWT          | Endpoint login, verificación hash, generación de token JWT                                                                   | 4                  | Omar Rivera      | To Do                                          |
-| US45     | Recuperación de contraseña                | W18 | Token recovery       | Generar token temporal y enviarlo (método definido posteriormente)                                                           | 3                  | Omar Rivera      | To Do                                          |
-| US46     | Restablecimiento de contraseña            | W19 | Reset password       | Validar token, actualizar contraseña hasheada y registrar timestamp                                                           | 3                  | Omar Rivera      | To Do                                          |
+|  Sprint 4  |            Sprint 4            |     |                        |                                                                     |                    |                                      |                                                |
+|:----------:|:------------------------------:|:---:|:----------------------:|:-------------------------------------------------------------------:|:------------------:|:------------------------------------:|:----------------------------------------------:|
+| User Story |        Work-Item / Task        |     |                        |                                                                     |                    |                                      |                                                |
+|     Id     |             Title              | Id  |         Title          |                             Description                             | Estimation (Hours) |             Assigned To              | Status (To do / In process / To review / Done) |
+|    US42    |     Registro de ciudadanos     | W01 |   Endpoint registro    |   POST /users – validaciones, roles, encriptación y persistencia    |         4          |             Omar Rivera              |                     To Do                      |
+|    US43    |    Registro de autoridades     | W02 |  Registro autoridades  |   POST /authorities – validación de rol Authority y persistencia    |         4          | Gabriel Braithuaite/Sebastián Montes |                     To Do                      |
+|    US44    |        Inicio de sesión        | W03 |      Login + JWT       |     Endpoint login, verificación hash, generación de token JWT      |         4          |             Omar Rivera              |                     To Do                      |
+|    US45    |   Recuperación de contraseña   | W04 |     Token recovery     | Generar token temporal y enviarlo (método definido posteriormente)  |         3          |             Omar Rivera              |                     To Do                      |
+|    US46    | Restablecimiento de contraseña | W05 |     Reset password     | Validar token, actualizar contraseña hasheada y registrar timestamp |         3          |             Omar Rivera              |                     To Do                      |
+|    US47    |        Publicar imagen         | W06 |    Publicar imagen     |               Publicar imagen en la sección community               |         2          |            Gabriel Mamani            |                     To Do                      |
+|    US54    |      Comentar publicación      | W07 |  Comentar publicación  |          Permitir a los usuarios comentar en publicaciones          |         2          |            Gabriel Mamani            |                     To Do                      |
 
 
 # 5.2.4.4. Development Evidence for Sprint Review
@@ -3034,19 +3022,21 @@ Repositorio del landing: https://github.com/1ASI0729-7401-2520-Prodevs-DenunciaY
 Repositorio del frontend: https://github.com/1ASI0729-7401-2520-Prodevs-DenunciaYa/DenunciaYa.-Frontend
 Repositorio del backend: https://github.com/1ASI0729-7401-2520-Prodevs-DenunciaYa/DenunciaYa-Backend
 
-| Repository          | Branch                    | Commit Id                                | Commit Message                                                | Commit Message Body                                                                                                                                                                | Commited on (Date) |
-|---------------------|---------------------------|-------------------------------------------|----------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|
-| DenunciaYa-Backend  | feature/complaint-creation | 3bf4e32d624296391e28ecf224fba17c18a2425d | feat(complaint-creation): Add Complaint Controller            | Implementación del controlador principal de denuncias, mapeo de endpoints REST, integración con capa de servicio y definición del modelo inicial de petición y respuesta.          | 15/11/2025         |
-| DenunciaYa-Backend  | feature/community          | 245223d449fe7124cc066358b51ef06aa7ee7a31 | feat(community): Add post controller                           | Se agregó el controlador para publicaciones comunitarias, permitiendo la gestión de posts, estructura CRUD inicial y validaciones básicas de entrada.                              | 16/11/2025         |
-| DenunciaYa-Backend  | feature/map                | d10f495a97c2a939f33f7daa5bf754cb1db80cfd | feat(map): Implement map query service logic                  | Desarrollo de lógica de consulta de mapas, integración con servicios de ubicación y filtrado georreferenciado para mostrar puntos de denuncia por zona.                           | 16/11/2025         |
-| DenunciaYa-Backend  | feature/authorities-panel  | 0ee2be49563eef5906dd411e925e3a01192fd04d | feat(authorities): Add ResponsibleResourceFromAssembler     | Implementación del assembler para transformar  recursos de dominio, estandarizando el formato de respuesta y asegurando compatibilidad con el panel de autoridades.        | 15/11/2025         |
+Los siguientes commits documentan los cambios más resaltantes realizados en el desarrollo del Sprint 4:
 
+| Repository          | Branch                    | Commit Id                                | Commit Message                                                | Commit Message Body                                                                                                                                                 | Commited on (Date)                                                                                                                                                                      |
+|---------------------|---------------------------|-------------------------------------------|---------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| DenunciaYa-Frontend | develop                   | 4496b0ad4947868a8188b6309e137bd191cf2fd8 | feat(complaint): feat Complaint connection to Backend         |  Implementación de la conexión entre el frontend y backend para la gestión de denuncias, incluyendo formularios, validaciones y consumo de API REST.                | 03/12/2025                                                                                                                                                                              |
+| DenunciaYa-Backend  | develop                   | bd352a7f5f8b396d639c2ed5dd1dec869139e2da | fix(complaint): Fix Status Complaint                      | Corrección en la lógica de actualización de estado de denuncias, asegurando la persistencia correcta en la base de datos y manejo adecuado de errores.                  | 03/12/2025                                                                                                                                                                              |
+| DenunciaYa-Backend  | develop                   | 1d4f914ddc975067d8a97404e3a958bffbcc9473 | Update MapComplaint.java                                | Se actualizó la entidad MapComplaint para incluir nuevos atributos relacionados con la geolocalización y mejorar la integración con el módulo de mapas.               | 03/12/2025                                                                                                                                                                              |
+| DenunciaYa-Backend  | develop                   | 5e2f3c6b8e4f5a7c9d6e8f3b2a1c4d5e6f7g8h9i | feat:fix community                                | Se realizaron ajustes en el módulo de comunidad para corregir errores en la gestión de publicaciones y comentarios, mejorando la experiencia del usuario y la estabilidad del servicio. | 03/12/2025         |
 
 ------
 
 # 5.2.4.5. Execution Evidence for Sprint Review
 
 Durante este sprint se implementaron y desplegaron satisfactoriamente las funcionalidades correspondientes al backend del sistema **DenunciaYa**, logrando exponer una API REST completa, estructurada por Bounded Contexts y documentada mediante Swagger. Adicionalmente, se realizó el despliegue en un entorno productivo utilizando Render, validando la correcta integración con una base de datos MySQL remota.
+Además, se realizó el despliegue del frontend con los cambios realizados incluyendo la conexión con el backend desplegado.
 
 #### Objetivos alcanzados:
 
@@ -3054,21 +3044,17 @@ Durante este sprint se implementaron y desplegaron satisfactoriamente las funcio
 - Configuración del entorno productivo mediante **Environment Variables** siguiendo buenas prácticas de seguridad y despliegue.
 - Deployment exitoso del backend en **Render Cloud**, con persistencia real de datos.
 - Publicación del **Swagger UI** para pruebas, depuración y verificación funcional externa.
+- Deployment exitoso del frontend en **Vercel**, asegurando la correcta comunicación con el backend desplegado.
 
 #### Evidencia
 A continuación, se presentan capturas de pantalla obtenidas desde el entorno productivo, demostrando el funcionamiento y correcta documentación de los endpoints:
 
-![render](../assets/sprint2/render.jpeg)
-![swagger1](../assets/sprint4/swaggerBack.png)
-![swagger2](../assets/sprint4/swaggerBack1.png)
-![swagger3](../assets/sprint4/swaggerBack2.png)
-![swagger3](../assets/sprint4/swaggerBack3.png)
+![render](../assets/sprint4/render.jpeg)
+![swagger1](../assets/sprint4/swagger.jpeg)
 
 #### Enlace del despliegue
 Documentación pública de la API REST (Swagger UI):
- https://denunciaya-backend.onrender.com/swagger-ui/index.html
-
-
+https://denunciayaa.onrender.com/swagger-ui/index.html
 
 # 5.2.4.6.Services Documentation Evidence for Sprint Review.
 
@@ -3076,29 +3062,58 @@ Durante este sprint se desarrolló, documentó y validó el backend del sistema 
 
 
 ##  Tabla de Endpoints Documentados
-
-| Módulo                | Método | Endpoint                                                           | Descripción                                            | Parámetros                   |
-| --------------------- | ------ | ------------------------------------------------------------------ | ------------------------------------------------------ | ---------------------------- |
-| Roles                 | GET    | `/api/v1/roles`                                                    | Obtiene todos los roles disponibles                    | N/A                          |
-| Profiles              | GET    | `/api/v1/profiles`                                                 | Lista todos los perfiles                               | N/A                          |
-| Profiles              | POST   | `/api/v1/profiles`                                                 | Crea un nuevo perfil                                   | Body (JSON)                  |
-| Profiles              | GET    | `/api/v1/profiles/{profileId}`                                     | Obtiene un perfil por ID                               | `profileId` (path)           |
-| Authentication        | POST   | `/api/v1/authentication/sign-up`                                   | Registra un nuevo usuario                              | Body (JSON)                  |
-| Authentication        | POST   | `/api/v1/authentication/sign-in`                                   | Inicia sesión y genera JWT                             | Body (JSON)                  |
-| Complaint Assignments | POST   | `/api/v1/complaint-assignments`                                    | Asigna una denuncia a un responsable                   | Body (JSON)                  |
-| Complaint Assignments | GET    | `/api/v1/complaint-assignments/{assignmentId}`                     | Obtiene una asignación por ID                          | `assignmentId` (path)        |
-| Complaint Assignments | PUT    | `/api/v1/complaint-assignments/{assignmentId}/status`              | Actualiza el estado de una asignación                  | `assignmentId` + Body (JSON) |
-| Complaint Assignments | PUT    | `/api/v1/complaint-assignments/{assignmentId}/reassign`            | Reasigna una denuncia a otro responsable               | `assignmentId` + Body (JSON) |
-| Complaint Assignments | GET    | `/api/v1/complaint-assignments/responsible/{responsibleId}/count`  | Obtiene el conteo de denuncias activas por responsable | `responsibleId` (path)       |
-| Complaint Assignments | GET    | `/api/v1/complaint-assignments/responsible/{responsibleId}/active` | Lista asignaciones activas por responsable             | `responsibleId` (path)       |
-| Complaint Assignments | GET    | `/api/v1/complaint-assignments/complaint/{complaintId}/history`    | Historial de asignaciones de una denuncia              | `complaintId` (path)         |
-| Users                 | GET    | `/api/v1/users`                                                    | Obtiene todos los usuarios                             | N/A                          |
-| Users                 | GET    | `/api/v1/users/{userId}`                                           | Obtiene un usuario por ID                              | `userId` (path)              |
+| **Módulo**                | **Método** | **Endpoint**                                                        | **Descripción**                              | **Parámetros**                  |
+| ------------------------- | ---------- | ------------------------------------------------------------------- | -------------------------------------------- | ------------------------------- |
+| **Complaints**            | GET        | `/api/v1/complaints`                                                | Obtiene todas las denuncias                  | N/A                             |
+| Complaints                | POST       | `/api/v1/complaints`                                                | Crea una nueva denuncia                      | Body (JSON)                     |
+| Complaints                | GET        | `/api/v1/complaints/{complaintId}`                                  | Obtiene una denuncia por ID                  | `complaintId` (path)            |
+| Complaints                | PUT        | `/api/v1/complaints/{complaintId}`                                  | Actualiza una denuncia                       | `complaintId` + Body (JSON)     |
+| Complaints                | DELETE     | `/api/v1/complaints/{complaintId}`                                  | Elimina una denuncia                         | `complaintId` (path)            |
+| Complaints                | PATCH      | `/api/v1/complaints/{complaintId}/status`                           | Actualiza el estado de la denuncia           | `complaintId` + Body (JSON)     |
+| Complaints                | GET        | `/api/v1/complaints/status/{status}`                                | Obtiene denuncias por estado                 | `status` (path)                 |
+| Complaints                | GET        | `/api/v1/complaints/department/{department}/city/{city}`            | Obtiene denuncias por ubicación              | `department`, `city` (path)     |
+| Complaints Timeline       | PUT        | `/api/v1/complaints/{complaintId}/timeline/{timelineItemId}`        | Actualiza un ítem del timeline               | `complaintId`, `timelineItemId` |
+| Complaints Timeline       | PUT        | `/api/v1/complaints/{complaintId}/timeline/{timelineItemId}/reject` | Rechaza un ítem del timeline                 | `complaintId`, `timelineItemId` |
+| Complaints Timeline       | PUT        | `/api/v1/complaints/{complaintId}/timeline/{timelineItemId}/accept` | Acepta un ítem del timeline                  | `complaintId`, `timelineItemId` |
+| Complaints Timeline       | PATCH      | `/api/v1/complaints/{complaintId}/timeline/reject`                  | Rechaza decisión en la denuncia              | `complaintId` (path)            |
+| Complaints Timeline       | PATCH      | `/api/v1/complaints/{complaintId}/timeline/accept`                  | Acepta decisión en la denuncia               | `complaintId` (path)            |
+| Complaints Timeline       | PATCH      | `/api/v1/complaints/{complaintId}/timeline/item`                    | Actualiza ítem específico del timeline       | `complaintId` (path)            |
+| Complaints Timeline       | PATCH      | `/api/v1/complaints/{complaintId}/timeline/advance`                 | Avanza el timeline de la denuncia            | `complaintId` (path)            |
+| **Responsibles**          | GET        | `/api/v1/responsibles`                                              | Lista todos los responsables                 | N/A                             |
+| Responsibles              | POST       | `/api/v1/responsibles`                                              | Crea un responsable                          | Body (JSON)                     |
+| Responsibles              | GET        | `/api/v1/responsibles/{id}`                                         | Obtiene un responsable por ID                | `id` (path)                     |
+| Responsibles              | PUT        | `/api/v1/responsibles/{id}`                                         | Actualiza un responsable                     | `id` + Body (JSON)              |
+| Responsibles              | DELETE     | `/api/v1/responsibles/{id}`                                         | Elimina un responsable                       | `id` (path)                     |
+| Responsibles              | GET        | `/api/v1/responsibles/search`                                       | Busca responsables                           | Query params                    |
+| **Roles**                 | GET        | `/api/v1/roles`                                                     | Obtiene todos los roles                      | N/A                             |
+| **Profiles**              | GET        | `/api/v1/profiles`                                                  | Lista todos los perfiles                     | N/A                             |
+| Profiles                  | POST       | `/api/v1/profiles`                                                  | Crea un nuevo perfil                         | Body (JSON)                     |
+| Profiles                  | GET        | `/api/v1/profiles/{profileId}`                                      | Obtiene un perfil por ID                     | `profileId` (path)              |
+| **Posts**                 | GET        | `/api/v1/posts`                                                     | Lista todas las publicaciones                | N/A                             |
+| Posts                     | POST       | `/api/v1/posts`                                                     | Crea una nueva publicación                   | Body (JSON)                     |
+| Posts                     | GET        | `/api/v1/posts/{postId}`                                            | Obtiene una publicación por ID               | `postId` (path)                 |
+| Posts                     | DELETE     | `/api/v1/posts/{postId}`                                            | Elimina una publicación                      | `postId` (path)                 |
+| **Comments**              | GET        | `/api/v1/posts/{postId}/comments`                                   | Obtiene comentarios de una publicación       | `postId` (path)                 |
+| Comments                  | POST       | `/api/v1/posts/{postId}/comments`                                   | Crea un nuevo comentario                     | `postId` + Body (JSON)          |
+| **Authentication**        | POST       | `/api/v1/authentication/sign-up`                                    | Registra un nuevo usuario                    | Body (JSON)                     |
+| Authentication            | POST       | `/api/v1/authentication/sign-in`                                    | Inicia sesión                                | Body (JSON)                     |
+| **Complaint Assignments** | POST       | `/api/v1/complaint-assignments`                                     | Asigna una denuncia a un responsable         | Body (JSON)                     |
+| Complaint Assignments     | GET        | `/api/v1/complaint-assignments/{id}`                                | Obtiene una asignación por ID                | `id` (path)                     |
+| Complaint Assignments     | PUT        | `/api/v1/complaint-assignments/{id}/status`                         | Actualiza el estado de una asignación        | `id` + Body (JSON)              |
+| Complaint Assignments     | PUT        | `/api/v1/complaint-assignments/{id}/reassign`                       | Reasigna una denuncia a otro responsable     | `id` + Body (JSON)              |
+| Complaint Assignments     | GET        | `/api/v1/complaint-assignments/responsible/{responsibleId}/count`   | Cuenta asignaciones activas por responsable  | `responsibleId` (path)          |
+| Complaint Assignments     | GET        | `/api/v1/complaint-assignments/responsible/{responsibleId}/active`  | Lista asignaciones activas por responsable   | `responsibleId` (path)          |
+| Complaint Assignments     | GET        | `/api/v1/complaint-assignments/complaint/{complaintId}/history`     | Historial de asignaciones de una denuncia    | `complaintId` (path)            |
+| Complaint Assignments     | GET        | `/api/v1/complaint-assignments/complaint/{complaintId}/active`      | Obtiene asignación activa de una denuncia    | `complaintId` (path)            |
+| Complaint Assignments     | GET        | `/api/v1/complaint-assignments/complaint/{complaintId}/is-assigned` | Verifica si una denuncia ya está asignada    | `complaintId` (path)            |
+| **Users**                 | GET        | `/api/v1/users`                                                     | Obtiene todos los usuarios                   | N/A                             |
+| Users                     | GET        | `/api/v1/users/{userId}`                                            | Obtiene un usuario por ID                    | `userId` (path)                 |
+| **Map Complaints**        | GET        | `/api/v1/map/complaints`                                            | Obtiene denuncias para visualización en mapa | N/A                             |
 
 
 # 5.2.4.7.Software Deployment Evidence for Sprint Review.
 
-#### El frontend se desplego usando la herramienta de versel
+### El frontend se desplegó usando la herramienta de Vercel
 
 Pasos de despliegue:
 
@@ -3113,33 +3128,58 @@ Pasos de despliegue:
 
 **URL desplegada:** https://denuncia-ya-frontend-git-develop-gabriels-projects-0a95c3fe.vercel.app?_vercel_share=IxALwofhAq8NHNUQzaMgCYi56z9BH6LS
 
-#### Backend Web Service
+### Backend Web Service
 
 Los servicios del backend se desarrollarán en Java con Spring Boot. El backend se desplegó utilizando la plataforma Render y la base de datos se alojó en FreeSQL.
 
-### Pasos para el despligue 
+### Pasos para el despliegue 
+Esta guía detalla el proceso para desplegar el backend de la aplicación utilizando Maven, Docker y la plataforma Render
 
-1. **Build del proyecto:** Generar el archivo ejecutable `.jar` usando el comando `./mvnw clean package`.
-2. **Merge:** Unir cada rama de su *bounded context* a la rama `develop` y verificar el funcionamiento.
-3. **Crear el Dockerfile:** Incluir la configuración para construir la imagen de la aplicación, especificando la etapa de compilación con Maven y la etapa de ejecución con Java, junto con el `.jar` generado y el puerto de exposición.
-4. **Configurar `application.properties`:** Ingresar el `name`, `username` y `host` de la base de datos mediante *environments* en Render.
-5. **Render:** Crear una cuenta en Render e iniciar sesión.
-6. **Crear un Web Service.**
-7. **Configurar despliegue:** Ingresar el nombre del despliegue, la ruta del archivo Dockerfile y los *environments* donde se incluye la información de la base de datos.
-8. **Deploy:** Hacer clic en **Deploy Service**.
-9. **Esperar:** Render generará y mostrará la URL del servicio desplegado.
+### I. Preparación del código y archivos
+
+1. Merge de ramas: realizar el merge de todos los Bounded Contexts a la rama `develop` y verificar el funcionamiento local.
+2. Build del proyecto: generar el archivo ejecutable `.jar` usando el comando de Maven: `./mvnw clean package`.
+3. Configuración de producción: crear y configurar el archivo `application-prod.properties` en la ruta adecuada, incluyendo parámetros del entorno productivo.
+4. Modificaciones de Maven: ajustar `pom.xml` para el build de producción (perfiles, plugins, optimizaciones).
+5. Creación del `Dockerfile` (en la raíz del proyecto): incluir al menos las siguientes secciones
+   - Etapa de compilación con Maven.
+   - Etapa de ejecución con Java.
+   - Inclusión del archivo `.jar` generado.
+   - Exposición del puerto de la aplicación (p. ej. `8080`).
+
+### II. Configuración de la Base de Datos (DB)
+
+- Registro en Railway: registrarse o iniciar sesión en la plataforma.
+- Despliegue de la DB: desplegar la base de datos y obtener los datos de conexión necesarios:
+  - `DB_PASSWORD`
+  - `DB_HOST`
+  - `DB_URL`
+  - otros datos relevantes para conectar la API
+
+Guarda estas credenciales para configurar las variables de entorno en Render.
+
+### III. Despliegue en Render
+
+1. Registro en Render: crear cuenta o iniciar sesión.
+2. Crear un Web Service: iniciar la creación de un nuevo Web Service en Render.
+3. Configuración del despliegue:
+   - Ingresar el nombre del despliegue.
+   - Indicar la ruta del `Dockerfile` (generalmente `./`).
+4. Variables de entorno: configurar las variables necesarias para `application-prod.properties` (por ejemplo, `DB_NAME`, `DB_USER`, `DB_HOST`) y secretos sensibles (`DB_PASSWORD`, `JWT_SECRET`, etc.).
+5. Despliegue final: hacer clic en **Deploy** (o **Deploy Service**) para lanzar la aplicación.
+6. Esperar: Render generará la imagen y mostrará la URL del servicio cuando el despliegue finalice.
 
 **Repositorio:**  https://github.com/1ASI0729-7401-2520-Prodevs-DenunciaYa/DenunciaYa-Backend
 
-**URL desplegada:** https://denunciaya-backend.onrender.com/swagger-ui/index.html
+**URL desplegada:** https://denunciayaa.onrender.com/swagger-ui/index.html
 
-![evi1.jpeg](../assets/sprint2/evi1.jpeg)
+![evi1.jpeg](../assets/sprint4/evi1.png)
 
-![evi2.jpeg](../assets/sprint2/evi2.jpeg)
+![evi2.jpeg](../assets/sprint4/render.jpeg)
 
-![evi3.jpeg](../assets/sprint2/evi3.jpeg)
+![evi3.jpeg](../assets/sprint4/evi2.png)
 
-![evi4.jpeg](../assets/sprint2/evi4.jpeg)
+![evi4.jpeg](../assets/sprint4/evi3.png)
 
 ## 5.2.4.8. Team Collaboration Insights during Sprint
 
@@ -3154,9 +3194,7 @@ A continuación, se detalla la colaboración de cada integrante en el repositori
 - **Gabriel Braithuaite:** Implementación de la funcionalidad para reportar denuncias en el frontend.
 - **Omar Rivera:** Implementación del dashboard en el frontend.
 
-![frontgit1.jpeg](../assets/sprint2/frontgit1.jpeg)
-
-![frontgit2.jpeg](../assets/sprint2/frontgit2.jpeg)
+![frontend_commits](../assets/sprint4/frontend_commits.png)
 
 ### Backend
 
@@ -3164,16 +3202,10 @@ A continuación, se presenta la evidencia de la colaboración de cada integrante
 
 - **Gabriel Mamani:** Implementación del API REST de *community*.
 - **Franco Rioja:** Implementación del API REST de *map*.
-- **Gabriel Braithuaite:** Implementación del API REST de *authorities*.
+- **Gabriel Braithuaite:** Implementación del API REST de *responsibles*.
 - **Omar Rivera:** Implementación del API REST de *complaint creation*.
 
-![backev.jpeg](../assets/sprint2/backev.jpeg)
-
-
-
-
-
-
+![backend_commits](../assets/sprint4/backend_commits.png)
 
 
 ### 5.3.Validation Interviews
