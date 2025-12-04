@@ -2991,15 +2991,13 @@ En esta sección se muestran los encargados designados para cada área de trabaj
 | Montes Maza, Augusto Sebastián      | Sebastian       | C                                     | L                            | C                      | C                                 | 
 | Montañez Moreno, Luis Angel         |                    Luiso-AM       | C                                     | L                            | C                      | C                                 | 
 
-
-# FALTA
 # 5.2.4.3.Sprint Backlog 4.
 El Sprint 4 tuvo como objetivo implementar el sistema de autenticación en el backend y agregar funcionalidades esenciales para mejorar el flujo de la plataforma DenunciaYa. Durante este sprint se desarrolló el módulo de autenticación con JWT, se añadieron nuevas funciones relacionadas con la gestión de denuncias y usuarios, y se realizaron las correcciones necesarias en los endpoints existentes. Además, se verificó nuevamente la conexión con la base de datos y se optimizaron algunos procesos internos.
 
 Herramienta utilizada : Trello
 Link trello: https://trello.com/invite/b/691a64125d6f52f38902ddaf/ATTI5675e3380a6defab8d211abac49cf0832652CB92/denunciaya
 
-![trell.jpeg](../assets/sprint2/trell.jpeg)
+![trell.jpeg](../assets/sprint4/trello.png)
 
 |  Sprint 4  |                Sprint 4                |     |                                                                       |                                                                                                                                  |                    |             |                                                |
 |:----------:|:--------------------------------------:|:---:|:---------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------:|:------------------:|:-----------:|:----------------------------------------------:|
