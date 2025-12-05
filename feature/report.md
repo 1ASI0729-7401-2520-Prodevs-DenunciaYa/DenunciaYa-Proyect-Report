@@ -3113,22 +3113,71 @@ Durante este sprint se desarrolló, documentó y validó el backend del sistema 
 
 # 5.2.4.7.Software Deployment Evidence for Sprint Review.
 
-### El frontend se desplegó usando la herramienta de Vercel
+### El frontend deployment
+El frontend fue desplegado utilizando firebase, a continuación se detallan los pasos seguidos para el despliegue:
 
-Pasos de despliegue:
+### I. Requisitos Previos
+Tener instalado los siguientes elementos y cuentas configuradas:
+- Node.js y npm: Instalados en el entorno de desarrollo.
+- Angular CLI: Instalado globalmente (npm install -g @angular/cli).
+- Firebase CLI: Instalado globalmente (npm install -g firebase-tools).
+- Cuenta de Firebase: Proyecto creado y activo.
+- Repositorio de GitHub: Código fuente disponible en la rama main del repositorio: 1ASI0729-7401-2520-Prodevs-DenunciaYa/DenunciaYa.-Frontend.
 
-1. **Build del proyecto:** Generar los archivos estáticos de producción (`ng build --configuration=production`)
-2. **Realizar el merge:** Unir cada rama correspondiente a su *bounded context* en la rama `develop`
-3. **Configurar entorno:** Copiar la URL del backend desplegado en el archivo `environment.ts`
-4. **Pruebas:** Realizar pruebas de conexión del frontend con el backend
-5. **Vercel:** Creación de una cuenta en Vercel
-6. **Despliegue:** Clic en **"Add new site"** → **"Import an existing project"** y seleccionar el repositorio y la rama (`develop`)
+### II. Generación del Build de Producción:
+Ejecutar el comando de build en la raíz del proyecto para generar los archivos estáticos optimizados:
+   ` ng build --configuration production` 
+
+![build](../assets/sprint4/build.png)
+
+### III. Inicialización de Firebase Hosting y CI/CD
+El proceso se inicializa desde la terminal para configurar Firebase Hosting y conectar el despliegue continuo con GitHub Actions.
+
+1. Login e Inicialización de Firebase:
+   `firebase login`
+   `firebase init`
+
+![firebase_tools](../assets/sprint4/firebase_tools.png)
+
+![firebase_init](../assets/sprint4/firebase_init.png)
+
+2. Respuestas de Configuración de firebase init:
+   - Features: Seleccionar Hosting: Set up deployments for static web apps.
+   - Project: Seleccionar el proyecto de Firebase previamente creado (denuncia-ya-frontend).
+   - Public directory: Indicar la ruta de la carpeta de salida de Angular: dist/denunciaya-frontend/browser.
+   - Single-page app: Responder Y (Yes) para configurar las reglas de reescritura que permiten el enrutamiento de Angular.
+   - Automatic builds and deploys with GitHub: Responder Y (Yes) para activar el CI/CD.
+3. Configuración de GitHub Actions:
+   - GitHub repository: Ingresar la ruta completa del repositorio: 1ASI0729-7401-2520-Prodevs-DenunciaYa/DenunciaYa.-Frontend.
+   - Build script: Confirmar el script de build para que el workflow de GitHub lo ejecute: npm ci && npm run build.
+   - Deployment on merge: Responder Y (Yes) para el despliegue automático en el canal en vivo.
+   - Live branch: Ingresar la rama de producción: main.
+   - Overwrite index.html: Responder N (No) para mantener el archivo index.html generado por Angular. 
+### IV. Activación del Despliegue Continuo (CI/CD): 
+Una vez que la configuración está lista, el primer push activa el flujo de trabajo de despliegue automático.
+1. Commit de Archivos de Configuración (Frontend):
+   `git add .`
+   `git commit -m "feat: Configuración inicial de Firebase Hosting y CI/CD"`
+2. Push a la Rama Principal: Al hacer el push a la rama main, GitHub Actions se activa. `git push origin main`
+3. Verificación del Workflow:
+   - Monitorear la pestaña Actions en el repositorio de GitHub.
+   - El workflow realiza el npm ci && npm run build y despliega la aplicación.
+
+![workflow](../assets/sprint4/workflow.png)
+
+![deploy](../assets/sprint4/deploy.png)
+
+### V. Verificación Final
+- URL de Acceso: Una vez finalizado el workflow con un check verde, la aplicación está disponible en la URL principal de Firebase Hosting (ej. https://denuncia-ya-frontend.web.app).
+- Funcionalidad: Probar el login para confirmar que la corrección de CORS en el backend permite la comunicación exitosa entre frontend y backend.
 
 **Repositorio:**  https://github.com/1ASI0729-7401-2520-Prodevs-DenunciaYa/DenunciaYa.-Frontend.git
 
-**URL desplegada:** https://denuncia-ya-frontend-git-develop-gabriels-projects-0a95c3fe.vercel.app?_vercel_share=IxALwofhAq8NHNUQzaMgCYi56z9BH6LS
+**URL desplegada:** https://denuncia-ya-frontend.firebaseapp.com/
 
-### Backend Web Service
+![deploy_success](../assets/sprint4/deploy_success.png)
+
+### Backend Web Service Deployment
 
 Los servicios del backend se desarrollarán en Java con Spring Boot. El backend se desplegó utilizando la plataforma Render y la base de datos se alojó en FreeSQL.
 
