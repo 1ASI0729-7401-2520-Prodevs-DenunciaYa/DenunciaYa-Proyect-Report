@@ -3564,23 +3564,22 @@ El equipo elaboró un video recopilatorio que muestra los avances del proyecto y
 Link: https://www.youtube.com/watch?v=-h8-yU7stLA
 
 # Conclusiones
-Durante el proceso de creación y desarrollo de este trabajo se llegaron a las siguientes conclusiones:
 
-### 1. Trabajo en equipo y colaboración
-La coordinación entre los integrantes permitió avanzar de manera ordenada en cada módulo del backend. La comunicación constante facilitó integrar los servicios y mantener coherencia en la arquitectura.
+### 1. Integración completa y funcional del sistema
+Se logró la consolidación definitiva de la arquitectura del software mediante la conexión exitosa entre el frontend y el backend. La implementación de los servicios REST permitió que los flujos críticos, como la creación y gestión de denuncias, operen de manera fluida y en tiempo real, validando la comunicación entre la interfaz de usuario desplegada en Firebase y los servicios alojados en Render.
 
-### 2. Planificación y organización en el desarrollo de software
-El uso de SCRUM ayudó a organizar las tareas del backend, priorizar los endpoints esenciales y cumplir con los objetivos del sprint. Esto permitió un desarrollo más claro y estructurado.
+### 2. Seguridad y gestión de identidad robusta
+La incorporación del módulo de autenticación y autorización (IAM) mediante JWT (JSON Web Tokens) ha fortalecido significativamente la seguridad de la plataforma. Esto garantiza que tanto los ciudadanos como las autoridades accedan únicamente a los recursos y funcionalidades pertinentes a su rol, protegiendo la integridad de los datos y asegurando la privacidad de la información sensible durante el inicio de sesión y el registro.
 
-### 3. Implementación de servicios y calidad del código
-Durante el sprint se implementaron y documentaron los servicios REST, asegurando buenas prácticas en el diseño de API y manteniendo una estructura limpia y modular en el backend.
+### 3. Automatización y despliegue en entornos productivos
+El establecimiento de flujos de trabajo de integración y despliegue continuo (CI/CD) ha sido fundamental para la estabilidad del proyecto. La configuración de pipelines automáticos con GitHub Actions para el frontend y la contenedorización con Docker para el backend han permitido transitar eficazmente de un entorno de desarrollo local a un entorno de producción en la nube escalable y confiable.
 
-### 4. Uso de tecnologías y despliegue
-El proyecto aprovechó herramientas actuales como Spring Boot, Docker y Render para lograr un backend estable y desplegable. Esto permitió contar con un entorno funcional y accesible para pruebas e integración.
+### 4. Cobertura funcional integral y social
+El sistema ha alcanzado una madurez funcional que trasciende la gestión básica de incidencias al integrar exitosamente características de interacción comunitaria, como la publicación de imágenes y comentarios. Esto demuestra que la solución soporta operaciones complejas que fomentan la participación activa del ciudadano, además de mantener la precisión en la geolocalización y el seguimiento de estados.
 
-### 5. Integración con el frontend
-El backend se desarrolló pensando en facilitar su consumo desde el frontend, lo que permitió realizar pruebas exitosas de comunicación entre ambos y asegurar una experiencia fluida para el usuario final.
-lataforma fue diseñada para ser fácil de usar desde el primer momento. Su interfaz clara y directa permite registrar denuncias sin complicaciones, priorizando la comodidad del usuario.
+### 5. Solidez de la arquitectura de software
+La estructuración del backend basada en Bounded Contexts ha demostrado ser eficaz para manejar la complejidad del dominio de negocio. La separación lógica de módulos como Perfiles, Mapas, Asignaciones y Autenticación permite una mantenibilidad superior y asegura que las correcciones o nuevas implementaciones no comprometan la estabilidad de los servicios existentes.
+
 
 #  Bibliografía
 
