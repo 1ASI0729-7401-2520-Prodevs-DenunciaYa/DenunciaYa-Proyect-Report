@@ -3028,7 +3028,9 @@ En esta sección se presentan las evidencias finales del desarrollo realizado du
 La validación del avance se respalda mediante los commits registrados en el repositorio oficial, los cuales documentan el progreso técnico, las correcciones aplicadas y la finalización de los Web Services y componentes principales del frontend.
 
 Repositorio del landing: https://github.com/1ASI0729-7401-2520-Prodevs-DenunciaYa/DenunciaYa-Landing-Page
+
 Repositorio del frontend: https://github.com/1ASI0729-7401-2520-Prodevs-DenunciaYa/DenunciaYa.-Frontend
+
 Repositorio del backend: https://github.com/1ASI0729-7401-2520-Prodevs-DenunciaYa/DenunciaYa-Backend
 
 Los siguientes commits documentan los cambios más resaltantes realizados en el desarrollo del Sprint 4:
